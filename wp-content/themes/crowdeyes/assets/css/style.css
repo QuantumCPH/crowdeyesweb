@@ -388,7 +388,7 @@ padding:50px 0px 40px 0;
 .lostImg{ float:left; position:relative; z-index:2;}
 .lostImg2{ float:left; margin: 0px 0 10px -43px; position:relative; z-index:1;     border: solid 2px #fff;
     border-radius: 5px;}
-.greenInner2 .rightGreen{ float:right; width:170px; margin-top:12px; padding-bottom:20px; min-height:100px;}
+.greenInner2 .rightGreen{ float:right; width:160px; margin-top:12px; padding-bottom:20px; min-height:100px;}
 .rightGreen h4{ float:left; font-size:18px; color:#333; margin:0; width:100%; text-align:left;}
 .rightGreen p{ float:left; text-align:left; font-size:14px; color:#333; width:100%; word-wrap: break-word;}
 .mapImg{ float:left; margin-left:10px;}

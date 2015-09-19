@@ -169,7 +169,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 70}}...
+			 {{cat.Desciption | limitTo: 50}}...
 			  </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 70}}...
+			 {{cat.Desciption | limitTo: 50}}...
 			  </p>
             </div>
           </div>
@@ -229,7 +229,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 70}}...
+			 {{cat.Desciption | limitTo: 50}}...
 			  </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 70}}...
+			 {{cat.Desciption | limitTo: 50}}...
 			  </p>
             </div>
           </div>
