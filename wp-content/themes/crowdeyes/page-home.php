@@ -95,11 +95,20 @@ get_header(); ?>
 </div>
 <?php echo do_shortcode('[rev_slider main]'); ?>
 <!--HOME SECTION END  -->
+
+<script>
+$(document).ready(function () {
+    setInterval(function () {
+        $("#features").load();
+    }, 1000);
+});
+</script>
+
 <section id="features">
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories</h2>
+        <h2 class="head-set">Live feed in four different categories <?php time(); ?></h2>
       </div>
     </div>
 	
@@ -133,13 +142,7 @@ app.controller('customersCtrl', function($scope, $http) {
     SecurityToken = iW7rfat55SPjpUBEAjsZKKgucYR8ya38;*/
 </script>
 
-<script>
-$(document).ready(function () {
-    setInterval(function () {
-        $("#searchCategory").load();
-    }, 1000);
-});
-</script>
+
 
 		<style>
 .imgFirst{ height:30px; width:30px;}
