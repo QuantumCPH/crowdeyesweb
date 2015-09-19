@@ -96,13 +96,7 @@ get_header(); ?>
 <?php echo do_shortcode('[rev_slider main]'); ?>
 <!--HOME SECTION END  -->
 
-<script>
-$(document).ready(function () {
-    setInterval(function () {
-        $("#features").load();
-    }, 1000);
-});
-</script>
+ 
 
 <section id="features">
   <div class="container">
@@ -116,7 +110,7 @@ $(document).ready(function () {
 
 var app = angular.module('myApp', []);
 app.controller('customersCtrl', function($scope, $http) {
-
+ $scope.getData = function(){
  var userData = $http({
                 method: "post",
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
@@ -131,8 +125,13 @@ app.controller('customersCtrl', function($scope, $http) {
             userData.success(function (userdataobject) {
                   $scope.catadata = userdataobject;
 				$scope.quantity1 = 1;
-            },100);
-
+            });
+ };
+ 
+ 
+ setInterval($scope.getData, 100000); 
+ 
+ 
 
 });
  /*Count = 50;
