@@ -22,7 +22,7 @@ define('DB_NAME', 'crowd');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'SsH@_!1991!');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
