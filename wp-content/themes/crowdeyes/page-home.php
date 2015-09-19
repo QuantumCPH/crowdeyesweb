@@ -87,9 +87,12 @@ get_header(); ?>
     <div class="container">
       <p>Available on Apple Store & Google Play</p>
       <div class="inn_download"> 
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" />
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn-down-arrow.png" /> <span>Download</span></a> </div>
+	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
+	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a> 
+	  
+	  </div>
     </div>
   </div>
 </div>
@@ -102,7 +105,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories <?php  echo date("h:i:sa"); ?></h2>
+        <h2 class="head-set">Live feed in four different categories</h2>
       </div>
     </div>
 	
@@ -110,6 +113,25 @@ get_header(); ?>
 
 var app = angular.module('myApp', []);
 app.controller('customersCtrl', function($scope, $http) {
+
+
+
+ var userData = $http({
+                method: "post",
+                url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+                data: {
+                    Count: "150",
+                    ProfileID: "76",
+					SecurityToken: "iW7rfat55SPjpUBEAjsZKKgucYR8ya38"
+
+                },
+                headers: {'Content-Type': 'application/json'}
+            });
+            userData.success(function (userdataobject) {
+                  $scope.catadata = userdataobject;
+				$scope.quantity1 = 1;
+            });
+
  $scope.getData = function(){
  var userData = $http({
                 method: "post",
@@ -155,7 +177,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
