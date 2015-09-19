@@ -143,7 +143,7 @@ $(document).ready(function () {
 
 		<style>
 .imgFirst{ height:30px; width:30px;}
-.lostImg2{ height:69px; width:69px;}
+.lostImg2{ height:110px; width:110px;}
 </style>
 	
     <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
@@ -169,7 +169,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 100}}...
+			 {{cat.Desciption | limitTo: 70}}...
 			  </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 100}}...
+			 {{cat.Desciption | limitTo: 70}}...
 			  </p>
             </div>
           </div>
@@ -229,7 +229,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 100}}...
+			 {{cat.Desciption | limitTo: 70}}...
 			  </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ $(document).ready(function () {
             <div class="rightGreen">
               <h4>{{cat.Title}}</h4>
               <p>
-			 {{cat.Desciption | limitTo: 100}}...
+			 {{cat.Desciption | limitTo: 70}}...
 			  </p>
             </div>
           </div>
