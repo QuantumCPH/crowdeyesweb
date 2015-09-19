@@ -151,7 +151,7 @@ app.controller('customersCtrl', function($scope, $http) {
  };
  
  
- setInterval($scope.getData, 100000); 
+ setInterval($scope.getData, 30000); 
  
  
 
