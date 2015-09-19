@@ -177,7 +177,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | limitTo: 19}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
@@ -207,7 +207,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | limitTo: 19}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
@@ -237,7 +237,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | limitTo: 19}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
@@ -268,7 +268,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | limitTo: 19}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
