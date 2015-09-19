@@ -39,6 +39,7 @@ get_header(); ?>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.0.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -101,18 +102,58 @@ get_header(); ?>
         <h2 class="head-set">Live feed in four different categories</h2>
       </div>
     </div>
-    <div class="row text-center searchCategory">
+	
+	<script>
+
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+
+ var userData = $http({
+                method: "post",
+                url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+                data: {
+                    Count: "150",
+                    ProfileID: "76",
+					SecurityToken: "iW7rfat55SPjpUBEAjsZKKgucYR8ya38"
+
+                },
+                headers: {'Content-Type': 'application/json'}
+            });
+            userData.success(function (userdataobject) {
+
+
+                  $scope.catadata = userdataobject;
+				$scope.quantity1 = 1;
+            });
+
+
+});
+ /*Count = 50;
+    ProfileID = 76;
+    SecurityToken = iW7rfat55SPjpUBEAjsZKKgucYR8ya38;*/
+</script>
+
+<script>
+$(document).ready(function () {
+    setInterval(function () {
+        $("#searchCategory").load();
+    }, 1000);
+});
+</script>
+
+		<style>
+.imgFirst{ height:30px; width:30px;}
+.lostImg2{ height:69px; width:69px;}
+</style>
+	
+    <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
       <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
-        
-		<?php $posts = get_posts('category=1&orderby=rand&numberposts=1'); 
-		foreach($posts as $post) {
-		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); 
-		?>
-        <div class="greenBox">
+      
+        <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
           <div class="greenInner1"> 
-		  <img class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png" /><span>
-			<?php the_author_meta('first_name', '1'); ?> <?php the_author_meta('last_name', '1'); ?>
+		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
           <div class="greenInner2">
@@ -123,33 +164,26 @@ get_header(); ?>
 			  <?php }else{ ?>
 			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
 			  <?php } ?>
-			  <img class="lostImg2" src="<?php echo $url; ?>" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
-              <h4><?php the_title(); ?></h4>
+              <h4>{{cat.Title}}</h4>
               <p>
-			  <?php 
-			  $content_text4 = $post->post_content; 
-			  echo substr($content_text4, 0, 115)?>...
+			 {{cat.Desciption | limitTo: 100}}...
 			  </p>
             </div>
           </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span><?php echo get_post_meta($post->ID, 'address', true); ?> </span> </div>
-        </div>
-        <?php } ?>
-      </div>
+          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+		</div>
+		</div>
+	  
       <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
-		
-		
-        <?php $posts = get_posts('category=2&orderby=rand&numberposts=1'); 
-		foreach($posts as $post) {
-		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); 
-		?>
-        <div class="greenBox boxColor2">
+	
+        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1"> 
-		  <img class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png" /><span>
-			<?php the_author_meta('first_name', '1'); ?> <?php the_author_meta('last_name', '1'); ?>
+		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
           <div class="greenInner2">
@@ -160,33 +194,26 @@ get_header(); ?>
 			  <?php }else{ ?>
 			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
 			  <?php } ?>
-			  <img class="lostImg2" src="<?php echo $url; ?>" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
-              <h4><?php the_title(); ?></h4>
+              <h4>{{cat.Title}}</h4>
               <p>
-			  <?php 
-			  $content_text4 = $post->post_content; 
-			  echo substr($content_text4, 0, 115)?>...
+			 {{cat.Desciption | limitTo: 100}}...
 			  </p>
             </div>
           </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span><?php echo get_post_meta($post->ID, 'address', true); ?> </span> </div>
+          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
         </div>
-        <?php } ?>
-		
       </div>
+	  
       <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
         
-		<?php $posts = get_posts('category=3&orderby=rand&numberposts=1'); 
-		foreach($posts as $post) {
-		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); 
-		?>
-        <div class="greenBox boxColor3">
-          <div class="greenInner1"> 
-		  <img class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png" /><span>
-			<?php the_author_meta('first_name', '1'); ?> <?php the_author_meta('last_name', '1'); ?>
+        <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
+           <div class="greenInner1"> 
+		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
           <div class="greenInner2">
@@ -197,34 +224,27 @@ get_header(); ?>
 			  <?php }else{ ?>
 			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
 			  <?php } ?>
-			  <img class="lostImg2" src="<?php echo $url; ?>" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
-              <h4><?php the_title(); ?></h4>
+              <h4>{{cat.Title}}</h4>
               <p>
-			  <?php 
-			  $content_text4 = $post->post_content; 
-			  echo substr($content_text4, 0, 115)?>...
+			 {{cat.Desciption | limitTo: 100}}...
 			  </p>
             </div>
           </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span><?php echo get_post_meta($post->ID, 'address', true); ?> </span> </div>
+          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
         </div>
-        <?php } ?>
 		
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
         
-		
-		<?php $posts = get_posts('category=4&orderby=rand&numberposts=1'); 
-		foreach($posts as $post) {
-		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); 
-		?>
-        <div class="greenBox boxColor4">
-          <div class="greenInner1"> 
-		  <img class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/circle.png" /><span>
-			<?php the_author_meta('first_name', '1'); ?> <?php the_author_meta('last_name', '1'); ?>
+	
+        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
+           <div class="greenInner1"> 
+		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" /> <?php the_time('d M y: g:ia') ?></font> </div>
           <div class="greenInner2">
@@ -235,20 +255,17 @@ get_header(); ?>
 			  <?php }else{ ?>
 			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
 			  <?php } ?>
-			  <img class="lostImg2" src="<?php echo $url; ?>" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
-              <h4><?php the_title(); ?></h4>
+              <h4>{{cat.Title}}</h4>
               <p>
-			  <?php 
-			  $content_text4 = $post->post_content; 
-			  echo substr($content_text4, 0, 115)?>...
+			 {{cat.Desciption | limitTo: 100}}...
 			  </p>
             </div>
           </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span><?php echo get_post_meta($post->ID, 'address', true); ?> </span> </div>
+          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
         </div>
-        <?php } ?>
 		
 		
       </div>

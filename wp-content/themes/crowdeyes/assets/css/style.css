@@ -390,7 +390,7 @@ padding:50px 0px 40px 0;
     border-radius: 5px;}
 .greenInner2 .rightGreen{ float:right; width:190px; margin-top:12px; padding-bottom:20px; min-height:130px;}
 .rightGreen h4{ float:left; font-size:18px; color:#333; margin:0; width:100%; text-align:left;}
-.rightGreen p{ float:left; text-align:left; font-size:14px; color:#333;}
+.rightGreen p{ float:left; text-align:left; font-size:14px; color:#333; width:100%; word-wrap: break-word;}
 .mapImg{ float:left; margin-left:10px;}
 .greenBox .greenInner3 span{ float:left; font-style: italic; color:#fff; font-size:14px; margin-left:10px;}
 
