@@ -108,7 +108,7 @@ $(document).ready(function () {
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories <?php $date = date_create('2000-01-01'); echo date_format($date, 'Y-m-d H:i:s'); ?></h2>
+        <h2 class="head-set">Live feed in four different categories <?php  echo date("h:i:sa"); ?></h2>
       </div>
     </div>
 	
