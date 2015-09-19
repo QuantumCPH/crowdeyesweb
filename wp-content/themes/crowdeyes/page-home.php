@@ -108,7 +108,7 @@ $(document).ready(function () {
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories <?php time(); ?></h2>
+        <h2 class="head-set">Live feed in four different categories <?php echo time(); ?></h2>
       </div>
     </div>
 	
