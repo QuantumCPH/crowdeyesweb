@@ -129,11 +129,9 @@ app.controller('customersCtrl', function($scope, $http) {
                 headers: {'Content-Type': 'application/json'}
             });
             userData.success(function (userdataobject) {
-
-
                   $scope.catadata = userdataobject;
 				$scope.quantity1 = 1;
-            });
+            },100);
 
 
 });
