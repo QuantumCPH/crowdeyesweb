@@ -420,7 +420,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
 <section class="contact section-spacing" id="contact">
   <div class="container">
-    <h2 class="text-center">Contact Us</h2>
+    <h2 class="text-center">Kontakt os</h2>
     <div class="row">
       <div class="col-md-7"> 
         <!--map-->
@@ -448,9 +448,9 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <div class="contact-form">
           <form role="form" action="#" method="post" id="contact-form">
-            <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Your Name" required>
-            <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email Address" required>
-            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
+            <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Dit navn" required>
+            <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email adresse" required>
+            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Indtast din besked" required></textarea>
             <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">SEND</button>
           </form>
           

@@ -894,6 +894,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .navbar-collapse{ position:relative;}
 #flags_language_selector{ position:absolute; z-index:99999; right:50px; top:0px;}
 #flags_language_selector img{ padding:1px;}
+.hideDiv #flags_language_selector{ right:74px;}
+
 @media screen and (max-width: 1024px) {
 
 .greenInner2 .rightGreen{ width:90%; margin-right:5%;}
