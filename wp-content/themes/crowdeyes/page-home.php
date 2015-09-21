@@ -415,6 +415,82 @@ app.controller('customersCtrl', function($scope, $http) {
     </div>
   </div>
 </footer>
+
+
+<section class="contact section-spacing" id="contact">
+  <div class="container">
+    <h2 class="text-center">Kontakt os</h2>
+    <div class="row">
+      <div class="col-md-7"> 
+        <!--map-->
+        <div class="wow fadeInUp map">
+          <div id="map-canvas"></div>
+          
+          <!--address-->
+          
+          <ul class="wow fadeInUp address">
+            <li><i class="fa fa-map-marker"></i>Kildegårds Plads 1<br/>
+<span>DK-2820 Gentofte</span>
+</li>
+            <li><i class="fa fa-phone"></i>+45 70 22 60 42</li>
+            <li><i class="fa fa-envelope"></i>info@crowdeyes.com</li>
+          </ul>
+          
+          <!--address end--> 
+          
+        </div>
+        <!--map end--> 
+      </div>
+      <div class="col-md-5"> 
+        
+        <!--contact form-->
+        
+        <div class="contact-form">
+          <form role="form" action="http://crowdeyes.quantumcph.com/php/contact-me.php" method="post" id="contact-form">
+            <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Dit navn" required>
+            <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email adresse" required>
+            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="3" placeholder="Indtast din besked" required></textarea>
+            <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">SEND</button>
+          </form>
+          
+          <!--contact form end-->
+          <div class="success-cf">
+            <p>Tak! Din besked er blevet sendt.</p>
+          </div>
+          <div class="error-cf">
+            <p>Vi beklager der skete en fejl, prøv at opdatere hjemmesiden og indsend din besked igen. Vi beklager ulejligheden.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--CONTACT END--> 
+
+<!--site-footer-->
+<footer class="site-footer section-spacing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="scroll-top"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+        
+        <!--social-->
+        
+        <ul class="social">
+          <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="wow fadeInUp"><a href="https://www.facebook.com/CrowdEyes" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="wow fadeInUp"><a href="https://plus.google.com/u/0/116737434126664185854/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+        
+        <!--social end--> 
+        
+        <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small> </div>
+    </div>
+  </div>
+</footer>
+<!--site-footer end--> 
+
 <!-- FOOTER SECTION END-->
 <!-- CORE JQUERY FILE -->
 <script>
