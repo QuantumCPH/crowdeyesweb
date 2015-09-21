@@ -446,7 +446,7 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--contact form-->
         
         <div class="contact-form">
-          <form role="form" action="http://crowdeyes.quantumcph.com/php/contact-me.php" method="post" id="contact-form">
+          <form role="form" action="#" method="post" id="contact-form">
             <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Your Name" required>
             <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email Address" required>
             <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
