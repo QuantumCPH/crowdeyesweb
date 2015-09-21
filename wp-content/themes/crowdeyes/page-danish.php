@@ -51,10 +51,10 @@ get_header(); ?>
       <a class="navbar-brand" href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
     <div class="navbar-collapse collapse navbar-right scroll-me">
       <ul class="nav navbar-nav ">
-        <li><a href="#home" class="selected">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#downloadApp">Download</a></li>
+        <li><a href="#home" class="selected">Hjem</a></li>
+        <li><a href="#features">Egenskaber</a></li>
+        <li><a href="#pricing">Priser</a></li>
+        <li><a href="#downloadApp">Hent</a></li>
         <li id="login" onClick="$('#login-content').toggle();">
           <div id="login-trigger"> Log in <span>&#x25BC;</span> </div>
         </li>
@@ -67,7 +67,7 @@ get_header(); ?>
           <input type="password" name="password" required="required" placeholder="Password">
           <a href="#" class="btnLogin">Login </a>
         </form>
-        <a href="#" class="forgotPass">Forgot Password?</a>
+        <a href="#" class="forgotPass">Glemt kodeord?</a>
         <a href="#" class="btnSignup"> Sign Up</a>
       </div>
     </div>
@@ -77,7 +77,7 @@ get_header(); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> A matching service that "matches" the  consumer's lost database ad with information entered into found database by other users. </p>
+      <p class="p-cls"> En matchende tjeneste, der "kampe" forbrugerens mistet database annonce med oplysninger indgået fundet database af andre brugere. </p>
     </div>
   </div>
   <div class="overlay">
@@ -85,12 +85,12 @@ get_header(); ?>
   </div>
   <div class="downloadApp">
     <div class="container">
-      <p>Available on Apple Store & Google Play</p>
+      <p>Findes på Apple Store & Google Play</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
 	  
 	  </div>
     </div>
@@ -105,7 +105,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories</h2>
+        <h2 class="head-set">Levende foder i fire forskellige kategorier</h2>
       </div>
     </div>
 	
@@ -170,7 +170,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	
     <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
       <div class="col-md-3 col-sm-3 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Objekt</span> </div>
       
         <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
           <div class="greenInner1"> 
@@ -200,7 +200,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		</div>
 	  
       <div class="col-md-3 col-sm-3 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Folk</span> </div>
 	
         <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1"> 
@@ -298,19 +298,19 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live News Feed<span>Find out if the lost item is updated by someone.</span></p>
+          <p>Levende News Feed<span>Find ud af, om den tabte element opdateres af en person.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Announce<span>Anounce a category performing a few easy steps .</span></p>
+          <p>Annoncere<span>Meddele, en kategori der udfører et par enkle trin.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Claim your belongings<span>Answer the questions correctly given by the advertiser.</span></p>
+          <p>Krav på dine ejendele<span>Svar rigtigt på spørgsmålene givet af annoncøren.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Chat with other party<span>Discuss and lock meeting location, exchange contact etc.</span></p>
+          <p>Chat med anden part<span>Diskutere og lås møde placering, udveksling kontakt osv.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Recent Activities<span>Keep a record of recent activities.</span></p>
+          <p>Seneste Aktiviteter<span>Hold regnskab med seneste aktiviteter.</span></p>
         </div>
       </div>
     </div>
@@ -321,7 +321,7 @@ app.controller('customersCtrl', function($scope, $http) {
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-        <h2 class="pricPackages">Plan & Pricing</h2>
+        <h2 class="pricPackages">Plan & priser</h2>
       </div>
     </div>
     <div class="row text-center portfolio-item">
