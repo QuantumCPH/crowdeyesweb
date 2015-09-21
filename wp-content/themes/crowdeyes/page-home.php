@@ -419,7 +419,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
 <section class="contact section-spacing" id="contact">
   <div class="container">
-    <h2 class="text-center">Kontakt os</h2>
+    <h2 class="text-center">Contact Us</h2>
     <div class="row">
       <div class="col-md-7"> 
         <!--map-->
@@ -447,9 +447,9 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <div class="contact-form">
           <form role="form" action="http://crowdeyes.quantumcph.com/php/contact-me.php" method="post" id="contact-form">
-            <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Dit navn" required>
-            <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email adresse" required>
-            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="3" placeholder="Indtast din besked" required></textarea>
+            <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email Address" required>
+            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
             <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">SEND</button>
           </form>
           
@@ -473,8 +473,7 @@ app.controller('customersCtrl', function($scope, $http) {
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <p class="scroll-top"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
-        
+       
         <!--social-->
         
         <ul class="social">
@@ -530,6 +529,10 @@ $(window).scroll(function() {
 </script>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script> 
 </body>
 </html>
 <?php //get_sidebar(); ?>
