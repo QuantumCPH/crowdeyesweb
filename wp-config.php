@@ -16,20 +16,6 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-$url_live = $_SERVER['REQUEST_URI'];
-
-if($url_live = "http://localhost/crowdeyesweb"){
-
-define('DB_NAME', 'crowd');
-
-/** MySQL database username */
-define('DB_USER', 'root');
-
-/** MySQL database password */
-define('DB_PASSWORD', '');
-}else{
-
 define('DB_NAME', 'crowdeyes');
 
 /** MySQL database username */
@@ -37,7 +23,6 @@ define('DB_USER', 'root');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'UtlK&@#as@!&12');
-}
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
