@@ -409,7 +409,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
 	  
 	  </div>
 	  
