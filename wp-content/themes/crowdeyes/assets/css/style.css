@@ -892,7 +892,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 }
 .navbar-collapse{ position:relative;}
-#flags_language_selector{ position:absolute; resize:30px; top:5px;}
+#flags_language_selector{ position:absolute; right:50px; top:0px;}
 #flags_language_selector img{ padding:1px;}
 @media screen and (max-width: 1024px) {
 
