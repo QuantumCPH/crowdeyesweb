@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -9,3 +10,15 @@ RewriteRule . /crowdeyes-parallax/index.php [L]
 </IfModule>
 
 # END WordPress
+=======
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+>>>>>>> 380a03d66e38b03da030d5fd54d822da917f4fae
