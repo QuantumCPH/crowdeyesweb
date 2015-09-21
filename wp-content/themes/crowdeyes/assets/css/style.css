@@ -660,6 +660,177 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 .site-footer small { color: #888; }
 
+/* ==========================================================================
+
+   Subscription form 
+
+   ========================================================================== */
+
+   
+
+ .form-control::-webkit-input-placeholder {
+
+ color: #727272;
+
+ font-weight: 300;
+
+}
+
+ .form-control:-moz-placeholder {
+
+ color: #727272;
+
+ font-weight: 300;
+
+}
+
+ .form-control::-moz-placeholder {
+
+ color: #727272;
+
+ font-weight: 300;
+
+}
+
+ .form-control:-ms-input-placeholder {
+
+ color: #727272;
+
+ font-weight: 300;
+
+}
+
+
+
+.sub-form { padding-top: 1.5em; }
+
+
+
+.center-block { float: none; }
+
+
+
+.form-control {
+
+  background-color: #fff;
+
+  border: 1px solid #fff;
+
+  box-shadow: none;
+
+  height: 50px;
+
+  font-weight: 300;
+
+}
+
+
+
+.form-control:focus {
+
+  border-color: #fff;
+
+  outline: 0;
+
+  box-shadow: none;
+
+}
+
+
+
+.input-group-btn>.btn:hover,
+
+.input-group-btn>.btn:focus,
+
+.input-group-btn>.btn:active { z-index: 1; }
+
+
+
+.btn-default {
+
+  color: #fff;
+
+  background-color: #218EB4;
+
+  border-color: #218EB4;
+
+  -webkit-transition: all .5s ease-out;
+
+  transition: all .5s ease-out;
+
+  padding: 12px 1.5em;
+
+}
+
+
+
+.btn-default:hover,
+
+.btn-default:focus,
+
+.btn-default:active {
+
+  color: #fff;
+
+  background-color: #02BCFD;
+
+  border-color: #02BCFD;
+
+}
+
+
+
+.btn:active:focus,
+
+.btn-default:focus,
+
+.btn:focus,
+
+.btn-default:active { outline: none; }
+
+
+
+#mc-notification {
+
+  margin: .75em 0 0;
+
+  color: #FFF;
+  position:relative;
+  z-index:999;
+
+}
+
+
+
+.alert,
+
+.success {
+
+  padding: .5em 1em;
+
+  border-radius: 4px;
+
+  display: inline-block;
+
+}
+
+
+
+.alert { background-color: rgba(231, 76, 60, 0.7); }
+
+
+
+.success { background-color: rgba(39, 174, 96, 0.7); }
+
+
+
+.alert i,
+
+.success i { padding-right: .5em; }
+
+
+
+.fa-paper-plane { padding-left: .5em; }
 
 @media screen and (max-width: 1024px) {
 
