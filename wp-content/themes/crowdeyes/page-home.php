@@ -151,7 +151,7 @@ app.controller('customersCtrl', function($scope, $http) {
  };
  
  
- setInterval($scope.getData, 100000); 
+ setInterval($scope.getData, 30000); 
  
  
 
@@ -403,7 +403,15 @@ app.controller('customersCtrl', function($scope, $http) {
   <div class="downloadApp">
     <div class="container">
       <p>Available on Apple Store & Play Store</p>
-      <div class="inn_download"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn-down-arrow.png" /> <span>Download</span></a> </div>
+      
+	  <div class="inn_download"> 
+	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
+	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a> 
+	  
+	  </div>
+	  
     </div>
   </div>
 </footer>
