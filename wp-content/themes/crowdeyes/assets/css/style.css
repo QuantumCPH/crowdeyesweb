@@ -891,7 +891,9 @@ font-size:18px; padding-top:13px; color:#000 !important;
   background: #02BCFD;
 
 }
-
+.navbar-collapse{ position:relative;}
+.flags_language_selector{ position:absolute; resize:30px; top:5px;}
+.flags_language_selector img{ padding:1px;}
 @media screen and (max-width: 1024px) {
 
 .greenInner2 .rightGreen{ width:90%; margin-right:5%;}
