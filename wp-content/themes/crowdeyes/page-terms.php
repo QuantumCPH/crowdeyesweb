@@ -30,7 +30,7 @@ div#sections {
     width:75%;
 }
 h2{ font-weight:600;}
-#about-us, #privacy, #terms{ float:left; padding-top:80px; margin-top:-70px; width:100%;}
+#about-us, #privacy, #terms{ float:left; padding-top:80px; margin-top:-70px; width:100%; display:none;}
 
 .left-tabs-terms li{ float:left; width:100%; list-style:none; margin-top:12px;}
 .left-tabs-terms li a{ float:left; width:90%; font-size:14px; font-weight:600; height:20px; color:#333; padding-left: 8px; font-family: Open Sans; padding:9px 5%; text-decoration:none;}
@@ -137,9 +137,9 @@ $(document).ready(function(){
 	
 	
 	<ul id="verticalNav" class="left-tabs-terms">
-        <li><a href="#about-us" id="tab3" >About Us</a></li>
+        <li><a href="#about-us" id="tab1" >About Us</a></li>
         <li><a href="#privacy" id="tab2">Privacy</a></li>
-        <li><a href="#terms" id="tab1" class="selectedAA">Terms</a></li>
+        <li><a href="#terms" id="tab3" class="selectedAA">Terms</a></li>
     </ul>
     <div id="sections">
         <div class="section" id="about-us">
@@ -150,7 +150,7 @@ $(document).ready(function(){
             <h2>Privacy</h2>
             <p>Coming Soon</p>
         </div>
-        <div class="section" id="terms">
+        <div class="section" id="terms" style="display:block;">
            <h2>Terms</h2>
             <p>Coming Soon</p>
         </div>
