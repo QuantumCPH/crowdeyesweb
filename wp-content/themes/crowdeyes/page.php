@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Default Page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that other
@@ -10,7 +11,7 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+//get_header(); ?>
 
 	<!DOCTYPE html>
 <html>
@@ -29,13 +30,14 @@ div#sections {
     width:75%;
 }
 h2{ font-weight:600; margin-bottom:0;}
+p{ margin-top:10px;}
 #about-us, #privacy, #terms{ float:left; padding-top:80px; margin-left:5%; margin-top:-70px; width:90%;}
 
 .left-tabs-terms li{ float:left; width:100%; list-style:none; margin-top:12px;}
 .left-tabs-terms li a{ float:left; width:90%; font-size:14px; font-weight:600; height:20px; color:#333; padding-left: 8px; font-family: Open Sans; padding:9px 5%; text-decoration:none;}
 .left-tabs-terms li a:hover, .selectedAA{ float:left; background:#00AFF0; border-radius:4px; color:#fff !important; font-size:14px;  }
 
-.header-terms{background-color: #00aff0;  width: 100%;  padding: 10px 5%;}
+.header-terms{background-color: #00aff0;  width: 90%;  padding: 10px 5%;}
 .left-tabs-terms{background-color:#e8f4fa; position:relative; z-index:9999; margin:0; float:left; min-height:600px; padding:30px 20px; list-style:none; width:20%;}
  .headingdoc {
         border-bottom: solid 1px #ECECEC;
@@ -72,48 +74,6 @@ h2{ font-weight:600; margin-bottom:0;}
 
 </style>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript">
-function showSection( sectionID ) {
-    $('div.section').css( 'display', 'none' );
-    $('div'+sectionID).css( 'display', 'block' );
-}
-$(document).ready(function(){
-    if (
-        $('ul#verticalNav li a').length &&
-        $('div.section').length
-    ) {
-        $('div.section').css( 'display', 'none' );
-        $('ul#verticalNav li a').each(function() {
-            $(this).click(function() {
-                showSection( $(this).attr('href') );
-            });
-        });
-        $('ul#verticalNav li:first-child a').click();
-    }
-});
-</script>
-
-<script>
-$(document).ready(function(){
-    $("#tab1").click(function(){
-        $("#tab1").addClass("selectedAA");
-		$("#tab2").removeClass("selectedAA");
-		$("#tab3").removeClass("selectedAA");
-    });
-	$("#tab2").click(function(){
-        $("#tab2").addClass("selectedAA");
-		$("#tab1").removeClass("selectedAA");
-		$("#tab3").removeClass("selectedAA");
-    });
-	$("#tab3").click(function(){
-        $("#tab3").addClass("selectedAA");
-		$("#tab2").removeClass("selectedAA");
-		$("#tab1").removeClass("selectedAA");
-    });
-});
-</script>
-
 </head>
 <body>
     
@@ -123,7 +83,7 @@ $(document).ready(function(){
 	
         <div class="section" id="about-us">
             <h2><?php the_title(); ?></h2>
-            <p><?php echo $post->post_content; ?></p>
+            <p><?php echo $post->post_content; ?> Coming Soon</p>
         </div>
         
 	
