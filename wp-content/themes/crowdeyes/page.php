@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: About Page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that other
@@ -30,7 +29,6 @@ div#sections {
     width:75%;
 }
 h2{ font-weight:600; margin-bottom:0;}
-p{ margin-top:10px;}
 #about-us, #privacy, #terms{ float:left; padding-top:80px; margin-left:5%; margin-top:-70px; width:90%;}
 
 .left-tabs-terms li{ float:left; width:100%; list-style:none; margin-top:12px;}

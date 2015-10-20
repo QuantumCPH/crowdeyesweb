@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Page
+ * Template Name: About Page Danish
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that other
@@ -11,7 +11,7 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+//get_header(); ?>
 
 	<!DOCTYPE html>
 <html>
@@ -29,15 +29,14 @@ div#sections {
     clear:right;
     width:75%;
 }
-h2{ font-weight:600; margin-bottom:0;}
-p{ margin-top:10px;}
-#about-us, #privacy, #terms{ float:left; padding-top:80px; margin-left:5%; margin-top:-70px; width:90%;}
+h2{ font-weight:600;}
+#about-us, #privacy, #terms{ float:left; padding-top:80px; margin-top:-70px; width:100%;}
 
 .left-tabs-terms li{ float:left; width:100%; list-style:none; margin-top:12px;}
 .left-tabs-terms li a{ float:left; width:90%; font-size:14px; font-weight:600; height:20px; color:#333; padding-left: 8px; font-family: Open Sans; padding:9px 5%; text-decoration:none;}
 .left-tabs-terms li a:hover, .selectedAA{ float:left; background:#00AFF0; border-radius:4px; color:#fff !important; font-size:14px;  }
 
-.header-terms{background-color: #00aff0;  width: 100%;  padding: 10px 5%;}
+.header-terms{background-color: #00aff0; height: 46px;  width: 100%;  padding: 10px 0;}
 .left-tabs-terms{background-color:#e8f4fa; position:relative; z-index:9999; margin:0; float:left; min-height:600px; padding:30px 20px; list-style:none; width:20%;}
  .headingdoc {
         border-bottom: solid 1px #ECECEC;
@@ -70,8 +69,21 @@ p{ margin-top:10px;}
         margin-bottom: 8px;
         margin-top: 16px;
     }
-	.logoCE{ width:160px; margin-left:0px;}
-
+	.logoCE{ width:160px; margin-left:20px;}
+@media (max-width: 1000px) {
+div#sections{ width:70%;}
+}
+@media (max-width: 800px) {
+div#sections{ width:92%; float:left; margin-left:4%;}
+.left-tabs-terms{ width:92%; min-height:auto; padding:10px 4%;}
+.logoCE{ margin-left:4%;}
+.left-tabs-terms li{ width:20%; margin:0; text-align:center;}
+.left-tabs-terms li a{ padding:5px;}
+}
+@media (max-width: 500px) {
+.left-tabs-terms li{ width:100%; margin:0;}
+.left-tabs-terms li a{ padding:5px; width:98%;}
+}
 </style>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -123,11 +135,26 @@ $(document).ready(function(){
     	<img class="logoCE" src="http://localhost/crowdeyesweb/wp-content/uploads/2015/10/logo.png">
     </div>
 	
+	
+	<ul id="verticalNav" class="left-tabs-terms">
+        <li><a href="#about-us" id="tab1" class="selectedAA">About Us</a></li>
+        <li><a href="#privacy" id="tab2">Privacy</a></li>
+        <li><a href="#terms" id="tab3" >Terms</a></li>
+    </ul>
+    <div id="sections">
         <div class="section" id="about-us">
-            <h2><?php the_title(); ?></h2>
-            <p><?php echo $post->post_content; ?></p>
+            <h2>About</h2>
+            <p>Coming Soon</p>
         </div>
-        
+        <div class="section" id="privacy">
+            <h2>Privacy</h2>
+            <p>Coming Soon</p>
+        </div>
+        <div class="section" id="terms">
+           <h2>Terms</h2>
+            <p>Coming Soon</p>
+        </div>
+    </div>
 	
 	
 </body>
