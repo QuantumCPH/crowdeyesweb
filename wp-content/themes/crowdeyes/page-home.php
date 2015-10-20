@@ -480,7 +480,7 @@ app.controller('customersCtrl', function($scope, $http) {
        
         <!--social-->
         
-        <ul class="social">
+        <ul class="footer_links">
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms & Conditions</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
