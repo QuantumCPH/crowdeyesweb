@@ -1,8 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /crowdeyesweb/
+RewriteBase /crowdeyes-parallax/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /crowdeyesweb/index.php [L]
+RewriteRule . /crowdeyes-parallax/index.php [L]
 </IfModule>
+
