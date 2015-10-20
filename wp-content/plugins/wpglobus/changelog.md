@@ -2,6 +2,39 @@
 
 ## Changelog ##
 
+### 1.2.9 ###
+
+* FIXED:
+	* Correct extracting domain_tld for two-part TLDs like `.co.uk`.
+	* Customizer error. Thanks to [shark0der](https://wordpress.org/support/profile/shark0der).
+* ADDED:
+	* `pl_PL` admin interface translation.
+	* `wpglobus-config.json` configuration file for theme options, with WPML compatibility.
+	* `wpglobus-current-language` CSS class to the menu.
+
+### 1.2.8 ###
+
+* FIXED:
+	* Minor admin JS bug.
+
+### 1.2.7 ###
+
+* FIXED:
+	* Updater bug "cannot delete old plugin files".
+	* Broken Welsh flag cy.png (Thanks to Tudor Thomas).
+
+### 1.2.6 ###
+
+* FIXED:
+	* `de_DE` admin interface properly translated.
+	* Broken links to WPGlobus.com from admin pages.
+* ADDED:
+	* `tr_TR` admin interface translation.
+	* `es` and `fr` enabled by default.
+* COMPATIBILITY:
+	* All In One SEO Pack 2.2.7.2
+	* ACF Pro 5.3.0
+
 ### 1.2.5 ###
 
 * FIXED:
