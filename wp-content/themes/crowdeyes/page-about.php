@@ -37,7 +37,7 @@ p{ margin-top:10px;}
 .left-tabs-terms li a{ float:left; width:90%; font-size:14px; font-weight:600; height:20px; color:#333; padding-left: 8px; font-family: Open Sans; padding:9px 5%; text-decoration:none;}
 .left-tabs-terms li a:hover, .selectedAA{ float:left; background:#00AFF0; border-radius:4px; color:#fff !important; font-size:14px;  }
 
-.header-terms{background-color: #00aff0;  width: 100%;  padding: 10px 5%;}
+.header-terms{background-color: #00aff0;  width: 90%;  padding: 10px 5%;}
 .left-tabs-terms{background-color:#e8f4fa; position:relative; z-index:9999; margin:0; float:left; min-height:600px; padding:30px 20px; list-style:none; width:20%;}
  .headingdoc {
         border-bottom: solid 1px #ECECEC;
