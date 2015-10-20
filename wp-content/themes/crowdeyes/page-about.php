@@ -11,7 +11,7 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+//get_header(); ?>
 
 	<!DOCTYPE html>
 <html>
@@ -83,7 +83,7 @@ p{ margin-top:10px;}
 	
         <div class="section" id="about-us">
             <h2><?php the_title(); ?></h2>
-            <p><?php echo $post->post_content; ?></p>
+            <p><?php echo $post->post_content; ?> Coming Soon</p>
         </div>
         
 	
