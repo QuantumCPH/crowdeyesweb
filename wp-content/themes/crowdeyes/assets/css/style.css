@@ -651,7 +651,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 .site-footer .social {
 
-  float: none;
+  float: left;
+  width:100%;
 
   margin-bottom: 1.5em;
   padding-left:0;
@@ -660,7 +661,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 
 
-.site-footer small { color: #888; }
+.site-footer small { color: #888; float:left; width:100%;}
 
 /* ==========================================================================
 
