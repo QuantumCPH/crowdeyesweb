@@ -90,7 +90,6 @@ div#sections{ width:92%; float:left; margin-left:4%;}
 <script type="text/javascript">
 function showSection( sectionID ) {
     $('div.section').css( 'display', 'none' );
-    $('div'+sectionID).css( 'display', 'block' );
 }
 $(document).ready(function(){
     if (
@@ -103,6 +102,7 @@ $(document).ready(function(){
                 showSection( $(this).attr('href') );
             });
         });
+        $('ul#verticalNav li:first-child a').click();
     }
 });
 </script>
