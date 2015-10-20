@@ -1572,7 +1572,8 @@ footer.entry-meta {
 .sidebar .archive-meta {
 	padding-right: 316px;
 }
-
+.footer_links{ margin: 0 auto; list-style:none; width:460px;}
+.footer_links li{ float:left; margin-left:10px;}
 
 /**
  * 5.10 Search Results/No posts
