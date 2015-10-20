@@ -78,7 +78,9 @@ p{ margin-top:10px;}
 <body>
     
     <div class="header-terms">
+    <a href="http://108.163.184.34/crowdeyes-parallax">
     	<img class="logoCE" src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
+        </a>
     </div>
 	
         <div class="section" id="about-us">
