@@ -88,10 +88,7 @@ div#sections{ width:92%; float:left; margin-left:4%;}
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript">
-function showSection( sectionID ) {
-    $('div.section').css( 'display', 'none' );
-    $('div'+sectionID).css( 'display', 'block' );
-}
+
 $(document).ready(function(){
     if (
         $('ul#verticalNav li a').length &&
