@@ -103,7 +103,7 @@ $(document).ready(function(){
                 showSection( $(this).attr('href') );
             });
         });
-        $('ul#verticalNav li:first-child a').click();
+        $('ul#verticalNav li:nth-child(2) a').click();
     }
 });
 </script>
