@@ -11,7 +11,7 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+//get_header(); ?>
 
 	<!DOCTYPE html>
 <html>
@@ -73,48 +73,6 @@ p{ margin-top:10px;}
 	.logoCE{ width:160px; margin-left:0px;}
 
 </style>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript">
-function showSection( sectionID ) {
-    $('div.section').css( 'display', 'none' );
-    $('div'+sectionID).css( 'display', 'block' );
-}
-$(document).ready(function(){
-    if (
-        $('ul#verticalNav li a').length &&
-        $('div.section').length
-    ) {
-        $('div.section').css( 'display', 'none' );
-        $('ul#verticalNav li a').each(function() {
-            $(this).click(function() {
-                showSection( $(this).attr('href') );
-            });
-        });
-        $('ul#verticalNav li:first-child a').click();
-    }
-});
-</script>
-
-<script>
-$(document).ready(function(){
-    $("#tab1").click(function(){
-        $("#tab1").addClass("selectedAA");
-		$("#tab2").removeClass("selectedAA");
-		$("#tab3").removeClass("selectedAA");
-    });
-	$("#tab2").click(function(){
-        $("#tab2").addClass("selectedAA");
-		$("#tab1").removeClass("selectedAA");
-		$("#tab3").removeClass("selectedAA");
-    });
-	$("#tab3").click(function(){
-        $("#tab3").addClass("selectedAA");
-		$("#tab2").removeClass("selectedAA");
-		$("#tab1").removeClass("selectedAA");
-    });
-});
-</script>
 
 </head>
 <body>
