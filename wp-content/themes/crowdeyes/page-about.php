@@ -120,7 +120,7 @@ $(document).ready(function(){
 <body>
     
     <div class="header-terms">
-    	<img class="logoCE" src="http://localhost/crowdeyesweb/wp-content/uploads/2015/10/logo.png">
+    	<img class="logoCE" src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
     </div>
 	
         <div class="section" id="about-us">
