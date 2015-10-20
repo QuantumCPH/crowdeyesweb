@@ -137,8 +137,8 @@ $(document).ready(function(){
 	
 	
 	<ul id="verticalNav" class="left-tabs-terms">
-        <li><a href="#about-us#terms" id="tab2" >About Us</a></li>
-        <li><a href="#privacy" id="tab1">Privacy</a></li>
+        <li><a href="#about-us" id="tab1" >About Us</a></li>
+        <li><a href="#privacy" id="tab2">Privacy</a></li>
         <li><a href="#terms" id="tab3" class="selectedAA">Terms</a></li>
     </ul>
     <div id="sections">
