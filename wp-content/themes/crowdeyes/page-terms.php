@@ -91,6 +91,8 @@ div#sections{ width:92%; float:left; margin-left:4%;}
 function showSection( sectionID ) {
     $('div.section').css( 'display', 'none' );
     $('div'+sectionID).css( 'display', 'block' );
+	$('#about-us').css( 'display', 'none' );
+	$('#terms').css( 'display', 'block' );
 }
 $(document).ready(function(){
     if (
