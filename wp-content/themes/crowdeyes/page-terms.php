@@ -137,16 +137,11 @@ $(document).ready(function(){
 	
 	
 	<ul id="verticalNav" class="left-tabs-terms">
-        
-        <li><a href="#privacy" id="tab2">Privacy</a></li>
-        <li><a href="#about-us" id="tab1" >About Us</a></li>
+        <li><a href="#about-us#terms" id="tab2" >About Us</a></li>
+        <li><a href="#privacy" id="tab1">Privacy</a></li>
         <li><a href="#terms" id="tab3" class="selectedAA">Terms</a></li>
     </ul>
     <div id="sections">
-    <div class="section" id="terms">
-           <h2>Terms</h2>
-            <p>Coming Soon</p>
-        </div>
         <div class="section" id="about-us">
             <h2>About</h2>
             <p>Coming Soon</p>
@@ -155,7 +150,10 @@ $(document).ready(function(){
             <h2>Privacy</h2>
             <p>Coming Soon</p>
         </div>
-        
+        <div class="section" id="terms">
+           <h2>Terms</h2>
+            <p>Coming Soon</p>
+        </div>
     </div>
 	
 	
