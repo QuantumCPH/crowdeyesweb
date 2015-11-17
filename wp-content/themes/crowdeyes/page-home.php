@@ -526,12 +526,12 @@ $(function() {
 });
 </script>
 <script>
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 10) {
 		$("#fixedNav").addClass("hideDiv");
-		
+
     } else {
 		$("#fixedNav").removeClass("hideDiv");
     }
