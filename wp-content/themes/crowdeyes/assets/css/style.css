@@ -81,7 +81,7 @@ text-decoration:none;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 	}
-	.hideDiv .navbar-nav > li > a{ line-height:5px; font-size:18px; color:#000 !important;}
+	.hideDiv .navbar-nav > li > a{ line-height:5px; font-size:18px; color:#000 ;}
 	
 	.hideDiv .selected, .hideDiv .navbar-nav > li > a:hover{ 
 color: #000;
@@ -234,13 +234,13 @@ color:#019271;
 #home {
     background: #435348 url(../img/main-banner-1.png) no-repeat top center; /*Full Witdth background image*/
     padding: 0;
-    min-height: 770px;
+    min-height: 660px;
 	background-size:100%;
 }
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 90px;
-        min-height: 780px;
+        min-height: 660px;
         color: #fff;
 		opacity:.2;
 		background:#111;
@@ -294,7 +294,7 @@ background:#222 !important;
 }
 .forgotPass{ float:left; width:90%; margin-left:5%; font-size:14px; margin-top:15px; padding-bottom:10px; text-align:center; border-bottom:solid 1px #B3B3B4; color:#9E9EA0;}
 
-.banner-text{ position:relative; margin-bottom:0px; height:718px; float:left; width:100%;}
+.banner-text{ position:relative; margin-bottom:0px; height:630px; float:left; width:100%;}
 .p-cls {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -422,7 +422,7 @@ padding:50px 0px 40px 0;
         padding-top: 60px;
     }
 .topHead { float:left;  width:100%; margin:15px 0;}
-.topHead span{ font-size:32px; color:#168EB3; position:relative; top:10px;}
+.topHead span{ display: inline-flex; font-size:32px; color:#168EB3; position:relative; top:10px;}
 
 /*================================
     FOOTER SECTION STYLES
@@ -915,11 +915,13 @@ font-size:18px; padding-top:13px; color:#000 !important;
 #home{ min-height:380px;}
 #home .overlay{ min-height:380px;}
 .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
-.inn_download a{ margin-left:5px; margin-right:0;}
-.inn_download img{ margin:12px 5px;}
-.inn_download{ width:320px; float:none; margin:0 auto;}
-.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px; margin:0 5px !important; font-size:18px}
-.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ padding:13px 5px !important; margin:0 5px; font-size:18px; border-top:solid 2px;}
+.inn_download a{ margin-left:5px; margin-right:0; font-size: 16px; float: none;}
+    .inn_download a span{margin: 0 5px; }
+.inn_download img{ margin:12px 5px; width: 25px;}
+.inn_download{ width:320px; float:none; margin:0 auto; text-align: center;}
+    .navbar-nav{margin-top: 7px !important;}
+.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px !important; margin:0 5px !important; font-size:18px}
+.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ padding:14px 5px !important; margin:0 5px; font-size:18px; border-top:solid 2px;}
 .topHead span{ font-size:26px;}
 .greenBox .greenInner1 font{ float:left; margin-left:7px; margin-top:0;}
 .greenBox .greenInner3 span{ font-size:12px;}
@@ -958,7 +960,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 #home, .banner-text, #home .overlay{ height:380px; min-height:380px;}
 #login{ width:100%; margin:0; text-align:center; float:left;}
 
-#login-content{ margin-top:0px; width:70%; margin-left:13%; position:absolute; top:20px;}
+#login-content{ margin-top:0px; width:70%; margin-left:13%; position:absolute; z-index: 9999999; top:20px;}
 #login-content .liginBtm{ width:100%;}
 }
 
@@ -967,11 +969,13 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 
 @media screen and (max-width: 600px) {
+    .topHead span{display: block;}
 #home, .banner-text, #home .overlay{ height:270px; min-height:270px;}
 .banner-text{ padding-left:0; padding-right:0;}
 .p-cls{ width:90%; font-size:22px; top:100px; line-height:24px;}
 .navbar-brand img{ margin-left:0;}
 #login-content{ margin-top:0px; width:80%; margin-left:6%; position:absolute; top:20px;}
+#login-trigger{color: #fff; !important;}
 }
 @media screen and (max-width: 415px) {
 #home, .banner-text, #home .overlay{ height:190px; min-height:190px;}
@@ -992,4 +996,5 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .inn_download a span{ margin:0 10px;}
 .p-cls{ top:80px; font-size:18px; line-height:30px;}
 .downloadApp p{ font-size:18px;}
+    .inn_download a{margin: 5px 0;}
 }

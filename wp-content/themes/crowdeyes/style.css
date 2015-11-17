@@ -2129,8 +2129,12 @@ footer.entry-meta {
 	display: block;
 	margin: -10px auto 0;
 }
-
-
+@media (min-width: 1069px) {
+	.fixedDown {
+		position: absolute !important;
+		bottom: -20px;
+	}
+}
 /**
  * 8.0 Media Queries
  * ----------------------------------------------------------------------------
@@ -2338,7 +2342,8 @@ footer.entry-meta {
 	.site-title {
 		font-size: 30px;
 	}
-
+	.footer_links{
+		width: 100%;}
 	#content .entry-header,
 	#content .entry-content,
 	#content .entry-summary,

@@ -87,7 +87,7 @@ get_header(); ?>
   <div class="overlay">
     <!-- overylay class usage -->
   </div>
-  <div class="downloadApp">
+  <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
       <p>Available on Apple Store & Google Play</p>
       <div class="inn_download"> 
@@ -526,7 +526,6 @@ $(function() {
 });
 </script>
 <script>
-
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
@@ -536,8 +535,17 @@ $(window).scroll(function() {
     } else {
 		$("#fixedNav").removeClass("hideDiv");
     }
+
+  if (scroll >= 20) {
+    $("#downFixed").removeClass("fixedDown");
+
+  } else {
+    $("#downFixed").addClass("fixedDown");
+  }
 });
 </script>
+
+
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
