@@ -989,12 +989,12 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 
 @media screen and (max-width: 376px) {
-#home, .banner-text, #home .overlay{ height:200px; min-height:200px;}
+#home, .banner-text, #home .overlay{ height:180px; min-height:180px;}
 .inn_download{ width:270px;}
 .inn_download img{ max-width:35px; }
 .inn_download a{ padding:7px; font:18px;}
 .inn_download a span{ margin:0 10px;}
-.p-cls{ top:80px; font-size:18px; line-height:30px;}
+.p-cls{ top:70px; font-size:18px; line-height:20px;}
 .downloadApp p{ font-size:18px;}
     .inn_download a{margin: 5px 0;}
 }
