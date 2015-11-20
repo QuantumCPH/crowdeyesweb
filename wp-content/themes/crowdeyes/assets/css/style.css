@@ -23,36 +23,33 @@ input{ outline:none;}
     NAVBAR STYLES
 ==================================*/
 .navbar-default {
-    background:transparent;
-    border-color: transparent;
+    background: #fff;
+    border-bottom: #9E9D9C solid 2px;
     color: #fff;
-	z-index:99999;
-	top:0;
-	position:fixed;
-	width:100%;
+    z-index: 99999999;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
 }
 
     .navbar-default .navbar-nav > li > a {
-        color: #fff;
-		font-size:24px;
+        color: #000;
+		font-size:18px;
 		font-family:'MyriadPro', Helvetica, sans-serif;
 		font-weight:normal;
-		padding:25px 10px;
-		margin: 0 15px;
+		padding:30px 10px;
+		margin: 0 10px;
     }
 .selected, .navbar-default .navbar-nav > li > a:hover{ 
-color: #fff;
-		font-size:24px;
+color: #666;
 		font-family:'MyriadPro', Helvetica, sans-serif;
 		font-weight:normal;
-		padding:20px 10px !important;
-		margin:0 15px;
-border-top:solid 5px #fff;
 text-decoration:none;
 }
 .navbar-brand {
     padding: 0px;
-	margin-top:40px;
+	margin-top:10px;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -63,13 +60,13 @@ text-decoration:none;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-	max-width:290px;
+	max-width:200px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background:#eee;
+    background:#666;
 }
-
-.hideDiv{ float:left !important; width:100% !important; border-bottom:solid 1px #eee; background:#fff !important; position:fixed !important; width:100% !important; height:50px;}
+.navbar-default .navbar-toggle{border-color: #999;}
+.hideDiv{ float:left !important; width:100% !important; border-bottom:solid 1px #eee; opacity: 1; background:#fff !important; position:fixed !important; width:100% !important; height:50px;}
 	.hideDiv .navbar-brand{ margin-top:5px; -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -431,19 +428,20 @@ padding:50px 0px 40px 0;
 footer {
 float:left; width:100%;
 }
-#login{ width:120px;
-    color: #fff;
-    font-size: 24px;
+#login{ width:110px;
+    color: #000;
+    font-size: 18px;
     font-family:'MyriadPro', Helvetica, sans-serif;
     font-weight: normal;
-    padding: 18px 10px;
-    margin: 0 15px;
+    padding: 28px 10px;
+    margin: 0 10px;
 	cursor:pointer;
 }
+#login #login-trigger span{font-size: 14px;}
 .hideDiv #login{
 font-size:18px; padding-top:13px; color:#000 !important;
 }
-#login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-50px; margin-right:25px; position:relative; z-index:9999; background:#fff; border-radius:5px; display:none;}
+#login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
 .rev_slider_wrapper{ position:absolute; top:0; z-index:1;}
 .tp-loader{ display:none;}
@@ -909,6 +907,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .banner-text{ height:530px;}
 }
 @media screen and (max-width: 768px) {
+    .navbar-default{max-height: 65px;}
 .navbar-brand img{ width:200px;}
 .banner-text{ height:380px;}
 .p-cls{ top:150px; font-size:26px;}
@@ -920,8 +919,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .inn_download img{ margin:12px 5px; width: 25px;}
 .inn_download{ width:320px; float:none; margin:0 auto; text-align: center;}
     .navbar-nav{margin-top: 7px !important;}
-.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px !important; margin:0 5px !important; font-size:18px}
-.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ padding:14px 5px !important; margin:0 5px; font-size:18px; border-top:solid 2px;}
+.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px !important; margin:0 5px !important; font-size:16px}
+.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ margin:0 5px; color: #666;}
 .topHead span{ font-size:26px;}
 .greenBox .greenInner1 font{ float:left; margin-left:7px; margin-top:0;}
 .greenBox .greenInner3 span{ font-size:12px;}
@@ -944,22 +943,23 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 
 @media screen and (max-width: 736px) {
-.navbar-toggle{ margin-top:30px;}
-    .navbar-brand{margin-top: 25px;}
+
+.navbar-toggle{ margin-top:15px;}
+    .navbar-brand{margin-top: 3px;}
 .hideDiv .navbar-toggle{ margin-top:8px}
-.navbar-collapse{ width:250px; float:right; padding-top:4px; border:0; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#333; margin-right:-10px;}
-.collapse ul{ float:left; width:100%; background:#333; margin:0;}
+.navbar-collapse{ width:200px; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
+.collapse ul{ float:left; width:100%; margin:0;}
 
 .navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li{ float:left; text-align:center; width:96%;}
-.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ float:left; width:100%; margin:0 !important; border-bottom:solid 1px #ccc; border-top:0; padding:13px 0 !important; line-height:20px;}
-.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a:hover{ float:left; width:100%; border-bottom:solid 1px #ccc; border-top:0 !important; color:#eee;}
+.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ float:left; width:100%; margin:0 !important; border-bottom:solid 1px #ccc; border-top:0; padding:10px 0 !important; line-height:20px;}
+.navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a:hover{ float:left; width:100%; border-bottom:solid 1px #ccc; border-top:0 !important; color:#000; padding:10px 0}
 .greenInner2 .rightGreen{ width:75%;}
 .greenBox .greenInner1 font{ margin-top:5px; float:right;}
 .liginBtm{ width:70%; margin-left:15%;}
 .liginBtm input[type=text], .liginBtm input[type=password]{ width:100%; margin: 10px 0;}
 .btnSignup, .btnLogin{ width:100%; margin:10px 0;}
 #home, .banner-text, #home .overlay{ height:380px; min-height:380px;}
-#login{ width:100%; margin:0; text-align:center; float:left;}
+#login{ width:100%; margin:0; text-align:center; float:left; color: #fff !important;}
 
 #login-content{ margin-top:0px; width:70%; margin-left:13%; position:absolute; z-index: 9999999; top:20px;}
 #login-content .liginBtm{ width:100%;}
@@ -975,27 +975,26 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .banner-text{ padding-left:0; padding-right:0;}
 .p-cls{ width:90%; font-size:22px; top:100px; line-height:24px;}
 .navbar-brand img{ margin-left:0;}
-#login-content{ margin-top:0px; width:80%; margin-left:6%; position:absolute; top:20px;}
-#login-trigger{color: #fff; !important;}
+#login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
+#login-trigger{color: #000; !important;}
 }
 @media screen and (max-width: 415px) {
 #home, .banner-text, #home .overlay{ height:190px; min-height:180px;}
-.p-cls{ top:70px; font-size:16px;}
+.p-cls{ top:60px; font-size:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:30px; padding-bottom:0px;}
 #home{ background-size:150%;}
 .downloadApp p{ font-size:20px;}
 .greenInner2 .rightGreen{ width:63%; float:left; margin-left:10px;}
 .leftImg{ margin-top:0;}
-.navbar-brand img{ width:160px;}
+.navbar-brand img{ width:150px;}
 }
 
 @media screen and (max-width: 376px) {
 #home, .banner-text, #home .overlay{ height:160px; min-height:160px;}
-.inn_download{ width:270px;}
+.inn_download{ width:285px; margin: 5px;}
 .inn_download img{ max-width:35px; }
-.inn_download a{ padding:7px; font:18px;}
-.inn_download a span{ margin:0 10px;}
+.inn_download a{ padding:5px; font-size:16px;}
+.inn_download a span{ margin:0 8px;}
 .p-cls{ top:55px; font-size:18px; line-height:15px;}
 .downloadApp p{ font-size:18px;}
-    .inn_download a{margin: 5px 0;}
 }
