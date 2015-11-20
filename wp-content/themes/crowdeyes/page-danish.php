@@ -476,6 +476,12 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-md-12 text-center">
        
         <!--social-->
+        <ul class="footer_links">
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms & Conditions</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Help</a></li>
+        </ul>
         
         <ul class="social">
           <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -536,6 +542,23 @@ $(function() {
   });
 </script>
 
+<script>
+  $(document).ready(function(){
+
+
+    $("#hideLogin").click(function(){
+      $("#login-content").hide();
+      $("#hideLogin").hide();
+    });
+
+    $("#login").click(function(){
+      $("#hideLogin").show();
+    });
+
+  });
+</script>
+
+<div style="position: fixed; width: 100%; z-index: 999999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
