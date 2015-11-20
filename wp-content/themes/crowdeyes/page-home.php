@@ -42,7 +42,7 @@ get_header(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body id="bodyMain">
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
@@ -542,10 +542,26 @@ $(window).scroll(function() {
   } else {
     $("#downFixed").addClass("fixedDown");
   }
+
+});
+</script>
+<script>
+$(document).ready(function(){
+
+
+  $("#hideLogin").click(function(){
+    $("#login-content").hide();
+    $("#hideLogin").hide();
+  });
+
+  $("#login").click(function(){
+    $("#hideLogin").show();
+  });
+
 });
 </script>
 
-
+<div style="position: fixed; width: 100%; z-index: 999999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
