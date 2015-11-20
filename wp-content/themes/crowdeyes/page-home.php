@@ -41,6 +41,17 @@ get_header(); ?>
 <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.0.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
+
+<style>
+@media screen and (max-width: 768px){
+div#login-trigger{
+color:#fff !important;
+}
+}
+
+</style>
+
+
 </head>
 <body>
 <div class="navbar navbar-default" id="fixedNav">
