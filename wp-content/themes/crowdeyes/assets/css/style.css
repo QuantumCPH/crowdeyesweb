@@ -101,7 +101,7 @@ margin-bottom:10px;
 }
 .plan_pricing1 h3{ font-size:26px;  margin:30px 0; text-transform:uppercase;}
 .price_in{ float:left; width:120px; background:#fff; height:120px; border-radius:50%; color:#178DB3; font-size:30px;}
-.price_in p{ padding-top:30px; margin-bottom:0; line-height:40px;}
+.price_in p{ padding-top:40px; margin-bottom:0; line-height:25px;}
 .price_in p span{ font-size:50px;}
 .price_in font{ font-size:18px;}
 .pricDD{ margin:0 auto; width:120px;}
