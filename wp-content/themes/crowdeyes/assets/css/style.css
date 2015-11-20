@@ -38,7 +38,7 @@ input{ outline:none;}
 		font-size:18px;
 		font-family:'MyriadPro', Helvetica, sans-serif;
 		font-weight:normal;
-		padding:25px 10px;
+		padding:30px 10px;
 		margin: 0 10px;
     }
 .selected, .navbar-default .navbar-nav > li > a:hover{ 
@@ -78,7 +78,7 @@ text-decoration:none;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 	}
-	.hideDiv .navbar-nav > li > a{ line-height:5px; font-size:18px; color:#000 ;}
+	.hideDiv .navbar-nav > li > a{ line-height:5px; padding: 25px 10px; font-size:18px; color:#000 ;}
 	
 	.hideDiv .selected, .hideDiv .navbar-nav > li > a:hover{ 
 color: #000;
@@ -936,7 +936,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .plan_pricing1 a{ font-size:18px;}
 .btnSignup, .btnLogin{ width:110px; margin-left:10px;}
 .container > .navbar-header{ margin-left:0; margin-right:0;}
-#login{ font-size:18px; padding-top:13px; padding-bottom:10px;}
+#login{ font-size:16px; padding-top:13px; padding-bottom:10px;}
 .hideDiv #login{ padding-top:5px;}
 }
 
@@ -958,7 +958,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .liginBtm input[type=text], .liginBtm input[type=password]{ width:100%; margin: 10px 0;}
 .btnSignup, .btnLogin{ width:100%; margin:10px 0;}
 #home, .banner-text, #home .overlay{ height:380px; min-height:380px;}
-#login{ width:100%; margin:0; text-align:center; float:left; color: #fff !important;}
+#login{ width:100%; margin:0; text-align:center; float:left;}
 
 #login-content{ margin-top:0px; width:70%; margin-left:13%; position:absolute; z-index: 9999999; top:20px;}
 #login-content .liginBtm{ width:100%;}
@@ -978,24 +978,25 @@ font-size:18px; padding-top:13px; color:#000 !important;
 #login-trigger{color: #000; !important;}
 }
 @media screen and (max-width: 415px) {
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:230px; min-height:230px;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:190px !important; min-height:190px !important;}
+#home, .banner-text, #home .overlay{ height:190px; min-height:190px;}
 .p-cls{ top:60px; font-size:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:30px; padding-bottom:0px;}
 #home{ background-size:150%;}
-.downloadApp p{ font-size:20px;}
+.downloadApp p{ font-size:20px; padding-top: 10px;}
 .greenInner2 .rightGreen{ width:63%; float:left; margin-left:10px;}
 .leftImg{ margin-top:0;}
 .navbar-brand img{ width:150px;}
 }
 
 @media screen and (max-width: 376px) {
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:230px; min-height:230px;}
-.inn_download{ width:285px; margin: 5px;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:190px !important; min-height:190px !important;}
+#home, .banner-text, #home .overlay{ height:190px; min-height:190px;}
+.inn_download{ width:285px;}
+
 .inn_download img{ max-width:35px; }
-.inn_download a{ padding:5px; font-size:16px;}
+.inn_download a{ padding:5px; font-size:16px; margin-top: 0px;}
 .inn_download a span{ margin:0 8px;}
-.p-cls{ top:55px; font-size:18px; line-height:15px;}
+.p-cls{ top:65px; font-size:18px; line-height:18px;}
 .downloadApp p{ font-size:18px;}
 }
