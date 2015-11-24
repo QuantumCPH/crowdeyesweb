@@ -57,8 +57,7 @@ get_header(); ?>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
     <div class="navbar-collapse collapse navbar-right scroll-me">
-    <div id="flags_language_selector"><img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"><a href="http://108.163.184.34/crowdeyes-parallax"><img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18"></a></div>
-      <ul class="nav navbar-nav ">
+     <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Hjem</a></li>
         <li><a href="#features">Egenskaber</a></li>
         <li><a href="#pricing">Priser</a></li>
