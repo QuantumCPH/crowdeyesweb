@@ -62,6 +62,10 @@ get_header(); ?>
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
 
+    <div id="flags_language_selector"><a href="http://108.163.184.34/crowdeyes-parallax"> English - </a>
+      <a href="#"> Dansk </a>
+    </div>
+
     <div id="flags_language_selector"><img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"><a href="http://108.163.184.34/crowdeyes-parallax"><img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18"></a></div>
 
 

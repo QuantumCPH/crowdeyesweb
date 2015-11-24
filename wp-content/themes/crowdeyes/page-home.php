@@ -76,10 +76,8 @@ color:#fff !important;
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
 
-    <div id="flags_language_selector">
-      <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72">
-        <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"></a>
-      <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18">
+    <div id="flags_language_selector"><a href="#"> English - </a>
+      <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
     </div>
 
     <div class="navbar-header">
