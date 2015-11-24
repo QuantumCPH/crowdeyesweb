@@ -43,9 +43,9 @@ get_header(); ?>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
   <style>
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 767px){
       div#login-trigger{
-        color:#fff !important;
+        color:#000 !important;
       }
     }
 
