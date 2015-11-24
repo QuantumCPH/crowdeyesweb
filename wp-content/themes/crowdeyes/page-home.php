@@ -90,6 +90,7 @@ color:#fff !important;
         <li><a href="#features">Features</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li id="login" onClick="$('#login-content').toggle();">
           <div id="login-trigger"> Log in <span>&#x25BC;</span> </div>
         </li>
