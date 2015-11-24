@@ -889,7 +889,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 .navbar-collapse{ position:relative;}
 #flags_language_selector{ position:absolute; z-index:9999999; right:6.5%; top:-1px;}
-#flags_language_selector a{color: #000000; text-decoration: none;}
+#flags_language_selector a{color: #000000; text-decoration: none; font-size: 12px;}
 #flags_language_selector .slct{ color: #999;}
 #flags_language_selector img{ padding:1px;}
 .hideDiv #flags_language_selector{ right:76px;}
