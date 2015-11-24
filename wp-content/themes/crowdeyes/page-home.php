@@ -54,17 +54,23 @@ color:#fff !important;
 
 </head>
 <body id="bodyMain">
+
+
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
+
+    <div id="flags_language_selector">
+      <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72">
+        <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"></a>
+      <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18">
+    </div>
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
     <div class="navbar-collapse collapse navbar-right scroll-me">
-    <div id="flags_language_selector">
-    <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72">
-    <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"></a>
-    <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18"></div>
+
       <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Home</a></li>
         <li><a href="#features">Features</a></li>

@@ -46,6 +46,13 @@ get_header(); ?>
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
+
+    <div id="flags_language_selector">
+      <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72">
+        <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" height="12" alt="da" width="18"></a>
+      <img src="http://go2sweden.dk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12" alt="en" width="18">
+    </div>
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
@@ -482,7 +489,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Help</a></li>
         </ul>
-        
+
         <ul class="social">
           <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
           <li class="wow fadeInUp"><a href="https://www.facebook.com/CrowdEyes" target="_blank"><i class="fa fa-facebook"></i></a></li>
