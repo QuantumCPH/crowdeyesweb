@@ -42,6 +42,7 @@ get_header(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
+<<<<<<< HEAD
 <style>
 @media screen and (max-width: 768px){
 div#login-trigger{
@@ -51,6 +52,16 @@ color:#fff !important;
 
 </style>
 
+=======
+  <style>
+    @media screen and (max-width: 768px){
+      div#login-trigger{
+        color:#fff !important;
+      }
+    }
+
+  </style>
+>>>>>>> 438918ec8fdd3e5f4cf340f5065fdf8fd4d4cf53
 
 </head>
 <body id="bodyMain">
@@ -569,6 +580,7 @@ $(document).ready(function(){
   $("#hideLogin").click(function(){
     $("#login-content").hide();
     $("#hideLogin").hide();
+    $(".collapse.in").hide();
   });
 
   $("#login").click(function(){
@@ -578,7 +590,7 @@ $(document).ready(function(){
 });
 </script>
 
-<div style="position: fixed; width: 100%; z-index: 9999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
+<div style="position: fixed; width: 100%; z-index: 999999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
