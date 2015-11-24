@@ -54,9 +54,9 @@ color:#fff !important;
 
 =======
   <style>
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 767px){
       div#login-trigger{
-        color:#fff !important;
+        color:#000 !important;
       }
     }
 
