@@ -64,7 +64,7 @@ get_header(); ?>
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
 
-    <div id="flags_language_selector"><a href="#"> English - </a>
+    <div id="flags_language_selector"><a class="slct" href="#"> English - </a>
       <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
     </div>
 
