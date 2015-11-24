@@ -78,6 +78,7 @@ get_header(); ?>
         <li><a href="#features">Egenskaber</a></li>
         <li><a href="#pricing">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
+       <li><a href="#contact">Contador</a></li>
         <li id="login" onClick="$('#login-content').toggle();">
           <div id="login-trigger"> Log in <span>&#x25BC;</span> </div>
         </li>
