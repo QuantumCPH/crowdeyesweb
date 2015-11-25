@@ -957,7 +957,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     #flags_language_selector{right: 4%;}
 .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
-.hideDiv .navbar-toggle{ margin-top:18px}
+.hideDiv .navbar-toggle{ margin-top:23px}
 .navbar-collapse{ width:200px; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
 .collapse ul{ float:left; width:100%; margin:0;}
 
