@@ -104,7 +104,7 @@ get_header(); ?>
   </div>
   <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
-      <p>Findes på Apple Store & Google Play</p>
+      <p>Findes på Apple Store</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
