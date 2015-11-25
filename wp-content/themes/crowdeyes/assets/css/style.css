@@ -905,7 +905,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 #flags_language_selector img{ padding:1px;}
 
 @media screen and (max-width: 1024px) {
-    #flags_language_selector{right: 7.5%;}
+    #flags_language_selector{right: 5.5%;}
 .greenInner2 .rightGreen{ width:90%; margin-right:5%;}
 .imgFirst{ width:15px; margin-top:6px;}
 .liginBtm input[type=text], .liginBtm input[type=password]{ width:200px; margin-right:10px; margin-left:10px;}
@@ -917,7 +917,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     #moveTop{font-size: 20px;}
 }
 @media screen and (max-width: 768px) {
-    #flags_language_selector{right: 11%;}
+    #flags_language_selector{right: 5%;}
     .navbar-default{max-height: 65px;}
 .navbar-brand img{ width:200px;}
 .banner-text{ height:380px;}
