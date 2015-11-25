@@ -442,7 +442,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 #login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
-.rev_slider_wrapper{ position:fixed; top:0; z-index:1;}
+.rev_slider_wrapper{ position:fixed; top:0; z-index:1 !important;}
 .tp-loader{ display:none;}
 
 
@@ -994,7 +994,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 20px; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:230px; top: 20px; min-height:230px;}
+#home, .banner-text, #home .overlay{ height:220px; top: 20px; min-height:220px;}
 .p-cls{ top:70px; font-size:18px; line-height:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
