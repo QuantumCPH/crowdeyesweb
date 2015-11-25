@@ -442,7 +442,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 #login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
-.rev_slider_wrapper{ position:fixed; top:0; z-index:1 !important;}
+.rev_slider_wrapper{ position:absolute; top:0; z-index:1 !important;}
 .tp-loader{ display:none;}
 
 
