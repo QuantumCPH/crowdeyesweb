@@ -235,7 +235,7 @@ color:#019271;
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 90px;
-        min-height: 680px;
+        min-height: 695px;
         color: #fff;
 		opacity:.2;
 		background:#111;
