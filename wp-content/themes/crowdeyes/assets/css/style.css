@@ -298,7 +298,7 @@ background:#222 !important;
 	text-align:left;
 	font-size:32px;
 	line-height:35px;
-	position:fixed;
+	position:absolute;
 	z-index:3;
 	top:250px;
 	color:#fff;
