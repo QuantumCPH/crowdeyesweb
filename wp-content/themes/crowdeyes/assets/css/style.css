@@ -983,7 +983,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 @media screen and (max-width: 600px) {
     #flags_language_selector{right: 5.5%;}
     .topHead span{display: block;}
-#home, .banner-text, #home .overlay{ height:270px; min-height:270px;}
+#home, .banner-text{ height:270px; min-height:270px;}
+  #home .overlay{ height:290px; min-height:290px;}
 .banner-text{ padding-left:0; padding-right:0;}
 .p-cls{ width:90%; font-size:22px; top:100px; line-height:24px;}
 .navbar-brand img{ margin-left:0;}
