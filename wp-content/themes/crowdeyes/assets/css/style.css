@@ -994,7 +994,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 20px; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:220px; top: 20px; min-height:220px;}
+#home, .banner-text, #home .overlay{ height:210px; top: 10px; min-height:210px;}
 .p-cls{ top:70px; font-size:18px; line-height:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
