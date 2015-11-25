@@ -8,7 +8,7 @@
     font-weight:normal;font-style:normal
 }
 section {
-    padding-top: 30px;
+    padding-top: 40px;
     float: left;width: 100%;
     padding-bottom: 0px;
     position: relative;
@@ -399,7 +399,7 @@ padding:20px 0px 20px 0;
            PRINCING SECTION
 =========================================*/
 .container{position: relative;}
-#pricing{ float:left; width:100%; background: #fff; padding-bottom: 20px;}
+#pricing{ float:left; width:100%; background: #fff; padding-bottom: 40px;}
 #pricing .container{ max-width:960px;}
 .parallax-like {
     background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/

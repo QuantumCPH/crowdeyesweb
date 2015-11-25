@@ -566,15 +566,20 @@ $(function() {
 <script>
   $(document).ready(function(){
 
+    $(".navbar-collapse a").click(function(){
+      $(".navbar-collapse").removeClass("in");
+    });
 
     $("#hideLogin").click(function(){
       $("#login-content").hide();
       $("#hideLogin").hide();
+      $(".collapse.in").hide();
     });
 
     $("#login").click(function(){
       $("#hideLogin").show();
     });
+
 
     $("#moveTop").hide();
     $(window).scroll(function() {
@@ -586,9 +591,11 @@ $(function() {
       }
     });
 
-  });
-</script>
 
+  });
+
+
+</script>
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>

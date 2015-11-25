@@ -407,10 +407,11 @@ app.controller('customersCtrl', function($scope, $http) {
           <a href="#" class="hvr-sweep-to-bottom1">Sign Up</a> </div>
       </div>
     </div>
+    <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -10px;"></a>
   </div>
 </section>
 <footer>
-  <div class="downloadApp">
+  <div class="downloadApp" >
     <div class="container">
       <p>Available on Apple Store & Play Store</p>
       
@@ -551,9 +552,13 @@ $(window).scroll(function() {
 
 });
 </script>
+
 <script>
 $(document).ready(function(){
 
+  $(".navbar-collapse a").click(function(){
+    $(".navbar-collapse").removeClass("in");
+  });
 
   $("#hideLogin").click(function(){
     $("#login-content").hide();
@@ -581,7 +586,6 @@ $(document).ready(function(){
 
 
 </script>
-
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
