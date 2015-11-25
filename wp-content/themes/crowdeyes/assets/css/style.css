@@ -289,7 +289,7 @@ background:#222 !important;
 }
 .forgotPass{ float:left; width:90%; margin-left:5%; font-size:14px; margin-top:15px; padding-bottom:10px; text-align:center; border-bottom:solid 1px #B3B3B4; color:#9E9EA0;}
 
-.banner-text{ position:relative; margin-bottom:0px; height:670px; float:left; width:100%;}
+.banner-text{ position:relative; margin-bottom:0px; height:630px; float:left; width:100%;}
 .p-cls {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -972,7 +972,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .liginBtm{ width:70%; margin-left:15%;}
 .liginBtm input[type=text], .liginBtm input[type=password]{ width:100%; margin: 10px 0;}
 .btnSignup, .btnLogin{ width:100%; margin:10px 0;}
-    #home, .banner-text{ height:380px; min-height:380px;}
+    #home, .banner-text{ height:360px; min-height:360px;}
     #home .overlay{ height:400px; min-height:400px;}
 #login{ width:100%; margin:0; text-align:center; float:left;}
 
