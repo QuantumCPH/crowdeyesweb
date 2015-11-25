@@ -962,7 +962,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
 .hideDiv .navbar-toggle{ margin-top:23px}
-.navbar-collapse{ width:200px; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
+.navbar-collapse{ width:200px; margin-right: 20px; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
 .collapse ul{ float:left; width:100%; margin:0;}
 
 .navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li{ float:left; text-align:center; width:96%;}
