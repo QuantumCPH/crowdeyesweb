@@ -75,7 +75,7 @@ get_header(); ?>
 
       <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Home</a></li>
-        <li><a href="#features">Features</a></li>
+        <li><a href="#featuresDD">Features</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -314,7 +314,7 @@ app.controller('customersCtrl', function($scope, $http) {
       </div>
     </div>
   </div>
-  <div class="featuresDD">
+  <div id="featuresDD" class="featuresDD">
     <div class="container">
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
