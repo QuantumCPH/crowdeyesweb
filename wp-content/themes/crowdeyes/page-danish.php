@@ -75,7 +75,7 @@ get_header(); ?>
         <li><a href="#featuresDD">Egenskaber</a></li>
         <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
-       <li><a href="#contact">Contador</a></li>
+       <li><a href="#contact">Kontakt os</a></li>
 
       </ul>
     </div>
@@ -108,7 +108,7 @@ get_header(); ?>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer Snart</span></a>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
 	  
 	  </div>
@@ -124,7 +124,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Levende foder i fire forskellige kategorier</h2>
+        <h2 class="head-set">Live opdateringer i de fire forskellige kategoier</h2>
       </div>
     </div>
 	
@@ -249,7 +249,7 @@ app.controller('customersCtrl', function($scope, $http) {
       </div>
 	  
       <div class="col-md-3 col-sm-3 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Kæledyr</span> </div>
         
         <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
            <div class="greenInner1"> 
@@ -279,7 +279,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Hændelse</span> </div>
         
 	
         <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
@@ -318,7 +318,7 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Levende News Feed<span>Find ud af, om den tabte element opdateres af en person.</span></p>
+          <p>Live nyhedsopdateringer<span>Find ud af, om den tabte element opdateres af en folk.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
           <p>Annoncere<span>Meddele, en kategori der udfører et par enkle trin.</span></p>

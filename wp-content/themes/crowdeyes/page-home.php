@@ -89,7 +89,7 @@ color:#fff !important;
         <li><a href="#featuresDD">Features</a></li>
         <li><a href="#pricings">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
     <div id="login-content">
