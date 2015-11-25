@@ -986,7 +986,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
     #home, .banner-text{ height:210px !important; top: 0px !important; min-height:210px !important;}
     #home .overlay{ height:230px !important; top: 0px !important; min-height:230px !important;}
-    
+
 .banner-text{ padding-left:0; padding-right:0;}
 .p-cls{ width:90%; font-size:22px; top:100px; line-height:24px;}
 .navbar-brand img{ margin-left:0;}
@@ -997,7 +997,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 0px !important; min-height:230px !important;}
-#home, .banner-text{ height:210px !important; top: 0px !important; min-height:210px !important;}
+#home, .banner-text{ height:200px !important; top: 0px !important; min-height:200px !important;}
     #home .overlay{ height:230px !important; top: 0px !important; min-height:230px !important;}
 .p-cls{ top:50px; font-size:18px; line-height:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
