@@ -243,7 +243,6 @@ color:#019271;
 		top:0;
 		width:100%;
 		z-index:2;
-        display: none;
     }
 	
 	
@@ -994,7 +993,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:190px !important; top: 20px; min-height:190px !important;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 20px; min-height:230px !important;}
 #home, .banner-text, #home .overlay{ height:230px; top: 20px; min-height:230px;}
 .p-cls{ top:70px; font-size:18px; line-height:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
