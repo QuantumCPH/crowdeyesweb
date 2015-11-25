@@ -995,7 +995,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     #flags_language_selector{right: 6%;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 40px !important; min-height:180px !important;}
 #home, .banner-text{ height:180px !important;  top: 40px !important; min-height:180px !important;}
-    #home .overlay{ height:200px !important; top: 0px !important; min-height:200px !important;}
+    #home .overlay{ height:200px !important; top: 40px !important; min-height:200px !important;}
 .p-cls{ top:30px; font-size:18px; line-height:18px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
