@@ -79,9 +79,7 @@ get_header(); ?>
         <li><a href="#pricing">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
        <li><a href="#contact">Contador</a></li>
-        <li id="login" onClick="$('#login-content').toggle();">
-          <div id="login-trigger"> Log in <span>&#x25BC;</span> </div>
-        </li>
+
       </ul>
     </div>
     <div id="login-content">
@@ -578,10 +576,20 @@ $(function() {
       $("#hideLogin").show();
     });
 
+    $("#moveTop").hide();
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 500) {
+        $("#moveTop").fadeIn("slow");
+      }
+      else {
+        $("#moveTop").fadeOut("fast");
+      }
+    });
+
   });
 </script>
 
-<div style="position: fixed; width: 100%; z-index: 999999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
+<a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 

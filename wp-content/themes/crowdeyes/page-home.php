@@ -79,9 +79,6 @@ get_header(); ?>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li id="login" onClick="$('#login-content').toggle();">
-          <div id="login-trigger"> Log in <span>&#x25BC;</span> </div>
-        </li>
       </ul>
     </div>
     <div id="login-content">
@@ -413,17 +410,6 @@ app.controller('customersCtrl', function($scope, $http) {
   </div>
 </section>
 <footer>
-  <div class="signInSection" id="downloadApp">
-    <div class="container">
-      <h2>Login</h2>
-      <div class="liginBtm">
-        <input type="text" name="username" required="required" placeholder="User Name / Email">
-        <input type="password" name="password" required="required" placeholder="Password">
-        <a href="#" class="btnLogin">Login </a>
-		<a href="#" class="btnSignup">Sign Up </a>
-      </div>
-    </div>
-  </div>
   <div class="downloadApp">
     <div class="container">
       <p>Available on Apple Store & Play Store</p>
@@ -579,10 +565,25 @@ $(document).ready(function(){
     $("#hideLogin").show();
   });
 
+
+  $("#moveTop").hide();
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 500) {
+      $("#moveTop").fadeIn("slow");
+    }
+    else {
+      $("#moveTop").fadeOut("fast");
+    }
+  });
+
+
 });
+
+
 </script>
 
-<div style="position: fixed; width: 100%; z-index: 999999; opacity: 0; top: 0; left: 0; height: 100%; display: none; background: #000;" id="hideLogin"></div>
+<a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
+
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 

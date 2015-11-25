@@ -11,6 +11,8 @@ section {
     padding-top: 30px;
     float: left;width: 100%;
     padding-bottom: 0px;
+    position: relative;
+    z-index: 9;
 }
 
 a:focus{ text-decoration:none;}
@@ -233,7 +235,7 @@ color:#019271;
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 90px;
-        min-height: 660px;
+        min-height: 680px;
         color: #fff;
 		opacity:.2;
 		background:#111;
@@ -287,7 +289,7 @@ background:#222 !important;
 }
 .forgotPass{ float:left; width:90%; margin-left:5%; font-size:14px; margin-top:15px; padding-bottom:10px; text-align:center; border-bottom:solid 1px #B3B3B4; color:#9E9EA0;}
 
-.banner-text{ position:relative; margin-bottom:0px; height:630px; float:left; width:100%;}
+.banner-text{ position:relative; margin-bottom:0px; height:670px; float:left; width:100%;}
 .p-cls {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -296,8 +298,8 @@ background:#222 !important;
 	text-align:left;
 	font-size:32px;
 	line-height:35px;
-	position:absolute;
-	z-index:999;
+	position:fixed;
+	z-index:3;
 	top:250px;
 	color:#fff;
 	font-family:"Alegreya Sans", Helvetica, sans-serif;
@@ -314,7 +316,7 @@ padding:45px 0px 40px 0;
 	font-weight:400;
 }
 .head-set{
-padding:40px 0px 20px 0;
+padding:20px 0px 10px 0;
 	float:left;
 	font-size:34px;
 	line-height:35px;
@@ -327,7 +329,7 @@ padding:40px 0px 20px 0;
 }
 
 .pricPackages{
-padding:40px 0px 40px 0;
+padding:20px 0px 20px 0;
 	float:left;
 	font-size:34px;
 	line-height:35px;
@@ -397,7 +399,7 @@ padding:40px 0px 40px 0;
            PRINCING SECTION
 =========================================*/
 .container{position: relative;}
-#pricing{ float:left; width:100%;}
+#pricing{ float:left; width:100%; background: #fff; padding-bottom: 20px;}
 #pricing .container{ max-width:960px;}
 .parallax-like {
     background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
@@ -423,7 +425,7 @@ padding:40px 0px 40px 0;
 ==================================*/
 
 footer {
-float:left; width:100%;
+float:left; width:100%; margin-top: 0px; padding-top: 0px;
 }
 #login{ width:110px;
     color: #000;
@@ -440,7 +442,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 #login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
-.rev_slider_wrapper{ position:absolute; top:0; z-index:1;}
+.rev_slider_wrapper{ position:fixed; top:0; z-index:1;}
 .tp-loader{ display:none;}
 
 
@@ -451,7 +453,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
    ========================================================================== */
 
  
-.contact { float:left; width:100%;}
+.contact { float:left; width:100%; padding-bottom: 20px; background: #fff;}
 .contact h2 { margin-bottom: 1.5em; margin-top:25px; }
 
 
@@ -632,7 +634,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
    
 
-.site-footer { background: #F1F1F1; }
+.site-footer { background: #F1F1F1; position: relative; z-index: 9;}
 
 
 
@@ -887,12 +889,20 @@ font-size:18px; padding-top:13px; color:#000 !important;
   background: #02BCFD;
 
 }
+#moveTop{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 99999;
+    font-size: 22px;
+    opacity: .6;
+}
+
 .navbar-collapse{ position:relative;}
-#flags_language_selector{ position:absolute; z-index:9999999; right:6.5%; top:-1px;}
+#flags_language_selector{ position:absolute; z-index:9999999; right:50px; top:-1px;}
 #flags_language_selector a{color: #000000; text-decoration: none; font-size: 12px;}
 #flags_language_selector .slct{ color: #999;}
 #flags_language_selector img{ padding:1px;}
-.hideDiv #flags_language_selector{ right:76px;}
 
 @media screen and (max-width: 1024px) {
     #flags_language_selector{right: 7.5%;}
@@ -946,7 +956,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     #flags_language_selector{right: 4%;}
 .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
-.hideDiv .navbar-toggle{ margin-top:8px}
+.hideDiv .navbar-toggle{ margin-top:18px}
 .navbar-collapse{ width:200px; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
 .collapse ul{ float:left; width:100%; margin:0;}
 
@@ -982,25 +992,22 @@ font-size:18px; padding-top:13px; color:#000 !important;
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 20px; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:230px; top: 50px; min-height:230px;}
-.p-cls{ top:40px; font-size:18px;}
-.head-set, .pricPackages{ font-size:26px; padding-top:30px; padding-bottom:0px;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:190px !important; top: 20px; min-height:190px !important;}
+#home, .banner-text, #home .overlay{ height:230px; top: 20px; min-height:230px;}
+.p-cls{ top:70px; font-size:18px; line-height:18px;}
+.head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
 .downloadApp p{ font-size:20px; padding-top: 0px; margin-bottom: 0;}
 .greenInner2 .rightGreen{ width:63%; float:left; margin-left:10px;}
 .leftImg{ margin-top:0;}
 .navbar-brand img{ width:150px;}
+    .inn_download a{margin-top: 5px;}
 }
 
 @media screen and (max-width: 376px) {
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:230px !important; top: 20px; min-height:230px !important;}
-#home, .banner-text, #home .overlay{ height:230px; top: 50px; min-height:230px;}
 .inn_download{ width:255px;}
-
 .inn_download img{ max-width:35px; }
 .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:15px; margin-top: 0px;}
 .inn_download a span{ margin:0 6px;}
-.p-cls{ top:40px; font-size:18px; line-height:18px;}
 .downloadApp p{ font-size:16px;}
 }
