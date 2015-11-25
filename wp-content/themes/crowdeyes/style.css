@@ -1572,11 +1572,10 @@ footer.entry-meta {
 .sidebar .archive-meta {
 	padding-right: 316px;
 }
-.footer_links{ margin: 0 auto; list-style:none; width:460px;}
+.footer_links{ margin: 15px auto; list-style:none; width: 100%; float: left; padding: 0;}
 .footer_links li {
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
+	display: inline;
+	margin: 5px;
 }
 /**
  * 5.10 Search Results/No posts
@@ -2338,7 +2337,8 @@ footer.entry-meta {
 		font-size: 30px;
 	}
 	.footer_links{
-		width: 100%;}
+		width: 100%;
+	}
 	#content .entry-header,
 	#content .entry-content,
 	#content .entry-summary,
