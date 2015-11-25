@@ -2129,12 +2129,7 @@ footer.entry-meta {
 	display: block;
 	margin: -10px auto 0;
 }
-@media (min-width: 1069px) {
-	.fixedDown {
-		position: absolute !important;
-		bottom: -20px;
-	}
-}
+
 /**
  * 8.0 Media Queries
  * ----------------------------------------------------------------------------
