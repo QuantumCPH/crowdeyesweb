@@ -993,7 +993,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 6%;}
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:200px !important; background: #fff !important; top: 20px !important; min-height:200px !important;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:190px !important; background: #fff !important; top: 20px !important; min-height:190px !important;}
 #home, .banner-text{ height:180px !important; top: 20px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 20px !important; min-height:200px !important;}
 .p-cls{ top:40px; font-size:18px; line-height:18px;}
