@@ -65,7 +65,7 @@ get_header(); ?>
     <div id="flags_language_selector"><a href="http://108.163.184.34/crowdeyes-parallax"> English - </a>
       <a class="slct" href="#"> Dansk </a>
     </div>
-    
+
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -409,17 +409,7 @@ app.controller('customersCtrl', function($scope, $http) {
   </div>
 </section>
 <footer>
-  <div class="signInSection" id="downloadApp">
-    <div class="container">
-      <h2>Login</h2>
-      <div class="liginBtm">
-        <input type="text" name="username" required="required" placeholder="User Name / Email">
-        <input type="password" name="password" required="required" placeholder="Password">
-        <a href="#" class="btnLogin">Login </a>
-		<a href="#" class="btnSignup">Sign Up </a>
-      </div>
-    </div>
-  </div>
+  
   <div class="downloadApp">
     <div class="container">
       <p>Available on Apple Store & Play Store</p>
