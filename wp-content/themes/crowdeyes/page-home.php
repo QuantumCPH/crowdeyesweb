@@ -314,7 +314,8 @@ app.controller('customersCtrl', function($scope, $http) {
       </div>
     </div>
   </div>
-  <div id="featuresDD" class="featuresDD">
+  <div id="featuresDD" style="float: left; visibility: hidden; width: 100%;"></div>
+  <div class="featuresDD">
     <div class="container">
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
