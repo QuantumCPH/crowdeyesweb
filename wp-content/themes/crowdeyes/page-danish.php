@@ -73,7 +73,7 @@ get_header(); ?>
      <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Hjem</a></li>
         <li><a href="#featuresDD">Egenskaber</a></li>
-        <li><a href="#pricing">Priser</a></li>
+        <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
        <li><a href="#contact">Contador</a></li>
 
@@ -337,6 +337,7 @@ app.controller('customersCtrl', function($scope, $http) {
   </div>
 </section>
 <!--PARALLAX LIKE / STATS SECTION END  -->
+<section id="pricings" style="float: left; width: 100%; visibility: hidden;">/div>
 <section id="pricing">
   <div class="container">
     <div class="row text-center pad-bottom">
