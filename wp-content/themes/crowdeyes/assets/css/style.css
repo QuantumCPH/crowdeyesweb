@@ -969,7 +969,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .liginBtm{ width:70%; margin-left:15%;}
 .liginBtm input[type=text], .liginBtm input[type=password]{ width:100%; margin: 10px 0;}
 .btnSignup, .btnLogin{ width:100%; margin:10px 0;}
-#home, .banner-text, #home .overlay{ height:380px; min-height:380px;}
+    #home, .banner-text{ height:380px; min-height:380px;}
+    #home .overlay{ height:400px; min-height:400px;}
 #login{ width:100%; margin:0; text-align:center; float:left;}
 
 #login-content{ margin-top:0px; width:70%; margin-left:13%; position:absolute; z-index: 9999999; top:20px;}
@@ -977,7 +978,8 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 
 @media screen and (max-width: 668px) {
-#home, .banner-text, #home .overlay{ height:330px; min-height:330px;}
+    #home, .banner-text{ height:330px; min-height:330px;}
+    #home .overlay{ height:350px; min-height:350px;}
 }
 
 @media screen and (max-width: 600px) {
