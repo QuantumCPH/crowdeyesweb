@@ -53,10 +53,8 @@ get_header(); ?>
         color:#000 !important;
       }
       @media screen and (max-width: 415px) {
-
       }
     }
-
   </style>
 
 </head>
@@ -159,7 +157,7 @@ app.controller('customersCtrl', function($scope, $http) {
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
                 data: {
                     Count: "150",
-                    ProfileID: "76",
+                    ProfileID: "771",
 					SecurityToken: "iW7rfat55SPjpUBEAjsZKKgucYR8ya38"
 
                 },
@@ -554,7 +552,6 @@ $(function() {
     }
   });
 </script>
-
 <script>
   $(document).ready(function(){
 
