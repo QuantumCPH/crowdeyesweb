@@ -1003,7 +1003,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
 #home, .banner-text{ height:180px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
-.p-cls{ top:10px; font-size:18px; line-height:18px; height: 125px;}
+.p-cls{ top:10px; padding-top: 10px; font-size:18px; line-height:18px; height: 125px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
 .downloadApp p{ font-size:20px; padding-top: 0px; margin-bottom: 0;}
