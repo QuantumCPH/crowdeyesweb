@@ -55,13 +55,13 @@ get_header(); ?>
       div#login-trigger{
         color:#000 !important;
       }
-      @media screen and (max-width: 415px) {
+      }
 
-        #home, .banner-text {
-          height: 230px !important;
-          top: 0;
-          min-height: 230px !important;
-        }
+    @media screen and (max-width: 415px) {
+      #home, .banner-text {
+        height: 230px !important;
+        top: 0;
+        min-height: 230px !important;
       }
     }
   </style>

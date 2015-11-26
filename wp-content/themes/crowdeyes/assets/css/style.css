@@ -1015,6 +1015,13 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 
 @media screen and (max-width: 376px) {
+
+    #home, .banner-text {
+        height: 200px !important;
+        top: 0;
+        min-height: 200px !important;
+    }
+
 .inn_download{ width:255px;}
 .inn_download img{ max-width:35px; }
 .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:15px; margin-top: 0px;}
