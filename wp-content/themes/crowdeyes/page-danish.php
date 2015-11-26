@@ -64,6 +64,13 @@ get_header(); ?>
         min-height: 230px !important;
       }
     }
+    @media screen and (max-width: 320px) {
+      #home, .banner-text {
+        height: 180px !important;
+        top: 0;
+        min-height: 180px !important;
+      }
+    }
 
   </style>
 
