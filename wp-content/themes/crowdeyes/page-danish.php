@@ -59,16 +59,16 @@ get_header(); ?>
 
     @media screen and (max-width: 415px) {
       #home, .banner-text {
-        height: 210px !important;
+        height: 220px !important;
         top: 0;
-        min-height: 210px !important;
+        min-height: 220px !important;
       }
     }
     @media screen and (max-width: 320px) {
       #home, .banner-text {
-        height: 180px !important;
+        height: 200px !important;
         top: 0;
-        min-height: 180px !important;
+        min-height: 200px !important;
       }
     }
 
