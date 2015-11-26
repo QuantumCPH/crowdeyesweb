@@ -76,7 +76,6 @@ get_header(); ?>
         <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
        <li><a href="#contact">Kontakt os</a></li>
-
       </ul>
     </div>
     <div id="login-content">
@@ -104,7 +103,7 @@ get_header(); ?>
   </div>
   <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
-      <p>Findes på Apple Store</p>
+      <p>Findes i Apple Store</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
@@ -414,7 +413,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div class="downloadApp">
     <div class="container">
-      <p>Available on Apple Store & Play Store</p>
+      <p>Findes i Apple Store</p>
       
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
