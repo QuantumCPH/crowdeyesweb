@@ -67,9 +67,9 @@ get_header(); ?>
       }
     @media screen and (max-width: 320px) {
       #home, .banner-text {
-        height: 200px !important;
+        height: 210px !important;
         top: 0;
-        min-height: 200px !important;
+        min-height: 210px !important;
       }
     }
 
