@@ -12,6 +12,9 @@
  * @since Twenty Thirteen 1.0
  */
 
+
+
+
 get_header(); ?>
 <html>
 <head>
@@ -53,6 +56,10 @@ get_header(); ?>
         color:#000 !important;
       }
       @media screen and (max-width: 415px) {
+
+        #rev_slider_1_1, #rev_slider_1_1_wrapper{height:200px !important; padding-top: 60px !important; min-height:200px !important;}
+        #home, .banner-text{ height:200px !important;  top: 60px !important; min-height:200px !important;}
+        #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
       }
     }
   </style>
