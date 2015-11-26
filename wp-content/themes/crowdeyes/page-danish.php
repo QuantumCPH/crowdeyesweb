@@ -64,13 +64,7 @@ get_header(); ?>
         min-height: 230px !important;
       }
     }
-    @media screen and (max-width: 376px) {
-      #home, .banner-text {
-        height: 200px !important;
-        top: 0;
-        min-height: 200px !important;
-      }
-    }
+
   </style>
 
 </head>
