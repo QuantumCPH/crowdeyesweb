@@ -59,9 +59,9 @@ get_header(); ?>
 
     @media screen and (max-width: 415px) {
       #home, .banner-text {
-        height: 230px !important;
+        height: 200px !important;
         top: 0;
-        min-height: 230px !important;
+        min-height: 200px !important;
       }
     }
 
