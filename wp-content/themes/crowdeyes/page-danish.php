@@ -57,9 +57,11 @@ get_header(); ?>
       }
       @media screen and (max-width: 415px) {
 
-        #rev_slider_1_1, #rev_slider_1_1_wrapper{height:200px !important; padding-top: 60px !important; min-height:200px !important;}
-        #home, .banner-text{ height:200px !important;  top: 60px !important; min-height:200px !important;}
-        #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
+        #home, .banner-text {
+          height: 230px !important;
+          top: 0;
+          min-height: 230px !important;
+        }
       }
     }
   </style>
