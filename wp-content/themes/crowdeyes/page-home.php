@@ -53,11 +53,10 @@ get_header(); ?>
         color:#000 !important;
       }
     }
-
   </style>
 
 </head>
-<body id="bodyMain">
+<body>
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
@@ -548,7 +547,6 @@ $(window).scroll(function() {
   } else {
     $("#downFixed").addClass("fixedDown");
   }
-
 });
 </script>
 
@@ -586,7 +584,6 @@ $(document).ready(function(){
 
 </script>
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
-
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
