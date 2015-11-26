@@ -52,6 +52,9 @@ get_header(); ?>
       div#login-trigger{
         color:#000 !important;
       }
+      @media screen and (max-width: 415px) {
+
+      }
     }
 
   </style>
