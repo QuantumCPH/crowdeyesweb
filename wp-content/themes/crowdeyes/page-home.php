@@ -61,7 +61,6 @@ get_header(); ?>
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
-
     <div id="flags_language_selector">
       <a class="slct" href="#"> English - </a>
       <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
@@ -71,7 +70,6 @@ get_header(); ?>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
     <div class="navbar-collapse collapse navbar-right scroll-me">
-
       <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Home</a></li>
         <li><a href="#featuresDD">Features</a></li>
@@ -105,7 +103,7 @@ get_header(); ?>
   </div>
   <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
-      <p>Available on Apple Store & Google Play</p>
+      <p>Available on Apple Store</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
@@ -125,7 +123,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feed in four different categories</h2>
+        <h2 class="head-set">Live feeds in four different categories</h2>
       </div>
     </div>
 	
@@ -141,8 +139,8 @@ app.controller('customersCtrl', function($scope, $http) {
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
                 data: {
                     Count: "150",
-                    ProfileID: "76",
-					SecurityToken: "iW7rfat55SPjpUBEAjsZKKgucYR8ya38"
+                    ProfileID: "771",
+					SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
                 },
                 headers: {'Content-Type': 'application/json'}
@@ -158,7 +156,7 @@ app.controller('customersCtrl', function($scope, $http) {
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
                 data: {
                     Count: "150",
-                    ProfileID: "76",
+                    ProfileID: "771",
 					SecurityToken: "iW7rfat55SPjpUBEAjsZKKgucYR8ya38"
 
                 },
@@ -415,14 +413,13 @@ app.controller('customersCtrl', function($scope, $http) {
 <footer>
   <div class="downloadApp" >
     <div class="container">
-      <p>Available on Apple Store & Play Store</p>
+      <p>Available on Apple Store</p>
       
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a> 
-	  
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  </div>
 	  
     </div>
