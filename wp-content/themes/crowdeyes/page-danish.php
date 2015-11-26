@@ -63,7 +63,8 @@ get_header(); ?>
         top: 0;
         min-height: 220px !important;
       }
-    }
+      .p-cls{ padding-top: 30px;}
+      }
     @media screen and (max-width: 320px) {
       #home, .banner-text {
         height: 200px !important;
