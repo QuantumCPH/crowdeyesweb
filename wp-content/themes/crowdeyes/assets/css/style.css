@@ -1018,6 +1018,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 .navbar-brand img{ width:150px;}
     .inn_download a{margin-top: 5px;}
     .footer_links{font-size: 12px;}
+    .greenBox .greenInner1{padding: 3px 5px;}
 }
 
 @media screen and (max-width: 376px) {
