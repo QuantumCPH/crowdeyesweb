@@ -432,7 +432,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div class="downloadApp">
     <div class="container">
-      <p>Findes i Apple Store</p>
+      <p>Tilgængelig på Apple Store</p>
       
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
