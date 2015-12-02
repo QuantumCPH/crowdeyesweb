@@ -91,7 +91,7 @@ get_header(); ?>
     <div class="navbar-collapse collapse navbar-right scroll-me">
      <ul class="nav navbar-nav ">
         <li><a href="#home" class="selected">Hjem</a></li>
-        <li><a href="#featuresDD">Egenskaber</a></li>
+        <li><a href="#featuresDD">Funktionalitet</a></li>
         <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Hent</a></li>
        <li><a href="#contact">Kontakt os</a></li>
@@ -114,7 +114,7 @@ get_header(); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> En matchende tjeneste, der "kampe" forbrugerens mistet database annonce med oplysninger indgået fundet database af andre brugere. </p>
+      <p class="p-cls"> En søgeplatform, som gør det muligt at få hjælp når du søger efter genstande, personer, kæledyr eller vidner til hændelser - eller hjælpe andre i samme situation. </p>
     </div>
   </div>
   <div class="overlay">
@@ -122,12 +122,12 @@ get_header(); ?>
   </div>
   <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
-      <p>Findes i Apple Store</p>
+      <p>Tilgængelig på Apple Store</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer Snart</span></a>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a>
 	  
 	  </div>
     </div>
@@ -142,7 +142,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live opdateringer i de fire forskellige kategoier</h2>
+        <h2 class="head-set">Live feeds i fire forskellige kategorier</h2>
       </div>
     </div>
 	
@@ -207,7 +207,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	
     <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Objekt</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Genstand</span> </div>
       
         <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
           <div class="greenInner1"> 
@@ -237,7 +237,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		</div>
 	  
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Folk</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Mennesker</span> </div>
 	
         <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1"> 
@@ -336,19 +336,19 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live nyhedsopdateringer<span>Find ud af, om den tabte element opdateres af en folk.</span></p>
+          <p>Live nyhedsfeed<span>Find ud af, om nogen har oplysninger om den tabte genstand.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Annoncere<span>Meddele, en kategori der udfører et par enkle trin.</span></p>
+          <p>Annoncere<span>Lav opslag Slå en kategori op i et par enkle trin.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Krav på dine ejendele<span>Svar rigtigt på spørgsmålene givet af annoncøren.</span></p>
+          <p>Gør krav på din ejendele<span>Besvar annoncørens spørgsmål korrekt.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Chat med anden part<span>Diskutere og lås møde placering, udveksling kontakt osv.</span></p>
+          <p>Chat med den anden part<span>Diskutér og aftal mødested, udveksl kontaktinfo etc.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Seneste Aktiviteter<span>Hold regnskab med seneste aktiviteter.</span></p>
+          <p>Seneste Activities<span>Keep et referat af seneste aktiviteter.</span></p>
         </div>
       </div>
     </div>
@@ -370,59 +370,59 @@ app.controller('customersCtrl', function($scope, $http) {
           <div class="pricDD">
             <div class="price_in">
               <p>$<span>19</span></p>
-              <font>month</font> </div>
+              <font>måned</font> </div>
           </div>
           <ul>
-            <li>25 Announcements</li>
-            <li>Unlimited Users</li>
-            <li>10GB space</li>
-            <li>100 km search</li>
-            <li>Public Profile</li>
-            <li>10 Claims</li>
+            <li>25 Opslag</li>
+            <li>Ubegrænset antal brugere</li>
+            <li>10GB plads</li>
+            <li>100 km søgning</li>
+            <li>Offentlig profil</li>
+            <li>10 krav</li>
             <li>1 Region</li>
-            <li>100 Activities</li>
+            <li>100 Aktiviteter</li>
           </ul>
-          <a href="#" class="hvr-sweep-to-bottom1">Sign Up</a> </div>
+          <a href="#" class="hvr-sweep-to-bottom1">Tilmeld</a> </div>
       </div>
       <div class="col-md-4 col-sm-4 ">
         <div class="plan_pricing1" style="background:#178EB6;">
-          <h3>Standard</h3>
+          <h3>STANDARD</h3>
           <div class="pricDD">
             <div class="price_in">
               <p>$<span>39</span></p>
-              <font>month</font> </div>
+              <font>måned</font> </div>
           </div>
           <ul>
-            <li>50 Announcements</li>
-            <li>Unlimited Users</li>
-            <li>50GB space</li>
-            <li>500 km search</li>
-            <li>Private Profile</li>
-            <li>25 Claims</li>
+            <li>50 Opslag</li>
+            <li>Ubegrænset antal brugere</li>
+            <li>50GB plads</li>
+            <li>500 km søgning</li>
+            <li>Offentlig profil</li>
+            <li>25 krav</li>
             <li>5 Region</li>
-            <li>250 Activities</li>
+            <li>250 Aktiviteter</li>
           </ul>
-          <a href="#" class="hvr-sweep-to-bottom">Sign Up</a> </div>
+          <a href="#" class="hvr-sweep-to-bottom">Tilmeld</a> </div>
       </div>
       <div class="col-md-4 col-sm-4 ">
         <div class="plan_pricing1">
-          <h3>Premium</h3>
+          <h3>PREMIUM</h3>
           <div class="pricDD">
             <div class="price_in">
               <p>$<span>99</span></p>
-              <font>month</font> </div>
+              <font>måned</font> </div>
           </div>
           <ul>
-            <li>Unlimited Announcements</li>
-            <li>Unlimited Users</li>
-            <li>Unlimited space</li>
-            <li>1000 km search</li>
-            <li>Private Profile</li>
-            <li>Unlimited Claims</li>
+            <li>Ubegrænset Opslag</li>
+            <li>Ubegrænset antal brugere</li>
+            <li>Ubegrænset plads</li>
+            <li>1000 km søgning</li>
+            <li>Offentlig profil</li>
+            <li>Ubegrænset krav</li>
             <li>10 Region</li>
-            <li>Unlimited Activities</li>
+            <li>Ubegrænset Aktiviteter</li>
           </ul>
-          <a href="#" class="hvr-sweep-to-bottom1">Sign Up</a> </div>
+          <a href="#" class="hvr-sweep-to-bottom1">Tilmeld</a> </div>
       </div>
     </div>
     <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -10px;"></a>
@@ -437,7 +437,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
 	  
 	  </div>
@@ -479,7 +479,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <form role="form" action="#" method="post" id="contact-form">
             <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Dit navn" required>
             <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email adresse" required>
-            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Indtast din besked" required></textarea>
+            <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Skriv din besked" required></textarea>
             <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">SEND</button>
           </form>
           
@@ -506,10 +506,10 @@ app.controller('customersCtrl', function($scope, $http) {
        
         <!--social-->
         <ul class="footer_links">
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms & Conditions</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Help</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >Om</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Brugsvilkår</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privatliv</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Hjælp</a></li>
         </ul>
 
         <ul class="social">
@@ -520,7 +520,7 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <!--social end--> 
         
-        <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small> </div>
+        <small class="wow fadeInUp">&copy; Copyright CrowdEyes . Alle rettigheder forbeholdes.</small> </div>
     </div>
   </div>
 </footer>
