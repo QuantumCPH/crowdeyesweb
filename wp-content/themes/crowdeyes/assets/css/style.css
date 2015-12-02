@@ -373,7 +373,7 @@ padding:30px 0px 20px 0;
            Category Boxes
 =========================================*/
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
-.imgFirst{ float:left; margin:0 0 0 4px;}
+.imgFirst{ float:left; margin:0 0 0 4px; border-radius: 50px;}
 .greenBox{ float:left; width:100%; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
 .greenBox .greenInner1{ float:left; width:100%; margin:0; background:#2EB9C3; padding:7px 6px;}
 .greenBox .greenInner3{ float:left; width:100%; margin:0; background:#2EB9C3; padding:7px 6px;}
