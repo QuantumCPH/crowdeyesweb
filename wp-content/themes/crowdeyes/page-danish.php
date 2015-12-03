@@ -353,7 +353,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <h3>BASIC</h3>
           <div class="pricDD">
             <div class="price_in">
-              <p>$<span>19</span></p>
+              <p>kr<span>19</span></p>
               <font>måned</font> </div>
           </div>
           <ul>
@@ -373,7 +373,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <h3>STANDARD</h3>
           <div class="pricDD">
             <div class="price_in">
-              <p>$<span>39</span></p>
+              <p>kr<span>39</span></p>
               <font>måned</font> </div>
           </div>
           <ul>
@@ -393,7 +393,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <h3>PREMIUM</h3>
           <div class="pricDD">
             <div class="price_in">
-              <p>$<span>99</span></p>
+              <p>kr<span>99</span></p>
               <font>måned</font> </div>
           </div>
           <ul>
