@@ -180,7 +180,7 @@ app.controller('customersCtrl', function($scope, $http) {
  };
  
  
- setInterval($scope.getData, 30000); 
+ setInterval($scope.getData, 30000);
  
  
 
@@ -208,13 +208,12 @@ app.controller('customersCtrl', function($scope, $http) {
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
           <div class="greenInner2">
-		  <span> 
-		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
-		  <?php if($lost_found = 'Lost'){ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <?php }else{ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
-			  <?php } ?>
+
+            <?php echo $lost_found =  '{{cat.TypeID}}' ?>
+
+		  <span>
+		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
@@ -235,16 +234,12 @@ app.controller('customersCtrl', function($scope, $http) {
           <div class="greenInner1"> 
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
-	
+
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
-		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
-		  <?php if($lost_found = 'Lost'){ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <?php }else{ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
-			  <?php } ?>
+		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
@@ -268,13 +263,9 @@ app.controller('customersCtrl', function($scope, $http) {
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
           <div class="greenInner2">
-		  <span> 
-		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
-		  <?php if($lost_found = 'Lost'){ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <?php }else{ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
-			  <?php } ?>
+		  <span>
+			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
@@ -299,13 +290,10 @@ app.controller('customersCtrl', function($scope, $http) {
 	
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
           <div class="greenInner2">
-		  <span> 
-		  <?php $lost_found =  get_post_meta($post->ID, 'lost/found', true); ?>
-		  <?php if($lost_found = 'Lost'){ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <?php }else{ ?>
-			  <img class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/found.png" />
-			  <?php } ?>
+		  <span>
+
+		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
             <div class="rightGreen">
