@@ -94,7 +94,7 @@ get_header(); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> A matching service that "matches" the  consumer's lost database ad with information entered into found database by other users. </p>
+      <p class="p-cls"> A search platform, which enables you to get help when searching for objects, people, pets or witnesses to incidents - or help others in the same situation. </p>
     </div>
   </div>
   <div class="overlay">
@@ -302,13 +302,13 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live News Feed<span>Find out if the lost item is updated by someone.</span></p>
+          <p>Live News Feed<span>Find out if someone has information about the lost item.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
           <p>Announce<span>Anounce a category performing a few easy steps .</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Claim your belongings<span>Answer the questions correctly given by the advertiser.</span></p>
+          <p>Claim your belongings<span>Answer the questions given by the advertiser correctly.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
           <p>Chat with other party<span>Discuss and lock meeting location, exchange contact etc.</span></p>
@@ -445,7 +445,7 @@ app.controller('customersCtrl', function($scope, $http) {
             <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Your Name" required>
             <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email Address" required>
             <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
-            <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">SEND</button>
+            <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">Send</button>
           </form>
           
           <!--contact form end-->
@@ -473,7 +473,7 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <ul class="footer_links">
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms & Conditions</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Help</a></li>
         </ul>
