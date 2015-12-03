@@ -197,8 +197,6 @@ app.controller('customersCtrl', function($scope, $http) {
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
           <div class="greenInner2">
 
-            <?php echo $lost_found =  '{{cat.TypeID}}' ?>
-
 		  <span>
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
