@@ -74,7 +74,7 @@ get_header(); ?>
         <li><a href="#featuresDD">Features</a></li>
         <li><a href="#pricings">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93">FAQ</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
@@ -489,7 +489,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
-          <li class="wow fadeInUp"><a href="#" >FAQ</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >FAQ</a></li>
         </ul>
         
         <ul class="social">
