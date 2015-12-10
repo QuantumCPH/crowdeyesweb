@@ -94,6 +94,7 @@ get_header(); ?>
         <li><a href="#featuresDD">Funktionalitet</a></li>
         <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Download</a></li>
+         <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=95">FAQ</a></li>
        <li><a href="#contact">Kontakt os</a></li>
       </ul>
     </div>
@@ -133,7 +134,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<?php echo do_shortcode('[rev_slider main]'); ?>
+<?php echo do_shortcode('[rev_slider maind]'); ?>
 <!--HOME SECTION END  -->
 
  
@@ -512,7 +513,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Brugsvilkår</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Fortrolighed</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
-            <li class="wow fadeInUp"><a href="#" >FAQ</a></li>
+            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=95" >FAQ</a></li>
         </ul>
 
         <ul class="social">
