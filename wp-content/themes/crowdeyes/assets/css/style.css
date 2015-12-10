@@ -726,7 +726,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 }
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
-div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%;}
+div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
 .regPlan{float: left; width: 100%; padding-top: 30px; position: relative;}
 .wpcf7-form p{ float: left; width: 45%; margin-left: 3%;}
@@ -743,7 +743,7 @@ div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%;}
 
 }
 div.wpcf7-mail-sent-ng{float: left;}
-div.wpcf7-mail-sent-ok{float: left; margin-top: 0; margin-left: 3%; position: absolute; top: -10px;}
+div.wpcf7-mail-sent-ok{float: left; margin-top: 0; margin-left: 3%; position: absolute; top: -10px; width: 45%;}
 
 .input-group-btn>.btn:hover,
 

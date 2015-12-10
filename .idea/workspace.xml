@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
     </list>
     <ignored path="crowdeyesweb.iws" />
@@ -108,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33214286">
-              <caret line="745" column="99" selection-start-line="745" selection-start-column="99" selection-end-line="745" selection-end-column="99" />
+              <caret line="728" column="87" selection-start-line="728" selection-start-column="87" selection-end-line="728" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -876,7 +875,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33214286">
-          <caret line="745" column="99" selection-start-line="745" selection-start-column="99" selection-end-line="745" selection-end-column="99" />
+          <caret line="728" column="87" selection-start-line="728" selection-start-column="87" selection-end-line="728" selection-end-column="87" />
           <folding />
         </state>
       </provider>
