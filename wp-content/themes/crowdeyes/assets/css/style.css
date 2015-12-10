@@ -742,7 +742,7 @@ div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%;}
   box-shadow: none;
 
 }
-
+div.wpcf7-mail-sent-ng{float: left;}
 div.wpcf7-mail-sent-ok{float: left; margin-top: 0; margin-left: 3%;}
 
 .input-group-btn>.btn:hover,
