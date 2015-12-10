@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,12 +40,12 @@
       <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49250937">
-              <caret line="515" column="98" selection-start-line="515" selection-start-column="98" selection-end-line="515" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
-                <element signature="e#13024#13077#0#HTML" expanded="true" />
-                <element signature="e#17347#17419#0#HTML" expanded="true" />
+                <element signature="e#13025#13078#0#HTML" expanded="true" />
+                <element signature="e#17348#17420#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -437,8 +436,8 @@
           <caret line="330" column="10" selection-start-line="330" selection-start-column="10" selection-end-line="330" selection-end-column="10" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,8 +509,8 @@
           <caret line="161" column="28" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="28" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,8 +582,8 @@
           <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,8 +647,8 @@
           <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,8 +712,8 @@
           <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,8 +759,8 @@
           <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,12 +870,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49250937">
-          <caret line="515" column="98" selection-start-line="515" selection-start-column="98" selection-end-line="515" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#13024#13077#0#HTML" expanded="true" />
-            <element signature="e#17347#17419#0#HTML" expanded="true" />
+            <element signature="e#13025#13078#0#HTML" expanded="true" />
+            <element signature="e#17348#17420#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

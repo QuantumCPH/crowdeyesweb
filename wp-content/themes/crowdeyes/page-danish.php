@@ -134,7 +134,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<?php echo do_shortcode('[rev_slider main]'); ?>
+<?php echo do_shortcode('[rev_slider maind]'); ?>
 <!--HOME SECTION END  -->
 
  
