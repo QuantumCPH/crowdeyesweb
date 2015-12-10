@@ -1012,6 +1012,7 @@ div.wpcf7-mail-sent-ok{float: left; margin-top: 0; margin-left: 3%; position: ab
 .navbar-brand img{ margin-left:0;}
 #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
 #login-trigger{color: #000; !important;}
+    .wpcf7-form p{width: 90%; float: left; margin-left: 5%;}
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
