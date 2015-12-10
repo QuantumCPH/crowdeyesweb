@@ -485,10 +485,11 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--social-->
         
         <ul class="footer_links">
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About Us</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Help</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
+          <li class="wow fadeInUp"><a href="#" >FAQ</a></li>
         </ul>
         
         <ul class="social">
