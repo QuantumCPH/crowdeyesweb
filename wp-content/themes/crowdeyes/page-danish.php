@@ -93,7 +93,7 @@ get_header(); ?>
         <li><a href="#home" class="selected">Hjem</a></li>
         <li><a href="#featuresDD">Funktionalitet</a></li>
         <li><a href="#pricings">Priser</a></li>
-        <li><a href="#downloadApp">Hent</a></li>
+        <li><a href="#downloadApp">Download</a></li>
        <li><a href="#contact">Kontakt os</a></li>
       </ul>
     </div>
@@ -122,12 +122,12 @@ get_header(); ?>
   </div>
   <div class="downloadApp fixedDown" id="downFixed" >
     <div class="container">
-      <p>Tilgængelig på Apple Store</p>
+      <p>Tilgængelig på App Store</p>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a>
+	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
     </div>
@@ -142,7 +142,7 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live feeds i fire forskellige kategorier</h2>
+        <h2 class="head-set">Live Feed</h2>
       </div>
     </div>
 	
@@ -214,7 +214,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -240,7 +240,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -266,7 +266,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -293,7 +293,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm:a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -320,19 +320,19 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live nyhedsfeed<span>Find ud af, om nogen har oplysninger om den tabte genstand.</span></p>
+          <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Annoncere<span>Lav opslag Slå en kategori op i et par enkle trin.</span></p>
+          <p>Annoncere<span>Lav et opslag i et par enkelte trin.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Gør krav på din ejendele<span>Besvar annoncørens spørgsmål korrekt.</span></p>
+          <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Chat med den anden part<span>Diskutér og aftal mødested, udveksl kontaktinfo etc.</span></p>
+          <p>Kommunikér sikkert<span>Snak privat og aftal udveksling.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Seneste Activities<span>Keep et referat af seneste aktiviteter.</span></p>
+          <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav.</span></p>
         </div>
       </div>
     </div>
@@ -341,12 +341,27 @@ app.controller('customersCtrl', function($scope, $http) {
 <!--PARALLAX LIKE / STATS SECTION END  -->
 <div id="pricings" style="float: left; margin-top: -15px; width: 100%; visibility: hidden;"></div>
 <section id="pricing">
-  <div class="container">
-    <div class="row text-center pad-bottom">
-      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-        <h2 class="pricPackages">Plan & priser</h2>
+
+    <div class="container">
+      <div class="row text-center pad-bottom">
+        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+          <h2 class="pricPackages">Planer & Priser</h2>
+        </div>
       </div>
     </div>
+
+    <div class="planSubH">
+      Register to know more about our solution for businesses
+    </div>
+    <div class="container">
+      <div class="regPlan">
+        <?php echo do_shortcode('[contact-form-7 id="83" title="Plan Register"]'); ?>
+      </div>
+    </div>
+
+
+  <!---
+
     <div class="row text-center portfolio-item">
       <div class="col-md-4 col-sm-4 ">
         <div class="plan_pricing1">
@@ -409,6 +424,9 @@ app.controller('customersCtrl', function($scope, $http) {
           <a href="#" class="hvr-sweep-to-bottom1">Tilmeld</a> </div>
       </div>
     </div>
+
+     -->
+
     <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -10px;"></a>
   </div>
 </section>
@@ -416,13 +434,13 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div class="downloadApp">
     <div class="container">
-      <p>Tilgængelig på Apple Store</p>
+      <p>Tilgængelig på App Store</p>
       
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Hent</span></a> 
+	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
 	  
