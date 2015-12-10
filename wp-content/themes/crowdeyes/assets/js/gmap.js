@@ -10,11 +10,9 @@ function initialize() {
 
     var mapOptions = {
 
-        zoom: 17, //change zoom here
+        zoom: 14, //change zoom here
         draggable: false,
         center: mapLocation
-
-
 
 
     };

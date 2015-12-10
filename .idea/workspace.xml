@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\crowdeyesweb\wp-content\plugins\wp-migrate-db\asset\css\plugin-manager-styles.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/addons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/addons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/breadcrumbs.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/breadcrumbs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/common.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/common.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/common.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/compatibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/compatibility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/debug-info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/debug-info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/exclude-post-revisions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/exclude-post-revisions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/help.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/help.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/hook.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/hook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/max-request-size.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/common/max-request-size.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate-progress.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate-progress.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/migrate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/css/plugin-update-styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/css/plugin-update-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/profile.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/progress-upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/progress-upgrade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/script.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/script.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/js/script.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/asset/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/wordpress-org-support.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/template/wpmdb/wordpress-org-support.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/languages/wp-migrate-db-en.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/languages/wp-migrate-db-en.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/compatibility/wp-migrate-db-pro-compatibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/compatibility/wp-migrate-db-pro-compatibility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/wp-migrate-db.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/wp-migrate-db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-cli.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-command.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-migration-state.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-migration-state.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-replace.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-replace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-sanitize.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-sanitize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-utils.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb-utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-migrate-db/class/wpmdb.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,8 +87,8 @@
       <file leaf-file-name="gmap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.62069">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state vertical-scroll-proportion="-8.793103">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,8 +107,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60535717">
-              <caret line="731" column="42" selection-start-line="731" selection-start-column="42" selection-end-line="731" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.39285713">
+              <caret line="733" column="18" selection-start-line="733" selection-start-column="18" selection-end-line="733" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -174,9 +135,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/style.css" />
         <option value="$PROJECT_DIR$/../crop/index.html" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
       </list>
     </option>
@@ -421,7 +382,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1363" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1363" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22345954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -881,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.62069">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0365853">
@@ -912,10 +865,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.793103">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60535717">
-          <caret line="731" column="42" selection-start-line="731" selection-start-column="42" selection-end-line="731" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.39285713">
+          <caret line="733" column="18" selection-start-line="733" selection-start-column="18" selection-end-line="733" selection-end-column="18" />
           <folding />
         </state>
       </provider>
