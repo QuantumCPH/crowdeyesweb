@@ -351,7 +351,7 @@ app.controller('customersCtrl', function($scope, $http) {
     </div>
 
     <div class="planSubH">
-      Register to know more about our solution for businesses
+        Registrér dig for at få mere at vide om vores løsning til virksomheder
     </div>
     <div class="container">
       <div class="regPlan">
