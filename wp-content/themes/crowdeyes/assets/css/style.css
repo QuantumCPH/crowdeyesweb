@@ -463,7 +463,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 
 
-.contact-form .form-control, .wpcf7-form input {
+.contact-form .form-control, .wpcf7-form input, .wpcf7-form select {
 
   border-color: #ddd;
 
@@ -711,7 +711,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 
 
-.form-control, .wpcf7-form input {
+.form-control, .wpcf7-form input, .wpcf7-form select {
 
   background-color: #fff;
 
@@ -731,12 +731,12 @@ div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display
 .regPlan{float: left; width: 100%; padding-top: 30px; position: relative;}
 .wpcf7-form p{ float: left; width: 45%; margin-left: 3%;}
 .wpcf7-form p span{float: left; width: 100%;}
-.wpcf7-form input{
-    float: left; width: 100%;}
+.wpcf7-form input, .wpcf7-form select{
+    float: left; width: 100%; }
 
 .wpcf7-form input[type=submit]{background: #218EB4; border: solid 1px #218EB4; font-family: MyriadPro;  color: #fff; font-size: 18px;}
 .wpcf7-form input[type=submit]:hover{background:#02BCFD; border: solid 1px #02BCFD;}
-.form-control:focus, .wpcf7-form input:focus {
+.form-control:focus, .wpcf7-form input:focus, .wpcf7-form select {
   outline: 0;
 
   box-shadow: none;
