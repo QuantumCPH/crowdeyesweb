@@ -622,7 +622,7 @@ $(document).ready(function(){
         <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+       <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
