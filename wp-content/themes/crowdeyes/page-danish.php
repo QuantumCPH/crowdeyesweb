@@ -616,7 +616,7 @@ $(function() {
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
 
 
-
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
 <!-- Modal -->
 
