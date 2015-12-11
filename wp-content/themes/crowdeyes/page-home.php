@@ -119,7 +119,7 @@ color:#fff !important;
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
+	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
@@ -321,7 +321,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <p>Announce<span>Make an announcement with just a few easy steps.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Claim your belongings<span>Support your claim by answering security questions.</span></p>
+          <p>Claim Your Belongings<span>Support your claim by answering security questions.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
           <p>Communicate Safely<span>Chat privately and decide how to exchange.</span></p>
@@ -428,7 +428,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
+	  <a href="" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  </div>
 	  
@@ -515,16 +515,12 @@ app.controller('customersCtrl', function($scope, $http) {
         <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
       </div>
 
-      I am here to test
 
 
-      <a href="#contact_form_pop" class="fancybox" target="_blank" rel="nofollow" >Contact Us</a>
-      <div style="display:none" class="fancybox-hidden">
-        <div id="contact_form_pop">
-          [contact-form-7 id="107" title="CS Android"]</div>
-      </div>
+    </div>
 
-  </div>
+
+    </div>
 </footer>
 <!--site-footer end--> 
 
@@ -610,7 +606,33 @@ $(document).ready(function(){
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
+
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 </body>
 </html>
 <?php //get_sidebar(); ?>
