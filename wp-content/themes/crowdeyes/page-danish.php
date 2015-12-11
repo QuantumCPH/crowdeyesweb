@@ -616,7 +616,6 @@ $(function() {
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
 
 
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
 <!-- Modal -->
 
@@ -632,8 +631,6 @@ $(function() {
             <div class="modal-body">
                 <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
             </div>
-
-
         </div>
     </div>
 </div>
