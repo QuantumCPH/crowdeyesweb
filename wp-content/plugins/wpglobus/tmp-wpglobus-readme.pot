@@ -1,0 +1,400 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WPGlobus - Multilingual Everything!"
+msgstr ""
+
+#. Short description.
+msgid "Multilingual / Globalization: URL-based multilanguage; easy translation interface, compatible with Yoast SEO, All in One SEO Pack and ACF!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Welcome screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings panel."
+msgstr ""
+
+#. Screenshot description.
+msgid "Languages setup."
+msgstr ""
+
+#. Screenshot description.
+msgid "Attaching language switcher to a menu."
+msgstr ""
+
+#. Screenshot description.
+msgid "Editing post in multiple languages."
+msgstr ""
+
+#. Screenshot description.
+msgid "Multilingual Yoast SEO and Featured Images."
+msgstr ""
+
+#. Screenshot description.
+msgid "Language Switcher widget and Multilingual Editor dialog."
+msgstr ""
+
+#. Screenshot description.
+msgid "Multilingual WooCommerce store powered by <a href=\"http://www.wpglobus.com/shop/extensions/woocommerce-wpglobus/\">WooCommerce WPGlobus</a>."
+msgstr ""
+
+#. Found in description header.
+msgid "Compatibility with Themes"
+msgstr ""
+
+#. Found in description header.
+msgid "Permalinks"
+msgstr ""
+
+#. Found in description header.
+msgid "Developing on `localhost` or custom ports"
+msgstr ""
+
+#. Found in description header.
+msgid "More info and ways to contact the WPGlobus Development Team"
+msgstr ""
+
+#. Found in description header.
+msgid "Admin interface translations:"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Manually translate</strong> posts, pages, categories, tags menus and widgets; <strong>NOTE: WPGlobus does NOT translate texts automatically!</strong> To see how it works, please read the <a href=\"http://www.wpglobus.com/quick-start/\">Quick Start Guide</a>;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Add one or several languages</strong> to your WP blog/site using custom combinations of country flags, locales and language names;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Enable multilingual SEO features</strong> of Yoast SEO and All in One SEO plugins;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Switch the languages at the front-end</strong> using: a drop-down menu extension and/or a customizable widget with various display options;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Switch the Administrator interface language</strong> using a top bar selector;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/wpglobus-featured-images/\">WPGlobus Featured Images</a>: allows setting featured images separately for each language."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/wpglobus-translate-options/\">WPGlobus Translate Options</a>: enables selective translation of the <code>wp_options</code> table strings. You need to use it when your theme or a 3rd party plugin (a slider, for example) has its own option panel, where you enter texts."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/wpglobus-for-wpbakery-visual-composer/\">WPGlobus for WPBakery Visual Composer</a>: enables WPGlobus on certain themes that use WPBakery's Composer. Please note that Visual Composer is a commercial product, and therefore our support is limited."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/wpglobus-for-black-studio-tinymce-widget/\">WPGlobus for Black Studio TinyMCE Widget</a>: adds multilingual editing capabilities to the visual editor widget."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpglobus.com/shop/extensions/woocommerce-wpglobus/\">WooCommerce WPGlobus</a>: adds multilingual capabilities to WooCommerce-based online stores."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpglobus.com/shop/extensions/wpglobus-plus/\">WPGlobus Plus</a>: adds URL fine-tuning, publishing status per translation, multilingual Yoast SEO analysis and more."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpglobus.com/documentation/wpglobus-compatibility-with-themes-and-plugins/\">WPGlobus Compatibility with Themes and Plugins</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpglobus.com/documentation/wpglobus-configuration-file/\">WPGlobus Configuration File and a Theme Configuration Case Studies</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpglobus.com/\">WPGlobus.com website</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://github.com/WPGlobus\">Open source code on GitHub</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "WPGlobus on social networks: <a href=\"https://www.facebook.com/WPGlobus\">Facebook</a>, <a href=\"https://twitter.com/WPGlobus\">Twitter</a>, <a href=\"https://plus.google.com/+Wpglobus\">Google Plus</a>, <a href=\"https://www.linkedin.com/company/wpglobus\">LinkedIn</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "** YOAST SEO VERSION 3 IS NOT SUPPORTED YET. WE ARE WORKING ON THE UPGRADE. **"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>WPGlobus</strong> is a family of WordPress plugins assisting you in making bilingual / multilingual WordPress blogs and sites."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>WPGlobus</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <strong>WPGlobus Free Core plugin</strong> provides you with the main multilingual tools."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The WPGlobus plugin serves as the <strong>foundation</strong> to other plugins in the family."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Free Add-ons</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Premium Extensions</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"WPGlobus works correctly with all themes that apply proper filtering before outputting content.\n"
+"Some themes incorporate 3rd party plugins (e.g., sliders, forms, composers) - not all of them are 100% multilingual-ready. When you see elements that cannot be translated, please let the theme / plugin authors know. We are ready to help them."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "More information:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>IMPORTANT:</strong> WPGlobus will not work if your URLs look like <code>example.com?p=123</code> or <code>example.com/index.php/category/post/</code>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please go to <code>Settings-&gt;Permalinks</code> and change the permalink structure to non-default and with no <code>index.php</code> in it. If you are unable to do that for some reason, please talk to your hosting provider / systems administrator."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WPGlobus may not work correctly on development servers having URLs like <code>//localhost/mysite</code> or on custom ports like <code>//myserver.dev:3000</code>. Please use a proper domain name (a fake one from <code>/etc/hosts</code> is OK) and port 80."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://www.tobiashopp.info/\">Tobias Hopp</a> ~ WPGlobus ist ein Paket von mehreren WordPress-Plugins, die Möglichkeiten zur Übersetzung von Wordpress-Installationen bieten."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://mascositas.com/\">Patricia Casado</a> ~ WPGlobus es una familia de plugins de WordPress que ayudan en la traducción de blogs de WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://wp-translations.org/\">FX Bénard</a> ~ WPGlobus fait partie des extensions WordPress qui vous aident à rendre les blogs et les sites WordPress multilingues."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://maciej-gryniuk.tk/\">Maciej Gryniuk</a> ~ WPGlobus jest rodziną wtyczek do WordPress'a pomocnych w tworzeniu wielojęzycznych blogów i stron na WordPress'ie."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://www.wpglobus.com/ru/\">The WPGlobus Team</a> ~ WPGlobus - это коллекция плагинов ВордПресс для создания мультиязычных сайтов."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"http://bilddigital.se/\">Elger Lindgren</a> ~ WPGlobus är en familj av WordPress-tillägg som hjälper dig att göra flerspråkiga Wordpressbloggar och webbplatser."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "by <a href=\"https://twitter.com/boracon68\">Borahan Conkeroglu</a> ~ WPGlobus WordPress bloglarını ve sitelerini çokdilli yapmakta size yardım eden bir WordPress eklentileri ailesidir."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Please help us translate WPGlobus into your language!</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the <em>Plugins</em> menu and click <em>Add New</em>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for <em>WPGlobus</em>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click <em>Install Now</em> next to the WPGlobus plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "You can install this plugin directly from your WordPress dashboard:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Alternatively, see the guide to <a href=\"http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">Manually Installing Plugins</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Then please read the <a href=\"http://www.wpglobus.com/quick-start/\">Quick Start Guide</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed double slashes in URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load minimized JS in customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using class for globe icon instead of id."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rewriting the array of classes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor css improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled Uninstall procedure. Will be refactored in the future."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable notice on non-existent [key][key] in WPML config."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>wpglobus-config.json</code> now supports Customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/WPGlobus/wpglobus-config-samples\">Repository of theme configuration files</a> (W.I.P.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug in WordPress SEO support module (was appending the site name to the SEO Title)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correct extracting domain_tld for two-part TLDs like <code>.co.uk</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Customizer error. Thanks to <a href=\"https://wordpress.org/support/profile/shark0der\">shark0der</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>pl_PL</code> admin interface translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>wpglobus-config.json</code> configuration file for theme options, with WPML compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>wpglobus-current-language</code> CSS class to the menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor admin JS bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updater bug \"cannot delete old plugin files\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Broken Welsh flag cy.png (Thanks to Tudor Thomas)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>de_DE</code> admin interface properly translated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Broken links to WPGlobus.com from admin pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>tr_TR</code> admin interface translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>es</code> and <code>fr</code> enabled by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All In One SEO Pack 2.2.7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "ACF Pro 5.3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/WPGlobus/WPGlobus/blob/master/changelog.md\">See the complete changelog here</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://www.wpglobus.com/extensions/woocommerce-wpglobus/woocommerce-wpglobus-changelog/\">See the changelog here</a>"
+msgstr ""
+
+#. Found in faq header.
+msgid "Please read these first:"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/quick-start/\">The Quick Start Guide</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/before-contacting-wpglobus-support/\">Before contacting Support...</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/support-php-5-2/\">Do you support PHP 5.x?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/support-msie-opera-safari-chrome-firefox/\">Do you support MSIE / Opera / Safari / Chrome / Firefox - Version x.x?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/subdomains-and-url-query-parameters/\">Do you plan to support subdomains and URL query parameters?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/i-am-using-wpml-qtranslate-polylang-multilingual-press-etc-can-i-switch-to-wpglobus/\">I am using WPML (qTranslate, Polylang, Multilingual Press, etc.). Can I switch to WPGlobus?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/support-woocommerce-edd/\">Do you plan to support WooCommerce, EDD, other e-Commerce plugins?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/set-language-by-ip/\">Is it possible to set the user's language automatically based on IP and/or browser language?</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://www.wpglobus.com/faq/how-do-i-contribute-to-wpglobus/\">How do I contribute to WPGlobus?</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "From the <a href=\"http://www.wpglobus.com/faq/\">WPGlobus FAQ Archives</a>:"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Demo Sites"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Bilingual site using a variety of posts, pages, custom post types, forms, a slider and a WooCommerce store with Subscription and API extensions."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Demonstration of two WPGlobus-powered sites, one of which is installed in a subfolder of another. Shows the correct behavior of WPGlobus with URLs like <code>example.com/folder/wordpress</code>."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "A <strong>multilingual WooCommerce</strong> site powered by the <code>woocommerce-wpglobus</code> plugin."
+msgstr ""

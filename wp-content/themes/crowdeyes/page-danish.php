@@ -215,7 +215,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -241,7 +241,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
@@ -267,7 +267,7 @@ app.controller('customersCtrl', function($scope, $http) {
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
 	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm a'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
           <div class="greenInner2">
 		  <span> 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />

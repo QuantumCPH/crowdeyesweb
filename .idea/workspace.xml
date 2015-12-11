@@ -2,9 +2,318 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/LICENSE" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/languages/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/languages/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_animated.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_core.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_icons.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_larger.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_list.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_mixins.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_path.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_stacked.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_variables.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/about.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fa_IR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fa_IR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-he_IL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-he_IL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-it_IT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-ja.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-ja.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-ru_RU.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sk_SK.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sk_SK.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sr_RS.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sr_RS.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sv_SE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-sv_SE.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-tr_TR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-tr_TR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-uk.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-uk.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-zh_CN.po" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf-zh_CN.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/acf.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/acf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/acf.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/acf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/lang/acf.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/assets/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/assets/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/js/admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/browser.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/browser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/changelog.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/changelog.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/changelog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-about.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-acf.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-acf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-addons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-addons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-aioseop.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-aioseop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-core.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-customize.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-customize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-filters.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-language-edit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-language-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/class-wpglobus-options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/class-wpglobus-options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-the-events-calendar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/vendor/class-wpglobus-the-events-calendar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-check.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-requests.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater-requests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/updater/class-wpglobus-updater.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-utils.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-wp-theme.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/admin/class-wpglobus-wp-theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-wp.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-wp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-wpseo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus-wpseo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/class-wpglobus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.p.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.p.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_admin_notices.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_admin_notices.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_cdn.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_cdn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_filesystem.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_helpers.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_instances.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/class.redux_instances.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/class.redux_themecheck.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/class.redux_themecheck.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/color-picker/color-picker.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/color-picker/color-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/color-picker/color-picker.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/color-picker/color-picker.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/color_picker.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/color_picker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/composer.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/.tx/config" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/.tx/config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/container.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/container.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/content.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/content.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/cookie.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/credits.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/credits.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/dashboard.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/date_picker.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/date_picker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/dummy.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/dummy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.css.map" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/elusive-icons.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/elusive-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/elusive-icons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/elusive-icons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/scss/elusive-icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/embedded.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/embedded.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/enqueue.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/enqueue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/actions/export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/actions/export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/extensions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/extensions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/field-group.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/field-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/field-group.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/field-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/field-group.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/field-group.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/post_types/field_post_types.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/post_types/field_post_types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/post_types/field_post_types.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/post_types/field_post_types.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/field_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_ace_editor/field_wpglobus_ace_editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_checkbox/field_wpglobus_checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_info/field_wpglobus_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_select/field_wpglobus_select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/wpglobus_sortable/field_wpglobus_sortable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/file.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/footer.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/framework.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/framework.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/full_package.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/full_package.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/global.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/google-map.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/google-map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/header.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/header_stickybar.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/header_stickybar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/image.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/import_export/import_export.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/import_export/import_export.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/extensions/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/extensions/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/fields/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/fields/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/checks/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/lang/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/lang/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/input.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/css/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.alphanum.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.alphanum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/js/jquery.easing.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/qtip/jquery.qtip.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/qtip/jquery.qtip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/qtip/jquery.qtip.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/qtip/jquery.qtip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/qtip/jquery.qtip.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/qtip/jquery.qtip.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/qtip/jquery.qtip.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/qtip/jquery.qtip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.serializeForm.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.serializeForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.typewatch.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jquery.typewatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jsonview.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jsonview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jsonview.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/jsonview.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/lib.redux_instances.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/lib.redux_instances.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/location.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/lte-ie7.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/lte-ie7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/media/media.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/media/media.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/media/media.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/media/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/media/media.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/media/media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/menu_container.tpl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/templates/panel/menu_container.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/message.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/newsflash.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/newsflash.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/number.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/package.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/page_link.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/page_link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/panel.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/panel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/password.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/password.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/post_object.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/post_object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/redux-admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/redux-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/redux-admin.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/redux-admin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/languages/redux-framework.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/languages/redux-framework.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/spectrum/redux-spectrum.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/vendor/spectrum/redux-spectrum.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/spectrum/redux-spectrum.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/spectrum/redux-spectrum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/js/redux-welcome-admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/js/redux-welcome-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/css/redux-welcome.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/css/redux-welcome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/css/redux-welcome.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/css/redux-welcome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/redux.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/redux.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/redux.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/redux.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/redux.select2.sortable.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/js/vendor/redux.select2.sortable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/relationship.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/relationship.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/required.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/core/required.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/revisions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/revisions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/rtl.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/assets/css/rtl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/sample-wpglobus-config.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/sample-wpglobus-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/select2.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/select2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/select2.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/status_report.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/status_report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/style-samples.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/style-samples.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/styles-samples-widget.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/styles-samples-widget.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/support.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/views/support.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/tab.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/tab.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/table-languages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/fields/table/table-languages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/taxonomy.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/text.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/textarea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/lang/themeforest-check.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/themecheck/lang/themeforest-check.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/third_party.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/third_party.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/tracking.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/tracking.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/true_false.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/true_false.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/uninstall.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/user.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/color/validation_color.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/color/validation_color.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/css/validation_css.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/css/validation_css.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/date/validation_date.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/date/validation_date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/email/validation_email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/email/validation_email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/html/validation_html.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/html/validation_html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/html_custom/validation_html_custom.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/html_custom/validation_html_custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/js/validation_js.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/js/validation_js.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/no_html/validation_no_html.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/no_html/validation_no_html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/not_empty/validation_not_empty.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/not_empty/validation_not_empty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/numeric/validation_numeric.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/numeric/validation_numeric.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/preg_replace/validation_preg_replace.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/preg_replace/validation_preg_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/str_replace/validation_str_replace.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/str_replace/validation_str_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/url/validation_url.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/validation/url/validation_url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/welcome.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/ReduxCore/inc/welcome/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin-tabs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.css.map" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-admin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/wpglobus-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/wpglobus-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-control.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-control.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-control.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-preview.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-preview.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-customize-preview.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-de_DE.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-dialog-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-en_US.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-es_ES.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-flags.mixin.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-flags.mixin.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-fr_FR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/wpglobus-options-header.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/options/wpglobus-options-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-pl_PL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-ru_RU.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-special-pages.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-special-pages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-special-pages.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-special-pages.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-sv_SE.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus-tr_TR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-vendor-acf.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-vendor-acf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-vendor-aioseop.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-vendor-aioseop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-widget.mixin.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus-widget.mixin.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-widgets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-wpseo-21.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-wpseo-21.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-wpseo-22.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus-wpseo-22.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/js/wpglobus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/includes/css/wpglobus.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/wpglobus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/wpglobus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/languages/wpglobus.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/wysiwyg.php" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/fields/wysiwyg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/xml2array.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wpglobus/lib/xml2array.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +335,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17228465">
-              <caret line="599" column="90" selection-start-line="599" selection-start-column="90" selection-end-line="599" selection-end-column="90" />
+            <state vertical-scroll-proportion="-4.1454544">
+              <caret line="607" column="32" selection-start-line="607" selection-start-column="32" selection-end-line="607" selection-end-column="32" />
               <folding>
                 <element signature="e#6#372#0#PHP" expanded="true" />
               </folding>
@@ -70,11 +379,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="358" column="87" selection-start-line="358" selection-start-column="87" selection-end-line="358" selection-end-column="87" />
+            <state vertical-scroll-proportion="-0.15097691">
+              <caret line="269" column="152" selection-start-line="269" selection-start-column="152" selection-end-line="269" selection-end-column="152" />
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
               </folding>
@@ -145,11 +454,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/style.css" />
         <option value="$PROJECT_DIR$/../crop/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/js/gmap.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
       </list>
     </option>
   </component>
@@ -367,7 +676,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1363" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1363" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17668894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -775,16 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="358" column="87" selection-start-line="358" selection-start-column="87" selection-end-line="358" selection-end-column="87" />
-          <folding>
-            <element signature="e#6#379#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -827,10 +1126,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17228465">
-          <caret line="599" column="90" selection-start-line="599" selection-start-column="90" selection-end-line="599" selection-end-column="90" />
+        <state vertical-scroll-proportion="-4.1454544">
+          <caret line="607" column="32" selection-start-line="607" selection-start-column="32" selection-end-line="607" selection-end-column="32" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15097691">
+          <caret line="269" column="152" selection-start-line="269" selection-start-column="152" selection-end-line="269" selection-end-column="152" />
+          <folding>
+            <element signature="e#6#379#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

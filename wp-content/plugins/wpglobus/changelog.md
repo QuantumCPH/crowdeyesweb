@@ -2,6 +2,29 @@
 
 ## Changelog ##
 
+### 1.3.2 ###
+
+* FIXED:
+	* Removed double slashes in URLs.
+	* Load minimized JS in customizer.
+	* Using class for globe icon instead of id.
+	* Rewriting the array of classes.
+	* Minor css improvements.
+
+### 1.3.1 ###
+
+* FIXED:
+	* Disabled Uninstall procedure. Will be refactored in the future.
+	* Disable notice on non-existent [key][key] in WPML config.
+
+### 1.3.0 ###
+
+* ADDED:
+	* `wpglobus-config.json` now supports Customizer.
+	* [Repository of theme configuration files](https://github.com/WPGlobus/wpglobus-config-samples) (W.I.P.)
+* FIXED:
+	* Bug in WordPress SEO support module (was appending the site name to the SEO Title).
+
 ### 1.2.9 ###
 
 * FIXED:
