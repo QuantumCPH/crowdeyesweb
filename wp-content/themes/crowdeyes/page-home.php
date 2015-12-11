@@ -513,6 +513,15 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--social end--> 
         
         <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small> </div>
+
+
+      I am here to test
+
+      <?php echo do_shortcode('[formlightbox_call title="{title of the lightbox}" class="{unique_id}"]Click here[/formlightbox_call]'); ?>
+      <?php echo do_shortcode('[formlightbox_obj id="{unique_id}" style="" onload="false"][contact-form-7 id="107" title="CS Android"][/formlightbox_obj]'); ?>
+
+      </script>
+
     </div>
   </div>
 </footer>
@@ -593,12 +602,7 @@ $(document).ready(function(){
 
 });
 
-I am here to test
 
-  <?php echo do_shortcode('[formlightbox_call title="{title of the lightbox}" class="{unique_id}"]Click here[/formlightbox_call]'); ?>
-   <?php echo do_shortcode('[formlightbox_obj id="{unique_id}" style="" onload="false"][contact-form-7 id="107" title="CS Android"][/formlightbox_obj]'); ?>
-
-</script>
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
