@@ -599,6 +599,7 @@ $(document).ready(function(){
 
 });
 
+</script>
 
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
