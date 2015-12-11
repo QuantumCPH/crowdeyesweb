@@ -580,7 +580,9 @@ $(document).ready(function(){
 
 
 });
-....
+
+I am here to test
+
   <?php echo do_shortcode('[formlightbox_call title="{title of the lightbox}" class="{unique_id}"]Click here[/formlightbox_call]'); ?>
    <?php echo do_shortcode('[formlightbox_obj id="{unique_id}" style="" onload="false"][contact-form-7 id="107" title="CS Android"][/formlightbox_obj]'); ?>
 
