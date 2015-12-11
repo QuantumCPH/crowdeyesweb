@@ -119,7 +119,7 @@ color:#fff !important;
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
@@ -428,7 +428,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a> 
+	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  </div>
 	  
@@ -592,6 +592,13 @@ $(document).ready(function(){
 
 
 });
+
+
+<div style="display:none" class="fancybox-hidden">
+    <div id="contact_form_pop">
+    [contact-form-7 id="107" title="CS Android"]
+    </div>
+    </div>
 
 
 </script>
