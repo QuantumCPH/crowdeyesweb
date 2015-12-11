@@ -581,13 +581,8 @@ $(document).ready(function(){
 
 });
 
-
-<div style="display:none" class="fancybox-hidden">
-    <div id="contact_form_pop">
-    [contact-form-7 id="107" title="CS Android"]
-    </div>
-    </div>
-
+  <?php echo do_shortcode('[formlightbox_call title="{title of the lightbox}" class="{unique_id}"]Click here[/formlightbox_call]'); ?>
+   <?php echo do_shortcode('[formlightbox_obj id="{unique_id}" style="" onload="false"][contact-form-7 id="107" title="CS Android"][/formlightbox_obj]'); ?>
 
 </script>
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
