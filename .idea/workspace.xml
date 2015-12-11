@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52345216">
-              <caret line="5360" column="23" selection-start-line="5360" selection-start-column="23" selection-end-line="5360" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.33208254">
+              <caret line="5416" column="20" selection-start-line="5416" selection-start-column="20" selection-end-line="5416" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -825,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52345216">
-          <caret line="5360" column="23" selection-start-line="5360" selection-start-column="23" selection-end-line="5360" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.33208254">
+          <caret line="5416" column="20" selection-start-line="5416" selection-start-column="20" selection-end-line="5416" selection-end-column="20" />
           <folding />
         </state>
       </provider>
