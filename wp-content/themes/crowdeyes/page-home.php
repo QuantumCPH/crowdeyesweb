@@ -107,7 +107,7 @@ get_header(); ?>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
+	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
@@ -416,7 +416,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#contact_form_pop" class="fancybox"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
+	  <a href="" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  </div>
 	  
@@ -502,7 +502,11 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
       </div>
-      
+
+
+
+    </div>
+
 
     </div>
 </footer>
@@ -590,7 +594,33 @@ $(document).ready(function(){
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
+
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 </body>
 </html>
 <?php //get_sidebar(); ?>
