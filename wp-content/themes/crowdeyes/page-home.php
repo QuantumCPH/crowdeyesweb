@@ -500,19 +500,19 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <!--social end--> 
         
-        <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small> </div>
-
+        <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
+      </div>
 
       I am here to test
-<?php echo do_shortcode('
-      [formlightbox title="Send me a message" text="Contact me"]
-      [contact-form-7 id="107" title="CS Android"]
-      [/formlightbox]
-'); ?>
 
-      </script>
 
-    </div>
+      <ul id="myMenu">
+        <li id="contact"><a href="/contact">
+            <?php echo do_shortcode('[formlightbox title="Send me a message" text="Contact me"][contact-form-7 id="107" title="CS Android"][/formlightbox]'); ?>
+        </li>
+      </ul>
+
+
   </div>
 </footer>
 <!--site-footer end--> 
