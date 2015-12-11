@@ -615,7 +615,7 @@ $(function() {
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
 
-
+<?php wp_footer(); ?>
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -634,7 +634,7 @@ $(function() {
         </div>
     </div>
 
-    <?php wp_footer(); ?>
+
 
 
 </body>
