@@ -506,12 +506,11 @@ app.controller('customersCtrl', function($scope, $http) {
       I am here to test
 
 
-      <ul id="myMenu">
-        <li id="contact"><a href="/contact">
-            <?php echo do_shortcode('[formlightbox title="Send me a message" text="Contact me"][contact-form-7 id="107" title="CS Android"][/formlightbox]'); ?>
-        </li>
-      </ul>
-
+      <a href="#contact_form_pop" class="fancybox" target="_blank" rel="nofollow" >Contact Us</a>
+      <div style="display:none" class="fancybox-hidden">
+        <div id="contact_form_pop">
+          [contact-form-7 id="107" title="CS Android"]</div>
+      </div>
 
   </div>
 </footer>
