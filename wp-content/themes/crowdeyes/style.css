@@ -61,7 +61,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	box-sizing:         border-box;
 }
 
-body{ font-family:Verdana, Arial, Helvetica, sans-serif;}
+body{ font-family:Verdana, Arial, Helvetica, sans-serif; padding-right: 0 !important;}
 
 /**
  * 2.0 Repeatable Patterns
