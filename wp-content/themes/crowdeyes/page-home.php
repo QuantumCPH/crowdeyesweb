@@ -617,7 +617,6 @@ $(document).ready(function(){
 
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
-
     <!-- Modal content-->
     <div class="modal-content" style="float: left; width: 100%; padding: 5px 5px 30px 5px">
       <div class="modal-header">
@@ -627,7 +626,6 @@ $(document).ready(function(){
       <div class="modal-body">
        <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
       </div>
-
 
   </div>
 </div>
