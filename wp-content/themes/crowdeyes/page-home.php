@@ -612,6 +612,9 @@ $(document).ready(function(){
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
 <!-- Modal -->
+
+</div>
+
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
 
@@ -629,7 +632,7 @@ $(document).ready(function(){
   </div>
 </div>
 
-
+</div>
 
 </body>
 </html>
