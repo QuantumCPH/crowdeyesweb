@@ -516,9 +516,11 @@ app.controller('customersCtrl', function($scope, $http) {
 
 
       I am here to test
-
-      <?php echo do_shortcode('[formlightbox_call title="Test" class="11"]Click here[/formlightbox_call]'); ?>
-      <?php echo do_shortcode('[formlightbox_obj id="11" style="" onload="false"][contact-form-7 id="107" title="CS Android"][/formlightbox_obj]'); ?>
+<?php echo do_shortcode('
+      [formlightbox title="Send me a message" text="Contact me"]
+      [contact-form-7 id="107" title="CS Android"]
+      [/formlightbox]
+'); ?>
 
       </script>
 
