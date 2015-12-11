@@ -502,17 +502,9 @@ app.controller('customersCtrl', function($scope, $http) {
         
         <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
       </div>
+      
 
-      I am here to test
-
-
-      <a href="#contact_form_pop" class="fancybox" target="_blank" rel="nofollow" >Contact Us</a>
-      <div style="display:none" class="fancybox-hidden">
-        <div id="contact_form_pop">
-          [contact-form-7 id="107" title="CS Android"]</div>
-      </div>
-
-  </div>
+    </div>
 </footer>
 <!--site-footer end--> 
 
