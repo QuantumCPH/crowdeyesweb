@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.309091">
+            <state vertical-scroll-proportion="-4.4545455">
               <caret line="590" column="0" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
               <folding>
                 <element signature="e#6#372#0#PHP" expanded="true" />
@@ -83,8 +83,8 @@
       <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5861423">
-              <caret line="606" column="0" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4588015">
+              <caret line="611" column="35" selection-start-line="611" selection-start-column="35" selection-end-line="611" selection-end-column="35" />
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
                 <element signature="e#2689#4390#0#HTML" expanded="false" />
@@ -97,7 +97,7 @@
                 <element signature="e#20117#21568#0#HTML" expanded="false" />
                 <element signature="e#21818#22299#0#HTML" expanded="false" />
                 <element signature="e#22301#22667#0#HTML" expanded="false" />
-                <element signature="e#24110#24169#0#HTML" expanded="true" />
+                <element signature="e#24020#24079#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
       </list>
     </option>
   </component>
@@ -379,7 +379,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,7 +470,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -561,7 +561,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -645,7 +645,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,7 +729,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,7 +795,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.309091">
+        <state vertical-scroll-proportion="-4.4545455">
           <caret line="590" column="0" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
@@ -930,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5861423">
-          <caret line="606" column="0" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4588015">
+          <caret line="611" column="35" selection-start-line="611" selection-start-column="35" selection-end-line="611" selection-end-column="35" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
             <element signature="e#2689#4390#0#HTML" expanded="false" />
@@ -944,7 +944,7 @@
             <element signature="e#20117#21568#0#HTML" expanded="false" />
             <element signature="e#21818#22299#0#HTML" expanded="false" />
             <element signature="e#22301#22667#0#HTML" expanded="false" />
-            <element signature="e#24110#24169#0#HTML" expanded="true" />
+            <element signature="e#24020#24079#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
