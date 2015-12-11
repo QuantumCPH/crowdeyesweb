@@ -612,9 +612,6 @@ $(document).ready(function(){
       <div class="modal-body">
        <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
 
   </div>
