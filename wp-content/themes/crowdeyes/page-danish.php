@@ -128,7 +128,7 @@ get_header(); ?>
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
+	  <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
     </div>
@@ -441,7 +441,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
 	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
+	  <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
 	  
