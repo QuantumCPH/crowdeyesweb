@@ -55,11 +55,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	box-sizing:         border-box;
-}
 
 body{ font-family:Verdana, Arial, Helvetica, sans-serif;}
 
