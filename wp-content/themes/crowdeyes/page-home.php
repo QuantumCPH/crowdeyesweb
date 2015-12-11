@@ -309,7 +309,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <p>Announce<span>Make an announcement with just a few easy steps.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Claim your belongings<span>Support your claim by answering security questions.</span></p>
+          <p>Claim Your Belongings<span>Support your claim by answering security questions.</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
           <p>Communicate Safely<span>Chat privately and decide how to exchange.</span></p>
