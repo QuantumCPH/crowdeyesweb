@@ -617,7 +617,7 @@ $(function() {
 
 <?php wp_footer(); ?>
 <!-- Modal -->
-</div>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">

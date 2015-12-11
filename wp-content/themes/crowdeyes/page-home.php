@@ -613,7 +613,7 @@ $(document).ready(function(){
 <?php wp_footer(); ?>
 <!-- Modal -->
 
-</div>
+
 
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
