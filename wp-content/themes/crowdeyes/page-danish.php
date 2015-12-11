@@ -609,12 +609,14 @@ $(function() {
 </script>
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
 
 
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
 <!-- Modal -->
 
