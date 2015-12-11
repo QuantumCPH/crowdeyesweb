@@ -127,7 +127,7 @@ get_header(); ?>
       <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
+	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
@@ -440,7 +440,7 @@ app.controller('customersCtrl', function($scope, $http) {
 	  <div class="inn_download"> 
 	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
 	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
+	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
 	  <a target="_blank" href="https://play.google.com/store"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
 	  
 	  </div>
@@ -613,7 +613,30 @@ $(function() {
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="float: left; width: 100%; padding: 5px 5px 30px 5px">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Subscribe To Get Notified</h4>
+            </div>
+            <div class="modal-body">
+                <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
+            </div>
+
+
+        </div>
+    </div>
+
+    <?php wp_footer(); ?>
+
+
 </body>
 </html>
 <?php //get_sidebar(); ?>
