@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
     </list>
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +27,22 @@
       <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2363636">
-              <caret line="599" column="79" selection-start-line="599" selection-start-column="63" selection-end-line="599" selection-end-column="79" />
+            <state vertical-scroll-proportion="-1.3636364">
+              <caret line="558" column="0" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
               <folding>
                 <element signature="e#6#372#0#PHP" expanded="true" />
+                <element signature="e#2307#4019#0#HTML" expanded="false" />
+                <element signature="e#2415#4012#0#HTML" expanded="false" />
+                <element signature="e#4045#5128#0#HTML" expanded="false" />
+                <element signature="e#5208#14157#0#HTML" expanded="false" />
+                <element signature="e#14300#17024#0#HTML" expanded="false" />
+                <element signature="e#17025#17744#0#HTML" expanded="false" />
+                <element signature="e#17747#19585#0#HTML" expanded="false" />
+                <element signature="e#19627#21095#0#HTML" expanded="false" />
+                <element signature="e#21174#21344#0#HTML" expanded="false" />
+                <element signature="e#21367#21814#0#HTML" expanded="false" />
+                <element signature="e#21827#22171#0#HTML" expanded="false" />
+                <element signature="e#22173#22935#0#HTML" expanded="false" />
                 <element signature="e#23553#23612#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -73,11 +84,22 @@
       <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55617976">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.26779026">
+              <caret line="610" column="35" selection-start-line="610" selection-start-column="35" selection-end-line="610" selection-end-column="35" />
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
-                <element signature="e#24020#24079#0#HTML" expanded="true" />
+                <element signature="e#2689#4390#0#HTML" expanded="false" />
+                <element signature="e#2797#4383#0#HTML" expanded="false" />
+                <element signature="e#4416#5509#0#HTML" expanded="false" />
+                <element signature="e#5590#14568#0#HTML" expanded="false" />
+                <element signature="e#14711#17509#0#HTML" expanded="false" />
+                <element signature="e#17522#18227#0#HTML" expanded="false" />
+                <element signature="e#18240#20075#0#HTML" expanded="false" />
+                <element signature="e#20117#21568#0#HTML" expanded="false" />
+                <element signature="e#21818#22299#0#HTML" expanded="false" />
+                <element signature="e#22301#22667#0#HTML" expanded="false" />
+                <element signature="e#22707#23249#0#HTML" expanded="false" />
+                <element signature="e#23929#23988#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -349,7 +371,18 @@
           <caret line="330" column="10" selection-start-line="330" selection-start-column="10" selection-end-line="330" selection-end-column="10" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -390,6 +423,18 @@
           <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -419,7 +464,18 @@
           <caret line="161" column="28" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="28" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,6 +516,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -489,7 +557,18 @@
           <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,6 +602,18 @@
           <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -552,7 +643,18 @@
           <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,6 +688,18 @@
           <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -615,7 +729,18 @@
           <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,6 +774,18 @@
           <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="47" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -660,7 +797,18 @@
           <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,10 +921,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2363636">
-          <caret line="599" column="79" selection-start-line="599" selection-start-column="63" selection-end-line="599" selection-end-column="79" />
+        <state vertical-scroll-proportion="-1.3636364">
+          <caret line="558" column="0" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
           <folding>
             <element signature="e#6#372#0#PHP" expanded="true" />
+            <element signature="e#2307#4019#0#HTML" expanded="false" />
+            <element signature="e#2415#4012#0#HTML" expanded="false" />
+            <element signature="e#4045#5128#0#HTML" expanded="false" />
+            <element signature="e#5208#14157#0#HTML" expanded="false" />
+            <element signature="e#14300#17024#0#HTML" expanded="false" />
+            <element signature="e#17025#17744#0#HTML" expanded="false" />
+            <element signature="e#17747#19585#0#HTML" expanded="false" />
+            <element signature="e#19627#21095#0#HTML" expanded="false" />
+            <element signature="e#21174#21344#0#HTML" expanded="false" />
+            <element signature="e#21367#21814#0#HTML" expanded="false" />
+            <element signature="e#21827#22171#0#HTML" expanded="false" />
+            <element signature="e#22173#22935#0#HTML" expanded="false" />
             <element signature="e#23553#23612#0#HTML" expanded="true" />
           </folding>
         </state>
@@ -784,11 +944,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55617976">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.26779026">
+          <caret line="610" column="35" selection-start-line="610" selection-start-column="35" selection-end-line="610" selection-end-column="35" />
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
-            <element signature="e#24020#24079#0#HTML" expanded="true" />
+            <element signature="e#2689#4390#0#HTML" expanded="false" />
+            <element signature="e#2797#4383#0#HTML" expanded="false" />
+            <element signature="e#4416#5509#0#HTML" expanded="false" />
+            <element signature="e#5590#14568#0#HTML" expanded="false" />
+            <element signature="e#14711#17509#0#HTML" expanded="false" />
+            <element signature="e#17522#18227#0#HTML" expanded="false" />
+            <element signature="e#18240#20075#0#HTML" expanded="false" />
+            <element signature="e#20117#21568#0#HTML" expanded="false" />
+            <element signature="e#21818#22299#0#HTML" expanded="false" />
+            <element signature="e#22301#22667#0#HTML" expanded="false" />
+            <element signature="e#22707#23249#0#HTML" expanded="false" />
+            <element signature="e#23929#23988#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
