@@ -67,7 +67,7 @@ body{ font-family:Verdana, Arial, Helvetica, sans-serif;}
  * 2.0 Repeatable Patterns
  * ----------------------------------------------------------------------------
  */
-
+html{overflow-y: scroll;}
 .genericon:before,
 .menu-toggle:after,
 .featured-post:before,
