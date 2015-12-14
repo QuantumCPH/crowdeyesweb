@@ -507,14 +507,18 @@ app.controller('customersCtrl', function($scope, $http) {
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-       
         <!--social-->
         <ul class="footer_links">
+            <?php echo wp_nav_menu( array('menu' => 'Bottom Menu Danish' )); ?>
+            <!--social
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=85" >Om os</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=87" >Brugsvilkår</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=91" >Fortrolighed</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
             <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147" >FAQ</a></li>
+
+            -->
+
         </ul>
 
         <ul class="social">
