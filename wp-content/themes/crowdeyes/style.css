@@ -181,7 +181,7 @@ html{overflow-y: scroll;}
 .wp-caption {
 	max-width: 100%;
 }
-
+ul{padding-left: 0;}
 /* Make sure images with WordPress-added height and width attributes are scaled correctly. */
 .entry-content img,
 .entry-summary img,
