@@ -26,8 +26,8 @@
 
 <script>
 	$(document).ready(function() {
-		
-		$(this).oneTime(1000, function() {
+
+		$('div.wpcf7-mail-sent-ok').oneTime(1000, function() {
 			$("div.wpcf7-mail-sent-ok").hide();
 		});
 
