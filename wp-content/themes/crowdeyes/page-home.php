@@ -74,7 +74,7 @@ get_header(); ?>
         <li><a href="#featuresDD">Features</a></li>
         <li><a href="#pricings">Pricing</a></li>
         <li><a href="#downloadApp">Download</a></li>
-        <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93">FAQ</a></li>
+        <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154">FAQ</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
@@ -213,32 +213,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
 		</div>
 		</div>
-	  
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
-	
-        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
-          <div class="greenInner1"> 
-		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-          <div class="greenInner2">
-		  <span> 
-		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
-		  </span>
-            <div class="rightGreen">
-              <h4>{{cat.Title}}</h4>
-              <p>
-			 {{cat.Desciption | limitTo: 50}}...
-			  </p>
-            </div>
-          </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-        </div>
-      </div>
 	  
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
@@ -266,6 +241,33 @@ app.controller('customersCtrl', function($scope, $http) {
         </div>
 		
       </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
+
+        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
+          <div class="greenInner1">
+            <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
+          <div class="greenInner2">
+		  <span>
+		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		  </span>
+            <div class="rightGreen">
+              <h4>{{cat.Title}}</h4>
+              <p>
+                {{cat.Desciption | limitTo: 50}}...
+              </p>
+            </div>
+          </div>
+          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+        </div>
+      </div>
+
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
         
@@ -489,7 +491,7 @@ app.controller('customersCtrl', function($scope, $http) {
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >FAQ</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154" >FAQ</a></li>
         </ul>
         
         <ul class="social">
