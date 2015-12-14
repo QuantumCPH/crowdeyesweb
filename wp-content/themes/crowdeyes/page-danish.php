@@ -510,8 +510,8 @@ app.controller('customersCtrl', function($scope, $http) {
        
         <!--social-->
         <ul class="footer_links">
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >Om os</a></li>
-          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Brugsvilkår</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=85" >Om os</a></li>
+          <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=87" >Brugsvilkår</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Fortrolighed</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
             <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147" >FAQ</a></li>
