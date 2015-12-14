@@ -12,7 +12,14 @@ function initialize() {
 
         zoom: 14, //change zoom here
         draggable: false,
-        center: mapLocation
+        center: mapLocation,
+        scrollwheel:  false,
+        navigationControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        draggable: false,
+        zoomControl: false,
+        disableDefaultUI: true
 
 
     };
