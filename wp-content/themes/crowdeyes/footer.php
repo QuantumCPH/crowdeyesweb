@@ -22,5 +22,16 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+
+
+<script>
+	$(document).ready(function() {
+
+		$('div.wpcf7-mail-sent-ok').delay(5000).fadeOut('slow');
+
+	});
+</script>
+
+
 </body>
 </html>
