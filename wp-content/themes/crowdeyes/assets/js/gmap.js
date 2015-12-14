@@ -18,8 +18,7 @@ function initialize() {
         mapTypeControl: false,
         scaleControl: false,
         draggable: false,
-        zoomControl: false,
-        disableDefaultUI: true
+        zoomControl: false
 
 
     };
