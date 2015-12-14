@@ -499,11 +499,15 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--social-->
         
         <ul class="footer_links">
+
+          <?php echo wp_nav_menu( array('menu' => 'Bottom Menu En' )); ?>
+          <!--social
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About Us</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
           <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154" >FAQ</a></li>
+          -->
         </ul>
         
         <ul class="social">
