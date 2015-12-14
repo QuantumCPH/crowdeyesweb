@@ -26,10 +26,11 @@
 
 <script>
 	$(document).ready(function() {
-		setTimeout(function() {
-			$('div.wpcf7-mail-sent-ok').delay(5000).fadeOut('slow');
-		});
 		
+		$(this).oneTime(1000, function() {
+			$("div.wpcf7-mail-sent-ok").hide();
+		});
+
 	});
 </script>
 
