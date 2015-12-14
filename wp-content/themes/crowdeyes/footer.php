@@ -26,9 +26,10 @@
 
 <script>
 	$(document).ready(function() {
-
-		$('div.wpcf7-mail-sent-ok').delay(5000).fadeOut('slow');
-
+		setTimeout(function() {
+			$('div.wpcf7-mail-sent-ok').delay(5000).fadeOut('slow');
+		});
+		
 	});
 </script>
 
