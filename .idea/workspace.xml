@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-    </list>
+    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="" />
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="510" column="31" selection-start-line="510" selection-start-column="19" selection-end-line="510" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.45293072">
+              <caret line="511" column="79" selection-start-line="511" selection-start-column="79" selection-end-line="511" selection-end-column="79" />
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
               </folding>
@@ -88,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42273533">
+            <state vertical-scroll-proportion="-9.153846">
               <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
@@ -773,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="510" column="31" selection-start-line="510" selection-start-column="19" selection-end-line="510" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#379#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -801,9 +789,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42273533">
+        <state vertical-scroll-proportion="-9.153846">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45293072">
+          <caret line="511" column="79" selection-start-line="511" selection-start-column="79" selection-end-line="511" selection-end-column="79" />
+          <folding>
+            <element signature="e#6#379#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
