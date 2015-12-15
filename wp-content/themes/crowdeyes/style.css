@@ -108,7 +108,7 @@ html{overflow-y: scroll;}
 .comment-body:after {
 	clear: both;
 }
-h4{margin-bottom: 10px; margin-top: 25px;}
+
 .clear:before,
 .clear:after,
 .attachment .entry-header:before,
