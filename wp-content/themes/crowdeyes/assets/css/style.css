@@ -485,7 +485,14 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
 }
 
+.contact-form p{width: 98% !important; margin-left: 0;}
+.contact-form .wpcf7-form select{
+    height: 110px;
+    border-color: #ddd;
 
+    margin-bottom: .75em;
+
+    padding: .75em 12px;}
 
 .contact .btn-default { width: 100%; }
 
