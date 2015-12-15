@@ -480,6 +480,7 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--contact form-->
         
         <div class="contact-form">
+            
             <?php echo do_shortcode('[contact-form-7 id="215" title="Contact Form Dn"]'); ?>
 
             <!-----
