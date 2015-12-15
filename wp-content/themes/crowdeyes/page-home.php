@@ -117,8 +117,6 @@ get_header(); ?>
 <?php echo do_shortcode('[rev_slider main]'); ?>
 <!--HOME SECTION END  -->
 
- 
-
 <section id="features">
   <div class="container">
     <div class="row text-center pad-bottom">

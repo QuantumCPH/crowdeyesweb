@@ -681,7 +681,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
  .form-control::-webkit-input-placeholder, .wpcf7-form input::-webkit-input-placeholder {
 
- color: #727272;
+ color: #eee;
 
  font-weight: 300;
 
@@ -689,7 +689,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
  .form-control:-moz-placeholder, .wpcf7-form input::-webkit-input-placeholder {
 
- color: #727272;
+ color: #eee;
 
  font-weight: 300;
 
@@ -697,7 +697,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
  .form-control::-moz-placeholder, .wpcf7-form input::-moz-placeholder {
 
- color: #727272;
+ color: #eee;
 
  font-weight: 300;
 
@@ -705,7 +705,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
  .form-control:-ms-input-placeholder, .wpcf7-form input::-ms-placeholder {
 
- color: #727272;
+ color: #eee;
 
  font-weight: 300;
 
