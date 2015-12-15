@@ -550,6 +550,7 @@ $('.navbar-nav > li > a').on('click', function(){
     $(this).addClass('selected');
 });
 </script>
+
 <script>
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -586,6 +587,7 @@ $(function() {
     }
   });
 </script>
+
 <script>
   $(document).ready(function(){
 
@@ -616,7 +618,6 @@ $(function() {
 
 
   });
-
 
 </script>
 

@@ -42,7 +42,6 @@ get_header(); ?>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
-<<<<<<< HEAD
 <style>
 @media screen and (max-width: 768px){
 div#login-trigger{
@@ -52,7 +51,6 @@ color:#fff !important;
 
 </style>
 
-=======
   <style>
     @media screen and (max-width: 768px){
       div#login-trigger{
@@ -65,7 +63,6 @@ color:#fff !important;
       }
     }
   </style>
->>>>>>> 438918ec8fdd3e5f4cf340f5065fdf8fd4d4cf53
 
 </head>
 <body>
@@ -535,12 +532,14 @@ app.controller('customersCtrl', function($scope, $http) {
 
 <!-- FOOTER SECTION END-->
 <!-- CORE JQUERY FILE -->
+
 <script>
-$('.navbar-nav > li > a').on('click', function(){
+  $('.navbar-nav > li > a').on('click', function(){
     $('.navbar-nav > li > a.selected').removeClass('selected');
     $(this).addClass('selected');
-});
+  });
 </script>
+
 <script>
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -557,6 +556,7 @@ $(function() {
   });
 });
 </script>
+
 <script>
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -577,6 +577,7 @@ $(window).scroll(function() {
 });
 </script>
 
+
 <script>
 $(document).ready(function(){
 
@@ -594,7 +595,6 @@ $(document).ready(function(){
     $("#hideLogin").show();
   });
 
-
   $("#moveTop").hide();
   $(window).scroll(function() {
     if ($(window).scrollTop() > 500) {
@@ -604,7 +604,6 @@ $(document).ready(function(){
       $("#moveTop").fadeOut("fast");
     }
   });
-
 
 });
 
@@ -622,8 +621,6 @@ $(document).ready(function(){
 <?php wp_footer(); ?>
 <!-- Modal -->
 
-
-
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -638,7 +635,6 @@ $(document).ready(function(){
 
   </div>
 </div>
-
 </div>
 
 </body>
