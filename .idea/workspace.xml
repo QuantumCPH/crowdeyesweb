@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/footer.php" />
-    </list>
+    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="" />
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
