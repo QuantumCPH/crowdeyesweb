@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css" />
     </list>
+=======
+    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="" />
+>>>>>>> 702096b0d90c600777bc15ce0321dc04db5f1986
+=======
+    <list default="true" id="f0949155-acfb-4b7a-ad36-7bc444f71d6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" afterPath="$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php" />
+    </list>
+>>>>>>> 03acd538bbd75ed03213e3d2c4e772b064627e3f
     <ignored path="crowdeyesweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -71,8 +81,23 @@
       <file leaf-file-name="page-danish.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-3.2363636">
               <caret line="639" column="34" selection-start-line="639" selection-start-column="30" selection-end-line="639" selection-end-column="34" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.3623446">
+              <caret line="482" column="92" selection-start-line="482" selection-start-column="92" selection-end-line="482" selection-end-column="92" />
+=======
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="454" column="25" selection-start-line="454" selection-start-column="25" selection-end-line="454" selection-end-column="25" />
+>>>>>>> 702096b0d90c600777bc15ce0321dc04db5f1986
+=======
+            <state vertical-scroll-proportion="0.42273533">
+              <caret line="482" column="12" selection-start-line="482" selection-start-column="12" selection-end-line="482" selection-end-column="12" />
+>>>>>>> 03acd538bbd75ed03213e3d2c4e772b064627e3f
+>>>>>>> d723950c6b55f219741eb57eb803fcfa3eb5791c
               <folding>
                 <element signature="e#6#379#0#PHP" expanded="true" />
               </folding>
@@ -793,6 +818,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2363636">
@@ -800,6 +826,42 @@
           <folding>
             <element signature="e#6#379#0#PHP" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="488" column="68" selection-start-line="488" selection-start-column="68" selection-end-line="488" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/crowdeyes/page-danish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3623446">
+          <caret line="482" column="92" selection-start-line="482" selection-start-column="92" selection-end-line="482" selection-end-column="92" />
+          <folding>
+            <element signature="e#6#379#0#PHP" expanded="true" />
+          </folding>
+=======
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="454" column="25" selection-start-line="454" selection-start-column="25" selection-end-line="454" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#379#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 03acd538bbd75ed03213e3d2c4e772b064627e3f
+    <entry file="file://$USER_HOME$/Desktop/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> 702096b0d90c600777bc15ce0321dc04db5f1986
+>>>>>>> d723950c6b55f219741eb57eb803fcfa3eb5791c
         </state>
       </provider>
     </entry>

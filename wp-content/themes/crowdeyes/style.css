@@ -474,7 +474,7 @@ ul.nav-menu .focus > ul,
 	right: 20px;
 	top: 1px;
 }
-
+.address li{list-style:none;}
 .site-header .search-field {
 	background-color: transparent;
 	background-image: url(images/search-icon.png);
@@ -2720,4 +2720,3 @@ footer.entry-meta {
 		color: #333;
 	}
 }
-

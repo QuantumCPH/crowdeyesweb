@@ -83,7 +83,17 @@ p{ margin-top:10px;}
 	
         <div class="section" id="about-us">
             <h2><?php the_title(); ?></h2>
-            <p><?php echo $post->post_content; ?> Coming Soon</p>
+            <p><?php echo get_the_content(); ?></p>
+
+<?php
+if ( have_posts() ) :
+	while ( have_posts() ) : the_post(); ?>
+		<p><?php echo get_the_content(); ?></p>
+	<?php endwhile;
+else :
+	echo wpautop( 'Sorry, no posts were found' );
+endif;
+?>
         </div>
         
 	

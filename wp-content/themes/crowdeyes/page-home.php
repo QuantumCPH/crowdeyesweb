@@ -42,6 +42,17 @@ get_header(); ?>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
+<<<<<<< HEAD
+<style>
+@media screen and (max-width: 768px){
+div#login-trigger{
+color:#fff !important;
+}
+}
+
+</style>
+
+=======
   <style>
     @media screen and (max-width: 768px){
       div#login-trigger{
@@ -54,6 +65,7 @@ get_header(); ?>
       }
     }
   </style>
+>>>>>>> 438918ec8fdd3e5f4cf340f5065fdf8fd4d4cf53
 
 </head>
 <body>
