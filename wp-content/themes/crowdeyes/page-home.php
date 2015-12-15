@@ -38,7 +38,7 @@ get_header(); ?>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.1.js'></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
@@ -607,13 +607,13 @@ $(document).ready(function(){
 
 </script>
 
+
 <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
 <!-- REQUIRED BOOTSTRAP SCRIPTS -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
-
 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
