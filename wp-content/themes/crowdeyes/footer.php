@@ -25,11 +25,12 @@
 
 
 <script type="text/javascript">
-	$(function() {
-		$('.wpcf7-submit').click(function() {
-			setTimeout(function() { $("div.wpcf7-mail-sent-ok").fadeOut(1500); }, 5000)
 
-	})
+	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
+		$('#featuresDD').toggleClass('ok',scroll >= $('#featuresDD').offset().top);
+	});
+
 </script>
 
 
