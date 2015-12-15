@@ -26,14 +26,29 @@
 
 <script type="text/javascript">
 
-	
-	$(window).scroll();//ensure if you're in current position when page is refreshed
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			var currentScreenPosition  = $(document).scrollTop();
+			if (currentScreenPosition > featuresDD) {
+				$( "#featuresDD" ).addClass( "active" );
+			};
+		});
+	});
 
-	if ( $('body').scrollTop() > $('#featuresDD').position.top ) {
-		$('#featuresDD').addClass('selected');
-	}
-
-
+	function onScroll(event){
+		var scrollPos = $(document).scrollTop();
+		$('#featuresDD').each(function () {
+			var currLink = $(this);
+			var refElement = $(currLink.attr("href"));
+			if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+				$('#featuresDD').removeClass("active");
+				currLink.addClass("active");
+			}
+			else{
+				currLink.removeClass("active");
+			}
+		});
+	});
 </script>
 
 
