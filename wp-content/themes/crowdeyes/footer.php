@@ -37,7 +37,7 @@
 
 	$(window).scroll(function() {
 
-		if ($(this).scrollTop() > featuresDD){
+		if ($(this).scrollTop() > '#featuresDD'){
 			$('#featuresDD').addClass("content_fixed");
 		}
 		else{
