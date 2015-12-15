@@ -580,6 +580,17 @@ $(window).scroll(function() {
     $("#pricings").addClass("fixedDown");
   }
 
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll <= #pricings) {
+      $("#pricings").addClass("fixedDown");
+    }
+  }
+
+  if (window.location >= "#pricings") {
+    $("#pricings").addClass("fixedDown");
+  }
+
 
 });
 </script>
