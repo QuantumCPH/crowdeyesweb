@@ -574,6 +574,12 @@ $(window).scroll(function() {
   } else {
     $("#downFixed").addClass("fixedDown");
   }
+
+  if ($('body').scrollTo('#pricings');) {
+    $("#pricings").addClass("fixedDown");
+  }
+
+
 });
 </script>
 
