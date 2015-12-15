@@ -15,6 +15,7 @@
 ?>
 <html>
 <head>
+  <?php get_header(); ?>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="description" content="" />
@@ -63,7 +64,7 @@ color:#fff !important;
       }
     }
   </style>
-<?php get_header(); ?>
+
 </head>
 <body>
 <div class="navbar navbar-default" id="fixedNav">
