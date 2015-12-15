@@ -24,31 +24,5 @@
 	<?php wp_footer(); ?>
 
 
-<script type="text/javascript">
-
-	$(document).ready(function(){
-		$(window).scroll(function(){
-			var currentScreenPosition  = $(document).scrollTop();
-			if (currentScreenPosition > featuresDD) {
-				$( "#featuresDD" ).addClass( "active" );
-			};
-		});
-	});
-
-	$(window).scroll(function() {
-
-		if ($(this).scrollTop() > '#featuresDD'){
-			$('#featuresDD').addClass("content_fixed");
-		}
-		else{
-			$('#featuresDD').removeClass("content_fixed");
-		}
-	});
-
-</script>
-
-
-
-
 </body>
 </html>
