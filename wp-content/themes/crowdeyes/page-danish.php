@@ -322,19 +322,19 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt.</span></p>
+          <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Annoncere<span>Lav et opslag i et par enkelte trin.</span></p>
+          <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål.</span></p>
+          <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Kommunikér sikkert<span>Snak privat og aftal udveksling.</span></p>
+          <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav.</span></p>
+          <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
         </div>
       </div>
     </div>
