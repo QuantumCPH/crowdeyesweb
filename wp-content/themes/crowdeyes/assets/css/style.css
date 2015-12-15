@@ -964,7 +964,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 .inn_download{ width:320px; float:none; margin:0 auto; text-align: center;}
     .navbar-nav{margin-top: 7px !important;}
 .navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px !important; margin:0 5px !important; font-size:16px}
-.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ margin:0 5px; color: #666;}
+.navbar-default .navbar-nav > li > a:hover, .selected, .hideDiv .selected{ margin:0 5px; color: #666 !important;}
 .topHead span{ font-size:26px;}
 .greenBox .greenInner1 font{ float:left; margin-left:7px; margin-top:-2px; min-width: 50%; text-align: left;}
 .greenBox .greenInner3 span{ font-size:12px;}
