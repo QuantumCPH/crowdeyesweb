@@ -35,20 +35,16 @@
 		});
 	});
 
-	function onScroll(event){
-		var scrollPos = $(document).scrollTop();
-		$('#featuresDD').each(function () {
-			var currLink = $(this);
-			var refElement = $(currLink.attr("href"));
-			if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-				$('#featuresDD').removeClass("active");
-				currLink.addClass("active");
-			}
-			else{
-				currLink.removeClass("active");
-			}
-		});
+	$(window).scroll(function() {
+
+		if ($(this).scrollTop() > featuresDD){
+			$('#featuresDD').addClass("content_fixed");
+		}
+		else{
+			$('#featuresDD').removeClass("content_fixed");
+		}
 	});
+
 </script>
 
 
