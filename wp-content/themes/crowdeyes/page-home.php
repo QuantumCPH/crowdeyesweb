@@ -456,20 +456,25 @@ app.controller('customersCtrl', function($scope, $http) {
         <!--contact form-->
         
         <div class="contact-form">
-          <form role="form" action="#" method="post" id="contact-form">
+
+          <?php echo do_shortcode('[contact-form-7 id="215" title="Contact Form En"]'); ?>
+
+         <!--- <form role="form" action="#" method="post" id="contact-form">
             <input type="text" class="wow fadeInUp form-control" name="name" id="name" placeholder="Your Name" required>
             <input type="email" class="wow fadeInUp form-control" name="email" id="email" placeholder="Email Address" required>
             <textarea class="wow fadeInUp form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required></textarea>
             <button type="submit" class="wow fadeInUp btn btn-default submit-btn" id="submit-btn" value="Send">Send</button>
           </form>
-          
-          <!--contact form end-->
+
           <div class="success-cf">
             <p>Tak! Din besked er blevet sendt.</p>
           </div>
           <div class="error-cf">
             <p>Vi beklager der skete en fejl, prøv at opdatere hjemmesiden og indsend din besked igen. Vi beklager ulejligheden.</p>
           </div>
+          -->
+          <!--contact form end-->
+
         </div>
       </div>
     </div>
