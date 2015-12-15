@@ -30,7 +30,7 @@
 		var scroll = $(window).scrollTop();
 		$('#featuresDD').toggleClass('ok',
 			//add 'ok' class when div position match or exceeds else remove the 'ok' class.
-			scroll >= $('#featuresDD').offset().top
+			scroll >= $('#featuresDD'){ ('#featuresDD'. addClass('aaa')};
 		);
 	});
 	$(window).scroll();//ensure if you're in current position when page is refreshed
