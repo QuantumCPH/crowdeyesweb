@@ -44,7 +44,7 @@ input{ outline:none;}
 		margin: 0 10px;
     }
 .selected, .navbar-default .navbar-nav > li > a:hover{ 
-color: #666;
+color: #666 !important;
 		font-family:'MyriadPro', Helvetica, sans-serif;
 		font-weight:normal;
 text-decoration:none;
