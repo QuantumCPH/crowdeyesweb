@@ -26,8 +26,8 @@
 
 <script type="text/javascript">
 	$(function() {
-		setTimeout(function() { $(".wpcf7-mail-sent-ok").fadeOut(1500); }, 5000)
-
+		$('.wpcf7-submit').click(function() {
+			setTimeout(function() { $("div.wpcf7-mail-sent-ok").fadeOut(1500); }, 5000)
 
 	})
 </script>
