@@ -575,7 +575,7 @@ $(window).scroll(function() {
     $("#downFixed").addClass("fixedDown");
   }
 
-  if ($('body').scrollTo('#pricings');) {
+  if (scroll >=  $("#downFixed")) {
     $("#pricings").addClass("fixedDown");
   }
 
