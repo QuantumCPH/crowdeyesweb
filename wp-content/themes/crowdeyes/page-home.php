@@ -230,7 +230,7 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
         
-        <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
+        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
            <div class="greenInner1"> 
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
@@ -284,7 +284,7 @@ app.controller('customersCtrl', function($scope, $http) {
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
         
 	
-        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
+        <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
            <div class="greenInner1"> 
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
@@ -317,19 +317,19 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live News Feed<span>Get the latest searches and new updates instantly.</span></p>
+          <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Announce<span>Make an announcement with just a few easy steps.</span></p>
+          <p>Announce<span>Make an announcement with just a few easy steps</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Claim Your Belongings<span>Support your claim by answering security questions.</span></p>
+          <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Communicate Safely<span>Chat privately and decide how to exchange.</span></p>
+          <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
         </div>
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Activity Overview<span>Keep track of own announcements and claims.</span></p>
+          <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
         </div>
       </div>
     </div>
