@@ -469,7 +469,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
   margin-bottom: .75em;
 
-  padding: .75em 12px;
+  padding: 10px 12px;
 
 }
 
@@ -486,6 +486,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 }
 
 .contact-form p{width: 98% !important; margin-left: 0;}
+.contact-form .wpcf7-form input[type=submit]{width: 100% !important;}
 .contact-form .wpcf7-form textarea{
     height: 110px;
     width: 100%;
@@ -729,7 +730,7 @@ font-size:18px; padding-top:13px; color:#000 !important;
 
   box-shadow: none;
 
-  height: 40px;
+  height: 45px;
 
   font-weight: 300;
 
