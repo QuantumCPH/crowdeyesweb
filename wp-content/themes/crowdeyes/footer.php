@@ -24,14 +24,12 @@
 	<?php wp_footer(); ?>
 
 
-<script>
-	$(document).ready(function() {
+<script type="text/javascript">
+	$(function() {
+		setTimeout(function() { $(".wpcf7-mail-sent-ok").fadeOut(1500); }, 5000)
 
-		$('div.wpcf7-mail-sent-ok').oneTime(1000, function() {
-			$("div.wpcf7-mail-sent-ok").hide();
-		});
 
-	});
+	})
 </script>
 
 
