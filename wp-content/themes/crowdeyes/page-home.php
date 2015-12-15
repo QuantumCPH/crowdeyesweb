@@ -12,7 +12,7 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+?>
 <html>
 <head>
   <meta charset="utf-8" />
@@ -63,7 +63,7 @@ color:#fff !important;
       }
     }
   </style>
-
+<?php get_header(); ?>
 </head>
 <body>
 <div class="navbar navbar-default" id="fixedNav">
