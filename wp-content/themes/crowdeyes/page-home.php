@@ -68,14 +68,14 @@ color:#fff !important;
 <body>
 <div class="navbar navbar-default" id="fixedNav">
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
-  <div class="container">
+
     <div id="flags_language_selector">
       <div class="container">
       <a class="slct" href="#"> English | </a>
       <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Danish </a>
         </div>
     </div>
-
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href=""> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
