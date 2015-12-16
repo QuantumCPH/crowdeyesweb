@@ -109,8 +109,8 @@ color:#fff !important;
     <div class="container">
       <p class="p-cls"> A lookup platform that makes it easy to advertise and actively search for lost items, missing people or pets, as well as seek witnesses to incidents. Helps you and makes it easy to help others.
       <span class="downLoadLinks">
-         <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
-         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
+         <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download from App Store</span></a>
+         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Play Store coming soon</span></a>
       </span>
       </p>
 
