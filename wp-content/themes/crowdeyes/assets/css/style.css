@@ -246,7 +246,7 @@ color:#019271;
     }
 	
 	
-.downloadApp{ float:left; width:100%; display: none; background:#009271; position:relative; z-index:999;}
+.downloadApp{ float:left; width:100%; background:#009271; position:relative; z-index:999;}
     #home h1 {
         padding-top: 80px;
         font-weight: 900;
@@ -295,7 +295,7 @@ background:#222 !important;
     padding-bottom: 40px;
 	float:none;
 	width:100%;
-	font-size:24px;
+	font-size:28px;
 	line-height:35px;
 	position:relative;
 	z-index:3;
@@ -933,8 +933,6 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     background: #F3F5F4;
     padding: 5px 0;
 }
-.downLoadLinks{float: left; width: 100%;}
-.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 5px 10px; border-radius: 0;}
 #flags_language_selector .container{padding-right: 50px;}
 #flags_language_selector a{color: #333; text-decoration: none; font-size: 13px;}
 #flags_language_selector .slct{ font-weight: 600;}
@@ -963,14 +961,14 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
     .greenInner2 .rightGreen{float: left; margin-left: 5px; width: 50%;}
 
-    #flags_language_selector{right: 0;}
+    #flags_language_selector{right: 5%;}
     .navbar-default{max-height: 65px;}
 .navbar-brand img{ width:200px;}
 
     #home, .banner-text{ height:370px; min-height:370px;}
     #home .overlay{ height:400px; min-height:400px;}
 
-.p-cls{ top:150px; font-size:20px;}
+.p-cls{ top:150px; font-size:26px;}
 .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
 .inn_download a{ margin-left:5px; margin-right:0; font-size: 16px; float: none;}
     .inn_download a span{margin: 0 5px; }
@@ -1001,7 +999,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
 
 @media screen and (max-width: 736px) {
-    #flags_language_selector{right: 0;}
+    #flags_language_selector{right: 4%;}
 .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
 .hideDiv .navbar-toggle{ margin-top:23px}
@@ -1029,12 +1027,12 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 }
 
 @media screen and (max-width: 600px) {
-    #flags_language_selector{right: 0;}
+    #flags_language_selector{right: 5.5%;}
     .topHead span{display: block;}
 #home, .banner-text{ height:270px; min-height:270px;}
   #home .overlay{ height:290px; min-height:290px;}
 .banner-text{ padding-left:0; padding-right:0;}
-.p-cls{ width:90%; font-size:20px; top:100px; line-height:24px;}
+.p-cls{ width:90%; font-size:22px; top:100px; line-height:24px;}
 .navbar-brand img{ margin-left:0;}
 #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
 #login-trigger{color: #000; !important;}
@@ -1042,11 +1040,11 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
-    #flags_language_selector{right: 0;}
+    #flags_language_selector{right: 6%;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
 #home, .banner-text{ height:180px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
-.p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
+.p-cls{ top:10px; padding-top: 10px; font-size:18px; line-height:18px; height: 125px;}
 .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
 #home{ background-size:150%;}
 .downloadApp p{ font-size:20px; padding-top: 0px; margin-bottom: 0;}
