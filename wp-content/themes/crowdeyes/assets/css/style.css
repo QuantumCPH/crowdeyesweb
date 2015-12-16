@@ -921,7 +921,16 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 }
 #rev_slider_1_1, #rev_slider_1_1_wrapper{background: #fff !important;}
 .navbar-collapse{ position:relative;}
-#flags_language_selector{ position:absolute; z-index:9999999; right:50px; top:-1px;}
+#flags_language_selector{ position:absolute; z-index:9999999; right:50px; top:-1px;
+    position: fixed;
+    z-index: 9999999;
+    right: 0;
+    top: -1px;
+    width: 100%;
+    text-align: right;
+    background: #F3F5F4;
+    padding: 5px 139px;
+}
 #flags_language_selector a{color: #000000; text-decoration: none; font-size: 13px;}
 #flags_language_selector .slct{ font-weight: 600;}
 #flags_language_selector img{ padding:1px;}
