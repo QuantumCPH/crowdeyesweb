@@ -293,17 +293,19 @@ background:#222 !important;
 .p-cls {
     padding-top: 30px;
     padding-bottom: 40px;
-	float:left;
-	width:520px;
+	float:none;
+	width:100%;
 	text-align:left;
-	font-size:32px;
+	font-size:28px;
 	line-height:35px;
-	position:absolute;
+	position:relative;
 	z-index:3;
 	top:250px;
 	color:#fff;
 	font-family:"Alegreya Sans", Helvetica, sans-serif;
 	font-weight:400;
+    max-width: 650px;
+    text-align: center;
 }
 .downloadApp p{
 padding:45px 0px 40px 0;
