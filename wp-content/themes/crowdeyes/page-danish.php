@@ -115,7 +115,7 @@ get_header(); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> En søgeplatform, som gør det muligt at få hjælp når du søger efter genstande, personer, kæledyr eller vidner til hændelser - eller hjælpe andre i samme situation. </p>
+      <p class="p-cls"> En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre. </p>
     </div>
   </div>
   <div class="overlay">

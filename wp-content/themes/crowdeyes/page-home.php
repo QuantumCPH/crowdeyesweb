@@ -104,7 +104,7 @@ color:#fff !important;
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> A search platform, which enables you to get help when searching for objects, people, pets or witnesses to incidents - or help others in the same situation. </p>
+      <p class="p-cls"> A lookup platform that makes it easy to advertise and actively search for lost items, missing people or pets, as well as seek witnesses to incidents. Helps you and makes it easy to help others. </p>
     </div>
   </div>
   <div class="overlay">
