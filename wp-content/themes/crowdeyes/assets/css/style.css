@@ -246,7 +246,7 @@ color:#019271;
     }
 	
 	
-.downloadApp{ float:left; width:100%; background:#009271; position:relative; z-index:999;}
+.downloadApp{ float:left; width:100%; display: none; background:#009271; position:relative; z-index:999;}
     #home h1 {
         padding-top: 80px;
         font-weight: 900;
@@ -422,7 +422,7 @@ padding:30px 0px 20px 0;
     }
 .topHead { float:left;  width:100%; margin:15px 0;}
 .topHead span{ display: inline-flex; font-size:32px; color:#168EB3; position:relative; top:10px;}
-.topHead img{width: 53px;}
+.topHead img{width: 53px; margin-top: 5px;}
 /*================================
     FOOTER SECTION STYLES
 ==================================*/
