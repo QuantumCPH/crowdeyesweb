@@ -147,7 +147,7 @@ app.controller('customersCtrl', function($scope, $http) {
                 method: "post",
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
                 data: {
-                    Count: "150",
+                    Count: "250",
                     ProfileID: "771",
 					SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
@@ -164,7 +164,7 @@ app.controller('customersCtrl', function($scope, $http) {
                 method: "post",
                 url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
                 data: {
-                    Count: "150",
+                    Count: "250",
                     ProfileID: "771",
 					SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
