@@ -999,7 +999,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
 
 @media screen and (max-width: 736px) {
-    #flags_language_selector{right: 4%;}
+    #flags_language_selector{right: 0;}
 .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
 .hideDiv .navbar-toggle{ margin-top:23px}
@@ -1027,7 +1027,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 }
 
 @media screen and (max-width: 600px) {
-    #flags_language_selector{right: 5.5%;}
+    #flags_language_selector{right: 0;}
     .topHead span{display: block;}
 #home, .banner-text{ height:270px; min-height:270px;}
   #home .overlay{ height:290px; min-height:290px;}
@@ -1040,7 +1040,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
-    #flags_language_selector{right: 6%;}
+    #flags_language_selector{right: 0;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
 #home, .banner-text{ height:180px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
