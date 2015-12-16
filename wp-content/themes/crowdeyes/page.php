@@ -87,6 +87,9 @@ p{ margin-top:10px;}
         <div class="section" id="about-us">
             <h2><?php the_title(); ?></h2>
             <p><?php echo $post->post_content; ?></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
         </div>
         
 	
