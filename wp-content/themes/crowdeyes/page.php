@@ -29,7 +29,8 @@ div#sections {
     clear:right;
     width:75%;
 }
-h2{ font-weight:600; margin-bottom:0;}
+h2{ font-weight:600; margin-bottom:5px;}
+h4{margin-bottom: 10px; margin-top: 25px;}
 p{ margin-top:10px;}
 #about-us, #privacy, #terms{ float:left; padding-top:80px; margin-left:5%; margin-top:-70px; width:90%;}
 
