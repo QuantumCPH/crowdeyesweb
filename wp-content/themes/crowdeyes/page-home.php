@@ -257,7 +257,7 @@ app.controller('customersCtrl', function($scope, $http) {
         <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1">
             <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}--- {{cat.AnnouncementID}}
+			{{cat.CreatedBy_Profile.Name}}--- {{cat.Comments.AnnouncementID}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
           <div class="greenInner2">
