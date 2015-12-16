@@ -295,7 +295,6 @@ background:#222 !important;
     padding-bottom: 40px;
 	float:none;
 	width:100%;
-	text-align:left;
 	font-size:28px;
 	line-height:35px;
 	position:relative;
@@ -306,6 +305,7 @@ background:#222 !important;
 	font-weight:400;
     max-width: 650px;
     text-align: center;
+    margin: 0 auto;
 }
 .downloadApp p{
 padding:45px 0px 40px 0;
