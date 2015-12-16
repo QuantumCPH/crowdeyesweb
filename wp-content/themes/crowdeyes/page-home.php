@@ -560,41 +560,23 @@ $(function() {
 </script>
 
 <script>
-$(window).scroll(function() {
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 10) {
-		$("#fixedNav").addClass("hideDiv");
+      $("#fixedNav").addClass("hideDiv");
 
     } else {
-		$("#fixedNav").removeClass("hideDiv");
+      $("#fixedNav").removeClass("hideDiv");
     }
 
-  if (scroll >= 20) {
-    $("#downFixed").removeClass("fixedDown");
+    if (scroll >= 20) {
+      $("#downFixed").removeClass("fixedDown");
 
-  } else {
-    $("#downFixed").addClass("fixedDown");
-  }
-
-
-  if ( $('body').scrollTop() > $('#pricings').position.top ) {
-    $("#pricings").addClass("fixedDown");
-  }
-
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll <= #pricings) {
-      $("#pricings").addClass("fixedDown");
+    } else {
+      $("#downFixed").addClass("fixedDown");
     }
-  }
-
-  if (window.location >= "#pricings") {
-    $("#pricings").addClass("fixedDown");
-  }
-
-
-});
+  });
 </script>
 
 
