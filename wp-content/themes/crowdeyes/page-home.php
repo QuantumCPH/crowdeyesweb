@@ -70,8 +70,10 @@ color:#fff !important;
 <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
   <div class="container">
     <div id="flags_language_selector">
+      <div class="container">
       <a class="slct" href="#"> English | </a>
       <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Danish </a>
+        </div>
     </div>
 
     <div class="navbar-header">
