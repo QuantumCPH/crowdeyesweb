@@ -69,7 +69,7 @@ text-decoration:none;
 }
 .navbar-default .navbar-toggle{border-color: #999;}
 .hideDiv{ float:left !important; width:100% !important; border-bottom:solid 1px #eee; opacity: 1; background:#fff !important; position:fixed !important; width:100% !important; height:60px;}
-	.hideDiv .navbar-brand{ margin-top:5px; -webkit-transition: all 0.3s ease-out;
+	.hideDiv .navbar-brand{ margin-top:10px; -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;}
