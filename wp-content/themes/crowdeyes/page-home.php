@@ -227,7 +227,7 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
         
-        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter:TopCategoryID : 2 | limitTo:quantity1">
+        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
            <div class="greenInner1"> 
 		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
@@ -254,7 +254,7 @@ app.controller('customersCtrl', function($scope, $http) {
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
 
-        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: TopCategoryID : 12 | limitTo:quantity1">
+        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1">
             <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
