@@ -261,7 +261,7 @@ app.controller('customersCtrl', function($scope, $http) {
         </div>
 	  
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Mennesker</span> </div>
+        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Person</span> </div>
 	
         <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
           <div class="greenInner1"> 
