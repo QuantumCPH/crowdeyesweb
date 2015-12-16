@@ -103,6 +103,7 @@ color:#fff !important;
   </div>
 </div>
 <!-- NAVBAR CODE END -->
+<?php echo do_shortcode('[rev_slider main]'); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
@@ -125,7 +126,7 @@ color:#fff !important;
     </div>
   </div>
 </div>
-<?php echo do_shortcode('[rev_slider main]'); ?>
+
 <!--HOME SECTION END  -->
 
 <section id="features">

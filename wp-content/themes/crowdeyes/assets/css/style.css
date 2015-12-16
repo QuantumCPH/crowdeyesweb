@@ -961,7 +961,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
     .greenInner2 .rightGreen{float: left; margin-left: 5px; width: 50%;}
 
-    #flags_language_selector{right: 5%;}
+    #flags_language_selector{right: 0;}
     .navbar-default{max-height: 65px;}
 .navbar-brand img{ width:200px;}
 
