@@ -295,7 +295,7 @@ input{ outline:none;}
     padding-bottom: 40px;
     float:none;
     width:100%;
-    font-size:24px;
+    font-size:28px;
     line-height:35px;
     position:relative;
     z-index:3;
@@ -303,9 +303,16 @@ input{ outline:none;}
     color:#fff;
     font-family:"Alegreya Sans", Helvetica, sans-serif;
     font-weight:400;
-    max-width: 650px;
+    max-width: 550px;
     text-align: center;
     margin: 0 auto;
+}
+.p-cls label{
+    float: left;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 .downloadApp p{
     padding:45px 0px 40px 0;
@@ -356,7 +363,13 @@ input{ outline:none;}
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
 }
-.inn_download a:hover {
+.downLoadLinks .btn-lg{
+    box-shadow: inset 0 0 0 0 #444;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+.inn_download a:hover, .downLoadLinks .btn-lg:hover {
     box-shadow: inset 0 100px 0 0 #222;
     color: #FFF;
 }
@@ -934,9 +947,9 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     padding: 5px 0;
 }
 .downLoadLinks{float: left; width: 100%; margin-top: 20px;}
-.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 7px 15px; border-radius: 5px; margin: 5px;}
+.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 7px 15px; border-radius: 6px; margin: 5px;}
 .downLoadLinks img{width: 32px; float: left;}
-.downLoadLinks span{ font-size: 22px; margin-top: 2px; float: left; margin-left: 10px;}
+.downLoadLinks span{ font-size: 22px; margin-top: 5px; float: left; margin-left: 10px;}
 #flags_language_selector .container{padding-right: 50px;}
 #flags_language_selector a{color: #333; text-decoration: none; font-size: 13px;}
 #flags_language_selector .slct{ font-weight: 600;}
