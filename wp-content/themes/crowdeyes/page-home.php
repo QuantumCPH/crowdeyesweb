@@ -107,7 +107,6 @@ get_header(); ?>
 
   <div id="home">
     <div class="container banner-text">
-      <div class="container">
         <p class="p-cls">
           <label>Helping you help others</label>
           A lookup platform that makes it easy to advertise and actively search for lost items, missing people or pets, as well as seek witnesses to incidents. Helps you and makes it easy to help others.
@@ -118,7 +117,6 @@ get_header(); ?>
         </p>
 
       </div>
-    </div>
     <div class="overlay">
       <!-- overylay class usage -->
     </div>
