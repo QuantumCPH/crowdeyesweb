@@ -981,7 +981,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #moveTop{font-size: 20px;}
 
     #home, .banner-text{ height:500px; min-height:500px;}
-    #home .overlay{ height:530px; min-height:530px;}
+    #home .overlay{ height:530px; min-height:530px; display: none;}
 
 }
 @media screen and (max-width: 768px) {
