@@ -468,7 +468,7 @@ footer {
 .hideDiv #login-content{ margin-top:-15px;}
 .rev_slider_wrapper{ position:absolute; top:0; z-index:1 !important;}
 .tp-loader{ display:none;}
-.rev_slider_wrappe img{background-color: #000 !important;}
+.tp-bgimg{background-color: #000 !important; opacity: .8;}
 
 /* ==========================================================================
 
