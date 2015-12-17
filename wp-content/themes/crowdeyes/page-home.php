@@ -48,10 +48,9 @@ get_header(); ?>
           color:#fff !important;
         }
       }
+      .tp-bgimg{
+        opacity: .7 !important;}
 
-    </style>
-
-    <style>
       @media screen and (max-width: 768px){
         div#login-trigger{
           color:#000 !important;
