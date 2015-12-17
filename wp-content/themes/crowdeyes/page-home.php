@@ -117,9 +117,11 @@ get_header(); ?>
         </p>
 
       </div>
+    <!-- overylay class usage
     <div class="overlay">
-      <!-- overylay class usage -->
+
     </div>
+     -->
     <div class="downloadApp fixedDown" id="downFixed" >
       <div class="container">
         <p>Available on App Store</p>
