@@ -360,28 +360,28 @@ app.controller('customersCtrl', function($scope, $http) {
             <div class="container">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
-                        <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
+                        <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
-                        <p>Announce<span>Make an announcement with just a few easy steps</span></p>
+                        <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
-                        <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
+                        <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6 col-xs-12"> </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
-                        <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
+                        <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
-                        <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
+                        <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
                     </div>
                 </div>
             </div>
@@ -393,23 +393,6 @@ app.controller('customersCtrl', function($scope, $http) {
   <div  class="featuresDD">
     <div class="container">
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-          <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
-        </div>
-        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-          <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
-        </div>
-        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-          <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
-        </div>
-        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-          <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
-        </div>
-        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-          <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
