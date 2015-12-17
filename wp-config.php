@@ -19,22 +19,22 @@
 
 
 
-define('DB_NAME', 'crowd');
+//define('DB_NAME', 'crowd');
 //
 ///** MySQL database username */
-define('DB_USER', 'root');
+//define('DB_USER', 'root');
 //
 ///** MySQL database password */
-define('DB_PASSWORD', '');
+//define('DB_PASSWORD', '');
 
 
-//define('DB_NAME', 'crowdeyes');
+define('DB_NAME', 'crowdeyes');
 
 /** MySQL database username */
-//define('DB_USER', 'root');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-//define('DB_PASSWORD', 'UtlK&@#as@!&12');
+define('DB_PASSWORD', 'UtlK&@#as@!&12');
 
 
 /** MySQL hostname */
@@ -81,7 +81,7 @@ $table_prefix  = 'wp_cr_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -93,6 +93,3 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 show_admin_bar( false );
-
-error_reporting(E_ALL); ini_set('display_errors', 1);
-define( 'WP_DEBUG', true);
