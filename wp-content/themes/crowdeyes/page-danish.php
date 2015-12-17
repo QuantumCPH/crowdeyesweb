@@ -215,116 +215,138 @@ app.controller('customersCtrl', function($scope, $http) {
 .imgFirst{ height:30px; width:30px;}
 .lostImg2{ height:110px; width:110px;}
 </style>
-	
-    <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Genstand</span> </div>
-      
-        <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
-          <div class="greenInner1"> 
-		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-          <div class="greenInner2">
-		  <span> 
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
-		  </span>
-            <div class="rightGreen">
-              <h4>{{cat.Title}}</h4>
-              <p>
-			 {{cat.Desciption | limitTo: 50}}...
-			  </p>
-            </div>
-          </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-		</div>
-		</div>
 
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Kæledyr</span> </div>
+      <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
-            <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
-                <div class="greenInner1">
-                    <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
+              <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
+                  <div class="greenBoxB1">
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-                <div class="greenInner2">
+                      <div class="greenInner2">
+
 		  <span>
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
+		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
-                    <div class="rightGreen">
-                        <h4>{{cat.Title}}</h4>
-                        <p>
-                            {{cat.Desciption | limitTo: 50}}...
-                        </p>
-                    </div>
-                </div>
-                <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-            </div>
-
-        </div>
-	  
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Person</span> </div>
-	
-        <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
-          <div class="greenInner1"> 
-		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+                          <div class="rightGreen">
+                              <h4>{{cat.Title}}</h4>
+                              <p>
+                                  {{cat.Desciption | limitTo: 50}}...
+                              </p>
+                          </div>
+                      </div>
+                      <div class="greenInner3">
+                          <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-1.png" />
+                          <span>{{cat.Location | limitTo: 35}}</span>
+                      </div>
+                      <div class="greenInner1">
+                          <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-          <div class="greenInner2">
-		  <span> 
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
-		  </span>
-            <div class="rightGreen">
-              <h4>{{cat.Title}}</h4>
-              <p>
-			 {{cat.Desciption | limitTo: 50}}...
-			  </p>
-            </div>
-          </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-        </div>
-      </div>
 
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Hændelse</span> </div>
-        
-	
-        <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
-           <div class="greenInner1"> 
-		  <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-          <div class="greenInner2">
-		  <span> 
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.When | date:'d-M-y HH:mm'}}</font>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
+
+              <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
+                  <div class="greenBoxB2">
+
+                      <div class="greenInner2">
+		  <span>
+			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
-            <div class="rightGreen">
-              <h4>{{cat.Title}}</h4>
-              <p>
-			 {{cat.Desciption | limitTo: 50}}...
-			  </p>
-            </div>
+                          <div class="rightGreen">
+                              <h4>{{cat.Title}}</h4>
+                              <p>
+                                  {{cat.Desciption | limitTo: 50}}...
+                              </p>
+                          </div>
+                      </div>
+                      <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+                      <div class="greenInner1">
+                          <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
+              <span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font>
+                              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-        </div>
-		
-		
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
+
+              <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
+                  <div class="greenBoxB3">
+
+                      <div class="greenInner2">
+		  <span>
+		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		  </span>
+                          <div class="rightGreen">
+                              <h4>{{cat.Title}}</h4>
+                              <p>
+                                  {{cat.Desciption | limitTo: 50}}...
+                              </p>
+                          </div>
+                      </div>
+                      <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+                      <div class="greenInner1">
+                          <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
+
+
+              <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
+                  <div class="greenBoxB4">
+                      <div class="greenInner2">
+		  <span>
+
+		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		  </span>
+                          <div class="rightGreen">
+                              <h4>{{cat.Title}}</h4>
+                              <p>
+                                  {{cat.Desciption | limitTo: 50}}...
+                              </p>
+                          </div>
+                      </div>
+                      <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+                      <div class="greenInner1">
+                          <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
+
+                  </div>
+              </div>
+
+
+          </div>
       </div>
-    </div>
   </div>
   <div id="featuresDD" style="float: left; visibility: hidden; width: 100%;"></div>
   <div  class="featuresDD">
