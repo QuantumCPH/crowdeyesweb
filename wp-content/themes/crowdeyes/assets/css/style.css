@@ -359,7 +359,7 @@ input{ outline:none;}
     margin-top:0;
 }
 #features{ background:#f3f5f4;}
-.leftImg{ margin-top:50px; float:left; max-width:100%;}
+.leftImg{ margin:50px auto; float:none; max-width:100%; }
 .featuresDD{ float:left; width:100%; padding:60px 0; background:#178EB4; margin-top:50px;}
 .inn_download{ float:left; margin-top:28px;}
 .inn_download img { float:left; width:30px;}
