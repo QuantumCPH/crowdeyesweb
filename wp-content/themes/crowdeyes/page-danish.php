@@ -117,7 +117,13 @@ get_header(); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
-      <p class="p-cls"> En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre. </p>
+      <p class="p-cls"> En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre.
+      <span class="downLoadLinks">
+         <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download from App Store</span></a>
+         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Play Store coming soon</span></a>
+      </span>
+      </p>
+
     </div>
   </div>
   <div class="overlay">
