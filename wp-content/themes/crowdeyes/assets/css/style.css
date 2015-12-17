@@ -934,9 +934,9 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     padding: 5px 0;
 }
 .downLoadLinks{float: left; width: 100%; margin-top: 20px;}
-.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 5px 15px; border-radius: 5px; margin: 5px;}
-.downLoadLinks img{width: 32px;}
-.downLoadLinks span{ font-size: 20px; margin-top: 2px; margin-left: 10px;}
+.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 7px 15px; border-radius: 5px; margin: 5px;}
+.downLoadLinks img{width: 32px; float: left;}
+.downLoadLinks span{ font-size: 22px; margin-top: 2px; float: left; margin-left: 10px;}
 #flags_language_selector .container{padding-right: 50px;}
 #flags_language_selector a{color: #333; text-decoration: none; font-size: 13px;}
 #flags_language_selector .slct{ font-weight: 600;}
