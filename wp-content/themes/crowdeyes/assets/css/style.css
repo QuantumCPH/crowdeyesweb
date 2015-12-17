@@ -933,7 +933,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     background: #F3F5F4;
     padding: 5px 0;
 }
-.downLoadLinks{float: left; width: 100%;}
+.downLoadLinks{float: left; width: 100%; margin-top: 20px;}
 .downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 5px 15px; border-radius: 5px; margin: 5px;}
 .downLoadLinks img{width: 32px;}
 .downLoadLinks span{ font-size: 20px; margin-top: 2px; margin-left: 10px;}
