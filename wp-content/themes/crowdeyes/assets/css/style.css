@@ -334,13 +334,13 @@ input{ outline:none;}
     width: 49%; text-align: right;
 }
 .head-set{
-    padding:20px 0px 10px 0;
+    padding:0px 0px 10px 0;
     float:left;
-    font-size:34px;
+    font-size:24px;
     line-height:35px;
-    color:#178EB4;
+    color:#0088b3;
     font-family:"Alegreya Sans", Helvetica, sans-serif;
-    font-weight:400;
+    font-weight:500;
     text-align:center;
     width:100%;
     margin-top:0;
@@ -358,7 +358,7 @@ input{ outline:none;}
     width:100%;
     margin-top:0;
 }
-#features{ background:#f1f1f1;}
+#features{ background:#f3f5f4;}
 .leftImg{ margin-top:50px; float:left; max-width:100%;}
 .featuresDD{ float:left; width:100%; padding:60px 0; background:#178EB4; margin-top:50px;}
 .inn_download{ float:left; margin-top:28px;}
@@ -386,10 +386,12 @@ input{ outline:none;}
 .inn_download a span{ float: right; margin:2px 10px;}
 .inn_download a img{ margin:0 !important;}
 
-.f_inner{ float:left; width:100%; margin-top:18px;}
-.f_inner img{ float:left; margin-right:15px;}
-.f_inner p{ float:left; font-size:26px; line-height:28px; width:85%; font-weight:400; font-family:"Alegreya Sans", Helvetica, sans-serif; color:#fff;}
-.f_inner p span{ float:left; width:100%; color:#B8F2FF; font-size:20px; font-weight:normal;}
+.f_inner{ float:left; width:100%; margin-top:18px; margin-top: 30px;
+    padding-top: 50px;
+    border-top: solid 1px #c7e0e7;}
+.f_inner img{ width: 64px;}
+.f_inner p{ float:left; font-size:26px; line-height:28px; margin:20px 5%; font-weight: 500; width:90%; font-family:"Alegreya Sans", Helvetica, sans-serif; color: #0088b3;}
+.f_inner p span{ float:left; width:100%; color:#0088b3; font-size:20px; }
 
 
 /*======================================
@@ -397,26 +399,30 @@ input{ outline:none;}
 =========================================*/
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
 .imgFirst{ float:left; margin:0 0 0 4px; border-radius: 50px;}
-.greenBox{ float:left; width:100%; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
-.greenBox .greenInner1{ float:left; width:100%; margin:0; background:#2EB9C3; padding:7px 6px;}
-.greenBox .greenInner3{ float:left; width:100%; margin:0; background:#2EB9C3; padding:7px 6px;}
-.greenBox .greenInner1 font{ float:right; font-size:11px; color:#fff; margin-top:7px; margin-right:2px;}
+.greenBox{ float:none; margin:0 auto; width:260px; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
+.greenBoxB1{float: left; width: 100%; border-radius: 5px; border: solid 2px #2EB9C3;}
+.greenBoxB2{float: left; width: 100%; border-radius: 5px; border: solid 2px #93D16A;}
+.greenBoxB3{float: left; width: 100%; border-radius: 5px; border: solid 2px #FFA663;}
+.greenBoxB4{float: left; width: 100%; border-radius: 5px; border: solid 2px #FF6969;}
+.greenBox .greenInner1{ float:left; width:100%; margin:0; background:#2EB9C3; padding:3px 6px;}
+.greenBox .greenInner3{ float:left; width:100%; margin:0; color: #333; background:#e7eff1; padding:5px 6px;}
+.greenBox .greenInner1 font{ float:right; font-size:10px; color:#fff; margin-top:15px; margin-right:2px; line-height: 15px;}
 .greenBox .greenInner1 font img{ float:left; margin:3px 5px 0 0;}
-.greenBox .greenInner1 span{ float:left; font-size:14px; margin:4px 6px; color:#fff;}
-.greenInner2 span{ float:left; max-width:110px;}
+.greenBox .greenInner1 span{ float:left; font-size:14px; margin:14px 3px 2px 4px; color:#fff; line-height: 15px;}
+.greenInner2 span{ float:left; max-width:96px; border-radius: 5px; margin: 7px 0 0 6px; line-height: 15px;}
 .lostImg{ float:left; position:relative; z-index:2;}
-.lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;     border: solid 0px #fff;
+.lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;     border: solid 2px #fff;
     border-radius: 0px;}
-.greenInner2 .rightGreen{ float:right; width:160px; margin-top:12px; padding-bottom:5px; min-height:90px;}
-.rightGreen h4{ float:left; font-size:18px; color:#333; margin:0; width:100%; text-align:left;}
+.greenInner2 .rightGreen{ float:right; width:145px; margin-top:12px; padding-bottom:5px; min-height:90px;}
+.rightGreen h4{ float:left; font-size:18px; color:#444; margin:0; width:100%; text-align:left;}
 .rightGreen p{ float:left; text-align:left; font-size:14px; color:#333; width:100%; word-wrap: break-word;}
-.mapImg{ float:left; margin-left:10px;}
-.greenBox .greenInner3 span{ float:left; font-style: italic; color:#fff; font-size:14px; margin-left:10px;}
+.mapImg{ float:left; margin-left:0px; width: 12px;}
+.greenBox .greenInner3 span{ float:left; font-size: 13px; font-style: italic; line-height: 15px; color:#666; font-size:14px; margin-left:7px;}
 
 .greenColor{ background:#fff;}
-.boxColor2 .greenInner1, .boxColor2 .greenInner3{ background:#FFA663;}
-.boxColor3 .greenInner1, .boxColor3 .greenInner3{ background:#FF6969;}
-.boxColor4 .greenInner1, .boxColor4 .greenInner3{ background:#93D16A;}
+.boxColor2 .greenInner1{ background:#FFA663;}
+.boxColor3 .greenInner1{ background:#FF6969;}
+.boxColor4 .greenInner1{ background:#93D16A;}
 .greenColor .greenInner1 { background:#007E58;}
 .greenColor  .greenInner3  { background:#007E58;}
 /*======================================
@@ -442,7 +448,7 @@ input{ outline:none;}
     padding-top: 60px;
 }
 .topHead { float:left;  width:100%; margin:15px 0;}
-.topHead span{ display: inline-flex; font-size:32px; color:#168EB3; position:relative; top:10px;}
+.topHead span{ display: inline-flex; font-size:24px; color:#7a797a; position:relative; top:10px;}
 .topHead img{width: 53px; margin-top: 5px;}
 /*================================
     FOOTER SECTION STYLES
@@ -935,6 +941,10 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     background: #02BCFD;
 
 }
+.featuresFirstS{float: left; width: 100%; text-align: center; margin-top: 60px; padding-top: 50px;
+    background: url(../img/bgf.png) repeat-x top;
+}
+.topHeadL{float: left; width: 100%; color: #346777; text-align: center; font-size: 30px; font-weight: 500;}
 #moveTop{
     position: fixed;
     right: 10px;
@@ -968,14 +978,13 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .greenBox .greenInner1 font{float: left; margin-left: 5px; margin-top: -4px;}
     .greenBox .greenInner1 span{margin-top: 3px; min-width: 70%; text-align: left;}
     #flags_language_selector{right: 0;}
-    .greenInner2 .rightGreen{ width:48%; margin-right:1%; margin-top: 6px;}
     .rightGreen p{font-size: 13px;}
     .greenBox .greenInner3 span{font-size: 11px;}
-    .rightGreen h4{font-size: 14px;}
+    .rightGreen h4{font-size: 14px; }
     .imgFirst{ width:15px; margin-top:6px;}
     .liginBtm input[type=text], .liginBtm input[type=password]{ width:200px; margin-right:10px; margin-left:10px;}
     #home{ background-size:130%; background-position:top;}
-    .f_inner p span{ font-size:16px;}
+    .f_inner p span{ font-size:16px; color: #0088b3;}
     .navbar-brand img{ width:220px; margin-left:15px}
     #moveTop{font-size: 20px;}
 
@@ -984,8 +993,6 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
 }
 @media screen and (max-width: 768px) {
-
-    .greenInner2 .rightGreen{float: left; margin-left: 5px; width: 50%;}
 
     #flags_language_selector{right: 0;}
     .navbar-default{max-height: 65px;}
@@ -1071,7 +1078,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #home, .banner-text{ height:180px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
     .p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
-    .head-set, .pricPackages{ font-size:26px; padding-top:10px; padding-bottom:0px;}
+    .head-set, .pricPackages{ font-size:18px; padding-top:10px; padding-bottom:0px;}
     #home{ background-size:150%;}
     .downloadApp p{ font-size:20px; padding-top: 0px; margin-bottom: 0;}
     .leftImg{ margin-top:0;}

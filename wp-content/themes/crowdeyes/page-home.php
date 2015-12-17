@@ -141,8 +141,8 @@ get_header(); ?>
     <div class="container">
       <div class="row text-center pad-bottom">
         <div class="container">
-          <h1>Look what’s happening around you</h1>
-          <h2 class="head-set">Live Feed</h2>
+          <h1 class="topHeadL">Look what’s happening around you</h1>
+          <h2 class="head-set">Live feeds in four different categories</h2>
         </div>
       </div>
 
@@ -202,7 +202,7 @@ get_header(); ?>
 
       <style>
         .imgFirst{ height:30px; width:30px;}
-        .lostImg2{ height:110px; width:110px;}
+        .lostImg2{ height:95px; width:95px; border-radius: 5px; border: solid 2px #fff;}
       </style>
 
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
@@ -210,11 +210,8 @@ get_header(); ?>
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
           <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
-            <div class="greenInner1">
-              <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.When | date:'d-M-y HH:mm'}}</font> </div>
+            <div class="greenBoxB1">
+
             <div class="greenInner2">
 
 		  <span>
@@ -229,7 +226,17 @@ get_header(); ?>
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+            <div class="greenInner3">
+              <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-1.png" />
+              <span>{{cat.Location | limitTo: 35}}</span>
+            </div>
+              <div class="greenInner1">
+                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.When | date:'d-M-y HH:mm'}}</font>
+              </div>
+          </div>
           </div>
         </div>
 
@@ -238,11 +245,8 @@ get_header(); ?>
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
 
           <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
-            <div class="greenInner1">
-              <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
+            <div class="greenBoxB2">
+
             <div class="greenInner2">
 		  <span>
 			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
@@ -256,20 +260,25 @@ get_header(); ?>
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-          </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+              <div class="greenInner1">
+                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
+              <span>
+			{{cat.CreatedBy_Profile.Name}}
 
+		   </span><font>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
 
           <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
-            <div class="greenInner1">
-              <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
+            <div class="greenBoxB3">
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
             <div class="greenInner2">
 		  <span>
 		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
@@ -283,8 +292,15 @@ get_header(); ?>
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
-          </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+              <div class="greenInner1">
+                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+              </div>
+            </div>
+        </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -292,12 +308,8 @@ get_header(); ?>
 
 
           <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
-            <div class="greenInner1">
-              <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
-	
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
-            <div class="greenInner2">
+            <div class="greenBoxB4">
+             <div class="greenInner2">
 		  <span>
 
 		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
@@ -311,7 +323,14 @@ get_header(); ?>
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/address-marker.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+              <div class="greenInner1">
+                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat.CreatedBy_Profile.Name}}
+
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
+
+            </div>
           </div>
 
 
@@ -319,26 +338,58 @@ get_header(); ?>
       </div>
     </div>
     <div id="featuresDD" style="float: left; visibility: hidden; width: 100%;"></div>
+
+    <div class="featuresFirstS">
+    <div class="container">
+      <h1 class="topHeadL">Look what’s happening around you</h1>
+      <h2 class="head-set">Live feeds in four different categories</h2>
+    </div>
+
+      <div class="col-xs-12">
+        <div class="container">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
+          <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
+          <p>Announce<span>Make an announcement with just a few easy steps</span></p>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
+          <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
+        </div>
+        </div>
+          <div class="col-md-2 col-sm-6 col-xs-12"> </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
+          <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
+          <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
     <div class="featuresDD">
       <div class="container">
-        <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/live-news-feed.png" alt=""/>
-            <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
-          </div>
-          <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/announce.png" alt=""/>
-            <p>Announce<span>Make an announcement with just a few easy steps</span></p>
-          </div>
-          <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/claim.png" alt=""/>
-            <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
-          </div>
-          <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chat.png" alt=""/>
-            <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
-          </div>
-          <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recent-activities.png" alt=""/>
-            <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
-          </div>
+
         </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
+
+
+
+
       </div>
     </div>
   </section>
