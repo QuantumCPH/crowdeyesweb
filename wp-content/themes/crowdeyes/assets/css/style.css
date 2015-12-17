@@ -303,9 +303,21 @@ input{ outline:none;}
     color:#fff;
     font-family:"Alegreya Sans", Helvetica, sans-serif;
     font-weight:400;
+<<<<<<< HEAD
     max-width: 550px;
+=======
+    max-width: 750px;
+>>>>>>> 4f5f022dc35b9c22ca8ff6a6797b69b59ca00914
     text-align: center;
     margin: 0 auto;
+    
+}
+.p-cls label{
+    float: left;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 .p-cls label{
     float: left;
