@@ -2144,7 +2144,7 @@
 			//	FIRST START 			//
 			//////////////////////////////
 
-			if (opt.firststart==1) {
+			if (opt.firststart==-7) {
 					actli.css({'opacity':0});
 					opt.firststart=0;
 			}
