@@ -211,10 +211,10 @@ app.controller('customersCtrl', function($scope, $http) {
 
 
 
-		<style>
-.imgFirst{ height:30px; width:30px;}
-.lostImg2{ height:110px; width:110px;}
-</style>
+      <style>
+          .imgFirst{ height:30px; width:30px;}
+          .lostImg2{ height:95px; width:95px; border-radius: 5px; border: solid 2px #fff;}
+      </style>
 
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
           <div class="col-md-3 col-sm-6 col-xs-12">
@@ -349,6 +349,47 @@ app.controller('customersCtrl', function($scope, $http) {
       </div>
   </div>
   <div id="featuresDD" style="float: left; visibility: hidden; width: 100%;"></div>
+
+    <div class="featuresFirstS">
+        <div class="container">
+            <h1 class="topHeadL">Look what’s happening around you</h1>
+            <h2 class="head-set">Live feeds in four different categories</h2>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="container">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
+                        <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
+                        <p>Announce<span>Make an announcement with just a few easy steps</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
+                        <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12"> </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
+                        <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
+                        <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
   <div  class="featuresDD">
     <div class="container">
       <div class="col-lg-6 col-md-6 col-sm-6"> <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" /> </div>
