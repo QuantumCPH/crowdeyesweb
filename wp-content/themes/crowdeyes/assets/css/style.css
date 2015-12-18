@@ -771,6 +771,7 @@ footer {
     font-weight: 300;
 
 }
+.pLast{float:right; margin-right:4%; width:90%;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
@@ -1092,7 +1093,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 0;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
-    #home, .banner-text{ height:320px !important;  top: 60px !important; min-height:180px !important;}
+    #home, .banner-text{ height:330px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
     .p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
     .head-set, .pricPackages{ font-size:18px; padding-top:10px; padding-bottom:0px;}
@@ -1106,6 +1107,9 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .featuresDD h1, .topHeadL{font-size: 20px;}
     .head-set{font-size: 16px;}
     .regPlan .wpcf7-form p{width: 94%;}
+    .p-cls label{font-size: 22px;}
+    .downLoadLinks{margin-top: 5px;}
+    .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
 }
 
 @media screen and (max-width: 376px) {
