@@ -210,10 +210,10 @@ create_initial_post_types();
 register_theme_directory( get_theme_root() );
 
 // Load active plugins.
-foreach ( wp_get_active_and_valid_plugins() as $plugin ) {
-	wp_register_plugin_realpath( $plugin );
-	include_once( $plugin );
-}
+//foreach ( wp_get_active_and_valid_plugins() as $plugin ) {
+//	wp_register_plugin_realpath( $plugin );
+//	include_once( $plugin );
+//}
 unset( $plugin );
 
 // Load pluggable functions.

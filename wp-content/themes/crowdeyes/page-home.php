@@ -121,18 +121,6 @@ get_header(); ?>
 
     </div>
      -->
-    <div class="downloadApp fixedDown" id="downFixed" >
-      <div class="container">
-        <p>Available on App Store</p>
-        <div class="inn_download">
-          <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-          <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
-          <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
-
-        </div>
-      </div>
-    </div>
   </div>
 
   <!--HOME SECTION END  -->
@@ -476,15 +464,13 @@ get_header(); ?>
     </div>
   </section>
   <footer>
+
     <div class="downloadApp" >
       <div class="container">
-        <p>Available on App Store</p>
-
         <div class="inn_download">
-          <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-          <a href="" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Coming Soon</span></a>
-          <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
+          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download from App Store</span></a>
+          <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
+
         </div>
 
       </div>
