@@ -1120,7 +1120,7 @@ input {
     .inn_download a span{float: left;}
     .downLoadLinks .btn-lg{ width: 240px; }
     .imgDD{height: 50px;}
-    div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-right: 0;}
+    div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
 }
 
 @media screen and (max-width: 376px) {
