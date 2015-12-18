@@ -325,7 +325,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <div id="featuresDD" style="float: left; visibility: hidden; width: 100%;"></div>
+    <div id="featuresDD" style="float: left; margin-bottom: -15px; visibility: hidden; width: 100%;"></div>
 
     <div class="featuresFirstS">
     <div class="container">
@@ -484,7 +484,7 @@ get_header(); ?>
 
 
   <section class="contact section-spacing" id="contact">
-    <div id="contactus" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
+    <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
     <div class="container">
       <h1 class="topHeadL">Drop us a message</h1>
       <h2 class="head-set">We will love hearing from you</h2>
