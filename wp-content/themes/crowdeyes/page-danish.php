@@ -131,7 +131,8 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-        <h2 class="head-set">Live Feed</h2>
+          <h1 class="topHeadL">Look what’s happening around you</h1>
+          <h2 class="head-set">Live feeds in four different categories</h2>
       </div>
     </div>
 	
