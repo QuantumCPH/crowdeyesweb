@@ -362,7 +362,7 @@ input{ outline:none;}
     width:100%;
     margin-top:0;
 }
-#features{ background:#f3f5f4;}
+#features{ background:#fff;}
 .featImg{text-align: center;}
 .leftImg{ margin:50px auto; float:none; max-width:100%; }
 .featuresDD{ float:left; width:100%; padding:60px 0; background:#178EB4; margin-top:50px;}
@@ -437,7 +437,7 @@ input{ outline:none;}
            PRINCING SECTION
 =========================================*/
 .container{position: relative;}
-#pricing{ float:left; width:100%; background: #f3f5f4; padding-bottom: 60px;}
+#pricing{ float:left; width:100%; background: #fff; padding-bottom: 60px;}
 #pricing .container{ max-width:960px;}
 .parallax-like {
     background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
@@ -793,7 +793,7 @@ div.wpcf7-mail-sent-ng{float: left;}
 div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 !important;
     color: #218EB4 !important;
     font-weight: bold; }
-
+.contact-form div.wpcf7-mail-sent-ok{width: 100%; margin-right: 0; text-align: center;}
 .input-group-btn>.btn:hover,
 
 .input-group-btn>.btn:focus,
