@@ -434,7 +434,7 @@ input{ outline:none;}
            PRINCING SECTION
 =========================================*/
 .container{position: relative;}
-#pricing{ float:left; width:100%; background: #fff; padding-bottom: 40px;}
+#pricing{ float:left; width:100%; background: #f3f5f4; padding-bottom: 40px;}
 #pricing .container{ max-width:960px;}
 .parallax-like {
     background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
@@ -757,8 +757,6 @@ footer {
 
 
 .form-control, .wpcf7-form input, .wpcf7-form select {
-
-    background-color: #fff;
 
     border: 1px solid #ccc;
     border-radius: 4px;
