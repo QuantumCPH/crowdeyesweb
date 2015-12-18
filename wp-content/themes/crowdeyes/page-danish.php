@@ -131,18 +131,7 @@ get_header(); ?>
   <div class="overlay">
     <!-- overylay class usage -->
   </div>
-  <div class="downloadApp fixedDown" id="downFixed" >
-    <div class="container">
-      <p>Tilgængelig på App Store</p>
-      <div class="inn_download"> 
-	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
-	  
-	  </div>
-    </div>
-  </div>
+
 </div>
 <?php echo do_shortcode('[rev_slider maind]'); ?>
 <!--HOME SECTION END  -->
@@ -407,15 +396,12 @@ app.controller('customersCtrl', function($scope, $http) {
 
 
     <div class="container">
-      <div class="row text-center pad-bottom">
-        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-          <h2 class="pricPackages">Planer & Priser</h2>
+        <div class="col-md-2 col-sm-6 col-xs-12"></div>
+        <div class="col-sm-8 col-xs-12">
+            <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
+            <h2 class="head-set">Just type in the info below</h2>
         </div>
-      </div>
-    </div>
-
-    <div class="planSubH">
-        Registrér dig for at få mere at vide om vores løsning til virksomheder
+        <div class="col-md-2 col-sm-6 col-xs-12"></div>
     </div>
     <div class="container">
       <div class="regPlan">
@@ -498,16 +484,10 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div class="downloadApp">
     <div class="container">
-      <p>Tilgængelig på App Store</p>
-      
-	  <div class="inn_download"> 
-	  <?php /*?><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" />
-	  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /><?php */?>
-	  <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android1.png" /> <span>Kommer snart</span></a>
-	  <a target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios1.png" /> <span>Download</span></a>
-	  
-	  </div>
-	  
+        <div class="inn_download">
+            <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download from App Store</span></a>
+            <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
+        </div>
     </div>
   </div>
 </footer>
@@ -515,7 +495,8 @@ app.controller('customersCtrl', function($scope, $http) {
 
 <section class="contact section-spacing" id="contact">
   <div class="container">
-    <h2 class="text-center">Kontakt os</h2>
+      <h1 class="topHeadL">Drop us a message</h1>
+      <h2 class="head-set">We will love hearing from you</h2>
     <div class="row">
       <div class="col-md-7"> 
         <!--map-->

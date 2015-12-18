@@ -470,9 +470,7 @@ get_header(); ?>
         <div class="inn_download">
           <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download from App Store</span></a>
           <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
-
         </div>
-
       </div>
     </div>
   </footer>
@@ -480,7 +478,8 @@ get_header(); ?>
 
   <section class="contact section-spacing" id="contact">
     <div class="container">
-      <h2 class="text-center">Contact Us</h2>
+      <h1 class="topHeadL">Drop us a message</h1>
+      <h2 class="head-set">We will love hearing from you</h2>
       <div class="row">
         <div class="col-md-7">
           <!--map-->
