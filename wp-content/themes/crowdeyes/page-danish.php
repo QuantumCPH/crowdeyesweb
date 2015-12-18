@@ -88,7 +88,7 @@ get_header(); ?>
         <li><a href="#pricings">Priser</a></li>
         <li><a href="#downloadApp">Download</a></li>
          <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147">FAQ</a></li>
-       <li><a href="#contact">Kontakt os</a></li>
+       <li><a href="#contactus">Kontakt os</a></li>
       </ul>
     </div>
     <div id="login-content">
@@ -385,7 +385,7 @@ app.controller('customersCtrl', function($scope, $http) {
   </div>
 </section>
 <!--PARALLAX LIKE / STATS SECTION END  -->
-<div id="pricings" style="float: left; margin-top: -15px; width: 100%; visibility: hidden;"></div>
+<div id="pricings" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
 <section id="pricing">
 
 
@@ -393,6 +393,7 @@ app.controller('customersCtrl', function($scope, $http) {
     <div class="container">
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
         <div class="col-sm-8 col-xs-12">
+            <div id="contactus" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
             <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
             <h2 class="head-set">Just type in the info below</h2>
         </div>
