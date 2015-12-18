@@ -772,7 +772,8 @@ footer {
     font-weight: 300;
 
 }
-.detailPages{float: left; width: 100%; margin-top: 90px; border-top: solid 2px #ececec;}
+.detailPages{float: left; width: 100%; margin-top: 100px; border-top: solid 2px #ececec;}
+.innerDePages{ float: left; padding: 20px;}
 #contact .col-md-6{ padding: 0px;}
 .pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }

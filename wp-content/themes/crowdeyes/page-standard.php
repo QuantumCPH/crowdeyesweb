@@ -106,7 +106,7 @@ get_header(); ?>
 <div class="detailPages">
   <div class="container">
     <div class="row">
-
+<div class="innerDePages">
   <?php
   if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
@@ -117,7 +117,7 @@ get_header(); ?>
     echo wpautop( 'Sorry, no page found' );
   endif;
   ?>
-
+</div>
     </div>
   </div>
   </div>
