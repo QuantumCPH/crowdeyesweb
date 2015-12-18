@@ -1041,6 +1041,8 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
     .wpcf7-form p{margin-left: 1%;}
+    #pricing .col-sm-8{width: 100%;}
+    .inn_download{width: 455px;}
     .hideDiv .navbar-toggle{ margin-top:23px}
     .navbar-collapse{ width:200px; margin-right: 6px !important; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
     .collapse ul{ float:left; width:100%; margin:0;}
@@ -1071,10 +1073,14 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #home, .banner-text{ height:270px; min-height:270px;}
     #home .overlay{ height:290px; min-height:290px;}
     .banner-text{ padding-left:0; padding-right:0;}
-    .p-cls{ width:90%; font-size:20px; top:100px; line-height:24px;}
+    .p-cls{ width:90%; font-size:20px; top:20px; color: #333; line-height:24px;}
+    .p-cls label{font-size: 24px;}
+    .downLoadLinks span{font-size: 16px; margin-top: 5px;}
+    .downLoadLinks img{width: 24px;}
     .navbar-brand img{ margin-left:0;}
     #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
     #login-trigger{color: #000; !important;}
+    .rev_slider_wrapper{position: relative;}
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
