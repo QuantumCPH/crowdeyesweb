@@ -329,8 +329,8 @@ get_header(); ?>
 
     <div class="featuresFirstS">
     <div class="container">
-      <h1 class="topHeadL">Look what’s happening around you</h1>
-      <h2 class="head-set">Live feeds in four different categories</h2>
+      <h1 class="topHeadL">We cover the most of it</h1>
+      <h2 class="head-set">Our feature list makes your life awesome</h2>
     </div>
 
       <div class="col-xs-12">
