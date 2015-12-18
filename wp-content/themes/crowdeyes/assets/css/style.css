@@ -961,7 +961,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     font-size: 24px;
     opacity: .8;
 }
-#rev_slider_1_1, #rev_slider_1_1_wrapper{background: #fff !important;}
+#rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_2_1_wrapper{background: #fff !important;}
 .navbar-collapse{ position:relative;}
 #flags_language_selector{ position:absolute; z-index:9999999; right:0px; top:-1px;
     position: fixed;
@@ -974,7 +974,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     padding: 5px 0;
 }
 .downLoadLinks{float: left; width: 100%; margin-top: 20px;}
-.downLoadLinks .btn-lg{background: #178EB4; color: #fff; padding: 7px 15px; border-radius: 6px; margin: 5px;}
+.downLoadLinks .btn-lg{background: #178EB4; width: 300px; color: #fff; padding: 7px 15px; border-radius: 6px; margin: 5px;}
 .downLoadLinks img{width: 28px; float: left;}
 .downLoadLinks span{ font-size: 22px; margin-top: 2px; float: left; margin-left: 10px;}
 #flags_language_selector .container{padding-right: 50px;}
@@ -1049,7 +1049,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 @media screen and (max-width: 736px) {
     #flags_language_selector{right: 0;}
     .navbar-toggle{ margin-top:25px;}
-    .navbar-brand{margin-top: 3px;}
+    .navbar-brand{margin-top: 6px;}
 
     .hideDiv .navbar-toggle{ margin-top:23px}
     .navbar-collapse{ width:200px; margin-right: 6px !important; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
@@ -1095,7 +1095,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 0;}
-    #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_1_2_wrapper{height:180px !important; padding-top: 75px !important; min-height:180px !important;}
     #home, .banner-text{ height:330px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
     .p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
