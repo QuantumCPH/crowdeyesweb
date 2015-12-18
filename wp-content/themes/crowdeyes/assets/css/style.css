@@ -949,6 +949,9 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     background: #02BCFD;
 
 }
+input {
+    -webkit-appearance: none;
+}
 .featuresFirstS{float: left; width: 100%; text-align: center; margin-top: 60px; padding-top: 50px;
     background: url(../img/bgf.png) repeat-x top;
 }
