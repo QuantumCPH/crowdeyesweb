@@ -129,9 +129,6 @@ get_header(); ?>
 
     </div>
   </div>
-  <div class="overlay">
-    <!-- overylay class usage -->
-  </div>
 
 </div>
 
@@ -348,28 +345,28 @@ app.controller('customersCtrl', function($scope, $http) {
 
         <div class="col-xs-12">
             <div class="container">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
                         <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
                         <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
                         <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6 col-xs-12"> </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-sm-2 col-sm-6 col-xs-12"> </div>
+                <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
                         <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
                         <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
                     </div>
@@ -486,8 +483,9 @@ app.controller('customersCtrl', function($scope, $http) {
   <div class="downloadApp">
     <div class="container">
         <div class="inn_download">
+             <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
             <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download from App Store</span></a>
-            <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
+
         </div>
     </div>
   </div>
