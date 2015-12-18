@@ -383,7 +383,7 @@ get_header(); ?>
       </div>
     </div>
   </section>
-  <div id="pricings" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
+  <div id="pricings" style="float: left; margin-top: -40px; width: 100%; visibility: hidden;"></div>
   <!--PARALLAX LIKE / STATS SECTION END  -->
   <section id="pricing">
 

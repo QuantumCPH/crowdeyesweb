@@ -386,7 +386,7 @@ app.controller('customersCtrl', function($scope, $http) {
   </div>
 </section>
 <!--PARALLAX LIKE / STATS SECTION END  -->
-<div id="pricings" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
+<div id="pricings" style="float: left; margin-top: -40px; width: 100%; visibility: hidden;"></div>
 <section id="pricing">
 
 
