@@ -81,7 +81,7 @@ get_header(); ?>
         <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
       <div class="navbar-collapse collapse navbar-right scroll-me">
         <ul class="nav navbar-nav ">
-          <li><a href="<?php echo get_bloginfo('url'); ?>/#home22" class="selected">Home</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>" class="selected">Home</a></li>
           <li><a href="<?php echo get_bloginfo('url'); ?>/#featuresDD">Features</a></li>
           <li><a href="<?php echo get_bloginfo('url'); ?>/#pricings">Pricing</a></li>
           <li><a href="<?php echo get_bloginfo('url'); ?>/#downloadApp">Download</a></li>

@@ -407,7 +407,7 @@ input{ outline:none;}
 =========================================*/
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
 .imgFirst{ float:left; margin:0 0 0 4px; border-radius: 50px;}
-.greenBox{ float:none; margin:0 auto; width:260px; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
+.greenBox{ float:none; margin:0 auto; width:275px; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
 .greenBoxB1{float: left; width: 100%; border-radius: 5px; border: solid 2px #2EB9C3;}
 .greenBoxB2{float: left; width: 100%; border-radius: 5px; border: solid 2px #93D16A;}
 .greenBoxB3{float: left; width: 100%; border-radius: 5px; border: solid 2px #FFA663;}
@@ -421,7 +421,7 @@ input{ outline:none;}
 .lostImg{ float:left; position:relative; z-index:2;}
 .lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;     border: solid 2px #fff;
     border-radius: 0px;}
-.greenInner2 .rightGreen{ float:right; width:145px; margin-top:10px; padding-bottom:5px; min-height:90px;}
+.greenInner2 .rightGreen{ float:right; width:160px; margin-top:10px; padding-bottom:5px; min-height:90px;}
 .rightGreen h4{ float:left; font-size:18px; color:#444; margin:0; width:100%; text-align:left;}
 .rightGreen p{ float:left; text-align:left; font-size:14px; line-height: 17px; padding-right: 3px; color:#333; width:100%; word-wrap: break-word;}
 .mapImg{ float:left; margin-left:0px; width: 12px;}
@@ -780,7 +780,7 @@ span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: a
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
 .regPlan{float: left; width: 100%; padding-top: 30px; position: relative;}
-.wpcf7-form p{ float: left; width: 45%; margin-left: 3%;}
+.wpcf7-form p{ float: left; width: 47%; margin-left: 1.5%;}
 .wpcf7-form p span{float: left; width: 100%;}
 .wpcf7-form input, .wpcf7-form select{
     float: left; width: 100%; }
