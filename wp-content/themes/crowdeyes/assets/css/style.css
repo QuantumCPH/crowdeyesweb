@@ -1009,6 +1009,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 
     .p-cls{ top:100px; font-size:20px; line-height: 25px;}
     .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
+    .inn_download{width: 455px;}
     .inn_download a{ margin-left:5px; margin-right:0; font-size: 16px; float: none;}
     .inn_download a span{margin: 0 5px; }
     .inn_download img{ margin:12px 5px; width: 25px;}
@@ -1036,6 +1037,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #pricing .col-sm-8{width: 100%;}
     .featuresDD h1, .topHeadL{font-size: 24px;}
     .head-set{font-size: 18px;}
+    .contact-form .wpcf7-form p{margin-left: 1%;}
     .regPlan .wpcf7-form p{margin-left: 3%; width: 46%; text-align: center;}
     .regPlan .wpcf7-form input[type=submit]{float: none;}
 }
@@ -1046,7 +1048,6 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
 
-    .inn_download{width: 455px;}
     .hideDiv .navbar-toggle{ margin-top:23px}
     .navbar-collapse{ width:200px; margin-right: 6px !important; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
     .collapse ul{ float:left; width:100%; margin:0;}
@@ -1085,12 +1086,13 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
     #login-trigger{color: #000; !important;}
     .rev_slider_wrapper{position: relative;}
+    #flags_language_selector .container{padding-right: 22px;}
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 0;}
     #rev_slider_1_1, #rev_slider_1_1_wrapper{height:180px !important; padding-top: 60px !important; min-height:180px !important;}
-    #home, .banner-text{ height:180px !important;  top: 60px !important; min-height:180px !important;}
+    #home, .banner-text{ height:320px !important;  top: 60px !important; min-height:180px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
     .p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
     .head-set, .pricPackages{ font-size:18px; padding-top:10px; padding-bottom:0px;}
@@ -1101,6 +1103,9 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .inn_download a{margin-top: 5px;}
     .footer_links{font-size: 12px;}
     .greenBox .greenInner1{padding: 3px 5px;}
+    .featuresDD h1, .topHeadL{font-size: 20px;}
+    .head-set{font-size: 16px;}
+    .regPlan .wpcf7-form p{width: 94%;}
 }
 
 @media screen and (max-width: 376px) {
