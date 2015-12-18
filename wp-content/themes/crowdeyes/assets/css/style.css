@@ -771,7 +771,7 @@ footer {
     font-weight: 300;
 
 }
-.pLast{float:right !important; margin-right:3% !important; width:94% !important;}
+.pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
@@ -1041,6 +1041,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .contact-form .wpcf7-form p{margin-left: 1%;}
     .regPlan .wpcf7-form p{margin-left: 3%; width: 46%; text-align: center;}
     .regPlan .wpcf7-form input[type=submit]{float: none;}
+    .div.wpcf7-mail-sent-ok{margin-right: 0; width: 100%; text-align: center;}
 }
 
 
@@ -1088,6 +1089,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #login-trigger{color: #000; !important;}
     .rev_slider_wrapper{position: relative;}
     #flags_language_selector .container{padding-right: 22px;}
+    .inn_download{ width: 100%; text-align: center; }
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}

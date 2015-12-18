@@ -114,6 +114,7 @@ get_header(); ?>
   </div>
 </div>
 <!-- NAVBAR CODE END -->
+<?php echo do_shortcode('[rev_slider maind]'); ?>
 <div id="home">
   <div class="container banner-text">
     <div class="container">
@@ -133,7 +134,7 @@ get_header(); ?>
   </div>
 
 </div>
-<?php echo do_shortcode('[rev_slider maind]'); ?>
+
 <!--HOME SECTION END  -->
 
  
