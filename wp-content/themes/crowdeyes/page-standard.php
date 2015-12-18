@@ -103,8 +103,21 @@ get_header(); ?>
     </div>
   </div>
   <!-- NAVBAR CODE END -->
-  <h2><?php the_title(); ?></h2>
-  <p><?php echo get_the_content(); ?></p>
+
+
+
+  <?php
+  if ( have_posts() ) :
+    while ( have_posts() ) : the_post(); ?>
+      <h2><?php the_title(); ?></h2>
+      <p><?php echo get_the_content(); ?></p>
+    <?php endwhile;
+  else :
+    echo wpautop( 'Sorry, no page found' );
+  endif;
+  ?>
+
+
 
   <!--CONTACT END-->
 
