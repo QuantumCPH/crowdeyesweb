@@ -1116,10 +1116,11 @@ input {
     .p-cls label{font-size: 22px;}
     .downLoadLinks{margin-top: 5px;}
     .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
-    .inn_download a{width: 215px; text-align: left; margin-top: 5px;}
+    .inn_download a{width: 230px; text-align: left; margin-top: 5px;}
     .inn_download a span{float: left;}
     .downLoadLinks .btn-lg{ width: 240px; }
     .imgDD{height: 50px;}
+    div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-right: 0;}
 }
 
 @media screen and (max-width: 376px) {
