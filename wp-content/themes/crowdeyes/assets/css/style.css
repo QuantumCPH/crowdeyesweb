@@ -774,7 +774,7 @@ footer {
 }
 .detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 2px #ececec;}
 .innerDePages{ float: left; padding: 20px;}
-#contact .col-md-6{ padding: 0px;}
+#contact .col-md-6{ padding: 5px;}
 .pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
