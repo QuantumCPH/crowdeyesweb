@@ -482,7 +482,7 @@ get_header(); ?>
       <h1 class="topHeadL">Drop us a message</h1>
       <h2 class="head-set">We will love hearing from you</h2>
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-6">
           <!--map-->
           <div class="wow fadeInUp map">
             <div id="map-canvas"></div>
@@ -502,7 +502,7 @@ get_header(); ?>
           </div>
           <!--map end-->
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
 
           <!--contact form-->
 
