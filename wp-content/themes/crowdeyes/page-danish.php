@@ -392,6 +392,8 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div  class="featuresDD">
     <div class="container">
+        <h1>Catch up from unlimited spots</h1>
+        <h3>We are really resposive for almost all of your devices</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
       </div>
@@ -401,6 +403,8 @@ app.controller('customersCtrl', function($scope, $http) {
 <!--PARALLAX LIKE / STATS SECTION END  -->
 <div id="pricings" style="float: left; margin-top: -15px; width: 100%; visibility: hidden;"></div>
 <section id="pricing">
+
+
 
     <div class="container">
       <div class="row text-center pad-bottom">

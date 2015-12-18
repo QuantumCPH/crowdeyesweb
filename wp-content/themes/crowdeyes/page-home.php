@@ -380,6 +380,8 @@ get_header(); ?>
     </div>
     <div class="featuresDD">
       <div class="container">
+        <h1>Catch up from unlimited spots</h1>
+        <h3>We are really resposive for almost all of your devices</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
         </div>
@@ -391,17 +393,16 @@ get_header(); ?>
   <!--PARALLAX LIKE / STATS SECTION END  -->
   <section id="pricing">
 
+
     <div class="container">
-      <div class="row text-center pad-bottom">
-        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-          <h2 class="pricPackages">Plans & Pricing</h2>
+      <div class="col-md-2 col-sm-6 col-xs-12"></div>
+      <div class="col-sm-8 col-xs-12">
+      <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
+      <h2 class="head-set">Just type in the info below</h2>
         </div>
-      </div>
+      <div class="col-md-2 col-sm-6 col-xs-12"></div>
     </div>
 
-    <div class="planSubH">
-      Register to know more about our solution for businesses
-    </div>
     <div class="container">
       <div class="regPlan">
         <?php echo do_shortcode('[contact-form-7 id="83" title="Plan Register"]'); ?>
