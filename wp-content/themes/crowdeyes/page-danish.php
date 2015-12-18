@@ -327,9 +327,10 @@ app.controller('customersCtrl', function($scope, $http) {
           </div>
       </div>
   </div>
-  <div id="featuresDD" style="float: left; margin-bottom: -15px; visibility: hidden; width: 100%;"></div>
+
 
     <div class="featuresFirstS">
+        <div id="featuresDD" style="float: left; margin-bottom: 0px; visibility: hidden; width: 100%;"></div>
         <div class="container">
             <h1 class="topHeadL">We cover the most of it</h1>
             <h2 class="head-set">Our feature list makes your life awesome</h2>
