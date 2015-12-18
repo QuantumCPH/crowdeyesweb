@@ -772,7 +772,7 @@ footer {
     font-weight: 300;
 
 }
-#contact .col-md-6{ padding: 3px;}
+#contact .col-md-6{ padding: 0px;}
 .pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
