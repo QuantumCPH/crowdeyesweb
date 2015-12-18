@@ -65,6 +65,7 @@ get_header(); ?>
 
   </head>
   <body>
+  <div style="float: left; height: 0; visibility: hidden; width: 100%;" id="home22"></div>
   <div class="navbar navbar-default" id="fixedNav">
     <?php //wp_nav_menu( array('menu' => 'Languages' )); ?>
 
@@ -80,7 +81,7 @@ get_header(); ?>
         <a class="navbar-brand" href=""> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
       <div class="navbar-collapse collapse navbar-right scroll-me">
         <ul class="nav navbar-nav ">
-          <li><a href="#home" class="selected">Home</a></li>
+          <li><a href="#home22" class="selected">Home</a></li>
           <li><a href="#featuresDD">Features</a></li>
           <li><a href="#pricings">Pricing</a></li>
           <li><a href="#downloadApp">Download</a></li>
@@ -662,7 +663,7 @@ get_header(); ?>
   </script>
 
 
-  <a id="moveTop" href="#home" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
+  <a id="moveTop" href="#home22" class="selected"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
   <!-- REQUIRED BOOTSTRAP SCRIPTS -->
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/gmap.js"></script>

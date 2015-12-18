@@ -1115,6 +1115,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .inn_download a{width: 215px; text-align: left; margin-top: 5px;}
     .inn_download a span{float: left;}
     .downLoadLinks .btn-lg{ width: 240px; }
+    .imgDD{height: 50px;}
 }
 
 @media screen and (max-width: 376px) {
