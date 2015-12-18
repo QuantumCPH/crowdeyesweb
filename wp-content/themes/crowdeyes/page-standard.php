@@ -78,15 +78,15 @@ get_header(); ?>
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href=""> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
+        <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
       <div class="navbar-collapse collapse navbar-right scroll-me">
         <ul class="nav navbar-nav ">
-          <li><a href="<?php echo get_template_directory_uri(); ?>/#home22" class="selected">Home</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/#featuresDD">Features</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/#pricings">Pricing</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/#downloadApp">Download</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>/#home22" class="selected">Home</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>/#featuresDD">Features</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>/#pricings">Pricing</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>/#downloadApp">Download</a></li>
           <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147">FAQ</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/#contactus">Contact Us</a></li>
+          <li><a href="<?php echo get_bloginfo('url'); ?>/#contactus">Contact Us</a></li>
         </ul>
       </div>
       <div id="login-content">
