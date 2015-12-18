@@ -2554,7 +2554,7 @@
 						// ALL NEW SLOTS SHOULD BE SLIDED FROM THE LEFT TO THE RIGHT
 						nextsh.find('.slotslide').each(function(i) {
 							var ss=jQuery(this);
-							TweenLite.fromTo(ss,masterspeed/1000,{opacity:0},{opacity:1,ease:Power2.easeInOut});
+							TweenLite.fromTo(ss,masterspeed/1000,{opacity:0},{opacity:.7,ease:Power2.easeInOut});
 						});
 
 						setTimeout(function() {
@@ -2643,7 +2643,7 @@
 
 						TweenLite.fromTo(ssn,speedy,
 										{left:twx, top:twy, scale:fromscale, opacity:op,rotation:opt.rotate},
-										{opacity:1,rotation:0,left:0,top:0,scale:1,ease:easeitin,onComplete:function() {
+										{opacity:.7,rotation:0,left:0,top:0,scale:1,ease:easeitin,onComplete:function() {
 														letItFree(container,opt,nextsh,actsh,nextli,actli);
 														actli.css({'position':'absolute','z-index':18});
 														nextli.css({'position':'absolute','z-index':20});
@@ -2670,7 +2670,7 @@
 								if (nexttrans==14)
 									TweenLite.to(ssa,speedy2,{'top':(ooh)+'px',scale:scal,opacity:op,rotation:opt.rotate,ease:easeitout});
 						}
-						nextli.css({'opacity':1});
+						nextli.css({'opacity':.7});
 
 			}
 
@@ -2733,25 +2733,25 @@
 					setTimeout(function() {
 						TweenLite.set(actli.find('.tp-half-one'),{overflow:'hidden'});
 					},50);
-					TweenLite.fromTo(actli.find('.tp-half-one'),masterspeed/2000,{opacity:1,transformPerspective:600,transformOrigin:"center center"},{opacity:0,delay:masterspeed/2000});
+					TweenLite.fromTo(actli.find('.tp-half-one'),masterspeed/2000,{opacity:.7,transformPerspective:600,transformOrigin:"center center"},{opacity:0,delay:masterspeed/2000});
 
 					TweenLite.fromTo(actli.find('.tp-half-two'),masterspeed/1000,
 					                 {width:oow,height:ooh,overflow:'hidden',position:'absolute',top:ooh/2,left:'0px',transformPerspective:600,transformOrigin:"center bottom"},
 					                 {scale:sc2,rotation:ro2,y:ooh+ooh/4,ease:Power2.easeInOut});
 
-					TweenLite.fromTo(actli.find('.tp-half-two'),masterspeed/2000,{opacity:1,transformPerspective:600,transformOrigin:"center center"},{opacity:0,delay:masterspeed/2000});
+					TweenLite.fromTo(actli.find('.tp-half-two'),masterspeed/2000,{opacity:.7,transformPerspective:600,transformOrigin:"center center"},{opacity:0,delay:masterspeed/2000});
 
 					if (actli.html()!=null)
 						TweenLite.fromTo(nextli,(masterspeed-200)/1000,{opacity:0,scale:0.8,x:opt.width*xof, y:ooh*yof,rotation:ro3,transformPerspective:600,transformOrigin:"center center"},{rotation:0,scale:1,x:0,y:0,opacity:1,ease:Power2.easeInOut});
 
-					nextsh.find('.defaultimg').css({'opacity':1});
+					nextsh.find('.defaultimg').css({'opacity':.7});
 					setTimeout(function() {
 
 
 								// CLEAN UP BEFORE WE START
 								actli.css({'position':'absolute','z-index':18});
 								nextli.css({'position':'absolute','z-index':20});
-								nextsh.find('.defaultimg').css({'opacity':1});
+								nextsh.find('.defaultimg').css({'opacity':.7});
 								actsh.find('.defaultimg').css({'opacity':0});
 								if (actli.find('.tp-half-one').length>0)  {
 									actli.find('.tp-half-one .defaultimg').unwrap();
@@ -2763,7 +2763,7 @@
 								opt.act = opt.next;
 
 					},masterspeed);
-					nextli.css({'opacity':1});
+					nextli.css({'opacity':.7});
 
 			}
 
