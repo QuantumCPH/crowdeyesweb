@@ -393,7 +393,7 @@ app.controller('customersCtrl', function($scope, $http) {
     <div class="container">
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
         <div class="col-sm-8 col-xs-12">
-            <div id="contactus" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
+
             <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
             <h2 class="head-set">Just type in the info below</h2>
         </div>
@@ -491,6 +491,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
 
 <section class="contact section-spacing" id="contact">
+    <div id="contactus" style="float: left; margin-top: -30px; width: 100%; visibility: hidden;"></div>
   <div class="container">
       <h1 class="topHeadL">Drop us a message</h1>
       <h2 class="head-set">We will love hearing from you</h2>
