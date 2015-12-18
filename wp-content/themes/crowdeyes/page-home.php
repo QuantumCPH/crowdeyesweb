@@ -72,7 +72,7 @@ get_header(); ?>
     <div id="flags_language_selector">
       <div class="container">
         <a class="slct" href="#"> English | </a>
-        <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Danish </a>
+        <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
       </div>
     </div>
     <div class="container">
