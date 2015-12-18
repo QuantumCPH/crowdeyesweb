@@ -437,7 +437,7 @@ input{ outline:none;}
            PRINCING SECTION
 =========================================*/
 .container{position: relative;}
-#pricing{ float:left; width:100%; background: #f3f5f4; padding-bottom: 40px;}
+#pricing{ float:left; width:100%; background: #f3f5f4; padding-bottom: 60px;}
 #pricing .container{ max-width:960px;}
 .parallax-like {
     background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
@@ -1007,7 +1007,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #home, .banner-text{ height:370px; min-height:370px;}
     #home .overlay{ height:400px; min-height:400px;}
 
-    .p-cls{ top:150px; font-size:20px;}
+    .p-cls{ top:100px; font-size:20px; line-height: 25px;}
     .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
     .inn_download a{ margin-left:5px; margin-right:0; font-size: 16px; float: none;}
     .inn_download a span{margin: 0 5px; }

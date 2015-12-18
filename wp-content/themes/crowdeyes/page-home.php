@@ -335,28 +335,28 @@ get_header(); ?>
 
       <div class="col-xs-12">
         <div class="container">
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
           <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
         </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
           <p>Announce<span>Make an announcement with just a few easy steps</span></p>
         </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
           <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
         </div>
         </div>
-          <div class="col-md-2 col-sm-6 col-xs-12"> </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-sm-2 col-sm-6 col-xs-12"> </div>
+        <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
           <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
         </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
           <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
         </div>
