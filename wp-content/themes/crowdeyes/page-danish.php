@@ -338,28 +338,33 @@ app.controller('customersCtrl', function($scope, $http) {
         <div class="col-xs-12">
             <div class="container">
                 <div class="col-sm-4 col-sm-6 col-xs-12">
-                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/>
+                    <div class="f_inner">
+                        <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/></div>
                         <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
-                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/>
+                    <div class="f_inner">
+                        <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/></div>
                         <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
-                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/>
+                    <div class="f_inner">
+                        <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/></div>
                         <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
                     </div>
                 </div>
                 <div class="col-sm-2 col-sm-6 col-xs-12"> </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
-                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/>
+                    <div class="f_inner">
+                        <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/></div>
                         <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
-                    <div class="f_inner"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/>
+                    <div class="f_inner">
+                        <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/></div>
                         <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
                     </div>
                 </div>
