@@ -771,7 +771,7 @@ footer {
     font-weight: 300;
 
 }
-.pLast{float:right; margin-right:4%; width:90%;}
+.pLast{float:right !important; margin-right:3% !important; width:94% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
