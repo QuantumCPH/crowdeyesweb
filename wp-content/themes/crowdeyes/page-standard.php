@@ -103,8 +103,9 @@ get_header(); ?>
     </div>
   </div>
   <!-- NAVBAR CODE END -->
-
-
+<div class="detailPages">
+  <div class="container">
+    <div class="row">
 
   <?php
   if ( have_posts() ) :
@@ -117,8 +118,9 @@ get_header(); ?>
   endif;
   ?>
 
-
-
+    </div>
+  </div>
+  </div>
   <!--CONTACT END-->
 
   <!--site-footer-->

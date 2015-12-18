@@ -772,6 +772,7 @@ footer {
     font-weight: 300;
 
 }
+.detailPages{float: left; width: 100%; margin-top: 90px; border-top: solid 2px #ececec;}
 #contact .col-md-6{ padding: 0px;}
 .pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
@@ -791,6 +792,7 @@ div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display
     box-shadow: none;
 
 }
+
 div.wpcf7-mail-sent-ng{float: left;}
 div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 !important;
     color: #218EB4 !important;
