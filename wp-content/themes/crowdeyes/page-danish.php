@@ -45,35 +45,26 @@ get_header(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,900,700,500,800' rel='stylesheet' type='text/css'>
 
-  <style>
-    @media screen and (max-width: 768px){
-      div#login-trigger{
-        color:#000 !important;
-      }
-    }
-    @media screen and (max-width: 767px){
-      div#login-trigger{
-        color:#000 !important;
-      }
-      }
+    <style>
+        @media screen and (max-width: 768px){
+            div#login-trigger{
+                color:#fff !important;
+            }
+        }
+        .tp-bgimg{
+            opacity: .7 !important;}
 
-    @media screen and (max-width: 415px) {
-      #home, .banner-text {
-        height: 220px !important;
-        top: 0;
-        min-height: 220px !important;
-      }
-      .p-cls{ padding-top: 30px;}
-      }
-    @media screen and (max-width: 320px) {
-      #home, .banner-text {
-        height: 210px !important;
-        top: 0;
-        min-height: 210px !important;
-      }
-    }
-
-  </style>
+        @media screen and (max-width: 768px){
+            div#login-trigger{
+                color:#000 !important;
+            }
+        }
+        @media screen and (max-width: 767px){
+            div#login-trigger{
+                color:#000 !important;
+            }
+        }
+    </style>
 
 </head>
 <body>
@@ -497,7 +488,7 @@ app.controller('customersCtrl', function($scope, $http) {
       <h1 class="topHeadL">Drop us a message</h1>
       <h2 class="head-set">We will love hearing from you</h2>
     <div class="row">
-      <div class="col-md-7"> 
+      <div class="col-md-6">
         <!--map-->
         <div class="wow fadeInUp map">
           <div id="map-canvas"></div>
@@ -517,7 +508,7 @@ app.controller('customersCtrl', function($scope, $http) {
         </div>
         <!--map end--> 
       </div>
-      <div class="col-md-5"> 
+      <div class="col-md-6">
         
         <!--contact form-->
         
