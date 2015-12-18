@@ -1095,8 +1095,8 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
     #flags_language_selector{right: 0;}
-    #rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_1_2_wrapper{height:180px !important; padding-top: 75px !important; min-height:180px !important;}
-    #home, .banner-text{ height:330px !important;  top: 60px !important; min-height:180px !important;}
+    #rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_1_2_wrapper{height:180px !important; padding-top: 85px !important; min-height:180px !important;}
+    #home, .banner-text{ height:330px !important;  top: 80px !important; min-height:190px !important;}
     #home .overlay{ height:200px !important; top: 60px !important; min-height:200px !important;}
     .p-cls{ top:10px; padding-top: 10px; font-size:16px; line-height:18px; height: 125px;}
     .head-set, .pricPackages{ font-size:18px; padding-top:10px; padding-bottom:0px;}
