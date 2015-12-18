@@ -1033,6 +1033,10 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     .container > .navbar-header{ margin-left:0; margin-right:0;}
     #login{ font-size:16px; padding-top:13px; padding-bottom:10px;}
     .hideDiv #login{ padding-top:5px;}
+    #pricing .col-sm-8{width: 100%;}
+    .featuresDD h1, .topHeadL{font-size: 24px;}
+    .head-set{font-size: 18px;}
+    .wpcf7-form p{margin-left: 3%; width: 46%;}
 }
 
 
@@ -1040,8 +1044,7 @@ div.wpcf7-mail-sent-ok{float: right; margin-top: 0; margin-right: 3%; border: 0 
     #flags_language_selector{right: 0;}
     .navbar-toggle{ margin-top:25px;}
     .navbar-brand{margin-top: 3px;}
-    .wpcf7-form p{margin-left: 1%;}
-    #pricing .col-sm-8{width: 100%;}
+
     .inn_download{width: 455px;}
     .hideDiv .navbar-toggle{ margin-top:23px}
     .navbar-collapse{ width:200px; margin-right: 6px !important; float:right; padding-top:4px; border:2px solid #ccc !important; padding-bottom:5px; position:relative; top:-4px; overflow:hidden; background:#fff; margin-right:-10px;}
