@@ -38,14 +38,14 @@ input{ outline:none;}
 .navbar-default .navbar-nav > li > a {
     color: #333;
     font-size:18px;
-    font-family:'MyriadPro', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:normal;
     padding:20px 10px;
     margin: 0 10px;
 }
 .selected, .navbar-default .navbar-nav > li > a:hover{
     color: #178EB4 !important;
-    font-family:'MyriadPro', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:normal;
     text-decoration:none;
 }
@@ -84,7 +84,7 @@ input{ outline:none;}
 
 .hideDiv .selected, .hideDiv .navbar-nav > li > a:hover{
     color: #666;
-    font-family:'MyriadPro', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:normal;
 }
 /*================================
@@ -306,7 +306,7 @@ input{ outline:none;}
     z-index:3;
     top:180px;
     color:#fff;
-    font-family:"Alegreya Sans", Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:400;
     max-width: 750px;
     text-align: center;
@@ -333,7 +333,7 @@ input{ outline:none;}
     font-size:34px;
     line-height:35px;
     color:#fff;
-    font-family:"Alegreya Sans", Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:400;
     width: 49%; text-align: right;
 }
@@ -343,7 +343,7 @@ input{ outline:none;}
     font-size:24px;
     line-height:35px;
     color:#0088b3;
-    font-family:"Alegreya Sans", Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:500;
     text-align:center;
     width:100%;
@@ -356,7 +356,7 @@ input{ outline:none;}
     font-size:34px;
     line-height:35px;
     color:#178EB4;
-    font-family:"Alegreya Sans", Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:400;
     text-align:center;
     width:100%;
@@ -371,7 +371,7 @@ input{ outline:none;}
     width: 610px;
     margin: 0 auto;}
 .inn_download img { float:left; width:30px;}
-.inn_download a { float: right; width: 288px; background:#fff; border-radius:5px; padding:8px; line-height:25px; margin:15px 8px; font-family:'MyriadPro', Helvetica, sans-serif; font-size:20px; color:#178eb4;
+.inn_download a { float: right; width: 288px; background:#fff; border-radius:5px; padding:8px; line-height:25px; margin:15px 8px; font-family: 'Open Sans', sans-serif; font-size:20px; color:#178eb4;
     display: inline-block;
     cursor: pointer;
 }
@@ -399,7 +399,7 @@ input{ outline:none;}
     padding-top: 20px;
     border-bottom: solid 1px #c7e0e7;}
 .f_inner img{ width: 64px;}
-.f_inner p{ float:left; font-size:26px; line-height:28px; margin:25px 5%; font-weight: 500; width:90%; font-family:"Alegreya Sans", Helvetica, sans-serif; color: #0088b3;}
+.f_inner p{ float:left; font-size:26px; line-height:28px; margin:25px 5%; font-weight: 500; width:90%; font-family: 'Open Sans', sans-serif; color: #0088b3;}
 .f_inner p span{ float:left; width:100%; color:#0088b3; font-size:20px; }
 
 
@@ -408,7 +408,7 @@ input{ outline:none;}
 =========================================*/
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
 .imgFirst{ float:left; margin:0 0 0 4px; border-radius: 50px;}
-.greenBox{ float:none; margin:0 auto; width:275px; background:#fff; font-family:'MyriadPro', Helvetica, sans-serif;}
+.greenBox{ float:none; margin:0 auto; width:275px; background:#fff; font-family: 'Open Sans', sans-serif;}
 .greenBoxB1{float: left; width: 100%; border-radius: 5px; border: solid 1px #2EB9C3;}
 .greenBoxB2{float: left; width: 100%; border-radius: 5px; border: solid 1px #93D16A;}
 .greenBoxB3{float: left; width: 100%; border-radius: 5px; border: solid 1px #FFA663;}
@@ -470,7 +470,7 @@ footer {
 #login{ width:110px;
     color: #000;
     font-size: 18px;
-    font-family:'MyriadPro', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     padding: 28px 10px;
     margin: 0 10px;
@@ -779,14 +779,14 @@ footer {
 .pLast{float:right !important; margin-right:4% !important; width:90% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
-.planSubH{ background:#178EB4; padding: 30px; font-family: MyriadPro; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
+.planSubH{ background:#178EB4; padding: 30px; font-family: 'Open Sans', sans-serif; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
 .regPlan{float: left; width: 100%; padding-top: 30px; position: relative;}
 .wpcf7-form p{ float: left; width: 47%; margin-left: 1.8%;}
 .wpcf7-form p span{float: left; width: 100%;}
 .wpcf7-form input, .wpcf7-form select{
     float: left; width: 100%; }
 
-.wpcf7-form input[type=submit]{background: #218EB4; margin-bottom: 0; float:right; width: 50%; border: solid 1px #218EB4; font-family: MyriadPro;  color: #fff; font-size: 18px;}
+.wpcf7-form input[type=submit]{background: #218EB4; margin-bottom: 0; float:right; width: 50%; border: solid 1px #218EB4; font-family: 'Open Sans', sans-serif;  color: #fff; font-size: 18px;}
 .wpcf7-form input[type=submit]:hover{background:#02BCFD; border: solid 1px #02BCFD;}
 .form-control:focus, .wpcf7-form input:focus, .wpcf7-form select {
     outline: 0;
