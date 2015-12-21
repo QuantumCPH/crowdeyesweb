@@ -994,6 +994,9 @@ input {
 #flags_language_selector .slct{ font-weight: 600;}
 #flags_language_selector img{ padding:1px;}
 
+.bannerImg{display: none; max-width: 100%;}
+.bannerImg img{ max-width: 100%;}
+
 @media screen and (max-width: 1024px) {
     .greenBox .greenInner1 font{float: left; margin-left: 5px; margin-top: -4px;}
     .greenBox .greenInner1 span{margin-top: 3px; min-width: 70%; text-align: left;}
