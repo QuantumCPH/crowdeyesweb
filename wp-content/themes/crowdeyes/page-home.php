@@ -105,7 +105,7 @@ get_header(); ?>
   <!-- NAVBAR CODE END -->
   <?php echo do_shortcode('[rev_slider main]'); ?>
 
-  <div class="bannerImg"> <img src="http://108.163.184.34/crowdeyes-parallax/wp-content/uploads/2015/12/englis.png"></div>
+  <div class="bannerImg"> <img src="http://108.163.184.34/crowdeyes-parallax/wp-content/uploads/2015/09/21.png"></div>
 
   <div id="home">
     <div class="container banner-text">
