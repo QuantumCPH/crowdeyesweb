@@ -299,7 +299,7 @@ input{ outline:none;}
 .banner-text{ position:relative; margin-bottom:0px; float:left; width:100%;}
 
 .p-cls {
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 40px;
     float:none;
     width:100%;
@@ -483,7 +483,7 @@ footer {
 }
 #login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
-.rev_slider_wrapper{ position:absolute; top:0; z-index:1 !important;}
+.rev_slider_wrapper{ position:absolute; top:100px; z-index:1 !important;}
 .tp-loader{ display:none;}
 .slotholder { background: #000 !important;;}
 
