@@ -528,7 +528,7 @@ footer {
 }
 
 .contact-form p{width: 98% !important; margin-left: 0;}
-.contact-form .wpcf7-form input[type=submit]{width: 100% !important;}
+.contact-form .wpcf7-form input[type=submit]{width: 180px !important;}
 .contact-form .wpcf7-form textarea{
     height: 110px;
     width: 100%;
@@ -778,12 +778,12 @@ footer {
 .detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 2px #ececec;}
 .innerDePages{ float: left; padding: 20px;}
 #contact .col-md-6{ padding: 4px;}
-.pLast{float:right !important; margin-right:2% !important; width:94% !important;}
+.pLast{float:right !important; margin-right:2.5% !important; width:94% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: 'Open Sans', sans-serif; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
 .regPlan{float: left; width: 100%; padding-top: 30px; position: relative;}
-.wpcf7-form p{ float: left; width: 47%; margin-left: 1.8%;}
+.wpcf7-form p{ float: left; width: 47%; margin-left: 1.7%;}
 .wpcf7-form p span{float: left; width: 100%;}
 .wpcf7-form input, .wpcf7-form select{
     float: left; width: 100%; }

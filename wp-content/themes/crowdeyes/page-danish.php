@@ -133,8 +133,8 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-          <h1 class="topHeadL">Look what’s happening around you</h1>
-          <h2 class="head-set">Live feeds in four different categories</h2>
+          <h1 class="topHeadL">Se hvad der sker omkring dig</h1>
+          <h2 class="head-set">Live feed i fire forskellige kategorier</h2>
       </div>
     </div>
 	
@@ -334,8 +334,8 @@ app.controller('customersCtrl', function($scope, $http) {
     <div class="featuresFirstS">
         <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
         <div class="container">
-            <h1 class="topHeadL">We cover the most of it</h1>
-            <h2 class="head-set">Our feature list makes your life awesome</h2>
+            <h1 class="topHeadL">Vi dækker næsten alt</h1>
+            <h2 class="head-set">Vores liste af funktioner gør dit liv nemt</h2>
         </div>
 
         <div class="col-xs-12">
@@ -379,8 +379,8 @@ app.controller('customersCtrl', function($scope, $http) {
 
   <div  class="featuresDD">
     <div class="container">
-        <h1>Catch up from unlimited spots</h1>
-        <h3>We are really resposive for almost all of your devices</h3>
+        <h1>Hold dig opdateret fra alle enheder</h1>
+        <h3>Vores responsive design passer til alle dine enheder</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
       </div>
@@ -397,8 +397,8 @@ app.controller('customersCtrl', function($scope, $http) {
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
         <div class="col-sm-8 col-xs-12">
 
-            <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
-            <h2 class="head-set">Just type in the info below</h2>
+            <h1 class="topHeadL">Registrér dig for at høre mere om vores business løsninger</h1>
+            <h2 class="head-set">Bare indtast dine informationer nedenunder</h2>
         </div>
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
     </div>
@@ -496,8 +496,8 @@ app.controller('customersCtrl', function($scope, $http) {
 <section class="contact section-spacing" id="contact">
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
   <div class="container">
-      <h1 class="topHeadL">Drop us a message</h1>
-      <h2 class="head-set">We would love to hear from you</h2>
+      <h1 class="topHeadL">Vi ser frem til at høre fra jer</h1>
+      <h2 class="head-set">Hjælper dig med at hjælpe andre</h2>
     <div class="row">
       <div class="col-md-6">
         <!--map-->
