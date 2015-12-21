@@ -496,7 +496,7 @@ app.controller('customersCtrl', function($scope, $http) {
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
   <div class="container">
       <h1 class="topHeadL">Drop us a message</h1>
-      <h2 class="head-set">We will love hearing from you</h2>
+      <h2 class="head-set">We would love to hear from you</h2>
     <div class="row">
       <div class="col-md-6">
         <!--map-->

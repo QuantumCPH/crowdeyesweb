@@ -386,7 +386,7 @@ input{ outline:none;}
     transition: all ease 0.8s;
 }
 .inn_download a:hover, .downLoadLinks .btn-lg:hover {
-    box-shadow: inset 0 100px 0 0 #222;
+    background: #02BCFD;
     color: #FFF;
 }
 
