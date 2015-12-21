@@ -241,8 +241,8 @@ app.controller('customersCtrl', function($scope, $http) {
 
                       <div class="greenInner2">
 		  <span>
-			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
@@ -273,8 +273,8 @@ app.controller('customersCtrl', function($scope, $http) {
 
                       <div class="greenInner2">
 		  <span>
-		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
@@ -304,8 +304,8 @@ app.controller('customersCtrl', function($scope, $http) {
                       <div class="greenInner2">
 		  <span>
 
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
+			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
 			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
