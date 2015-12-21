@@ -497,7 +497,7 @@ app.controller('customersCtrl', function($scope, $http) {
 <section class="contact section-spacing" id="contact">
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
   <div class="container">
-      <h1 class="topHeadL">Vi ser frem til at høre fra jer</h1>
+      <h1 class="topHeadL">Send os en besked</h1>
       <h2 class="head-set">Hjælper dig med at hjælpe andre</h2>
     <div class="row">
       <div class="col-md-6">
