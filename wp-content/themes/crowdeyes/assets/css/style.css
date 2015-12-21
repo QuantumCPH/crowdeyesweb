@@ -93,7 +93,7 @@ input{ outline:none;}
 /*================================
     PLAN AND PRICING
 ==================================*/
-.featuresDD h1{float: left; width: 100%; margin-top: 5px; text-align: center; font-size: 34px; font-weight: normal;
+.featuresDD h1{float: left; width: 100%; margin-top: 5px; text-align: center; font-size: 28px; font-weight: 600;
     color: #fff;}
 .featuresDD h3{float: left; width: 100%; text-align: center; font-size: 17px; font-weight: normal;
     color: #beefff; margin-top: 5px;}
@@ -395,8 +395,11 @@ input{ outline:none;}
     padding-top: 20px;
     border-bottom: solid 1px #c7e0e7;}
 .f_inner img{ width: 64px;}
-.f_inner p{ float:left; font-size:26px; line-height:28px; margin:25px 5%; font-weight: 500; width:90%; font-family: 'Open Sans', sans-serif; color: #0088b3;}
-.f_inner p span{ float:left; width:100%; color:#0088b3; font-size:20px; }
+.f_inner p{ float:left;
+    font-size:22px;
+    min-height: 85px;
+    line-height:28px; margin:25px 5%; font-weight: 600; width:90%; font-family: 'Open Sans', sans-serif; color: #0088b3;}
+.f_inner p span{ float:left; width:100%; color:#0088b3; font-size:18px; }
 
 
 /*======================================
