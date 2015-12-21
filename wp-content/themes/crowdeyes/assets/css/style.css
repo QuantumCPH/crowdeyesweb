@@ -1110,6 +1110,9 @@ input {
         margin-top: 20px;
         padding-top: 20px;}
     .f_inner p{font-size: 18px;}
+    .bannerImg{display: block;}
+    .rev_slider_wrapper{display: none;}
+
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
