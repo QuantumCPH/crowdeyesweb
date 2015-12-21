@@ -400,8 +400,8 @@ input{ outline:none;}
 .f_inner p{ float:left;
     font-size:22px;
     min-height: 85px;
-    line-height:28px; margin:25px 5%; font-weight: 600; width:90%; font-family: 'Open Sans', sans-serif; color: #0088b3;}
-.f_inner p span{ float:left; width:100%; color:#0088b3; font-size:18px; }
+    line-height:28px; margin:25px 5%; font-weight: 600; width:90%; font-family: 'Source Sans Pro', sans-serif; color: #0088b3;}
+.f_inner p span{ float:left; width:100%; font-weight: 400; color:#0088b3; font-size:18px; }
 
 
 /*======================================
