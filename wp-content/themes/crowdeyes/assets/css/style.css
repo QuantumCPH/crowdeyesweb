@@ -307,7 +307,7 @@ input{ outline:none;}
     line-height:35px;
     position:relative;
     z-index:3;
-    top:100px;
+    top:110px;
     color:#fff;
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
@@ -385,8 +385,8 @@ input{ outline:none;}
 }
 
 .inn_download a:hover{
-   background: #E2E2E2;
-    color:#178eb4;
+   background: #3EBFEC;
+    color:#fff;
 }
 
 
