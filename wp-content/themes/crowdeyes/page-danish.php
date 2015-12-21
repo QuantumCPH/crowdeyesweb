@@ -611,6 +611,8 @@ $(function() {
 });
 </script>
 
+<!---
+
 <script>
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -630,6 +632,8 @@ $(function() {
     }
   });
 </script>
+
+-->
 
 <script>
   $(document).ready(function(){
