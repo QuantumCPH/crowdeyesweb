@@ -7,6 +7,9 @@
     src:local(MyriadPro), url('../fonts/MyriadPro-Regular_gdi.ttf');
     font-weight:normal;font-style:normal
 }
+
+body{ font-family: 'Open Sans', sans-serif; padding-right: 0 !important;}
+
 section {
     padding-top: 40px;
     float: left;width: 100%;
@@ -37,7 +40,7 @@ input{ outline:none;}
 
 .navbar-default .navbar-nav > li > a {
     color: #333;
-    font-size:18px;
+    font-size:16px;
     font-family: 'Open Sans', sans-serif;
     font-weight:normal;
     padding:20px 10px;
@@ -982,7 +985,7 @@ input {
 .downLoadLinks img{width: 28px; float: left;}
 .downLoadLinks span{ font-size: 17px; margin-top: 5px; font-weight: 400; float: left; margin-left: 10px;}
 #flags_language_selector .container{padding-right: 50px;}
-#flags_language_selector a{color: #333; text-decoration: none; font-size: 13px;}
+#flags_language_selector a{color: #333; text-decoration: none; font-size: 12px;}
 #flags_language_selector .slct{ font-weight: 600;}
 #flags_language_selector img{ padding:1px;}
 
