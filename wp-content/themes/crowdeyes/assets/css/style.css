@@ -954,7 +954,9 @@ input {
 .featuresFirstS{float: left; width: 100%; text-align: center; margin-top: 60px; padding-top: 45px;
     background: url(../img/bgf.png) repeat-x top;
 }
-.topHeadL{float: left; width: 100%; font-family: 'Open Sans', sans-serif; color: #346777; text-align: center; font-size: 30px; font-weight: 500;}
+.topHeadL{float: left; width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #346777; text-align: center; font-size: 30px; font-weight: 600;}
 #moveTop{
     position: fixed;
     right: 10px;
