@@ -336,8 +336,8 @@ input{ outline:none;}
 .head-set{
     padding:0px 0px 10px 0;
     float:left;
-    font-size:22px;
-    line-height:32px;
+    font-size:20px;
+    line-height:30px;
     color:#0088b3;
     font-family: 'Open Sans', sans-serif;
     font-weight:600;
@@ -360,14 +360,15 @@ input{ outline:none;}
 }
 #features{ background:#fff;}
 .featImg{text-align: center;}
-.leftImg{ margin:50px auto; float:none; max-width:100%; }
+.leftImg{ margin:50px auto 10px auto; float:none; max-width:100%; }
 .featuresDD{ float:left; width:100%; padding:60px 0; background:#178EB4; margin-top:50px;}
 .inn_download{ float: none;
     margin-top: 28px;
     width: 610px;
     margin: 0 auto;}
 .inn_download img { float:left; width:30px;}
-.inn_download a { float: right; width: 288px; background:#fff; border-radius:5px; padding:8px; line-height:25px; margin:15px 8px; font-family: 'Open Sans', sans-serif; font-size:20px; color:#178eb4;
+.inn_download a { float: right; width: 288px; background:#fff; border-radius:5px; padding:8px;
+    line-height:25px; margin:15px 8px; font-family: 'Open Sans', sans-serif; font-size:17px; color:#178eb4;
     display: inline-block;
     cursor: pointer;
 }
@@ -775,7 +776,7 @@ footer {
 .detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 2px #ececec;}
 .innerDePages{ float: left; padding: 20px;}
 #contact .col-md-6{ padding: 4px;}
-.pLast{float:right !important; margin-right:4% !important; width:90% !important;}
+.pLast{float:right !important; margin-right:2% !important; width:94% !important;}
 span.wpcf7-not-valid-tip{float: left; bottom: -7px; font-size: 12px; position: absolute; }
 div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display: none !important;}
 .planSubH{ background:#178EB4; padding: 30px; font-family: 'Open Sans', sans-serif; margin-bottom: 30px; font-size: 22px; text-align: center; color: #fff; float: left; width: 100%;}
