@@ -300,7 +300,7 @@ input{ outline:none;}
     padding-bottom: 40px;
     float:none;
     width:100%;
-    font-size:28px;
+    font-size:24px;
     line-height:35px;
     position:relative;
     z-index:3;
@@ -315,16 +315,9 @@ input{ outline:none;}
 .p-cls label{
     float: left;
     width: 100%;
-    font-size: 36px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.p-cls label{
-    float: left;
-    width: 100%;
-    font-size: 36px;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .downloadApp p{
     padding:45px 0px 40px 0;
@@ -340,11 +333,11 @@ input{ outline:none;}
 .head-set{
     padding:0px 0px 10px 0;
     float:left;
-    font-size:24px;
-    line-height:35px;
+    font-size:22px;
+    line-height:32px;
     color:#0088b3;
     font-family: 'Open Sans', sans-serif;
-    font-weight:500;
+    font-weight:600;
     text-align:center;
     width:100%;
     margin-top:0;
@@ -961,7 +954,7 @@ input {
 .featuresFirstS{float: left; width: 100%; text-align: center; margin-top: 60px; padding-top: 45px;
     background: url(../img/bgf.png) repeat-x top;
 }
-.topHeadL{float: left; width: 100%; color: #346777; text-align: center; font-size: 30px; font-weight: 500;}
+.topHeadL{float: left; width: 100%; font-family: 'Open Sans', sans-serif; color: #346777; text-align: center; font-size: 30px; font-weight: 500;}
 #moveTop{
     position: fixed;
     right: 10px;
@@ -969,6 +962,7 @@ input {
     z-index: 999999;
     font-size: 24px;
     opacity: .8;
+
 }
 #rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_2_1_wrapper{background: #fff !important;}
 .navbar-collapse{ position:relative;}
@@ -1016,7 +1010,7 @@ input {
     #home, .banner-text{ height:370px; min-height:370px;}
     #home .overlay{ height:400px; min-height:400px;}
 
-    .p-cls{ top:100px; width: 98%; font-size:20px; line-height: 25px;}
+    .p-cls{ top:100px; width: 98%; font-size:18px; line-height: 24px;}
     .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
     .inn_download{width: 480px;}
     .inn_download a{ margin-left:5px; width: 230px; margin-right:0; font-size: 16px; float: none;}
@@ -1088,8 +1082,8 @@ input {
     #home, .banner-text{ height:270px; min-height:270px;}
     #home .overlay{ height:290px; min-height:290px;}
     .banner-text{ padding-left:0; padding-right:0;}
-    .p-cls{ width:90%; font-size:20px; top:20px; color: #333; line-height:24px;}
-    .p-cls label{font-size: 24px;}
+    .p-cls{ width:90%; font-size:18px; top:20px; color: #333; line-height:22px;}
+    .p-cls label{font-size: 22px;}
     .downLoadLinks span{font-size: 16px; margin-top: 5px;}
     .downLoadLinks img{width: 24px;}
     .navbar-brand img{ margin-left:0;}
@@ -1119,7 +1113,7 @@ input {
     .featuresDD h1, .topHeadL{font-size: 20px; margin-bottom: 4px;}
     .head-set{font-size: 16px;}
     .regPlan .wpcf7-form p{width: 94%;}
-    .p-cls label{font-size: 22px;}
+    .p-cls label{font-size: 20px;}
     .downLoadLinks{margin-top: 5px;}
     .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
     .inn_download a{width: 230px; text-align: left; margin-top: 5px;}
