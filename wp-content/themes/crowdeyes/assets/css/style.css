@@ -1103,7 +1103,7 @@ input {
     .topHead span{display: block; font-size: 22px;}
     #home .overlay{ min-height:200px;}
     .banner-text{ padding-left:0; padding-right:0;}
-    .p-cls{ width:90%; font-size:18px; top:20px; color: #333; line-height:22px;}
+    .p-cls{ width:90%; font-size:18px; padding-top: 40px; top:20px; color: #333; line-height:22px;}
     .p-cls label{font-size: 22px;}
     .downLoadLinks span{font-size: 14px; margin-top: 5px;}
     .downLoadLinks img{width: 24px;}
