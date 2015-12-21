@@ -234,7 +234,7 @@ app.controller('customersCtrl', function($scope, $http) {
 
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Kæledyr</span> </div>
 
               <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
                   <div class="greenBoxB2">
@@ -266,7 +266,7 @@ app.controller('customersCtrl', function($scope, $http) {
           </div>
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Person</span> </div>
 
               <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
                   <div class="greenBoxB3">
@@ -296,7 +296,7 @@ app.controller('customersCtrl', function($scope, $http) {
           </div>
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Hændelser</span> </div>
 
 
               <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
