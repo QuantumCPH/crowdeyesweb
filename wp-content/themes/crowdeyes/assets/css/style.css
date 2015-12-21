@@ -1112,6 +1112,7 @@ input {
     .f_inner p{font-size: 18px;}
     .bannerImg{display: block;}
     .rev_slider_wrapper{display: none;}
+    #home, .banner-text{ height:270px; min-height:270px;}
 
 }
 @media screen and (max-width: 415px) {
