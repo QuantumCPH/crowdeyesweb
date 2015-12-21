@@ -319,6 +319,7 @@ input{ outline:none;}
     float: left;
     width: 100%;
     font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -962,7 +963,7 @@ input {
     background: url(../img/bgf.png) repeat-x top;
 }
 .topHeadL{float: left; width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #346777; text-align: center; font-size: 30px; font-weight: 600;}
 #moveTop{
     position: fixed;
