@@ -693,7 +693,7 @@ $(function() {
                 <h4 class="modal-title">Subscribe To Get Notified</h4>
             </div>
             <div class="modal-body">
-                <?php echo do_shortcode('[contact-form-7 id="107" title="CS Android"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="237" title="CS Android Dn"]'); ?>
             </div>
         </div>
     </div>
