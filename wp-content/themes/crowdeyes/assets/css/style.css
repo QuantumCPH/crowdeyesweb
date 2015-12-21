@@ -385,9 +385,13 @@ input{ outline:none;}
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
 }
-.inn_download a:hover, .downLoadLinks .btn-lg:hover {
+.downLoadLinks .btn-lg:hover {
     background: #02BCFD;
     color: #FFF;
+}
+
+.inn_download a:hover{
+   background: #E2E2E2;
 }
 
 
