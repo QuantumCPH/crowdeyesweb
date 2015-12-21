@@ -112,7 +112,7 @@ get_header(); ?>
   <div class="container banner-text">
     <div class="container">
       <p class="p-cls">
-          <label>Helping you help others</label>
+          <label>Hjælper dig med at hjælpe andre</label>
           En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre.
       <span class="downLoadLinks">
          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download from App Store</span></a>
