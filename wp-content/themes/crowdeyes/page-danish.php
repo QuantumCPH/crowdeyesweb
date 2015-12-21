@@ -127,7 +127,6 @@ get_header(); ?>
 
 <!--HOME SECTION END  -->
 
- 
 
 <section id="features">
   <div class="container">
