@@ -476,12 +476,13 @@ app.controller('customersCtrl', function($scope, $http) {
 
      -->
 
-    <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -10px;"></a>
+
   </div>
 </section>
 <footer>
 
   <div class="downloadApp">
+      <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -60px;"></a>
     <div class="container">
         <div class="inn_download">
              <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store coming soon</span></a>
