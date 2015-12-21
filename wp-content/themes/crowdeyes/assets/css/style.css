@@ -971,7 +971,7 @@ input {
 }
 #rev_slider_1_1, #rev_slider_1_1_wrapper, #rev_slider_2_1, #rev_slider_2_1_wrapper{background: #fff !important;}
 .navbar-collapse{ position:relative;}
-#flags_language_selector{ position:absolute;
+#flags_language_selector{ position:relative;
     z-index: 9999999;
     right: 0;
     top: -1px;
