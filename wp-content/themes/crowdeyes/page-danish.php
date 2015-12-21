@@ -689,7 +689,7 @@ $(function() {
         <div class="modal-content" style="float: left; width: 100%; padding: 5px 5px 30px 5px">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Subscribe To Get Notified</h4>
+                <h4 class="modal-title">Abonnér at få besked</h4>
             </div>
             <div class="modal-body">
                 <?php echo do_shortcode('[contact-form-7 id="237" title="CS Android Dn"]'); ?>
