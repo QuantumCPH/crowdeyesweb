@@ -90,7 +90,7 @@ input{ outline:none;}
 /*================================
     PLAN AND PRICING
 ==================================*/
-.featuresDD h1{float: left; width: 100%; text-align: center; font-size: 34px; font-weight: normal;
+.featuresDD h1{float: left; width: 100%; margin-top: 10px; text-align: center; font-size: 34px; font-weight: normal;
     color: #fff;}
 .featuresDD h3{float: left; width: 100%; text-align: center; font-size: 17px; font-weight: normal;
     color: #beefff; margin-top: 5px;}
