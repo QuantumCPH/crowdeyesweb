@@ -78,6 +78,31 @@ get_header(); ?>
           <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=85"> Dansk </a>
        <?php }  ?>
 
+        <?php $pID = $_REQUEST['page_id'];
+        if($pID == 81 || $pID == 87){ ?>
+          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=81"> English | </a>
+          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=87"> Dansk </a>
+        <?php }  ?>
+
+        <?php $pID = $_REQUEST['page_id'];
+        if($pID == 91 || $pID == 83){ ?>
+          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=83"> English | </a>
+          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=91"> Dansk </a>
+        <?php }  ?>
+
+        <?php $pID = $_REQUEST['page_id'];
+        if($pID == 93 || $pID == 95){ ?>
+          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=93"> English | </a>
+          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=95"> Dansk </a>
+        <?php }  ?>
+
+        <?php $pID = $_REQUEST['page_id'];
+        if($pID == 154 || $pID == 147){ ?>
+          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=154"> English | </a>
+          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147"> Dansk </a>
+        <?php }  ?>
+
+
       </div>
     </div>
     <div class="container">
