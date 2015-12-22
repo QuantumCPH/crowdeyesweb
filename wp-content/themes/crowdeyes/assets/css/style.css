@@ -1148,6 +1148,7 @@ input {
     .downLoadLinks .btn-lg{ width: 240px; }
     .imgDD{height: 50px;}
     div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
+   .modal-dialog .wpcf7-form p{width: 100%; margin-left: 0;}
 }
 
 @media screen and (max-width: 376px) {
