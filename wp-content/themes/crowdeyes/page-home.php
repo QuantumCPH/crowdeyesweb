@@ -143,7 +143,7 @@ get_header(); ?>
         app.controller('customersCtrl', function($scope, $http) {
 
 
-          getData();
+          $scope.getData();
           $scope.getData = function(){
             var userData = $http({
               method: "post",
