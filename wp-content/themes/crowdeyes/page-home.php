@@ -378,8 +378,8 @@ get_header(); ?>
     <div class="featuresFirstS">
       <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
     <div class="container">
-      <h1 class="topHeadL">We cover the maximum</h1>
-      <h2 class="head-set">Our feature list makes your life comfortable</h2>
+      <h1 class="topHeadL">We cover everything</h1>
+      <h2 class="head-set">Our list of features makes your life easy</h2>
     </div>
 
       <div class="col-xs-12">
@@ -423,7 +423,7 @@ get_header(); ?>
     <div class="featuresDD">
       <div class="container">
         <h1>Catch up from unlimited angles</h1>
-        <h3>We are resposive for all of your devices</h3>
+        <h3>Our responsive design fits all your devices</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
         </div>
