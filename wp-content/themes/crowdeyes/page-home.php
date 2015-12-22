@@ -143,25 +143,7 @@ get_header(); ?>
         app.controller('customersCtrl', function($scope, $http) {
 
 
-
-          var userData = $http({
-            method: "post",
-            url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
-            data: {
-              Count: "1",
-              ProfileID: "771",
-              CategoryID:"11",
-              SubCategories:"true",
-              SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-
-            },
-            headers: {'Content-Type': 'application/json'}
-          });
-          userData.success(function (userdataobject) {
-            $scope.catadata1 = userdataobject;
-            $scope.quantity1 = 1;
-          });
-
+          getData();
           $scope.getData = function(){
             var userData = $http({
               method: "post",
@@ -182,10 +164,7 @@ get_header(); ?>
             });
           };
 
-
           setInterval($scope.getData, 30000);
-
-
 
         });
         /*Count = 50;
