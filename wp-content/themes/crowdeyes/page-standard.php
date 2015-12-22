@@ -161,33 +161,48 @@ get_header(); ?>
 
           <!--social-->
 
-          <ul class="footer_links">
-
-            <?php echo wp_nav_menu( array('menu' => 'Bottom Menu En' )); ?>
-            <!--social
-            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About Us</a></li>
-            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
-            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
-            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
-            <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154" >FAQ</a></li>
-            -->
-          </ul>
-
-          <ul class="social">
-            <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li class="wow fadeInUp"><a href="https://www.facebook.com/CrowdEyes" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li class="wow fadeInUp"><a href="https://plus.google.com/u/0/116737434126664185854/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-
           <!--social end-->
 
           <?php $pID1 = $_REQUEST['page_id'];
           if($pID1 == 85 || $pID == 87 || $pID == 91 || $pID == 95 || $pID == 147){ ?>
 
+            <ul class="footer_links">
+
+              <?php echo wp_nav_menu( array('menu' => 'Bottom Menu Dn' )); ?>
+              <!--social
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About Us</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154" >FAQ</a></li>
+              -->
+            </ul>
+
+            <ul class="social">
+              <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="wow fadeInUp"><a href="https://www.facebook.com/CrowdEyes" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="wow fadeInUp"><a href="https://plus.google.com/u/0/116737434126664185854/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
             <small class="wow fadeInUp">&copy; Copyright CrowdEyes . Alle rettigheder forbeholdes.</small>
 
           <?php }else{ ?>
+            <ul class="footer_links">
 
+              <?php echo wp_nav_menu( array('menu' => 'Bottom Menu En' )); ?>
+              <!--social
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76" >About Us</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=81" >Terms of Use</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=83" >Privacy</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=93" >Cookies</a></li>
+              <li class="wow fadeInUp"><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154" >FAQ</a></li>
+              -->
+            </ul>
+
+            <ul class="social">
+              <li class="wow fadeInUp"><a href="https://twitter.com/CrowdEyes" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="wow fadeInUp"><a href="https://www.facebook.com/CrowdEyes" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="wow fadeInUp"><a href="https://plus.google.com/u/0/116737434126664185854/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
           <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
             <?php } ?>
         </div>
