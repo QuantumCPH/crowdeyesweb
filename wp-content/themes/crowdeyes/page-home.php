@@ -150,7 +150,7 @@ get_header(); ?>
             data: {
               Count: "1",
               ProfileID: "771",
-              CategoryID:"2",
+              CategoryID:"11",
               SubCategories:"true",
               SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
@@ -158,7 +158,7 @@ get_header(); ?>
             headers: {'Content-Type': 'application/json'}
           });
           userData.success(function (userdataobject) {
-            $scope.catadata = userdataobject;
+            $scope.catadata1 = userdataobject;
             $scope.quantity1 = 1;
           });
 
