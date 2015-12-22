@@ -378,7 +378,7 @@ get_header(); ?>
     <div class="featuresFirstS">
         <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
         <div class="container">
-            <h1 class="topHeadL">Vi dækker det hele</h1>
+            <h1 class="topHeadL">Vi omfatter alt</h1>
             <h2 class="head-set">Vores liste af funktioner gør dit liv nemt</h2>
         </div>
 
