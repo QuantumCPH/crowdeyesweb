@@ -302,7 +302,7 @@ get_header(); ?>
 			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.When | date:'d-M-y HH:mm'}}</font>
               </div>
             </div>
           </div>
@@ -333,7 +333,7 @@ get_header(); ?>
                 <img class="imgFirst" src="{{cat3.CreatedBy_Profile.Picture.URI}}" /><span>
 			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.When | date:'d-M-y HH:mm'}}</font>
               </div>
             </div>
         </div>
