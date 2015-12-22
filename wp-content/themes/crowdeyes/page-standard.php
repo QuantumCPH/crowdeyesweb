@@ -74,8 +74,8 @@ get_header(); ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 85 || $pID == 76){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=85"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76"> Dansk </a>
+          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=76"> English | </a>
+          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=85"> Dansk </a>
        <?php }  ?>
 
       </div>
