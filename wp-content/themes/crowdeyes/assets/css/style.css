@@ -35,7 +35,7 @@ input{ outline:none;}
     top: 0px;
     position: fixed;
     width: 100%;
-    height: 90px;
+    height: 92px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -487,7 +487,7 @@ footer {
 }
 #login-content{ border:solid 1px #ccc; float:right; width:350px; height:260px; clear:both; margin-top:-4px; margin-right:25px; position:relative; z-index:99999999; background:#fff; border-radius:5px; display:none;}
 .hideDiv #login-content{ margin-top:-15px;}
-.rev_slider_wrapper{ position:absolute; top:90px; z-index:1 !important;}
+.rev_slider_wrapper{ position:absolute; top:92px; z-index:1 !important;}
 .tp-loader{ display:none;}
 .slotholder { background: #000 !important;;}
 
