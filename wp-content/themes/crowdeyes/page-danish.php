@@ -529,8 +529,9 @@ get_header(); ?>
       <a href="#" id="downloadApp" style="float: left; width: 100%; visibility: hidden; margin-top: -120px;"></a>
     <div class="container">
         <div class="inn_download">
-             <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store kommer snart</span></a>
             <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download fra App Store</span></a>
+
+            <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store kommer snart</span></a>
 
         </div>
     </div>
