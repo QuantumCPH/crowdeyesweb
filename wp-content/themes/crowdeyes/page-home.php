@@ -164,7 +164,7 @@ get_header(); ?>
             });
           };
 
-          setInterval(getcatdata(), 30000);
+          setInterval(getcatdata, 30000);
 
         });
         /*Count = 50;
