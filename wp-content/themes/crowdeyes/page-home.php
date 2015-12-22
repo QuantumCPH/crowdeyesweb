@@ -143,8 +143,8 @@ get_header(); ?>
         app.controller('customersCtrl', function($scope, $http) {
 
 
-          $scope.getData();
-          $scope.getData = function(){
+          getcatdata();
+          function getcatdata() {
             var userData = $http({
               method: "post",
               url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
@@ -164,7 +164,7 @@ get_header(); ?>
             });
           };
 
-          setInterval($scope.getData, 30000);
+          setInterval(getcatdata(), 30000);
 
         });
         /*Count = 50;
