@@ -148,8 +148,10 @@ get_header(); ?>
             method: "post",
             url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
             data: {
-              Count: "150",
+              Count: "1",
               ProfileID: "771",
+              CategoryID:"2",
+              SubCategories:"true",
               SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
             },
@@ -165,15 +167,17 @@ get_header(); ?>
               method: "post",
               url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
-                Count: "150",
+                Count: "1",
                 ProfileID: "771",
+                CategoryID:"2",
+                SubCategories:"true",
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
               },
               headers: {'Content-Type': 'application/json'}
             });
             userData.success(function (userdataobject) {
-              $scope.catadata = userdataobject;
+              $scope.catadata1 = userdataobject;
               $scope.quantity1 = 1;
             });
           };
@@ -200,32 +204,32 @@ get_header(); ?>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
-          <div class="greenBox" ng-repeat="cat in catadata | filter: {TopCategoryID : 11} | limitTo:quantity1">
+          <div class="greenBox" ng-repeat="cat1 in catadata1">
             <div class="greenBoxB1">
 
             <div class="greenInner2">
 
 		  <span>
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		      <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat1.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat.Title}}</h4>
+                <h4>{{cat1.Title}}</h4>
                 <p>
-                  {{cat.Desciption | limitTo: 50}}...
+                  {{cat1.Desciption | limitTo: 50}}...
                 </p>
               </div>
             </div>
             <div class="greenInner3">
               <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-1.png" />
-              <span>{{cat.Location | limitTo: 35}}</span>
+              <span>{{cat1.Location | limitTo: 35}}</span>
             </div>
               <div class="greenInner1">
-                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
+                <img class="imgFirst" src="{{cat1.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat1.CreatedBy_Profile.Name}}
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.When | date:'d-M-y HH:mm'}}</font>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
               </div>
           </div>
           </div>
