@@ -132,8 +132,8 @@ get_header(); ?>
     <div class="container">
       <div class="row text-center pad-bottom">
         <div class="container">
-          <h1 class="topHeadL">Look what’s happening around you</h1>
-          <h2 class="head-set">Live feeds in four different categories</h2>
+          <h1 class="topHeadL">See what’s happening around you</h1>
+          <h2 class="head-set">Live feed of our featured categories</h2>
         </div>
       </div>
 
@@ -378,8 +378,8 @@ get_header(); ?>
     <div class="featuresFirstS">
       <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
     <div class="container">
-      <h1 class="topHeadL">We cover the most of it</h1>
-      <h2 class="head-set">Our feature list makes your life awesome</h2>
+      <h1 class="topHeadL">We cover the maximum</h1>
+      <h2 class="head-set">Our feature list makes your life comfortable</h2>
     </div>
 
       <div class="col-xs-12">
@@ -422,8 +422,8 @@ get_header(); ?>
     </div>
     <div class="featuresDD">
       <div class="container">
-        <h1>Catch up from unlimited spots</h1>
-        <h3>We are really resposive for almost all of your devices</h3>
+        <h1>Catch up from unlimited angles</h1>
+        <h3>We are resposive for all of your devices</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
         </div>
