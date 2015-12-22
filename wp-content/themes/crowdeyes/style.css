@@ -63,7 +63,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 body{ font-family: 'Open Sans', sans-serif; padding-right: 0 !important;}
-h2, .h2{font-weight: 600;}
+h2, .h2{font-weight: 600 !important;}
 /**
  * 2.0 Repeatable Patterns
  * ----------------------------------------------------------------------------
