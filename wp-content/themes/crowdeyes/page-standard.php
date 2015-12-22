@@ -189,7 +189,7 @@ get_header(); ?>
       });
     });
   </script>
-
+<!----
   <script>
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
@@ -210,7 +210,7 @@ get_header(); ?>
     });
   </script>
 
-
+--->
   <script>
     $(document).ready(function(){
 
