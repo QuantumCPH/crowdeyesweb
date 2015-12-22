@@ -1576,7 +1576,7 @@ footer.entry-meta {
 .footer_links{ margin: 15px auto; list-style:none; width: 100%; float: left; padding: 0;}
 .footer_links li {
 	display: inline;
-	margin: 5px;
+	margin: 3px;
 }
 /**
  * 5.10 Search Results/No posts
