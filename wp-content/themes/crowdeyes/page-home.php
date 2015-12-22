@@ -267,7 +267,7 @@ get_header(); ?>
             </div>
               <div class="greenInner1">
                 <img class="imgFirst" src="{{cat1.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat1.CreatedBy_Profile.Name | limitTo: 18}}
+			{{cat1.CreatedBy_Profile.Name | limitTo: 15}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
               </div>
@@ -299,7 +299,7 @@ get_header(); ?>
               <div class="greenInner1">
                 <img class="imgFirst" src="{{cat2.CreatedBy_Profile.Picture.URI}}" />
               <span>
-			{{cat2.CreatedBy_Profile.Name | limitTo: 18}}
+			{{cat2.CreatedBy_Profile.Name | limitTo: 15}}
 
 		   </span><font>
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
@@ -331,7 +331,7 @@ get_header(); ?>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat3.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
                 <img class="imgFirst" src="{{cat3.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat3.CreatedBy_Profile.Name | limitTo: 18}}
+			{{cat3.CreatedBy_Profile.Name | limitTo: 15}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
               </div>
@@ -362,7 +362,7 @@ get_header(); ?>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat4.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
                 <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat4.CreatedBy_Profile.Name | limitTo: 18}}
+			{{cat4.CreatedBy_Profile.Name | limitTo: 15}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
 
