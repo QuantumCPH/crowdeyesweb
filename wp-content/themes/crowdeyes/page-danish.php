@@ -255,9 +255,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat1.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
-                              <h4>{{cat1.Title}}</h4>
+                              <h4>{{cat1.Title | limitTo: 18}}</h4>
                               <p>
-                                  {{cat1.Desciption | limitTo: 50}}...
+                                  {{cat1.Desciption | limitTo: 45}}...
                               </p>
                           </div>
                       </div>
@@ -267,7 +267,7 @@ get_header(); ?>
                       </div>
                       <div class="greenInner1">
                           <img class="imgFirst" src="{{cat1.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat1.CreatedBy_Profile.Name}}
+			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
                       </div>
@@ -289,9 +289,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat2.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
-                              <h4>{{cat2.Title}}</h4>
+                              <h4>{{cat2.Title | limitTo: 18}}</h4>
                               <p>
-                                  {{cat2.Desciption | limitTo: 50}}...
+                                  {{cat2.Desciption | limitTo: 45}}...
                               </p>
                           </div>
                       </div>
@@ -299,7 +299,7 @@ get_header(); ?>
                       <div class="greenInner1">
                           <img class="imgFirst" src="{{cat2.CreatedBy_Profile.Picture.URI}}" />
               <span>
-			{{cat2.CreatedBy_Profile.Name}}
+			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font>
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.When | date:'d-M-y HH:mm'}}</font>
@@ -322,16 +322,16 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat3.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
-                              <h4>{{cat3.Title}}</h4>
+                              <h4>{{cat3.Title | limitTo: 18}}</h4>
                               <p>
-                                  {{cat3.Desciption | limitTo: 50}}...
+                                  {{cat3.Desciption | limitTo: 45}}...
                               </p>
                           </div>
                       </div>
                       <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
                           <img class="imgFirst" src="{{cat3.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat3.CreatedBy_Profile.Name}}
+			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.When | date:'d-M-y HH:mm'}}</font>
                       </div>
@@ -353,16 +353,16 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat4.PictureURIs[0].URI}}" />
 		  </span>
                           <div class="rightGreen">
-                              <h4>{{cat4.Title}}</h4>
+                              <h4>{{cat4.Title | limitTo: 18}}</h4>
                               <p>
-                                  {{cat4.Desciption | limitTo: 50}}...
+                                  {{cat4.Desciption | limitTo: 45}}...
                               </p>
                           </div>
                       </div>
                       <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat4.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
                           <img class="imgFirst" src="{{cat4.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat4.CreatedBy_Profile.Name}}
+			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.When | date:'d-M-y HH:mm'}}</font> </div>
 

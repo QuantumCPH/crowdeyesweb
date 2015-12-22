@@ -255,9 +255,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat1.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat1.Title}}</h4>
+                <h4>{{cat1.Title | limitTo: 18}}</h4>
                 <p>
-                  {{cat1.Desciption | limitTo: 50}}...
+                  {{cat1.Desciption | limitTo: 45}}...
                 </p>
               </div>
             </div>
@@ -289,9 +289,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat2.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat2.Title}}</h4>
+                <h4>{{cat2.Title | limitTo: 18}}</h4>
                 <p>
-                  {{cat2.Desciption | limitTo: 50}}...
+                  {{cat2.Desciption | limitTo: 45}}...
                 </p>
               </div>
             </div>
@@ -322,9 +322,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat3.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat3.Title}}</h4>
+                <h4>{{cat3.Title | limitTo: 18}}</h4>
                 <p>
-                  {{cat3.Desciption | limitTo: 50}}...
+                  {{cat3.Desciption | limitTo: 45}}...
                 </p>
               </div>
             </div>
@@ -353,9 +353,9 @@ get_header(); ?>
 			  <img class="lostImg2" src="{{cat4.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat4.Title}}</h4>
+                <h4>{{cat4.Title | limitTo: 18}}</h4>
                 <p>
-                  {{cat4.Desciption | limitTo: 50}}...
+                  {{cat4.Desciption | limitTo: 45}}...
                 </p>
               </div>
             </div>
