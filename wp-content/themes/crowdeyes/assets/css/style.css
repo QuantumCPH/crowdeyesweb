@@ -368,7 +368,7 @@ input{ outline:none;}
     width: 610px;
     margin: 0 auto;}
 .inn_download img { float:left; width:30px;}
-.inn_download a { float: right; width: 288px; background:#fff; border-radius:5px; padding:8px;
+.inn_download a { float: left; width: 288px; background:#fff; border-radius:5px; padding:8px;
     line-height:25px; margin:15px 8px; font-family: 'Open Sans', sans-serif; font-size:17px; color:#178eb4;
     display: inline-block;
     cursor: pointer;
