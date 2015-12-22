@@ -778,7 +778,7 @@ footer {
     font-weight: 300;
 
 }
-.detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 2px #ececec;}
+.detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 0px #ececec;}
 .innerDePages{ float: left; padding: 20px;}
 #contact .col-md-6{ padding: 4px;}
 .pLast{float:right !important; margin-right:2.5% !important; width:94% !important;}
