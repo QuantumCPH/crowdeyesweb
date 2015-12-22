@@ -72,12 +72,12 @@ get_header(); ?>
     <div id="flags_language_selector">
       <div class="container">
 
-        <?php echo $pID = $_REQUEST['page_id'];
+        <?php $pID = $_REQUEST['page_id'];
         if($pID == 85 || $pID == 76){ ?>
           <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=85"> English | </a>
           <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=76"> Dansk </a>
        <?php }  ?>
-        
+
       </div>
     </div>
     <div class="container">
