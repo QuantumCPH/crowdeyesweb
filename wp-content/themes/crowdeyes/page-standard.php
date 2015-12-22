@@ -71,6 +71,9 @@ get_header(); ?>
 
     <div id="flags_language_selector">
       <div class="container">
+
+        <?php echo $pID = $_REQUEST['page_id']; ?>
+
         <a class="slct" href="http://108.163.184.34/crowdeyes-parallax"> English | </a>
         <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
       </div>
