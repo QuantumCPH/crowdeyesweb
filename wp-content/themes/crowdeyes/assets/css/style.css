@@ -8,7 +8,7 @@
     font-weight:normal;font-style:normal
 }
 
-body{ font-family: 'Open Sans', sans-serif; padding-right: 0 !important;}
+body{ font-family: 'Open Sans', sans-serif; padding-right: 0 !important; word-wrap: break-word;}
 
 section {
     padding-top: 40px;
@@ -778,6 +778,7 @@ footer {
     font-weight: 300;
 
 }
+
 .detailPages{float: left; width: 100%; margin-top: 100px; padding-bottom: 30px; border-top: solid 0px #ececec;}
 .innerDePages{ float: left; padding: 20px;}
 #contact .col-md-6{ padding: 4px;}
