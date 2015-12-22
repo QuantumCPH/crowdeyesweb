@@ -143,9 +143,9 @@ get_header(); ?>
         app.controller('customersCtrl', function($scope, $http) {
 
 
-          getcatdata();
-          function getcatdata() {
-            var userData = $http({
+          getcatdata1();
+          function getcatdata1() {
+            var userData1 = $http({
               method: "post",
               url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
@@ -158,13 +158,74 @@ get_header(); ?>
               },
               headers: {'Content-Type': 'application/json'}
             });
-            userData.success(function (userdataobject) {
+            userData1.success(function (userdataobject) {
               $scope.catadata1 = userdataobject;
-              $scope.quantity1 = 1;
             });
-          };
+          }
+          setInterval(getcatdata1, 30000);
 
-          setInterval(getcatdata, 30000);
+          getcatdata2();
+          function getcatdata2() {
+            var userData2 = $http({
+              method: "post",
+              url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+              data: {
+                Count: "1",
+                ProfileID: "771",
+                CategoryID:"11",
+                SubCategories:"true",
+                SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
+
+              },
+              headers: {'Content-Type': 'application/json'}
+            });
+            userData2.success(function (userdataobject) {
+              $scope.catadata2 = userdataobject;
+            });
+          }
+          setInterval(getcatdata2, 30000);
+
+          getcatdata3();
+          function getcatdata3() {
+            var userData3 = $http({
+              method: "post",
+              url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+              data: {
+                Count: "1",
+                ProfileID: "771",
+                CategoryID:"11",
+                SubCategories:"true",
+                SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
+
+              },
+              headers: {'Content-Type': 'application/json'}
+            });
+            userData3.success(function (userdataobject) {
+              $scope.catadata3 = userdataobject;
+            });
+          }
+          setInterval(getcatdata3, 30000);
+
+          getcatdata4();
+          function getcatdata4() {
+            var userData4 = $http({
+              method: "post",
+              url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+              data: {
+                Count: "1",
+                ProfileID: "771",
+                CategoryID:"11",
+                SubCategories:"true",
+                SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
+
+              },
+              headers: {'Content-Type': 'application/json'}
+            });
+            userData4.success(function (userdataobject) {
+              $scope.catadata4 = userdataobject;
+            });
+          }
+          setInterval(getcatdata4, 30000);
 
         });
         /*Count = 50;
@@ -218,91 +279,92 @@ get_header(); ?>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
 
-          <div class="greenBox boxColor4" ng-repeat="cat in catadata | filter: {TopCategoryID : 2} | limitTo:quantity1">
+          <div class="greenBox boxColor4" ng-repeat="cat2 in catadata2">
             <div class="greenBoxB2">
 
             <div class="greenInner2">
 		  <span>
-			  <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat2.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat.Title}}</h4>
+                <h4>{{cat2.Title}}</h4>
                 <p>
-                  {{cat.Desciption | limitTo: 50}}...
+                  {{cat2.Desciption | limitTo: 50}}...
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat2.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
+                <img class="imgFirst" src="{{cat2.CreatedBy_Profile.Picture.URI}}" />
               <span>
-			{{cat.CreatedBy_Profile.Name}}
+			{{cat2.CreatedBy_Profile.Name}}
 
 		   </span><font>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
               </div>
             </div>
           </div>
         </div>
 
+
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>People</span> </div>
 
-          <div class="greenBox boxColor2" ng-repeat="cat in catadata | filter: {TopCategoryID : 12} | limitTo:quantity1">
+          <div class="greenBox boxColor2" ng-repeat="cat3 in catadata3">
             <div class="greenBoxB3">
 
             <div class="greenInner2">
 		  <span>
-		     <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		     <img ng-if="cat3.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat3.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat3.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat.Title}}</h4>
+                <h4>{{cat3.Title}}</h4>
                 <p>
-                  {{cat.Desciption | limitTo: 50}}...
+                  {{cat3.Desciption | limitTo: 50}}...
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat3.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
+                <img class="imgFirst" src="{{cat3.CreatedBy_Profile.Picture.URI}}" /><span>
+			{{cat3.CreatedBy_Profile.Name}}
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
               </div>
             </div>
         </div>
         </div>
+
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
 
-
-          <div class="greenBox boxColor3" ng-repeat="cat in catadata | filter: {TopCategoryID : 13} | limitTo:quantity1">
+          <div class="greenBox boxColor3" ng-repeat="cat4 in catadata4">
             <div class="greenBoxB4">
              <div class="greenInner2">
 		  <span>
 
-		      <img ng-if="cat.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" src="{{cat.PictureURIs[0].URI}}" />
+		      <img ng-if="cat4.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+			  <img ng-if="cat4.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+			  <img class="lostImg2" src="{{cat4.PictureURIs[0].URI}}" />
 		  </span>
               <div class="rightGreen">
-                <h4>{{cat.Title}}</h4>
+                <h4>{{cat4.Title}}</h4>
                 <p>
-                  {{cat.Desciption | limitTo: 50}}...
+                  {{cat4.Desciption | limitTo: 50}}...
                 </p>
               </div>
             </div>
-            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+            <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat4.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
                 <img class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" /><span>
-			{{cat.CreatedBy_Profile.Name}}
+			{{cat4.CreatedBy_Profile.Name}}
 
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
+		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.Created_Timestamp | date:'d-M-y HH:mm'}}</font> </div>
 
             </div>
           </div>
