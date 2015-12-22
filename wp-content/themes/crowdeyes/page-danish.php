@@ -133,7 +133,7 @@ get_header(); ?>
     <div class="row text-center pad-bottom">
       <div class="container">
           <h1 class="topHeadL">Se hvad der sker omkring dig</h1>
-          <h2 class="head-set">Live feed i fire forskellige kategorier</h2>
+          <h2 class="head-set">Live feed at vores fire kategorier</h2>
       </div>
     </div>
 
@@ -378,7 +378,7 @@ get_header(); ?>
     <div class="featuresFirstS">
         <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
         <div class="container">
-            <h1 class="topHeadL">Vi dækker næsten alt</h1>
+            <h1 class="topHeadL">Vi dækker det hele</h1>
             <h2 class="head-set">Vores liste af funktioner gør dit liv nemt</h2>
         </div>
 
@@ -423,7 +423,7 @@ get_header(); ?>
 
   <div  class="featuresDD">
     <div class="container">
-        <h1>Hold dig opdateret fra alle enheder</h1>
+        <h1>Hold dig opdateret fra alle vinkler</h1>
         <h3>Vores responsive design passer til alle dine enheder</h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
