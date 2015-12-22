@@ -184,7 +184,7 @@ get_header(); ?>
           <?php $pID1 = $_REQUEST['page_id'];
           if($pID1 == 85 || $pID == 87 || $pID == 91 || $pID == 95 || $pID == 147){ ?>
 
-            <small class="wow fadeInUp">&copy; Copyright CrowdEyes. All Rights Reserved.</small>
+            <small class="wow fadeInUp">&copy; Copyright CrowdEyes . Alle rettigheder forbeholdes.</small>
 
           <?php }else{ ?>
 
