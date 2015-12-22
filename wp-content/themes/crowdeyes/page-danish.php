@@ -112,7 +112,7 @@ get_header(); ?>
   <div class="container banner-text">
     <div class="container">
       <p class="p-cls">
-          <label>Hjælper dig med at hjælpe andre</label>
+          <label>Vi ser frem til at høre fra jer</label>
           En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre.
       <span class="downLoadLinks">
          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download fra App Store</span></a>
@@ -543,7 +543,7 @@ get_header(); ?>
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
   <div class="container">
       <h1 class="topHeadL">Send os en besked</h1>
-      <h2 class="head-set">Hjælper dig med at hjælpe andre</h2>
+      <h2 class="head-set">Vi ville elske at høre fra dig</h2>
     <div class="row">
       <div class="col-md-6">
         <!--map-->
