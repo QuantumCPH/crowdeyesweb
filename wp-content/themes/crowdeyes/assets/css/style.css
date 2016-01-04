@@ -418,13 +418,13 @@ input{ outline:none;}
 .greenBoxB3{float: left; width: 100%; border-radius: 5px; border: solid 1px #FFA663;}
 .greenBoxB4{float: left; width: 100%; border-radius: 5px; border: solid 1px #FF6969;}
 .greenBox .greenInner1{ float:left; width:100%; margin:0; background:#2EB9C3; padding:3px 6px;}
-.greenBox .greenInner3{ float:left; width:100%; margin:0; color: #333; background:#e7eff1; padding:5px 6px;}
+.greenBox .greenInner3{ float:left; width:100%; margin:0; color: #333; border-top: 2px solid #fff; background:#e7eff1; padding:5px 6px;}
 .greenBox .greenInner1 font{ float:right; font-size:10px; color:#fff; margin-top:15px; margin-right:2px; line-height: 15px;}
 .greenBox .greenInner1 font img{ float:left; margin:3px 5px 0 0;}
 .greenBox .greenInner1 span{ float:left; font-size:13px; margin:12px 3px 2px 4px; color:#fff; line-height: 15px;}
 .greenInner2 span{ float:left; max-width:96px; border-radius: 5px; margin: 7px 0 0 6px; line-height: 15px;}
 .lostImg{ float:left; position:relative; z-index:2;}
-.lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;     border: solid 2px #fff;
+.lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;     border: solid 0px #fff;
     border-radius: 0px;}
 .greenInner2 .rightGreen{ float:right; width:160px; margin-top:10px; padding-bottom:5px; min-height:90px;}
 .rightGreen h4{ float:left; font-size:18px; color:#444; margin:0; width:100%; text-align:left;}
