@@ -5,7 +5,7 @@ $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 echo "{$details->city}";
 
 
-echo $address = "Lahore";
+echo $address = "{$details->city}";
 $url = "http://maps.google.com/maps/api/geocode/json?address=$address&sensor=false&region=India";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
