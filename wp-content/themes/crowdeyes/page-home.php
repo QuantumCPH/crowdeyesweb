@@ -291,8 +291,9 @@ get_header(); ?>
 		  <span>
 			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-
-            <img ng-src="{{cat1.PictureURIs[0].URI? cat1.PictureURIs[0].URI : ('/assets/img/placeholder.png')}}"/>
+			  <img class="lostImg2" ng-if="!cat1.PictureURIs[0].URI"   ng-show="{{cat1.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-if="cat1.PictureURIs[0].URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-22.png">
+		  <img ng-src="{{cat1.PictureURIs[0].URI? cat1.PictureURIs[0].URI : ('/assets/img/placeholder.png')}}"/>
 
           </span>
               <div class="rightGreen">
