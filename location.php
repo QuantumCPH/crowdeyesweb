@@ -74,4 +74,18 @@ if(!$city){
 echo '<strong>IP Address</strong>:- '.$ip_address.'<br/>';
 echo '<strong>City</strong>:- '.$city.'<br/>';
 echo '<strong>Country</strong>:- '.$country.'<br/>';
+
+
+$ip_addr = $_SERVER['REMOTE_ADDR'];
+$geoplugin = unserialize( file_get_contents('http://www.geoplugin.net/php.gp?ip='.$ip_addr) );
+
+if ( is_numeric($geoplugin['geoplugin_latitude']) && is_numeric($geoplugin['geoplugin_longitude']) ) {
+    $lat = $geoplugin['geoplugin_latitude'];
+    $long = $geoplugin['geoplugin_longitude'];
+}
+
 ?>
+
+
+
+
