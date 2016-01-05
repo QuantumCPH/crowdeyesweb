@@ -1,12 +1,21 @@
 <?php
-$jsondata=file_get_contents("http://maps.google.com/maps/api/geocode/json?address=house+16+road+7+Baridhara+Dhaka+Bangladesh&sensor=false&#8217;");
+$url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=2b3d7d0ad1a285279139487ce77f3f58d980eea9546b5ccc5d08f5ee62ce7471&ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
 
-$output= json_decode($jsondata);
-
-$latitude = $output->results[0]->geometry->location->lat;
-$longitude = $output->results[0]->geometry->location->lng;
-
-echo “Latitude : “.$lat;
-echo “Longitude : “.$long;
- 
+echo "<table border='1' width='50%' align='center'><tr><td>COUNTRY:</td><td>";
+echo $url->countryName;
+echo "</td></tr><tr><td>CITY:</td><td>";
+echo $url->cityName;
+echo "</td></tr><tr><td>STATE OR REGION:</td><td>";
+echo $url->regionName;
+echo "</td></tr><tr><td>IP ADDRESS:</td><td>";
+echo $url->ipAddress;
+echo "</td></tr><tr><td>COUNTRY CODE:</td><td>";
+echo $url->countryCode;
+echo "</td></tr><tr><td>LATITUTE:</td><td>";
+echo $url->latitude;
+echo "</td></tr><tr><td>LONGITUDE:</td><td>";
+echo $url->longitude;
+echo "</td></tr><tr><td>TIMEZONE:</td><td>";
+echo $url->timeZone;
+echo "</td></tr><tr></table>";
 ?>
