@@ -291,9 +291,10 @@ get_header(); ?>
 		  <span>
 			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2"   ng-show="{{cat1.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
-            <img class="lostImg2" ng-hide="{{cat1.PictureURIs[0].URI}}" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-22.png">
-		  </span>
+
+            <img ng-src="{{cat1.PictureURIs[0].URI? cat1.PictureURIs[0].URI : ('/assets/img/placeholder.png')}}"/>
+
+          </span>
               <div class="rightGreen">
                 <h4>{{cat2.Title | limitTo: 18}}</h4>
                 <p>
