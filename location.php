@@ -1,11 +1,18 @@
 <?php
 
-$ip = $_SERVER['HTTP_CLIENT_IP'];
+echo $ip = $_SERVER['HTTP_CLIENT_IP'];
+
+echo $ip1 = $_SERVER['HTTP_CLIENT_IP']);
+
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
+
+$details1 = json_decode(file_get_contents("http://ipinfo.io/{$ip1}"));
+
 echo "{$details->city}";
+echo "{$details1->city}";
 
 
-echo $address = "Lahore";
+ $address = "Lahore";
 $url = "http://maps.google.com/maps/api/geocode/json?address=$address&sensor=false&region=India";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
