@@ -1,93 +1,25 @@
 <?php
-
-
-   echo $ip = $_SERVER['REMOTE_ADDR'];
-
-$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
-
-
-echo "{$details->city}".'<br />';
-
-
+$url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=<your_api_key>&ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
+ 
+//print the array to see the fields if you wish.
+//print_r($url);
+ 
+echo "<table border='1' width='50%' align='center'><tr><td>COUNTRY:</td><td>";
+echo $url->countryName;
+echo "</td></tr><tr><td>CITY:</td><td>";
+echo $url->cityName;
+echo "</td></tr><tr><td>STATE OR REGION:</td><td>";
+echo $url->regionName;
+echo "</td></tr><tr><td>IP ADDRESS:</td><td>";
+echo $url->ipAddress;
+echo "</td></tr><tr><td>COUNTRY CODE:</td><td>";
+echo $url->countryCode;
+echo "</td></tr><tr><td>LATITUTE:</td><td>";
+echo $url->latitude;
+echo "</td></tr><tr><td>LONGITUDE:</td><td>";
+echo $url->longitude;
+echo "</td></tr><tr><td>TIMEZONE:</td><td>";
+echo $url->timeZone;
+echo "</td></tr><tr></table>";
+ 
 ?>
-
-<?php
-echo $ip1 = $_SERVER['REMOTE_ADDR']; 
-$query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
-if($query && $query['status'] == 'success') {
-  echo $query['city'];
-} else {
-  echo 'Unable to get location';
-}
-?>
-
-
-
-
-
-<?php
-
-function getLocationInfoByIp(){
-    $client  = @$_SERVER['HTTP_CLIENT_IP'];
-    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-    $remote  = @$_SERVER['REMOTE_ADDR'];
-    $result  = array('country'=>'', 'city'=>'');
-    if(filter_var($client, FILTER_VALIDATE_IP)){
-        $ip = $client;
-    }elseif(filter_var($forward, FILTER_VALIDATE_IP)){
-        $ip = $forward;
-    }else{
-        $ip = $remote;
-    }
-    $ip_data = @json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));    
-    if($ip_data && $ip_data->geoplugin_countryName != null){
-        $result['country'] = $ip_data->geoplugin_countryCode;
-        $result['city'] = $ip_data->geoplugin_city;
-    }
-    return $result;
-}
-
-
-/*Get user ip address*/
-$ip_address=$_SERVER['REMOTE_ADDR'];
-
-/*Get user ip address details with geoplugin.net*/
-$geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
-$addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
-
-/*Get City name by return array*/
-$city = $addrDetailsArr['city']; 
-
-/*Get Country name by return array*/
-$country = $addrDetailsArr['geoplugin_countryName'];
-
-/*Comment out these line to see all the posible details*/
-/*echo '<pre>';
-print_r($addrDetailsArr);
-die();*/
-
-if(!$city){
-   $city='Not Define';
-}if(!$country){
-   $country='Not Define';
-}
-echo '<strong>IP Address</strong>:- '.$ip_address.'<br/>';
-echo '<strong>City</strong>:- '.$city.'<br/>';
-echo '<strong>Country</strong>:- '.$country.'<br/>';
-
-
-
-
-?>
-
-<?php
-
-$IP = $_SERVER['REMOTE_ADDR'];
-$APIKEY = 'your api key goes here';
-$location = json_decode(file_get_contents('http://api.ipinfodb.com/v3/ip-city/?key=' .$APIKEY. '&ip=' .$IP. '&format=json'),TRUE);
-
-var_dump($location);
-
-?>
-
-
