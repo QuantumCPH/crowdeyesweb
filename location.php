@@ -22,15 +22,30 @@ if($query && $query['status'] == 'success') {
 ?>
 
 <?php
-# Collect a specific users GEOIP info
-echo $info = geoip_record_by_name($_SERVER['REMOTE_ADDR']);
-print_r ($info);
+/*Get user ip address*/
+$ip_address=$_SERVER['REMOTE_ADDR'];
 
-# To get the info from one specific field
-$country = $info['country_name'];
-echo $country;
+/*Get user ip address details with geoplugin.net*/
+$geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+$addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
 
-# To combine information from the array into a string
-$info = implode("/", $info);
-echo $info;
+/*Get City name by return array*/
+$city = $addrDetailsArr['geoplugin_city']; 
+
+/*Get Country name by return array*/
+$country = $addrDetailsArr['geoplugin_countryName'];
+
+/*Comment out these line to see all the posible details*/
+/*echo '<pre>';
+print_r($addrDetailsArr);
+die();*/
+
+if(!$city){
+   $city='Not Define';
+}if(!$country){
+   $country='Not Define';
+}
+echo '<strong>IP Address</strong>:- '.$ip_address.'<br/>';
+echo '<strong>City</strong>:- '.$city.'<br/>';
+echo '<strong>Country</strong>:- '.$country.'<br/>';
 ?>
