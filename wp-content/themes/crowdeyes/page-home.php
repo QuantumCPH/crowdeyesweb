@@ -357,7 +357,7 @@ get_header(); ?>
 
 		      <img ng-if="cat4.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat4.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2" ng-show="cat4.PictureURIs[0].URI" alt="{{cat4.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
+			  <img class="lostImg2" ng-show="cat4.PictureURIs[0].URI" alt="{{cat4.PictureURIs[0].URI}}" src="{{cat4.PictureURIs[0].URI}}" />
             <img class="lostImg2" ng-hide="cat4.PictureURIs[0].URI"  alt="{{cat4.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-11.png">
 
 		  </span>
