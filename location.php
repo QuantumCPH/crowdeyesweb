@@ -1,15 +1,12 @@
 <?php
 
-echo $ip = $_SERVER['HTTP_CLIENT_IP'];
-
-echo $ip1 = $_SERVER['REMOTE_ADDR']);
-
-$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
-
-$details1 = json_decode(file_get_contents("http://ipinfo.io/{$ip1}"));
-
-echo "{$details->city}";
-echo "{$details1->city}";
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+   echo $ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+   echo $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+   echo $ip = $_SERVER['REMOTE_ADDR'];
+}
 
 
  $address = "Lahore";
