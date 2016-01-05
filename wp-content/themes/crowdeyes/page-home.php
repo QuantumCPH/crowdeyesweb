@@ -255,9 +255,7 @@ get_header(); ?>
 
             <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" src="{{cat1.PictureURIs[0].URI}}" />
             <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
-
-            <img id="logoimg" src="<?php if(isset($shopdata->LogoSquareURL)){ echo $shopdata->LogoSquareURL; }else{?> {!! asset('UploadedImages/noimage.png') !!} <?php }   ?>" />
-
+            
 		  </span>
               <div class="rightGreen">
                 <h4>{{cat1.Title | limitTo: 18}}</h4>
