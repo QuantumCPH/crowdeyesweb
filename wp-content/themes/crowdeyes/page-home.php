@@ -146,7 +146,7 @@ get_header(); ?>
 
       //echo $url->longitude;
 
-      echo $country = $url->countryName;
+      //echo $country = $url->countryName;
 ?>
 
       <script>
