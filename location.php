@@ -1,6 +1,6 @@
 <?php
 
-$ip = $_SERVER['HTTP_CLIENT_IP'])
+$ip = $_SERVER['HTTP_CLIENT_IP']);
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 echo "{$details->city}";
 
