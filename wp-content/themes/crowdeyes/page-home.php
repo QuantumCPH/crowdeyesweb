@@ -291,7 +291,7 @@ get_header(); ?>
 		  <span>
 			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <img class="lostImg2"  src="{{cat1.PictureURIs[0].URI}}" />
+			  <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" src="{{cat1.PictureURIs[0].URI}}" />
             <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
 
 
@@ -305,8 +305,8 @@ get_header(); ?>
             </div>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat2.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <img ng-show="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
-                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
+                <img ng-show="cat.CreatedBy_Profile.Picture.URI" class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
+                <img ng-hide="cat.CreatedBy_Profile.Picture.URI" class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
 
               <span>
 			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}
