@@ -272,7 +272,7 @@ get_header(); ?>
             </div>
               <div class="greenInner1">
                 <img ng-show="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
-                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
+                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
 <span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}
 
@@ -342,7 +342,7 @@ get_header(); ?>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat3.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
                 <img ng-show="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
-                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
+                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
 
                 <span>
 			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}
@@ -378,7 +378,7 @@ get_header(); ?>
               <div class="greenInner1">
 
                 <img ng-show="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="{{cat.CreatedBy_Profile.Picture.URI}}" />
-                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
+                <img ng-hide="{{cat.CreatedBy_Profile.Picture.URI}}" class="imgFirst" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
 
                 <span>
 			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}
