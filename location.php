@@ -8,6 +8,10 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
    echo $ip = $_SERVER['REMOTE_ADDR'];
 }
 
+$details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
+
+
+echo "{$details->city}";
 
  $address = "Lahore";
 $url = "http://maps.google.com/maps/api/geocode/json?address=$address&sensor=false&region=India";
