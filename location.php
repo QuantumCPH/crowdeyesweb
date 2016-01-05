@@ -1,5 +1,5 @@
 <?php
-$jsondata=file_get_contents(‘http://maps.google.com/maps/api/geocode/json?address=house+16+road+7+Baridhara+Dhaka+Bangladesh&sensor=false&#8217;);
+$jsondata=file_get_contents("http://maps.google.com/maps/api/geocode/json?address=house+16+road+7+Baridhara+Dhaka+Bangladesh&sensor=false&#8217;");
 
 $output= json_decode($jsondata);
 
