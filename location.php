@@ -76,16 +76,18 @@ echo '<strong>City</strong>:- '.$city.'<br/>';
 echo '<strong>Country</strong>:- '.$country.'<br/>';
 
 
-$ip_addr = $_SERVER['REMOTE_ADDR'];
-$geoplugin = unserialize( file_get_contents('http://www.geoplugin.net/php.gp?ip='.$ip_addr) );
 
-if ( is_numeric($geoplugin['geoplugin_latitude']) && is_numeric($geoplugin['geoplugin_longitude']) ) {
-    $lat = $geoplugin['geoplugin_latitude'];
-    $long = $geoplugin['geoplugin_longitude'];
-}
 
 ?>
 
+<?php
 
+$IP = $_SERVER['REMOTE_ADDR'];
+$APIKEY = 'your api key goes here';
+$location = json_decode(file_get_contents('http://api.ipinfodb.com/v3/ip-city/?key=' .$APIKEY. '&ip=' .$IP. '&format=json'),TRUE);
+
+var_dump($location);
+
+?>
 
 
