@@ -23,7 +23,7 @@ if($query && $query['status'] == 'success') {
 
 <?php
 # Collect a specific users GEOIP info
-$info = geoip_record_by_name($_SERVER['REMOTE_ADDR']);
+echo $info = geoip_record_by_name($_SERVER['REMOTE_ADDR']);
 print_r ($info);
 
 # To get the info from one specific field
