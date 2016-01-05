@@ -146,13 +146,13 @@ get_header(); ?>
 
       //echo $url->longitude;
 
+      echo $country = $url->countryName;
 ?>
 
       <script>
 
         var app = angular.module('myApp', []);
         app.controller('customersCtrl', function($scope, $http) {
-
 
           getcatdata1();
           function getcatdata1() {
@@ -164,6 +164,7 @@ get_header(); ?>
                 ProfileID: "771",
                 CategoryID:"11",
                 SubCategories:"true",
+
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
 
               },
