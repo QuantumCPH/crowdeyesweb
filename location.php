@@ -2,7 +2,7 @@
 
 echo $ip = $_SERVER['HTTP_CLIENT_IP'];
 
-echo $ip1 = $_SERVER['HTTP_CLIENT_IP']);
+echo $ip1 = $_SERVER['REMOTE_ADDR']);
 
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 
