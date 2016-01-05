@@ -253,8 +253,8 @@ get_header(); ?>
 		      <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
 
-            <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" src="{{cat1.PictureURIs[0].URI}}" />
-            <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
+            <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI" src="{{cat1.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
 
             <img id="logoimg" src="<?php if(isset($shopdata->LogoSquareURL)){ echo $shopdata->LogoSquareURL; }else{?> {!! asset('UploadedImages/noimage.png') !!} <?php }   ?>" />
 
