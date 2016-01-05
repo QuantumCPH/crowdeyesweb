@@ -266,7 +266,9 @@ get_header(); ?>
                           <span>{{cat1.Location | limitTo: 35}}</span>
                       </div>
                       <div class="greenInner1">
-                          <img class="imgFirst" src="{{cat1.CreatedBy_Profile.Picture.URI}}" /><span>
+                          <img class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI" src="{{cat1.CreatedBy_Profile.Picture.URI}}" />
+                          <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
+<span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
@@ -297,7 +299,9 @@ get_header(); ?>
                       </div>
                       <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat2.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
-                          <img class="imgFirst" src="{{cat2.CreatedBy_Profile.Picture.URI}}" />
+                          <img class="imgFirst" ng-show="cat2.CreatedBy_Profile.Picture.URI" src="{{cat2.CreatedBy_Profile.Picture.URI}}" />
+                          <img class="imgFirst" ng-hide="cat2.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
+
               <span>
 			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}
 
@@ -330,7 +334,9 @@ get_header(); ?>
                       </div>
                       <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
-                          <img class="imgFirst" src="{{cat3.CreatedBy_Profile.Picture.URI}}" /><span>
+                          <img class="imgFirst" ng-show="cat3.CreatedBy_Profile.Picture.URI" src="{{cat3.CreatedBy_Profile.Picture.URI}}" />
+                          <img class="imgFirst" ng-hide="cat3.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
+<span>
 			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.When | date:'d-M-y HH:mm'}}</font>
@@ -361,7 +367,9 @@ get_header(); ?>
                       </div>
                       <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat4.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
-                          <img class="imgFirst" src="{{cat4.CreatedBy_Profile.Picture.URI}}" /><span>
+                          <img class="imgFirst" ng-show="cat4.CreatedBy_Profile.Picture.URI" src="{{cat4.CreatedBy_Profile.Picture.URI}}" />
+                          <img class="imgFirst" ng-hide="cat4.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
+<span>
 			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.When | date:'d-M-y HH:mm'}}</font> </div>
