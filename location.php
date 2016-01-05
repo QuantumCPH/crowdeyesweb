@@ -30,7 +30,7 @@ $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
 $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
 
 /*Get City name by return array*/
-$city = $addrDetailsArr['geoplugin_city']; 
+$city = $addrDetailsArr['city']; 
 
 /*Get Country name by return array*/
 $country = $addrDetailsArr['geoplugin_countryName'];
