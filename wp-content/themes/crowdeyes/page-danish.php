@@ -252,7 +252,10 @@ get_header(); ?>
 		  <span>
 		      <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
 			  <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat1.PictureURIs[0].URI}}" />
+
+              <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" alt="{{cat1.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI"  alt="{{cat1.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
+
 		  </span>
                           <div class="rightGreen">
                               <h4>{{cat1.Title | limitTo: 18}}</h4>
@@ -288,7 +291,10 @@ get_header(); ?>
 		  <span>
 			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
 			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat2.PictureURIs[0].URI}}" />
+
+              <img class="lostImg2" ng-show="cat2.PictureURIs[0].URI" alt="{{cat2.PictureURIs[0].URI}}" src="{{cat2.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-hide="cat2.PictureURIs[0].URI"  alt="{{cat2.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-22.png">
+
 		  </span>
                           <div class="rightGreen">
                               <h4>{{cat2.Title | limitTo: 18}}</h4>
@@ -323,7 +329,9 @@ get_header(); ?>
 		  <span>
 		     <img ng-if="cat3.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
 			  <img ng-if="cat3.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat3.PictureURIs[0].URI}}" />
+			  <img class="lostImg2" ng-show="cat3.PictureURIs[0].URI" alt="{{cat3.PictureURIs[0].URI}}" src="{{cat3.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-hide="cat3.PictureURIs[0].URI"  alt="{{cat3.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-33.png">
+
 		  </span>
                           <div class="rightGreen">
                               <h4>{{cat3.Title | limitTo: 18}}</h4>
@@ -356,7 +364,9 @@ get_header(); ?>
 
 		      <img ng-if="cat4.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/mistet.png" />
 			  <img ng-if="cat4.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/fundet.png" />
-			  <img class="lostImg2" src="{{cat4.PictureURIs[0].URI}}" />
+			  <img class="lostImg2" ng-show="cat4.PictureURIs[0].URI" alt="{{cat4.PictureURIs[0].URI}}" src="{{cat4.PictureURIs[0].URI}}" />
+            <img class="lostImg2" ng-hide="cat4.PictureURIs[0].URI"  alt="{{cat4.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-11.png">
+
 		  </span>
                           <div class="rightGreen">
                               <h4>{{cat4.Title | limitTo: 18}}</h4>
