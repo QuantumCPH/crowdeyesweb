@@ -12,7 +12,7 @@ echo "{$details->city}";
 ?>
 
 <?php
-echo $ip = $_REQUEST['REMOTE_ADDR']; // the IP address to query
+echo $ip1 = $_REQUEST['REMOTE_ADDR']; 
 $query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
 if($query && $query['status'] == 'success') {
   echo $query['city'];
