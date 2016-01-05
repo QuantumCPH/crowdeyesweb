@@ -6,13 +6,13 @@
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 
 
-echo "{$details->city}";
+echo "{$details->city}".'<br />';
 
 
 ?>
 
 <?php
-echo $ip1 = $_REQUEST['REMOTE_ADDR']; 
+echo $ip1 = $_SERVER['REMOTE_ADDR']; 
 $query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
 if($query && $query['status'] == 'success') {
   echo $query['city'];
