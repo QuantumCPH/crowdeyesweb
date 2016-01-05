@@ -1,11 +1,11 @@
 <?php
 
-$ip = $_SERVER['HTTP_CLIENT_IP']);
+$ip = $_SERVER['REMOTE_ADDR'];
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 echo "{$details->city}";
 
 
-echo $address = "{$details->city}";
+echo $address = "Lahore";
 $url = "http://maps.google.com/maps/api/geocode/json?address=$address&sensor=false&region=India";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
