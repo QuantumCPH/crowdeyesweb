@@ -137,6 +137,17 @@ get_header(); ?>
         </div>
       </div>
 
+
+      <?php
+      $url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=4412550d3b0efa3aa92c6560acd857b6dbd45d82456feee448559e743094cadd&ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
+
+      echo "<tr><td>LATITUTE:</td><td>";
+      echo $url->latitude;
+      echo "</td></tr><tr><td>LONGITUDE:</td><td>";
+      echo $url->longitude;
+
+?>
+
       <script>
 
         var app = angular.module('myApp', []);
