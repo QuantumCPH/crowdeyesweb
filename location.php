@@ -47,7 +47,7 @@ echo $country = $url->countryName;
                     ProfileID: "771",
                     CategoryID:"11",
                     SubCategories:"true",
-                    Location_GPS:"[<?php echo $lat1; ?>, <?php echo $lon1; ?>]",
+                    Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
                     MaxDistanceKM:"500",
                     SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
                 },
