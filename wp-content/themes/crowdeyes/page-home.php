@@ -165,7 +165,7 @@ get_header(); ?>
                 CategoryID:"11",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                MaxDistanceKM:"500",
+                MaxDistanceKM:"1000",
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
               },
 
@@ -188,7 +188,7 @@ get_header(); ?>
                 CategoryID:"2",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                MaxDistanceKM:"500",
+                MaxDistanceKM:"1000",
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
               },
 
@@ -211,7 +211,7 @@ get_header(); ?>
                 CategoryID:"12",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                MaxDistanceKM:"500",
+                MaxDistanceKM:"1000",
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
               },
 
@@ -234,7 +234,7 @@ get_header(); ?>
                 CategoryID:"13",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                MaxDistanceKM:"500",
+                MaxDistanceKM:"1000",
                 SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
               },
               headers: {'Content-Type': 'application/json'}
