@@ -137,25 +137,29 @@ get_header(); ?>
       </div>
     </div>
 
+
+
       <script>
 
           var app = angular.module('myApp', []);
           app.controller('customersCtrl', function($scope, $http) {
-
 
               getcatdata1();
               function getcatdata1() {
                   var userData1 = $http({
                       method: "post",
                       url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
+
                       data: {
                           Count: "1",
                           ProfileID: "771",
                           CategoryID:"11",
                           SubCategories:"true",
+                          Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
+                          MaxDistanceKM:"1000",
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-
                       },
+
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData1.success(function (userdataobject) {
@@ -174,9 +178,11 @@ get_header(); ?>
                           ProfileID: "771",
                           CategoryID:"2",
                           SubCategories:"true",
+                          Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
+                          MaxDistanceKM:"1000",
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-
                       },
+
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData2.success(function (userdataobject) {
@@ -195,9 +201,11 @@ get_header(); ?>
                           ProfileID: "771",
                           CategoryID:"12",
                           SubCategories:"true",
+                          Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
+                          MaxDistanceKM:"1000",
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-
                       },
+
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData3.success(function (userdataobject) {
@@ -216,8 +224,9 @@ get_header(); ?>
                           ProfileID: "771",
                           CategoryID:"13",
                           SubCategories:"true",
+                          Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
+                          MaxDistanceKM:"1000",
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-
                       },
                       headers: {'Content-Type': 'application/json'}
                   });

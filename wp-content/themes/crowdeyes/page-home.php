@@ -206,20 +206,20 @@ get_header(); ?>
               method: "post",
               url: "https://crowdeyews-test.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
-                Count: "1",
-                ProfileID: "771",
-                CategoryID:"12",
-                SubCategories:"true",
-                Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                MaxDistanceKM:"1000",
-                SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
-              },
+              Count: "1",
+                  ProfileID: "771",
+                  CategoryID:"12",
+                  SubCategories:"true",
+                  Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
+                  MaxDistanceKM:"1000",
+                  SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
+            },
 
-              headers: {'Content-Type': 'application/json'}
-            });
-            userData3.success(function (userdataobject) {
-              $scope.catadata3 = userdataobject;
-            });
+            headers: {'Content-Type': 'application/json'}
+          });
+          userData3.success(function (userdataobject) {
+            $scope.catadata3 = userdataobject;
+          });
           }
           setInterval(getcatdata3, 30000);
 
