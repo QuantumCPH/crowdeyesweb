@@ -142,10 +142,10 @@ get_header(); ?>
       $url = json_decode(file_get_contents("http://api.ipinfodb.com/v3/ip-city/?key=4412550d3b0efa3aa92c6560acd857b6dbd45d82456feee448559e743094cadd&ip=".$_SERVER['REMOTE_ADDR']."&format=json"));
 
 
-     echo $lat1 = $url->latitude;
-     echo $lon1 = $url->longitude;
+      $lat1 = $url->latitude;
+      $lon1 = $url->longitude;
 
-      echo $country = $url->countryName;
+       $country = $url->countryName;
 ?>
 
       <script>
