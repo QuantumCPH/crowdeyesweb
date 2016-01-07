@@ -771,11 +771,10 @@ get_header(); ?>
         }
       });
 
+      $('.greenBox').css('display','block');
+
     });
 
-    $(document).ready(function(){
-      $('.greenBox').css('display','block');
-    });
 
   </script>
 
