@@ -291,7 +291,7 @@ get_header(); ?>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
-          <div class="greenBox" ng-repeat="cat1 in catadata1">
+          <div class="greenBox" ng-if="cat1.Title !== ''" ng-repeat="cat1 in catadata1">
             <div class="greenBoxB1">
             <div class="greenInner2">
             <span>
