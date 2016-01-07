@@ -291,7 +291,7 @@ get_header(); ?>
           <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
-              <div class="greenBox" ng-repeat="cat1 in catadata1">
+              <div class="greenBox" ng-repeat="cat1 in catadata1" ng-cloak>
                   <div class="greenBoxB1">
 
                       <div class="greenInner2">
@@ -331,7 +331,7 @@ get_header(); ?>
           <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Kæledyr</span> </div>
 
-              <div class="greenBox boxColor4" ng-repeat="cat2 in catadata2">
+              <div class="greenBox boxColor4" ng-repeat="cat2 in catadata2" ng-cloak>
                   <div class="greenBoxB2">
 
                       <div class="greenInner2">
@@ -369,7 +369,7 @@ get_header(); ?>
           <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Person</span> </div>
 
-              <div class="greenBox boxColor2" ng-repeat="cat3 in catadata3">
+              <div class="greenBox boxColor2" ng-repeat="cat3 in catadata3" ng-cloak>
                   <div class="greenBoxB3">
 
                       <div class="greenInner2">
@@ -404,7 +404,7 @@ get_header(); ?>
               <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Hændelser</span> </div>
 
 
-              <div class="greenBox boxColor3" ng-repeat="cat4 in catadata4">
+              <div class="greenBox boxColor3" ng-repeat="cat4 in catadata4" ng-cloak>
                   <div class="greenBoxB4">
                       <div class="greenInner2">
 		  <span>
