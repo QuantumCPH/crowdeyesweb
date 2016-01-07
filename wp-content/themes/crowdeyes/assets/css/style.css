@@ -410,7 +410,7 @@ input{ outline:none;}
 /*======================================
            Category Boxes
 =========================================*/
-[ng\:cloak], [ng-cloak], .ng-cloak {
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
     display: none !important;
 }
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
