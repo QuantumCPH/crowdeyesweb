@@ -412,7 +412,7 @@ input{ outline:none;}
 =========================================*/
 .searchCategory .col-sm-3, .searchCategory .col-md-3{ padding-left:5px; padding-right:5px;}
 .imgFirst{ float:left; margin:0 0 0 4px; border-radius: 50px;}
-.greenBox{ float:none; margin:0 auto; width:275px; background:#fff; font-family: 'Open Sans', sans-serif;}
+.greenBox{ float:none; margin:0 auto; width:275px; background:#fff; font-family: 'Open Sans', sans-serif; display: none;}
 .greenBoxB1{float: left; width: 100%; border-radius: 5px; border: solid 1px #2EB9C3;}
 .greenBoxB2{float: left; width: 100%; border-radius: 5px; border: solid 1px #93D16A;}
 .greenBoxB3{float: left; width: 100%; border-radius: 5px; border: solid 1px #FFA663;}
