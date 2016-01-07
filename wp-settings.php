@@ -167,7 +167,6 @@ wp_plugin_directory_constants();
 
 $GLOBALS['wp_plugin_paths'] = array();
 
-
 // Load must-use plugins.
 foreach ( wp_get_mu_plugins() as $mu_plugin ) {
 	include_once( $mu_plugin );
@@ -211,11 +210,11 @@ create_initial_post_types();
 
 // Register the default theme directory root
 register_theme_directory( get_theme_root() );
-//echo "I am here";
+
 // Load active plugins.
 foreach ( wp_get_active_and_valid_plugins() as $plugin ) {
 	wp_register_plugin_realpath( $plugin );
-	//include_once( $plugin );
+	include_once( $plugin );
 }
 
 unset( $plugin );
