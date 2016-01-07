@@ -291,8 +291,8 @@ get_header(); ?>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
-          <div class="greenBox" ng-if="cat1.Title !== ''" ng-repeat="cat1 in catadata1">
-            <div class="greenBoxB1">
+          <div class="greenBox" ng-repeat="cat1 in catadata1">
+            <div class="greenBoxB1" ng-if="cat1.Title !== ''">
             <div class="greenInner2">
             <span>
                 <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
@@ -326,7 +326,7 @@ get_header(); ?>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
 
-          <div class="greenBox boxColor4" ng-repeat="cat2 in catadata2">
+          <div class="greenBox boxColor4"  ng-repeat="cat2 in catadata2">
             <div class="greenBoxB2">
 
             <div class="greenInner2">
