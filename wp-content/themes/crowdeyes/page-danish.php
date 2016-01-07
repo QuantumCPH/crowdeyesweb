@@ -151,6 +151,7 @@ get_header(); ?>
           var app = angular.module('myApp', []);
           app.controller('customersCtrl', function($scope, $http) {
 
+              $scope.timinterval=500;
               getcatdata1();
               function getcatdata1() {
                   var userData1 = $http({
@@ -163,18 +164,27 @@ get_header(); ?>
                           CategoryID:"11",
                           SubCategories:"true",
                           Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                          MaxDistanceKM:"1000",
+                          MaxDistanceKM:$scope.timinterval,
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
                       },
 
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData1.success(function (userdataobject) {
-                      $scope.catadata1 = userdataobject;
+                      //  userdataobject[0].CategoryID
+                      if(userdataobject!=""){
+
+                          $scope.catadata1 = userdataobject;
+                      }else{
+                          $scope.timinterval=$scope.timinterval+500;
+                          getcatdata1();
+                      }
                   });
               }
-              setInterval(getcatdata1, 30000);
+              setInterval(getcatdata1, 60000);
 
+
+              $scope.timinterval2=500;
               getcatdata2();
               function getcatdata2() {
                   var userData2 = $http({
@@ -186,18 +196,27 @@ get_header(); ?>
                           CategoryID:"2",
                           SubCategories:"true",
                           Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                          MaxDistanceKM:"1000",
+                          MaxDistanceKM:$scope.timinterval2,
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
                       },
 
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData2.success(function (userdataobject) {
-                      $scope.catadata2 = userdataobject;
+
+                      if(userdataobject!=""){
+
+                          $scope.catadata2 = userdataobject;
+                      }else{
+                          $scope.timinterval2=$scope.timinterval2+500;
+                          getcatdata2();
+                      }
+
                   });
               }
-              setInterval(getcatdata2, 30000);
+              setInterval(getcatdata2, 60000);
 
+              $scope.timinterval3=500;
               getcatdata3();
               function getcatdata3() {
                   var userData3 = $http({
@@ -209,18 +228,24 @@ get_header(); ?>
                           CategoryID:"12",
                           SubCategories:"true",
                           Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                          MaxDistanceKM:"1000",
+                          MaxDistanceKM:$scope.timinterval3,
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
                       },
 
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData3.success(function (userdataobject) {
-                      $scope.catadata3 = userdataobject;
+                      if(userdataobject!=""){
+
+                          $scope.catadata3 = userdataobject;
+                      }else{
+                          $scope.timinterval3=$scope.timinterval3+500;
+                          getcatdata3();
+                      }
                   });
               }
-              setInterval(getcatdata3, 30000);
-
+              setInterval(getcatdata3, 60000);
+              $scope.timinterval4=500;
               getcatdata4();
               function getcatdata4() {
                   var userData4 = $http({
@@ -232,16 +257,22 @@ get_header(); ?>
                           CategoryID:"13",
                           SubCategories:"true",
                           Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
-                          MaxDistanceKM:"1000",
+                          MaxDistanceKM:$scope.timinterval4,
                           SecurityToken: "7sGxjfhYAf8iet8qg0ukdP45LeMPGeBN"
                       },
                       headers: {'Content-Type': 'application/json'}
                   });
                   userData4.success(function (userdataobject) {
-                      $scope.catadata4 = userdataobject;
+                      if(userdataobject!=""){
+
+                          $scope.catadata4 = userdataobject;
+                      }else{
+                          $scope.timinterval4=$scope.timinterval4+500;
+                          getcatdata4();
+                      }
                   });
               }
-              setInterval(getcatdata4, 30000);
+              setInterval(getcatdata4, 60000);
 
           });
           /*Count = 50;
