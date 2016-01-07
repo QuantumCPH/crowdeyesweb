@@ -286,28 +286,23 @@ get_header(); ?>
         .lostImg2{ height:95px; width:95px; border-radius: 5px; border: solid 0px #fff;}
       </style>
 
+
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
 
           <div class="greenBox" ng-repeat="cat1 in catadata1">
             <div class="greenBoxB1">
-
             <div class="greenInner2">
-
-		  <span>
-		      <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
-			  <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-
-            <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" alt="{{cat1.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
-            <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI"  alt="{{cat1.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
-
-		  </span>
+            <span>
+                <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
+                <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
+              <img class="lostImg2" ng-show="cat1.PictureURIs[0].URI" alt="{{cat1.PictureURIs[0].URI}}" src="{{cat1.PictureURIs[0].URI}}" />
+              <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI"  alt="{{cat1.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
+            </span>
               <div class="rightGreen">
                 <h4>{{cat1.Title | limitTo: 18}}</h4>
-                <p>
-                  {{cat1.Desciption | limitTo: 45}}...
-                </p>
+                <p>{{cat1.Desciption | limitTo: 45}}...</p>
               </div>
             </div>
             <div class="greenInner3">
@@ -317,14 +312,14 @@ get_header(); ?>
               <div class="greenInner1">
                 <img class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI" src="{{cat1.CreatedBy_Profile.Picture.URI}}" />
                 <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
-
                 <span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}
-
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
               </div>
+            </div>
           </div>
-          </div>
+
+
         </div>
 
 
@@ -436,6 +431,9 @@ get_header(); ?>
 
         </div>
       </div>
+
+
+
     </div>
 
 
@@ -773,6 +771,10 @@ get_header(); ?>
         }
       });
 
+    });
+
+    $(document).ready(function(){
+      $('.greenBox').css('display','block');
     });
 
   </script>
