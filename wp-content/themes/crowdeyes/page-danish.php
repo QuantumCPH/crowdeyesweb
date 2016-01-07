@@ -387,7 +387,7 @@ get_header(); ?>
                               </p>
                           </div>
                       </div>
-                      <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat.Location | limitTo: 35}}</span> </div>
+                      <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat3.Location | limitTo: 35}}</span> </div>
                       <div class="greenInner1">
                           <img class="imgFirst" ng-show="cat3.CreatedBy_Profile.Picture.URI" src="{{cat3.CreatedBy_Profile.Picture.URI}}" />
                           <img class="imgFirst" ng-hide="cat3.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
