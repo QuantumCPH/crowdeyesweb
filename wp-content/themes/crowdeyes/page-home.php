@@ -721,9 +721,7 @@ get_header(); ?>
       });
     });
 
-    setTimeout(function(){
-      $('.greenBox').show();// or fade, css display however you'd like.
-    }, 5000);`
+   
 
   </script>
 
