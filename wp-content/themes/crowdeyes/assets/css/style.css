@@ -799,7 +799,8 @@ div.wpcf7-validation-errors{float: left; margin-top: 0; margin-left: 3%; display
     -webkit-transition: all ease 0.8s;
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
-    width: 50%; border: solid 1px #218EB4; font-family: 'Open Sans', sans-serif;  color: #fff; font-size: 18px;}
+    width: 150px; border: solid 1px #218EB4; font-family: 'Open Sans', sans-serif;  color: #fff; font-size: 18px;}
+
 .wpcf7-form input[type=submit]:hover{background:#02BCFD; border: solid 1px #02BCFD;}
 .form-control:focus, .wpcf7-form input:focus, .wpcf7-form select {
     outline: 0;
