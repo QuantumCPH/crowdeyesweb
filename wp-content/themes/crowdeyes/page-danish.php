@@ -427,7 +427,7 @@ get_header(); ?>
                           <img class="imgFirst" ng-show="cat4.CreatedBy_Profile.Picture.URI" src="{{cat4.CreatedBy_Profile.Picture.URI}}" />
                           <img class="imgFirst" ng-hide="cat4.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
-			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
+			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 12 ? '...' : ''}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.When | date:'d-M-y HH:mm'}}</font> </div>
 
