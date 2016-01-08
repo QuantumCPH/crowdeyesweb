@@ -49,7 +49,7 @@ get_header(); ?>
         }
       }
       .tp-bgimg{
-        opacity: .7 !important;}
+        opacity: .7 !important; background-position: center bottom !important;}
 
       @media screen and (max-width: 768px){
         div#login-trigger{
@@ -289,7 +289,7 @@ get_header(); ?>
 
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
+          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Objects</span> </div>
 
           <div class="greenBox" ng-repeat="cat1 in catadata1"  ng-cloak>
             <div class="greenBoxB1">
@@ -324,7 +324,7 @@ get_header(); ?>
 
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pet</span> </div>
+          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-pet.png" /> <span>Pets</span> </div>
 
           <div class="greenBox boxColor4"  ng-repeat="cat2 in catadata2" ng-cloak>
             <div class="greenBoxB2">
@@ -396,7 +396,7 @@ get_header(); ?>
 
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incident</span> </div>
+          <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-incident.png" /> <span>Incidents</span> </div>
 
           <div class="greenBox boxColor3" ng-repeat="cat4 in catadata4" ng-cloak>
             <div class="greenBoxB4">

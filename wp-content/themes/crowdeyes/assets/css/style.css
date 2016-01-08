@@ -1147,6 +1147,7 @@ input {
     .p-cls label{font-size: 20px;}
     .downLoadLinks{margin-top: 5px;}
     .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
+    .contact-form .wpcf7-form input[type=submit]{width: 100% !important;}
     .inn_download a{width: 230px; text-align: left; margin-top: 5px;}
     .inn_download a span{float: left;}
     .downLoadLinks .btn-lg{ width: 240px; }
