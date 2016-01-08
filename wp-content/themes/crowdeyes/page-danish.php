@@ -319,7 +319,7 @@ get_header(); ?>
                           <img class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI" src="{{cat1.CreatedBy_Profile.Picture.URI}}" />
                           <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
-			{{cat1.CreatedBy_Profile.Name | limitTo: 12}}{{cat1.CreatedBy_Profile.Name.length > 12 ? '...' : ''}}
+			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
                       </div>
@@ -356,7 +356,7 @@ get_header(); ?>
                           <img class="imgFirst" ng-hide="cat2.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 
               <span>
-			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}
+			{{cat2.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span><font>
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.When | date:'d-M-y HH:mm'}}</font>
@@ -392,7 +392,7 @@ get_header(); ?>
                           <img class="imgFirst" ng-show="cat3.CreatedBy_Profile.Picture.URI" src="{{cat3.CreatedBy_Profile.Picture.URI}}" />
                           <img class="imgFirst" ng-hide="cat3.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
-			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}
+			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.When | date:'d-M-y HH:mm'}}</font>
                       </div>
@@ -427,7 +427,7 @@ get_header(); ?>
                           <img class="imgFirst" ng-show="cat4.CreatedBy_Profile.Picture.URI" src="{{cat4.CreatedBy_Profile.Picture.URI}}" />
                           <img class="imgFirst" ng-hide="cat4.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
-			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}
+			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.When | date:'d-M-y HH:mm'}}</font> </div>
 
