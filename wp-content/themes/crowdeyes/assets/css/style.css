@@ -434,20 +434,20 @@ input{ outline:none;}
     background-position: 25px center; background-repeat: no-repeat;
     background-position: 7px center !important;
     background-repeat: no-repeat !important;
-    background-size: 28px 32px !important;
+    background-size: 32px 32px !important;
 }
 .gPlay1:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/ios.png) !important;
-    background-size: 28px 32px !important;
+    background-size: 32px 32px !important;
 }
 
 .gPlay2{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/android2.png) !important;
     background-position: 25px center;
     background-position: 7px center !important;
     background-repeat: no-repeat !important;
-    background-size: 28px 32px !important;
+    background-size: 32px 32px !important;
 }
 .gPlay2:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/android1.png) !important;
-    background-size: 28px 32px !important;
+    background-size: 32px 32px !important;
 }
 
 .gPlay1 span, .gPlay2 span{ margin-left: 0 !important; width: 100% !important; text-align: center;}
