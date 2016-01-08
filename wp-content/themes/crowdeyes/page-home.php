@@ -132,8 +132,8 @@ get_header(); ?>
     <div class="container">
       <div class="row text-center pad-bottom">
         <div class="container">
-          <h1 class="topHeadL">See what’s happening around you</h1>
-          <h2 class="head-set">Live feed of our featured categories</h2>
+          <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'feeds_heading', true); ?></h1>
+          <h2 class="head-set"><?php echo get_post_meta($post->ID, 'feeds_sub_heading', true); ?></h2>
         </div>
       </div>
 
@@ -440,8 +440,8 @@ get_header(); ?>
     <div class="featuresFirstS">
       <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
     <div class="container">
-      <h1 class="topHeadL">We cover everything</h1>
-      <h2 class="head-set">Our list of features makes your life easy</h2>
+      <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'features', true); ?></h1>
+      <h2 class="head-set"><?php echo get_post_meta($post->ID, 'features_sub_heading', true); ?></h2>
     </div>
 
       <div class="col-xs-12">
@@ -449,32 +449,37 @@ get_header(); ?>
         <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner">
           <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/></div>
-          <p>Live News Feed<span>Get the latest searches and new updates instantly</span></p>
+          <p><?php echo get_post_meta($post->ID, 'first_feature_heading', true); ?>
+            <span><?php echo get_post_meta($post->ID, 'first_feature_text', true); ?></span></p>
         </div>
         </div>
         <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner">
           <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/></div>
-          <p>Announce<span>Make an announcement with just a few easy steps</span></p>
+          <p><?php echo get_post_meta($post->ID, 'second_feature_heading', true); ?>
+            <span><?php echo get_post_meta($post->ID, 'second_feature_text', true); ?></span></p>
         </div>
         </div>
         <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner">
           <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/></div>
-          <p>Claim Your Belongings<span>Support your claim by answering security questions</span></p>
+          <p><?php echo get_post_meta($post->ID, 'third_feature_heading', true); ?>
+            <span><?php echo get_post_meta($post->ID, 'third_feature_text', true); ?></span></p>
         </div>
         </div>
           <div class="col-sm-2 col-sm-6 col-xs-12"> </div>
         <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner">
           <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/></div>
-          <p>Communicate Safely<span>Chat privately and decide how to exchange</span></p>
+          <p><?php echo get_post_meta($post->ID, 'fourth_feature_heading', true); ?>
+            <span><?php echo get_post_meta($post->ID, 'fourth_feature_text', true); ?></span></p>
         </div>
         </div>
         <div class="col-sm-4 col-sm-6 col-xs-12">
         <div class="f_inner">
           <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/></div>
-          <p>Activity Overview<span>Keep track of own announcements and claims</span></p>
+          <p><?php echo get_post_meta($post->ID, 'fifth_feature_heading', true); ?>
+            <span><?php echo get_post_meta($post->ID, 'fifth_feature_text', true); ?></span></p>
         </div>
         </div>
         </div>
@@ -484,8 +489,8 @@ get_header(); ?>
     </div>
     <div class="featuresDD">
       <div class="container">
-        <h1>Catch up from unlimited angles</h1>
-        <h3>Our responsive design fits all your devices</h3>
+        <h1><?php echo get_post_meta($post->ID, 'feature_image_heading', true); ?></h1>
+        <h3><?php echo get_post_meta($post->ID, 'feature_image_sub_heading', true); ?></h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
         </div>
@@ -502,8 +507,8 @@ get_header(); ?>
       <div class="col-md-2 col-sm-6 col-xs-12"></div>
       <div class="col-sm-8 col-xs-12">
 
-      <h1 class="topHeadL">Register to know more about our solution for businesses</h1>
-      <h2 class="head-set">Just type in the info below</h2>
+      <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'register_heading', true); ?></h1>
+      <h2 class="head-set"><?php echo get_post_meta($post->ID, 'register_sub_heading', true); ?></h2>
         </div>
       <div class="col-md-2 col-sm-6 col-xs-12"></div>
     </div>
@@ -600,8 +605,8 @@ get_header(); ?>
   <section class="contact section-spacing" id="contact">
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
     <div class="container">
-      <h1 class="topHeadL">Drop us a message</h1>
-      <h2 class="head-set">We would love to hear from you</h2>
+      <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'contact_us_heading', true); ?></h1>
+      <h2 class="head-set"><?php echo get_post_meta($post->ID, 'contact_sub_heading', true); ?></h2>
       <div class="row">
         <div class="col-md-6">
           <!--map-->
