@@ -114,7 +114,7 @@ get_header(); ?>
           <?php echo get_post_meta($post->ID, 'header_text', true); ?>
       <span class="downLoadLinks">
          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download from App Store</span></a>
-         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Play Store coming soon</span></a>
+         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Google Play coming soon</span></a>
       </span>
         </p>
 

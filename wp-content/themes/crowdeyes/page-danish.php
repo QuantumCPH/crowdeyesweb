@@ -116,7 +116,7 @@ get_header(); ?>
           <?php echo get_post_meta($post->ID, 'header_text', true); ?>
       <span class="downLoadLinks">
          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download fra App Store</span></a>
-         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Play Store kommer snart</span></a>
+         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Google Play kommer snart</span></a>
       </span>
       </p>
 
@@ -601,7 +601,7 @@ get_header(); ?>
         <div class="inn_download">
             <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download fra App Store</span></a>
 
-            <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Play Store kommer snart</span></a>
+            <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Google Play kommer snart</span></a>
 
         </div>
     </div>
