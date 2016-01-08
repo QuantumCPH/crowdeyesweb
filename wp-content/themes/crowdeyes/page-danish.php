@@ -112,8 +112,8 @@ get_header(); ?>
   <div class="container banner-text">
     <div class="container">
       <p class="p-cls">
-          <label>Hjælper dig med at hjælpe andre</label>
-          En opslagsplatform, der gør det nemt at fremlyse og efterlyse tabte genstande, forsvundne personer eller kæledyr, samt søge vidner til hændelser. Hjælper dig, og gør det nemt at hjælpe andre.
+          <label><?php the_title(); ?></label>
+          <?php echo get_post_meta($post->ID, 'header_text', true); ?>
       <span class="downLoadLinks">
          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download fra App Store</span></a>
          <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Play Store kommer snart</span></a>
@@ -132,8 +132,8 @@ get_header(); ?>
   <div class="container">
     <div class="row text-center pad-bottom">
       <div class="container">
-          <h1 class="topHeadL">Se hvad der sker omkring dig</h1>
-          <h2 class="head-set">Live feed at vores fire kategorier</h2>
+          <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'feeds_heading', true); ?></h1>
+          <h2 class="head-set"><?php echo get_post_meta($post->ID, 'feeds_sub_heading', true); ?></h2>
       </div>
     </div>
 
@@ -443,8 +443,8 @@ get_header(); ?>
     <div class="featuresFirstS">
         <div id="featuresDD" style="float: left; margin-top: -80px; visibility: hidden; width: 100%;"></div>
         <div class="container">
-            <h1 class="topHeadL">Vi omfatter alt</h1>
-            <h2 class="head-set">Vores liste af funktioner gør dit liv nemt</h2>
+            <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'features', true); ?></h1>
+            <h2 class="head-set"><?php echo get_post_meta($post->ID, 'features_sub_heading', true); ?></h2>
         </div>
 
         <div class="col-xs-12">
@@ -452,32 +452,37 @@ get_header(); ?>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner">
                         <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-1.png" alt=""/></div>
-                        <p>Live nyhedsfeed<span>Få de seneste søgninger og nye opdateringer øjeblikkeligt</span></p>
+                        <p><?php echo get_post_meta($post->ID, 'first_feature_heading', true); ?>
+                            <span><?php echo get_post_meta($post->ID, 'first_feature_text', true); ?></span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner">
                         <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-2.png" alt=""/></div>
-                        <p>Annoncere<span>Lav et opslag i et par enkelte trin</span></p>
+                        <p><?php echo get_post_meta($post->ID, 'second_feature_heading', true); ?>
+                            <span><?php echo get_post_meta($post->ID, 'second_feature_text', true); ?></span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner">
                         <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-3.png" alt=""/></div>
-                        <p>Gør krav på din ejendele<span>Understøt dit krav ved at besvare sikkerhedsspørgsmål</span></p>
+                        <p><?php echo get_post_meta($post->ID, 'third_feature_heading', true); ?>
+                            <span><?php echo get_post_meta($post->ID, 'third_feature_text', true); ?></span></p>
                     </div>
                 </div>
                 <div class="col-sm-2 col-sm-6 col-xs-12"> </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner">
                         <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-4.png" alt=""/></div>
-                        <p>Kommunikér sikkert<span>Snak privat og aftal udveksling</span></p>
+                        <p><?php echo get_post_meta($post->ID, 'fourth_feature_heading', true); ?>
+                            <span><?php echo get_post_meta($post->ID, 'fourth_feature_text', true); ?></span></p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-6 col-xs-12">
                     <div class="f_inner">
                         <div class="imgDD"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ce-5.png" alt=""/></div>
-                        <p>Aktivitetsoverblik<span>Hold styr på egne opslag og krav</span></p>
+                        <p><?php echo get_post_meta($post->ID, 'fifth_feature_heading', true); ?>
+                            <span><?php echo get_post_meta($post->ID, 'fifth_feature_text', true); ?></span></p>
                     </div>
                 </div>
             </div>
@@ -488,8 +493,8 @@ get_header(); ?>
 
   <div  class="featuresDD">
     <div class="container">
-        <h1>Hold dig opdateret fra alle vinkler</h1>
-        <h3>Vores responsive design passer til alle dine enheder</h3>
+        <h1><?php echo get_post_meta($post->ID, 'feature_image_heading', true); ?></h1>
+        <h3><?php echo get_post_meta($post->ID, 'feature_image_sub_heading', true); ?></h3>
         <div class="col-xs-12 featImg">
           <img class="leftImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/website-2.png" alt="" />
       </div>
@@ -506,8 +511,8 @@ get_header(); ?>
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
         <div class="col-sm-8 col-xs-12">
 
-            <h1 class="topHeadL">Registrér dig for at høre mere om vores business løsninger</h1>
-            <h2 class="head-set">Bare indtast dine informationer nedenunder</h2>
+            <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'register_heading', true); ?></h1>
+            <h2 class="head-set"><?php echo get_post_meta($post->ID, 'register_sub_heading', true); ?></h2>
         </div>
         <div class="col-md-2 col-sm-6 col-xs-12"></div>
     </div>
@@ -607,8 +612,8 @@ get_header(); ?>
 <section class="contact section-spacing" id="contact">
     <div id="contactus" style="float: left; margin-top: -80px; width: 100%; visibility: hidden;"></div>
   <div class="container">
-      <h1 class="topHeadL">Send os en besked</h1>
-      <h2 class="head-set">Vi ser frem til at høre fra jer</h2>
+      <h1 class="topHeadL"><?php echo get_post_meta($post->ID, 'contact_us_heading', true); ?></h1>
+      <h2 class="head-set"><?php echo get_post_meta($post->ID, 'contact_sub_heading', true); ?></h2>
     <div class="row">
       <div class="col-md-6">
         <!--map-->
