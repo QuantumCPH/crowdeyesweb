@@ -284,7 +284,7 @@ get_header(); ?>
 
       <style>
           .imgFirst{ height:30px; width:30px;}
-          .lostImg2{ width:95px; border-radius: 5px; border: solid 0px #fff;}
+          .lostImg2{max-height:95px; max-width:95px; border-radius: 5px; border: solid 0px #fff;}
       </style>
 
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
