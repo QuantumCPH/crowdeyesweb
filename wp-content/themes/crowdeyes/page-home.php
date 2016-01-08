@@ -592,9 +592,9 @@ get_header(); ?>
       <div class="container">
         <div class="inn_download">
 
-          <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios2.png" /> <span>Download from App Store</span></a>
+          <a class="gPlay1 btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <span>Download from App Store</span></a>
 
-          <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android2.png" /> <span>Google Play coming soon</span></a>
+          <a href="#" class="gPlay2 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <span>Google Play coming soon</span></a>
 
         </div>
       </div>
