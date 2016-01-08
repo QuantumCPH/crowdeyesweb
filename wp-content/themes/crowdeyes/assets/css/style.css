@@ -448,7 +448,7 @@ input{ outline:none;}
 .gPlay2:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/uploads/2016/01/android3.png) !important;
 }
 
-.gPlay1 span, .gPlay2 span{ margin-left: 0 !important; width: 100% !important; text-align: center;}
+.gPlay1 span, .gPlay2 span{ margin-left: 8% !important; width: 88% !important; text-align: center;}
 
 .greenInner2 .rightGreen{ float:right; width:160px; margin-top:10px; padding-bottom:5px; min-height:90px;}
 .rightGreen h4{ float:left; font-size:18px; color:#444; margin:0; width:100%; text-align:left;}
