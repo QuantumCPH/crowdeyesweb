@@ -431,20 +431,20 @@ input{ outline:none;}
     border-radius: 0px;}
 
 .gPlay1{ background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/ios2.png) !important;
-    background-position: 20px center; background-repeat: no-repeat;
+    background-position: 25px center; background-repeat: no-repeat;
     background-position: 7px center !important;
     background-repeat: no-repeat !important;
 }
-.gPlay1:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/ios1.png) !important;}
+.gPlay1:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/ios.png) !important;}
 
 .gPlay2{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/android2.png) !important;
-    background-position: 20px center;
+    background-position: 25px center;
     background-position: 7px center !important;
     background-repeat: no-repeat !important;
 }
-.gPlay1:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/android1.png) !important;}
+.gPlay1:hover{background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/android.png) !important;}
 
-.gPlay1 span, .gPlay2 span{margin-left: 30px !important;}
+.gPlay1 span, .gPlay2 span{ margin-left: 0 !important; width: 100% !important; text-align: center;}
 
 .greenInner2 .rightGreen{ float:right; width:160px; margin-top:10px; padding-bottom:5px; min-height:90px;}
 .rightGreen h4{ float:left; font-size:18px; color:#444; margin:0; width:100%; text-align:left;}
