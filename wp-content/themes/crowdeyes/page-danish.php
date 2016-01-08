@@ -284,12 +284,12 @@ get_header(); ?>
 
       <style>
           .imgFirst{ height:30px; width:30px;}
-          .lostImg2{ height:95px; width:95px; border-radius: 5px; border: solid 0px #fff;}
+          .lostImg2{ width:95px; border-radius: 5px; border: solid 0px #fff;}
       </style>
 
       <div id="searchCategory" class="row text-center searchCategory" ng-app="myApp" ng-controller="customersCtrl">
           <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Object</span> </div>
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-object.png" /> <span>Genstande</span> </div>
 
               <div class="greenBox" ng-repeat="cat1 in catadata1" ng-cloak>
                   <div class="greenBoxB1">
@@ -367,7 +367,7 @@ get_header(); ?>
 
 
           <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Person</span> </div>
+              <div class="topHead"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico-people.png" /> <span>Personer</span> </div>
 
               <div class="greenBox boxColor2" ng-repeat="cat3 in catadata3" ng-cloak>
                   <div class="greenBoxB3">

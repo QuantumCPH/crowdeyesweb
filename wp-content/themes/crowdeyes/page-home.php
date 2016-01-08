@@ -283,7 +283,7 @@ get_header(); ?>
 
       <style>
         .imgFirst{ height:30px; width:30px;}
-        .lostImg2{ height:95px; width:95px; border-radius: 5px; border: solid 0px #fff;}
+        .lostImg2{ width:95px; border-radius: 5px; border: solid 0px #fff;}
       </style>
 
 
