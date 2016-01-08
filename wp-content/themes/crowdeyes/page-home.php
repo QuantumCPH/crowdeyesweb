@@ -49,7 +49,7 @@ get_header(); ?>
         }
       }
       .tp-bgimg{
-        opacity: .7 !important; background-position: center top !important;}
+        opacity: .7 !important; background-position: center bottom !important;}
 
       @media screen and (max-width: 768px){
         div#login-trigger{
