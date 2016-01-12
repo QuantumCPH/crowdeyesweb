@@ -1053,7 +1053,8 @@ input {
 @media screen and (max-width: 768px) {
 
     #flags_language_selector{right: 0;}
-    .navbar-brand img{ width:200px;}
+    .navbar-brand img{ width:180px; margin-top: 5px;}
+    .navbar-collapse{padding-left: 0;}
 
     #home, .banner-text{ height:370px; min-height:370px;}
     #home .overlay{ height:400px; min-height:400px;}
