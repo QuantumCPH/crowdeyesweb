@@ -1023,7 +1023,7 @@ input {
 .downLoadLinks .btn-lg{background: #178EB4; width: 300px; color: #fff; padding: 7px 15px; border-radius: 6px; margin: 5px;}
 .downLoadLinks img{width: 28px; float: left;}
 .downLoadLinks span{ font-size: 17px; margin-top: 5px; font-weight: 400; float: left; margin-left: 10px;}
-#flags_language_selector .container{padding-right: 50px;}
+#flags_language_selector .container{padding-right: 40px;}
 #flags_language_selector a{color: #333; text-decoration: none; font-size: 12px;}
 #flags_language_selector .slct{ font-weight: 600;}
 #flags_language_selector img{ padding:1px;}
