@@ -18,6 +18,7 @@ function initialize() {
         mapTypeControl: false,
         scaleControl: false,
         draggable: false,
+        streetViewControl: false,
         zoomControl: false
 
 
