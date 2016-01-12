@@ -1128,6 +1128,7 @@ input {
     .bannerImg{display: block;}
     .rev_slider_wrapper{display: none;}
     .rev_slider_wrapper{position: relative;}
+    #features{padding-top: 0;}
 }
 
 @media screen and (max-width: 600px) {
