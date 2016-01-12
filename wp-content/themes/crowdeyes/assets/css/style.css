@@ -1146,7 +1146,7 @@ input {
     .bannerImg{display: block;}
     .rev_slider_wrapper{display: none;}
     #home, .banner-text{ height:270px; min-height:270px;}
-
+    #searchCategory .col-md-3{ width: 100%; }
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
