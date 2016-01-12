@@ -1073,7 +1073,7 @@ input {
     .f_inner img{ width:33px; margin-right:5px;}
     .f_inner{ margin-top:10px; padding-top: 20px;}
     .f_inner p span{ font-size:15px;}
-    .f_inner p{ line-height:20px; margin: 0 5%;}
+    .f_inner p{ line-height:20px; margin: 0 2%; width: 96%;}
     .featuresDD{ margin-top:40px; padding:40px 0;}
     .hideDiv .navbar-brand{ margin-top:15px;}
     .plan_pricing1 ul li{ font-size:16px; padding:7px 0;}
@@ -1090,7 +1090,6 @@ input {
     .head-set{font-size: 18px;}
     .contact-form .wpcf7-form p{margin-left: 1%;}
     .regPlan .wpcf7-form p{margin-left: 3%; width: 46%; text-align: center;}
-    .regPlan .wpcf7-form input[type=submit]{float: none;}
     .div.wpcf7-mail-sent-ok{margin-right: 0; width: 100%; text-align: center;}
 }
 
@@ -1123,8 +1122,12 @@ input {
 @media screen and (max-width: 668px) {
     #home, .banner-text{ height:330px; min-height:330px;}
     #home .overlay{ height:350px; min-height:350px;}
+
     .p-cls{ width:90%; font-size:16px; padding-top: 30px; top:20px; color: #333; line-height:22px;}
     .p-cls label{font-size: 22px;}
+    .bannerImg{display: block;}
+    .rev_slider_wrapper{display: none;}
+    .rev_slider_wrapper{position: relative;}
 }
 
 @media screen and (max-width: 600px) {
@@ -1138,15 +1141,14 @@ input {
     .navbar-brand img{ margin-left:0;}
     #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
     #login-trigger{color: #000; !important;}
-    .rev_slider_wrapper{position: relative;}
+
     #flags_language_selector .container{padding-right: 22px;}
     .inn_download{ width: 100%; text-align: center; }
     #features{ border-top: solid 2px #E2E3E2;
         margin-top: 20px;
         padding-top: 20px;}
     .f_inner p{font-size: 18px;}
-    .bannerImg{display: block;}
-    .rev_slider_wrapper{display: none;}
+
     #home, .banner-text{ height:270px; min-height:270px;}
     #searchCategory .col-md-3{ width: 100%; }
 }
