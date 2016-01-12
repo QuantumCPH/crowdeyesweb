@@ -19,6 +19,7 @@ function initialize() {
         scaleControl: false,
         draggable: false,
         streetViewControl: false,
+        disableDoubleClickZoom: true,
         zoomControl: false
 
 
