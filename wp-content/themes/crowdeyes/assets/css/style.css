@@ -1060,8 +1060,8 @@ input {
 
     .p-cls{ top:40px; width: 98%; font-size:18px; line-height: 24px;}
     .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
-    .inn_download{width: 480px;}
-    .inn_download a{ margin-left:5px; width: 235px; margin-right:0; font-size: 14px; float: none;}
+    .inn_download{width: 480px; text-align: center;}
+    .inn_download a{ margin-left:5px; width: 250px; margin-right:0; font-size: 14px; float: none;}
     .inn_download a span{margin: 0 5px; }
     .inn_download img{ margin:12px 5px; width: 25px;}
     .navbar-nav{margin-top: 7px !important;}
@@ -1177,13 +1177,14 @@ input {
     .imgDD{height: 50px;}
     div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
    .modal-dialog .wpcf7-form p{width: 100%; margin-left: 0;}
+    #moveTop{right: 5px; font-size: 24px; bottom: 5px;}
 }
 
 @media screen and (max-width: 376px) {
 
     .inn_download{ width:255px;}
     .inn_download img{ max-width:35px; }
-    .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:15px; margin-top: 0px;}
+    .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:13px; margin-top: 0px;}
     .inn_download a span{ margin:0 6px;}
     .downloadApp p{ font-size:16px;}
 }
