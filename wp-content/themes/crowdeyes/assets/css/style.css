@@ -1047,7 +1047,7 @@ input {
 
     #home, .banner-text{ height:500px; min-height:500px;}
     #home .overlay{ height:530px; min-height:530px; display: none;}
-
+    #searchCategory .col-md-3{ width: 50%; }
 }
 @media screen and (max-width: 768px) {
 
