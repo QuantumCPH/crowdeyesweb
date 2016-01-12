@@ -1123,12 +1123,14 @@ input {
     #home, .banner-text{ height:330px; min-height:330px;}
     #home .overlay{ height:350px; min-height:350px;}
 
-    .p-cls{ width:90%; font-size:16px; padding-top: 30px; top:20px; color: #333; line-height:22px;}
+    .p-cls{ width:90%; font-size:15px; padding-top: 30px; top:20px; color: #333; line-height:22px;}
     .p-cls label{font-size: 22px;}
     .bannerImg{display: block;}
     .rev_slider_wrapper{display: none;}
     .rev_slider_wrapper{position: relative;}
-    #features{padding-top: 0;}
+    #features{ border-top: solid 2px #E2E3E2;
+        margin-top: 0px;
+        padding-top: 0px;}
 }
 
 @media screen and (max-width: 600px) {
@@ -1145,9 +1147,7 @@ input {
 
     #flags_language_selector .container{padding-right: 22px;}
     .inn_download{ width: 100%; text-align: center; }
-    #features{ border-top: solid 2px #E2E3E2;
-        margin-top: 20px;
-        padding-top: 20px;}
+
     .f_inner p{font-size: 18px;}
 
     #home, .banner-text{ height:270px; min-height:270px;}
