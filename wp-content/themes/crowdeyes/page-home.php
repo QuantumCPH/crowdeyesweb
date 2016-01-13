@@ -113,8 +113,10 @@ get_header(); ?>
           <label><?php the_title(); ?></label>
           <?php echo get_post_meta($post->ID, 'header_text', true); ?>
       <span class="downLoadLinks">
-         <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ios.png" /> <span>Download from App Store</span></a>
-         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/android.png" /> <span>Google Play coming soon</span></a>
+         <a class="btn btn-info btn-lg" target="_blank" href="http://www.apple.com">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/app-black.png" /></a>
+         <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/google-black.png" /></a>
       </span>
         </p>
 
@@ -593,9 +595,10 @@ get_header(); ?>
       <div class="container">
         <div class="inn_download">
 
-          <a class="gPlay1 btn btn-info btn-lg" target="_blank" href="http://www.apple.com"> <span>Download from App Store</span></a>
-
-          <a href="#" class="gPlay2 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> <span>Google Play coming soon</span></a>
+          <a class="gPlay1 btn btn-info btn-lg" target="_blank" href="http://www.apple.com">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/app-black.png" /></a>
+          <a href="#" class="gPlay2 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/google-black.png" /></a>
 
         </div>
       </div>
