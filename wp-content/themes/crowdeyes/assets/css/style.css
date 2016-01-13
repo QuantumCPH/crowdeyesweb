@@ -1046,9 +1046,6 @@ input {
 
     .p-cls{ top:40px; width: 98%; font-size:18px; line-height: 24px;}
     .downloadApp p{ width:100%; text-align:center; padding:20px 0 0 0; font-size:24px;}
-    .inn_download{width: 540px; text-align: center;}
-    .inn_download a{ margin-left:8px; width: 250px; margin-right:7px; font-size: 14px; float: none;}
-    .inn_download a span{margin: 0 5px; }
 
     .navbar-nav{margin-top: 7px !important;}
     .navbar-default .navbar-nav > li > a, .hideDiv .navbar-nav > li > a{ padding:15px 5px !important; margin:0 5px !important; font-size:16px}
@@ -1160,8 +1157,7 @@ input {
     .downLoadLinks{margin-top: 5px;}
     .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
     .contact-form .wpcf7-form input[type=submit]{width: 100% !important;}
-    .inn_download a{width: 240px; text-align: left; margin-top: 5px;}
-    .inn_download a span{float: left;}
+
     .downLoadLinks .btn-lg{ width: 240px; }
     .imgDD{height: 50px;}
     div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
