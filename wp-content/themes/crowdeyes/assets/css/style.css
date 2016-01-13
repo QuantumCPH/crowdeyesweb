@@ -1135,6 +1135,7 @@ input {
 
     #home, .banner-text{ height:270px; min-height:270px;}
     #searchCategory .col-md-3{ width: 100%; }
+    .downLoadLinks .btn-lg{padding:0;}
 }
 @media screen and (max-width: 415px) {
     .navbar-default .navbar-toggle{margin-right: 5px;}
@@ -1158,16 +1159,18 @@ input {
     .regPlan .wpcf7-form input[type=submit]{float: left; width: 100%;}
     .contact-form .wpcf7-form input[type=submit]{width: 100% !important;}
 
-    .downLoadLinks .btn-lg{ width: 240px; }
+
     .imgDD{height: 50px;}
     div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
    .modal-dialog .wpcf7-form p{width: 100%; margin-left: 0;}
     #moveTop{right: 5px; font-size: 24px; bottom: 5px;}
+    .inn_download, .downLoadLinks{ width:310px;}
+    .downLoadLinks img, .inn_download img{width: 140px; float: none;}
 }
 
 @media screen and (max-width: 376px) {
 
-    .inn_download{ width:230px;}
+
     .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:13px; margin-top: 0px;}
     .inn_download a span{ margin:0 6px;}
     .downloadApp p{ font-size:16px;}
