@@ -1166,12 +1166,10 @@ input {
     #moveTop{right: 5px; font-size: 24px; bottom: 5px;}
     .inn_download, .downLoadLinks{ width:100%; text-align: center;}
     .downLoadLinks img, .inn_download img{width: 190px; float: none;}
+    .inn_download a{float: none; margin: 5px 0;}
 }
 
 @media screen and (max-width: 376px) {
 
-
-    .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:13px; margin-top: 0px;}
-    .inn_download a span{ margin:0 6px;}
     .downloadApp p{ font-size:16px;}
 }
