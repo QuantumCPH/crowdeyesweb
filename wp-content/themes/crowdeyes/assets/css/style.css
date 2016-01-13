@@ -368,7 +368,7 @@ input{ outline:none;}
     width: 610px;
     margin: 0 auto;}
 .inn_download img { float:left; width:220px;}
-.inn_download a { float: left; width: 288px; background:#fff; border-radius:5px; padding:8px;
+.inn_download a { float: left; border-radius:5px; padding:0px;
     line-height:25px; margin:15px 8px; font-family: 'Open Sans', sans-serif; font-size:17px; color:#178eb4;
     display: inline-block;
     cursor: pointer;
@@ -377,7 +377,6 @@ input{ outline:none;}
     transition: all ease 0.8s;
 }
 
-.inn_download a span{ float: left; margin:2px 10px;}
 .inn_download a img{ margin:0 !important;}
 
 .f_inner{ float:left; width:100%; margin-top:18px; margin-top: 15px;
