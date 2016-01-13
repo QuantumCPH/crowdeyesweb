@@ -1164,7 +1164,7 @@ input {
     div.wpcf7-mail-sent-ok{ width: 100%; text-align: center; margin-top: -20px; margin-right: 0;}
    .modal-dialog .wpcf7-form p{width: 100%; margin-left: 0;}
     #moveTop{right: 5px; font-size: 24px; bottom: 5px;}
-    .inn_download, .downLoadLinks{ width:200px;}
+    .inn_download, .downLoadLinks{ width:100%; text-align: center;}
     .downLoadLinks img, .inn_download img{width: 190px; float: none;}
 }
 
