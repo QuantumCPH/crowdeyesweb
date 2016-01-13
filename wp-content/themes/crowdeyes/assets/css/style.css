@@ -1166,7 +1166,7 @@ input {
     #moveTop{right: 5px; font-size: 24px; bottom: 5px;}
     .inn_download, .downLoadLinks{ width:100%; text-align: center;}
     .downLoadLinks img, .inn_download img{width: 190px; float: none;}
-    .inn_download a{float: none; margin: 5px 0;}
+    .inn_download a{float: none; margin: 5px;}
 }
 
 @media screen and (max-width: 376px) {
