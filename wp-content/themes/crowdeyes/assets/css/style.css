@@ -1129,7 +1129,7 @@ input {
     #login-trigger{color: #000; !important;}
 
     #flags_language_selector .container{padding-right: 22px;}
-    .inn_download{ width: 100%; text-align: center; }
+    .inn_download{ text-align: center; }
 
     .f_inner p{font-size: 18px;}
 
@@ -1167,7 +1167,7 @@ input {
 
 @media screen and (max-width: 376px) {
 
-    .inn_download{ width:255px;}
+    .inn_download{ width:230px;}
     .inn_download a{ padding:4px; margin-bottom: 5px; margin-left: 2px; font-size:13px; margin-top: 0px;}
     .inn_download a span{ margin:0 6px;}
     .downloadApp p{ font-size:16px;}
