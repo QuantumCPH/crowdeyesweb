@@ -1126,7 +1126,7 @@ input {
     .banner-text{ padding-left:0; padding-right:0;}
 
     .downLoadLinks span{font-size: 14px; margin-top: 5px;}
-    .downLoadLinks img{width: 24px;}
+
     .navbar-brand img{ margin-left:0;}
     #login-content{ margin-top:0px; width:80%;  margin-left:6%; position:absolute; top:20px;}
     #login-trigger{color: #000; !important;}
