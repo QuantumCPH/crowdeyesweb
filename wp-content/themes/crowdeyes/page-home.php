@@ -595,9 +595,9 @@ get_header(); ?>
       <div class="container">
         <div class="inn_download">
 
-          <a class="gPlay1 btn btn-info btn-lg" target="_blank" href="http://www.apple.com">
+          <a class=" btn btn-info btn-lg" target="_blank" href="http://www.apple.com">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/app-blue.png" /></a>
-          <a href="#" class="gPlay2 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+          <a href="#" class=" btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/google-blue.png" /></a>
 
         </div>
