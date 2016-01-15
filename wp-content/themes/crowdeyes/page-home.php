@@ -315,7 +315,7 @@ get_header(); ?>
               <span>{{cat1.Location | limitTo: 35}}</span>
             </div>
               <div class="greenInner1">
-                <div class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI"><img src="{{cat1.CreatedBy_Profile.Picture.URI}}" /></div>
+                <div class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI" style="background: url({{cat1.CreatedBy_Profile.Picture.URI}}) !important; background-size: cover !important;"></div>
                 <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
                 <span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
