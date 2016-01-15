@@ -300,7 +300,7 @@ get_header(); ?>
             <span>
                 <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
                 <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-              <div class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: {{cat1.PictureURIs[0].URI}} !important;"></div>
+              <div class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: url({{cat1.PictureURIs[0].URI}}) !important;"></div>
 
               <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI"  alt="{{cat1.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
             </span>
