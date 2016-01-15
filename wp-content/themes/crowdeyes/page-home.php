@@ -161,7 +161,7 @@ get_header(); ?>
 
               data: {
                 Count: "1",
-                ProfileID: "771",
+                ProfileID: "35",
                 CategoryID:"11",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
@@ -193,7 +193,7 @@ get_header(); ?>
               url: "https://crowdeyesprod.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
                 Count: "1",
-                ProfileID: "771",
+                ProfileID: "35",
                 CategoryID:"2",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
@@ -225,7 +225,7 @@ get_header(); ?>
               url: "https://crowdeyesprod.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
               Count: "1",
-                  ProfileID: "771",
+                  ProfileID: "35",
                   CategoryID:"12",
                   SubCategories:"true",
                   Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
@@ -255,7 +255,7 @@ get_header(); ?>
               url: "https://crowdeyesprod.azurewebsites.net/WCFService.svc/GetLatestAnnouncements",
               data: {
                 Count: "1",
-                ProfileID: "771",
+                ProfileID: "35",
                 CategoryID:"13",
                 SubCategories:"true",
                 Location_GPS:"<?php echo $lat1; ?>, <?php echo $lon1; ?>",
