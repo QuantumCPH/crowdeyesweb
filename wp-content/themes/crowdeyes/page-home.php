@@ -362,8 +362,8 @@ get_header(); ?>
 
 		   </span>
 
-                <font ng-show="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
-                <font ng-hide="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                <font ng-show="cat2.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.When | date:'d-M-y HH:mm'}}</font>
+                <font ng-hide="cat2.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat2.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
 
               </div>
             </div>
@@ -400,8 +400,8 @@ get_header(); ?>
 			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}{{cat3.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span>
-                <font ng-show="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
-                <font ng-hide="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                <font ng-show="cat3.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.When | date:'d-M-y HH:mm'}}</font>
+                <font ng-hide="cat3.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat3.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
 
               </div>
             </div>
@@ -438,8 +438,8 @@ get_header(); ?>
 			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}{{cat4.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
 
 		   </span>
-                <font ng-show="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
-                <font ng-hide="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+                <font ng-show="cat4.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.When | date:'d-M-y HH:mm'}}</font>
+                <font ng-hide="cat4.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat4.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
 
               </div>
           </div>
