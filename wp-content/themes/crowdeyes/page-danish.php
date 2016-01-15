@@ -286,7 +286,7 @@ get_header(); ?>
 
 
       <style>
-          .imgFirst{ height:29px; width:29px; text-align: center; border: solid 1px #fff;}
+          .imgFirst{ height:29px; width:29px; background: #fff; text-align: center; border: solid 1px #fff;}
           .imgFirst img{max-width: 100%; max-height: 100%; border-radius: 50%}
           .lostImg2{height:90px; width:95px; border-radius: 5px; border: solid 0px #eee;}
       </style>
