@@ -337,7 +337,7 @@ get_header(); ?>
 		  <span>
 			  <img ng-if="cat2.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat2.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <div class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: url({{cat2.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
+			  <div class="lostImg2" ng-show="cat2.PictureURIs[0].URI" style="background: url({{cat2.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
             <img class="lostImg2" ng-hide="cat2.PictureURIs[0].URI"  alt="{{cat2.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-22.png">
 
 		  </span>
@@ -374,7 +374,7 @@ get_header(); ?>
 		  <span>
 		     <img ng-if="cat3.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat3.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <div class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: url({{cat3.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
+			  <div class="lostImg2" ng-show="cat3.PictureURIs[0].URI" style="background: url({{cat3.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
             <img class="lostImg2" ng-hide="cat3.PictureURIs[0].URI"  alt="{{cat3.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-33.png">
 
 		  </span>
@@ -409,7 +409,7 @@ get_header(); ?>
 
 		      <img ng-if="cat4.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
 			  <img ng-if="cat4.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
-			  <div class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: url({{cat4.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
+			  <div class="lostImg2" ng-show="cat4.PictureURIs[0].URI" style="background: url({{cat4.PictureURIs[0].URI}}) !important; background-size: cover !important;"></div>
             <img class="lostImg2" ng-hide="cat4.PictureURIs[0].URI"  alt="{{cat4.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-11.png">
 
 		  </span>
