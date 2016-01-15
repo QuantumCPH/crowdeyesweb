@@ -185,7 +185,7 @@ get_header(); ?>
 
 
               }
-              setInterval(getcatdata1, 10000);
+              setInterval(getcatdata1, 30000);
 
 
               $scope.timinterval2=500;
@@ -218,7 +218,7 @@ get_header(); ?>
 
                   });
               }
-              setInterval(getcatdata2, 10000);
+              setInterval(getcatdata2, 30000);
 
               $scope.timinterval3=500;
               getcatdata3();
@@ -248,7 +248,7 @@ get_header(); ?>
                       }
                   });
               }
-              setInterval(getcatdata3, 10000);
+              setInterval(getcatdata3, 30000);
               $scope.timinterval4=500;
               getcatdata4();
               function getcatdata4() {
@@ -276,7 +276,7 @@ get_header(); ?>
                       }
                   });
               }
-              setInterval(getcatdata4, 10000);
+              setInterval(getcatdata4, 30000);
 
           });
           /*Count = 50;
