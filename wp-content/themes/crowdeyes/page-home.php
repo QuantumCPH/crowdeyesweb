@@ -319,7 +319,10 @@ get_header(); ?>
                 <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
                 <span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
-		   </span><font> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
+		   </span>
+                <font ng-show="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.When | date:'d-M-y HH:mm'}}</font>
+                <font ng-hide="cat1.When"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clock-small.png" />{{cat1.Created_Timestamp | date:'d-M-y HH:mm'}}</font>
+
               </div>
             </div>
           </div>
