@@ -411,7 +411,7 @@ input{ outline:none;}
 .greenBox .greenInner1 span{ float:left; font-size:13px; margin:12px 3px 2px 4px; color:#fff; line-height: 15px;}
 .greenInner2 span{ float:left; width:95px; background-size: cover; height: 95px; border-radius: 5px; margin: 7px 0 0 6px; line-height: 15px;}
 .lostImg{ float:left; position:relative; z-index:2;}
-.lostImg2{ float:left; margin: 0px 0 0px -51px; background-size: cover !important; position:relative; z-index:1;  border: solid 0px #fff;
+.lostImg2{ float:left; margin: 0px 0 0px -51px; position:relative; z-index:1;  border: solid 0px #fff;
     border-radius: 0px;}
 
 .gPlay1{ background-image: url(http://108.163.184.34/crowdeyes-parallax/wp-content/themes/crowdeyes/assets/img/ios2.png) !important;
