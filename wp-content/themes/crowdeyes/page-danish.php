@@ -286,7 +286,8 @@ get_header(); ?>
 
 
       <style>
-          .imgFirst{ height:30px; width:30px;}
+          .imgFirst{ height:29px; width:29px; text-align: center; border: solid 1px #fff;}
+          .imgFirst img{max-width: 100%; max-height: 100%;}
           .lostImg2{height:90px; width:95px; border-radius: 5px; border: solid 0px #fff;}
       </style>
 
@@ -319,7 +320,8 @@ get_header(); ?>
                           <span>{{cat1.Location | limitTo: 35}}</span>
                       </div>
                       <div class="greenInner1">
-                          <img class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI" src="{{cat1.CreatedBy_Profile.Picture.URI}}" />
+
+                          <div class="imgFirst" ng-show="cat1.CreatedBy_Profile.Picture.URI"><img src="{{cat1.CreatedBy_Profile.Picture.URI}}" /></div>
                           <img class="imgFirst" ng-hide="cat1.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
 			{{cat1.CreatedBy_Profile.Name | limitTo: 14}}{{cat1.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
