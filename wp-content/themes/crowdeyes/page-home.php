@@ -354,7 +354,7 @@ get_header(); ?>
             </div>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-2.png" /> <span>{{cat2.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <div class="imgFirst" ng-show="cat2.CreatedBy_Profile.Picture.URI"><img src="{{cat2.CreatedBy_Profile.Picture.URI}}" /></div>
+                <div class="imgFirst" ng-show="cat2.CreatedBy_Profile.Picture.URI" style="background: url({{cat2.CreatedBy_Profile.Picture.URI}}) !important; background-size: cover !important;"></div>
                 <img class="imgFirst" ng-hide="cat2.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 
               <span>
@@ -394,7 +394,7 @@ get_header(); ?>
             </div>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-3.png" /> <span>{{cat3.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <div class="imgFirst" ng-show="cat3.CreatedBy_Profile.Picture.URI"><img src="{{cat3.CreatedBy_Profile.Picture.URI}}" /></div>
+                <div class="imgFirst" ng-show="cat3.CreatedBy_Profile.Picture.URI" style="background: url({{cat3.CreatedBy_Profile.Picture.URI}}) !important; background-size: cover !important;"></div>
                 <img class="imgFirst" ng-hide="cat3.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
 			{{cat3.CreatedBy_Profile.Name | limitTo: 14}}{{cat3.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
@@ -432,7 +432,7 @@ get_header(); ?>
             </div>
             <div class="greenInner3"> <img class="mapImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/loc-4.png" /> <span>{{cat4.Location | limitTo: 35}}</span> </div>
               <div class="greenInner1">
-                <div class="imgFirst" ng-show="cat4.CreatedBy_Profile.Picture.URI"><img src="{{cat4.CreatedBy_Profile.Picture.URI}}" /></div>
+                <div class="imgFirst" ng-show="cat4.CreatedBy_Profile.Picture.URI" style="background: url({{cat4.CreatedBy_Profile.Picture.URI}}) !important; background-size: cover !important;"></div>
                 <img class="imgFirst" ng-hide="cat4.CreatedBy_Profile.Picture.URI" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png" />
 <span>
 			{{cat4.CreatedBy_Profile.Name | limitTo: 14}}{{cat4.CreatedBy_Profile.Name.length > 14 ? '...' : ''}}
