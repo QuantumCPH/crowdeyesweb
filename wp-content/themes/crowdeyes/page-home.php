@@ -182,7 +182,7 @@ get_header(); ?>
               }
             });
           }
-          setInterval(getcatdata1, 10000);
+          setInterval(getcatdata1, 30000);
 
 
           $scope.timinterval2=500;
@@ -215,7 +215,7 @@ get_header(); ?>
 
             });
           }
-          setInterval(getcatdata2, 10000);
+          setInterval(getcatdata2, 30000);
 
           $scope.timinterval3=500;
           getcatdata3();
@@ -245,7 +245,7 @@ get_header(); ?>
             }
           });
           }
-          setInterval(getcatdata3, 10000);
+          setInterval(getcatdata3, 30000);
 
           $scope.timinterval4=500;
           getcatdata4();
@@ -274,7 +274,7 @@ get_header(); ?>
               }
             });
           }
-          setInterval(getcatdata4, 10000);
+          setInterval(getcatdata4, 30000);
 
         });
         /*Count = 50;
@@ -301,7 +301,7 @@ get_header(); ?>
                 <img ng-if="cat1.TypeID == 1" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/lost.png" />
                 <img ng-if="cat1.TypeID == 2" class="lostImg" src="<?php echo get_template_directory_uri(); ?>/assets/img/find.png" />
               <span class="lostImg2" ng-show="cat1.PictureURIs[0].URI" style="background: {{cat1.PictureURIs[0].URI}}"></span>
-              
+
               <img class="lostImg2" ng-hide="cat1.PictureURIs[0].URI"  alt="{{cat1.PictureURIs[0].URI}}"  src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder-44.png">
             </span>
               <div class="rightGreen">
