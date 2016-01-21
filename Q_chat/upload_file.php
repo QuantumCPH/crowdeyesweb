@@ -10,7 +10,7 @@ if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
  
  {
  
- echo "<img src=' http://108.163.184.34/crowdeyes-parallax/Q_chat/Q_media/". basename( $_FILES['fileToUpload']['name'])."" ' >;
+ echo "<img src=' http://108.163.184.34/crowdeyes-parallax/Q_chat/Q_media/". basename( $_FILES['fileToUpload']['name'])." '>";
  
  }
  
