@@ -22,7 +22,7 @@ if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file))
  
  ?>
  
- <form action="upload.php" method="post" enctype="">
+ <form action="" method="post" enctype="multipart/form-data">
  
     <input type="file" name="fileToUpload" id="fileToUpload">
     <input type="submit" value="Upload Image" name="submit">
