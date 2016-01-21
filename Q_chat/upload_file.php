@@ -3,7 +3,7 @@
  $targetfolder = "Q_media/";
  
  //$targetfolder = $targetfolder . basename( $_FILES['file']['name']) ;
- $targetfolder = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+ $targetfolder = $targetfolder . basename($_FILES["fileToUpload"]["name"]);
 
 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file))
 //if(move_uploaded_file($_FILES['file']['tmp_name'], $targetfolder))
