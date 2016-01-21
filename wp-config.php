@@ -19,26 +19,29 @@
 
 
 
-//define('DB_NAME', 'crowd');
+//define('DB_NAME', 'livece');
 //
 ///** MySQL database username */
 //define('DB_USER', 'root');
 //
 ///** MySQL database password */
 //define('DB_PASSWORD', '');
+/** MySQL hostname */
+//define('DB_HOST', 'localhost');
 
 
-define('DB_NAME', 'crowdeyes');
 
-/** MySQL database username */
-define('DB_USER', 'root');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'UtlK&@#as@!&12');
-
+define('DB_NAME', 'CEWebSiteMySQL');
+//
+///** MySQL database username */
+define('DB_USER', 'ba5f0a5ede86b6');
+//
+///** MySQL database password */
+define('DB_PASSWORD', '07b8eefc');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'eu-cdbr-azure-north-d.cloudapp.net');
+
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

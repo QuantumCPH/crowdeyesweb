@@ -72,7 +72,7 @@ get_header(); ?>
     <div id="flags_language_selector">
       <div class="container">
         <a class="slct" href="#"> English | </a>
-        <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=72"> Dansk </a>
+        <a href="<?php echo get_site_url(); ?>/?page_id=72"> Dansk </a>
       </div>
     </div>
     <div class="container">
@@ -85,7 +85,7 @@ get_header(); ?>
           <li><a href="#featuresDD">Features</a></li>
           <li><a href="#pricings">Pricing</a></li>
           <li><a href="#downloadApp">Download</a></li>
-          <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=154">FAQ</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/?page_id=154">FAQ</a></li>
           <li><a href="#contactus">Contact Us</a></li>
         </ul>
       </div>

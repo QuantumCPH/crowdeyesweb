@@ -74,32 +74,32 @@ get_header(); ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 85 || $pID == 76){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=76"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=85"> Dansk </a>
+          <a class="slct" href="<?php echo get_site_url(); ?>/?page_id=76"> English | </a>
+          <a href="<?php echo get_site_url(); ?>/?page_id=85"> Dansk </a>
        <?php }  ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 81 || $pID == 87){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=81"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=87"> Dansk </a>
+          <a class="slct" href="<?php echo get_site_url(); ?>/?page_id=81"> English | </a>
+          <a href="<?php echo get_site_url(); ?>/?page_id=87"> Dansk </a>
         <?php }  ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 91 || $pID == 83){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=83"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=91"> Dansk </a>
+          <a class="slct" href="<?php echo get_site_url(); ?>/?page_id=83"> English | </a>
+          <a href="<?php echo get_site_url(); ?>/?page_id=91"> Dansk </a>
         <?php }  ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 93 || $pID == 95){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=93"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=95"> Dansk </a>
+          <a class="slct" href="<?php echo get_site_url(); ?>/?page_id=93"> English | </a>
+          <a href="<?php echo get_site_url(); ?>/?page_id=95"> Dansk </a>
         <?php }  ?>
 
         <?php $pID = $_REQUEST['page_id'];
         if($pID == 154 || $pID == 147){ ?>
-          <a class="slct" href="http://108.163.184.34/crowdeyes-parallax/?page_id=154"> English | </a>
-          <a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147"> Dansk </a>
+          <a class="slct" href="<?php echo get_site_url(); ?>/?page_id=154"> English | </a>
+          <a href="<?php echo get_site_url(); ?>/?page_id=147"> Dansk </a>
         <?php }  ?>
 
 
@@ -110,14 +110,33 @@ get_header(); ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="<?php echo get_template_directory_uri(); ?>/img-responsive" /> </a> </div>
       <div class="navbar-collapse collapse navbar-right scroll-me">
-        <ul class="nav navbar-nav ">
-          <li><a href="<?php echo get_bloginfo('url'); ?>">Home</a></li>
-          <li><a href="<?php echo get_bloginfo('url'); ?>/#featuresDD">Features</a></li>
-          <li><a href="<?php echo get_bloginfo('url'); ?>/#pricings">Pricing</a></li>
-          <li><a href="<?php echo get_bloginfo('url'); ?>/#downloadApp">Download</a></li>
-          <li><a href="http://108.163.184.34/crowdeyes-parallax/?page_id=147">FAQ</a></li>
-          <li><a href="<?php echo get_bloginfo('url'); ?>/#contactus">Contact Us</a></li>
-        </ul>
+
+
+<?php $pID1 = $_REQUEST['page_id'];
+if($pID1 == 85 || $pID == 87 || $pID == 91 || $pID == 95 || $pID == 147){ ?>
+
+  <ul class="nav navbar-nav ">
+    <li><a href="<?php echo get_bloginfo('url'); ?>#home22" class="selected">Hjem</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>#featuresDD">Funktionalitet</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>#pricings">Priser</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>#downloadApp">Download</a></li>
+    <li><a href="<?php echo get_site_url(); ?>/?page_id=147">FAQ</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>#contactus">Kontakt os</a></li>
+  </ul>
+
+    <?php }else{ ?>
+
+  <ul class="nav navbar-nav ">
+    <li><a href="<?php echo get_bloginfo('url'); ?>">Home</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>/#featuresDD">Features</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>/#pricings">Pricing</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>/#downloadApp">Download</a></li>
+    <li><a href="<?php echo get_site_url(); ?>/?page_id=147">FAQ</a></li>
+    <li><a href="<?php echo get_bloginfo('url'); ?>/#contactus">Contact Us</a></li>
+  </ul>
+
+  <?php } ?>
+
       </div>
       <div id="login-content">
         <div class="liginBtm">
